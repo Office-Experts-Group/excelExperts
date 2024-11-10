@@ -25,16 +25,24 @@ jobs:
           node-version: "18.x"
 
       - name: Install Dependencies
-        run: |
-          npm ci
-          npm install sharp
+        run: npm ci
 
-      - name: Build
-        run: npm run build
+      - name: Build with Debug
+        run: |
+          echo "Building with increased logging..."
+          export NODE_OPTIONS="--trace-warnings"
+          npm run build --verbose
         env:
           CI: false
-          NEXT_TELEMETRY_DISABLED: 1
-          NODE_ENV: production
+          DEBUG: "*"
+          NODE_ENV: development # Temporarily set to development for more verbose output
+
+      - name: List Build Output
+        run: |
+          echo "Listing .next directory contents..."
+          ls -la .next/
+          echo "Checking for static images..."
+          ls -la public/images/ || echo "No public/images directory found"
 
       - name: Deploy
         id: builddeploy
@@ -44,7 +52,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           app_location: "/"
-          output_location: ".next" # Changed back to .next
+          output_location: ".next"
           skip_api_build: true
           skip_app_build: false
           skip_deploy_on_missing_secrets: true
