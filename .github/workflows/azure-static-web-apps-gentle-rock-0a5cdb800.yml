@@ -30,7 +30,7 @@ jobs:
           node-version: "18.x"
           cache: "npm"
 
-      # Cache Next.js build output
+      # Cache Next.js build
       - name: Cache Next.js build output
         uses: actions/cache@v3
         with:
