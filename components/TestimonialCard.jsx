@@ -49,19 +49,7 @@ import PropTypes from "prop-types";
 import styles from "../styles/testimonialsCard.module.css";
 
 const TestimonialCard = ({ content, name, contact, image }) => {
-  console.log(`Rendering testimonial for: ${name}`, {
-    hasImage: !!image,
-    imageProps: image
-      ? {
-          src: !!image.src,
-          width: image.width,
-          height: image.height,
-        }
-      : null,
-  });
-
   if (!image || !image.src) {
-    console.warn(`Missing image for testimonial from ${name}`);
     return (
       <div className={styles.cardWrapper}>
         <div className={styles.card}>
