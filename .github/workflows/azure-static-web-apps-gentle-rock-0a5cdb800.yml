@@ -44,12 +44,11 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           app_location: "/"
-          output_location: "standalone/.next" # Updated to use standalone output
+          output_location: ".next" # Changed back to .next
           skip_api_build: true
           skip_app_build: false
           skip_deploy_on_missing_secrets: true
           production_branch: "main"
-          config_file_location: "/"
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
