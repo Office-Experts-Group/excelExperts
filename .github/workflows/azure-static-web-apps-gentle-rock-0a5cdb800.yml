@@ -25,24 +25,18 @@ jobs:
           node-version: "18.x"
 
       - name: Install Dependencies
-        run: npm ci
-
-      - name: Build with Debug
         run: |
-          echo "Building with increased logging..."
-          export NODE_OPTIONS="--trace-warnings"
-          npm run build --verbose
+          npm ci
+          npm install sharp
+
+      - name: Build
+        run: |
+          npm run build
+          touch .next/build-manifest.json
         env:
           CI: false
-          DEBUG: "*"
-          NODE_ENV: development # Temporarily set to development for more verbose output
-
-      - name: List Build Output
-        run: |
-          echo "Listing .next directory contents..."
-          ls -la .next/
-          echo "Checking for static images..."
-          ls -la public/images/ || echo "No public/images directory found"
+          NEXT_TELEMETRY_DISABLED: 1
+          NODE_ENV: production
 
       - name: Deploy
         id: builddeploy
