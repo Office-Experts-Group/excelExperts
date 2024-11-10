@@ -31,13 +31,14 @@ const ServicePageCards = () => {
               className={styles.icon}
             />
           </div>
-          <div className={styles.imageWrapper} style={{ position: "relative" }}>
+          <div className={styles.imageWrapper}>
             <Image
               src={stuckImage}
               alt="Old version illustration"
-              fill
-              sizes="(max-width: 280px) 100vw, 280px"
               className={styles.mainImage}
+              width={350}
+              height={201}
+              sizes="280px"
             />
           </div>
         </a>
@@ -56,14 +57,14 @@ const ServicePageCards = () => {
               className={styles.icon}
             />
           </div>
-          <div className={styles.imageWrapper} style={{ position: "relative" }}>
-            {" "}
+          <div className={styles.imageWrapper}>
             <Image
               src={issuesImage}
               alt="Access issues illustration"
-              fill
-              sizes="(max-width: 280px) 100vw, 280px"
               className={styles.mainImage}
+              width={350}
+              height={201}
+              sizes="280px"
             />
           </div>
         </a>
@@ -82,14 +83,14 @@ const ServicePageCards = () => {
               className={styles.icon}
             />
           </div>
-          <div className={styles.imageWrapper} style={{ position: "relative" }}>
-            {" "}
+          <div className={styles.imageWrapper}>
             <Image
               src={expertsImage}
               alt="Expert help illustration"
-              fill
-              sizes="(max-width: 280px) 100vw, 280px"
               className={styles.mainImage}
+              width={350}
+              height={201}
+              sizes="280px"
             />
           </div>
         </a>
@@ -108,13 +109,14 @@ const ServicePageCards = () => {
               className={styles.icon}
             />
           </div>
-          <div className={styles.imageWrapper} style={{ position: "relative" }}>
+          <div className={styles.imageWrapper}>
             <Image
               src={migrateImage}
               alt="Migration illustration"
-              fill
-              sizes="(max-width: 280px) 100vw, 280px"
               className={styles.mainImage}
+              width={350}
+              height={201}
+              sizes="280px"
             />
           </div>
         </a>

@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import styles from "../../../styles/servicePageCards.module.scss";
+import styles from "../../../styles/servicePageCards.module.css";
 
 // Import icons
 import stuckIcon from "../../../public/icons/computerRed.png";
@@ -38,7 +38,6 @@ const ServicePageCards = () => {
               alt="Old version illustration"
               className={styles.mainImage}
               sizes="280px"
-              priority
               width={300}
               height={171} // Adjusted based on 7:4 aspect ratio
             />
