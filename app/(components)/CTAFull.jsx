@@ -10,9 +10,9 @@ import cta from "../../public/ctaFull.webp";
 
 const CTAFull = () => {
   return (
-    <div className={styles.cta}>
-      <div className={styles.ctaWrapper} style={{ position: "relative" }}>
-        <Image src={cta} alt="people in office" fill sizes="100vw" />
+    <div className={styles.cta} style={{ position: "relative" }}>
+      <div className={styles.ctaWrapper}>
+        <Image src={cta} alt="people in office" fill />
         <AnimateOnScroll animation="fade-up" delay={0.1} duration={1}>
           <h2>Trust the Experts for All Your business Needs</h2>
         </AnimateOnScroll>
