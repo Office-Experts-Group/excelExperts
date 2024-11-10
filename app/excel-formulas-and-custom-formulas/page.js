@@ -5,8 +5,10 @@ import Contact from "../../components/Contact";
 import PageSegmentMain from "./(components)/PageSegmentMain";
 import PageSegment4 from "./(components)/PageSegment4";
 import VideoSegment from "./(components)/VideoSegment";
-// import ExpertsAwait from "../../../../components/ExpertsAwait";
-// import FAQ from "../../../../components/FAQSection";
+import ExpertsAwait from "../../components/ExpertsAwait";
+import FAQ from "../../components/FAQSection";
+
+import faqs from "../../faqs/custom-formulas";
 
 const schema = {
   "@context": "https://schema.org",
@@ -177,7 +179,10 @@ const Page = () => {
       <PageSegmentMain />
       <PageSegment4 />
       <VideoSegment />
-      {/* <FAQ faqs={faqs} /> */}
+      <ExpertsAwait />
+      <div style={{ marginTop: "6rem" }}>
+        <FAQ faqs={faqs} />
+      </div>
       <Contact />
     </>
   );
