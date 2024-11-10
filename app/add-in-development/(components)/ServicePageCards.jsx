@@ -1,8 +1,7 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
-
 import styles from "../../../styles/servicePageCards.module.scss";
 
 // Import icons
@@ -18,27 +17,13 @@ import whichIsBest from "../../../public/dashboard300x180.webp";
 import build from "../../../public/training300x200.webp";
 
 const ServicePageCards = () => {
-  console.log("Image imports:", { created, vsto, whichIsBest, build });
-
-  // Inside the component
-  useEffect(() => {
-    console.log("Image paths:", {
-      created: created.src,
-      vsto: vsto.src,
-      whichIsBest: whichIsBest.src,
-      build: build.src,
-    });
-  }, []);
   return (
-    <section
-      className={styles.servicePageCards}
-      style={{ margin: "0rem 0 2rem 0" }}
-    >
+    <section className={styles.servicePageCards}>
       <div className={styles.card}>
         <a href="#created">
           <div className={styles.content}>
             <p>Add-Ins</p>
-            <h2 style={{ padding: "0" }}>Created in Excel</h2>
+            <h2>Created in Excel</h2>
             <Image
               src={stuckIcon}
               alt="Old version icon"
@@ -47,13 +32,15 @@ const ServicePageCards = () => {
               className={styles.icon}
             />
           </div>
-          <div className={styles.imageWrapper} style={{ position: "relative" }}>
+          <div className={styles.imageWrapper}>
             <Image
               src={created}
               alt="Old version illustration"
-              fill
-              sizes="(max-width: 280px) 100vw, 280px"
               className={styles.mainImage}
+              sizes="280px"
+              priority
+              width={300}
+              height={171} // Adjusted based on 7:4 aspect ratio
             />
           </div>
         </a>
@@ -72,13 +59,14 @@ const ServicePageCards = () => {
               className={styles.icon}
             />
           </div>
-          <div className={styles.imageWrapper} style={{ position: "relative" }}>
+          <div className={styles.imageWrapper}>
             <Image
               src={vsto}
               alt="Access issues illustration"
-              fill
-              sizes="(max-width: 280px) 100vw, 280px"
               className={styles.mainImage}
+              sizes="280px"
+              width={300}
+              height={171} // Adjusted based on 7:4 aspect ratio
             />
           </div>
         </a>
@@ -97,13 +85,14 @@ const ServicePageCards = () => {
               className={styles.icon}
             />
           </div>
-          <div className={styles.imageWrapper} style={{ position: "relative" }}>
+          <div className={styles.imageWrapper}>
             <Image
               src={whichIsBest}
               alt="Expert help illustration"
-              fill
-              sizes="(max-width: 280px) 100vw, 280px"
               className={styles.mainImage}
+              sizes="280px"
+              width={300}
+              height={171} // Adjusted based on 7:4 aspect ratio
             />
           </div>
         </a>
@@ -122,13 +111,14 @@ const ServicePageCards = () => {
               className={styles.icon}
             />
           </div>
-          <div className={styles.imageWrapper} style={{ position: "relative" }}>
+          <div className={styles.imageWrapper}>
             <Image
               src={build}
               alt="Migration illustration"
-              fill
-              sizes="(max-width: 280px) 100vw, 280px"
               className={styles.mainImage}
+              sizes="280px"
+              width={300}
+              height={171} // Adjusted based on 7:4 aspect ratio
             />
           </div>
         </a>
