@@ -55,11 +55,9 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           app_location: "/"
-          api_location: "false" # Changed from empty string to "false"
+          api_location: ""
           output_location: ".next"
           skip_api_build: true
-          data_api_location: "false" # Added this line
-          is_static_export: true # Added this line
           github_id_token: ${{ steps.idtoken.outputs.result }}
 
   close_pull_request_job:
