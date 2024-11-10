@@ -2,18 +2,28 @@ import React from "react";
 import { testimonials } from "../../../testimonials";
 import TestimonialCard from "../../../components/TestimonialCard";
 import AnimateOnScroll from "../../../components/AnimateOnScroll";
-
 import styles from "../../../styles/testimonialPage.module.scss";
 
 const TestimonialPage = () => {
+  // Filter out testimonials without valid images first
+  const validTestimonials = testimonials.filter(
+    (testimonial) => testimonial.image && testimonial.image !== ""
+  );
+
   return (
     <section className={styles.testimonialPage}>
       <div className={styles.testimonialGrid}>
-        {testimonials.map((testimonial, index) => {
+        {validTestimonials.map((testimonial, index) => {
+          // Create a unique key using multiple properties
+          const uniqueKey = `testimonial-${index}-${testimonial.name.replace(
+            /\s+/g,
+            ""
+          )}-${testimonial.contact.replace(/[^a-zA-Z0-9]/g, "")}`;
+
           // Show first 3 testimonials without animation
           if (index < 3) {
             return (
-              <div key={testimonial.contact}>
+              <div key={uniqueKey} className={styles.testimonialWrapper}>
                 <TestimonialCard
                   content={testimonial.content}
                   name={testimonial.name}
@@ -27,9 +37,10 @@ const TestimonialPage = () => {
           // Animate remaining testimonials
           return (
             <AnimateOnScroll
-              key={testimonial.contact}
+              key={uniqueKey}
               animation="fade-up"
-              delay={(index - 6) * 0.1} // Reset delay counting from first animated item
+              delay={(index - 3) * 0.1} // Adjusted delay calculation
+              className={styles.testimonialWrapper}
             >
               <TestimonialCard
                 content={testimonial.content}

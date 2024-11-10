@@ -1,27 +1,5 @@
-import React from "react";
-import styles from "../../styles/testimonialsSection.module.scss";
-import TestimonialCard from "../../components/TestimonialCard";
-import { testimonials } from "../../testimonials";
-
-const getRandomTestimonials = (count = 10) => {
-  // Filter out testimonials without images or content first
-  const validTestimonials = testimonials.filter(
-    (testimonial) => testimonial.image && testimonial.content.trim()
-  );
-
-  // Create a shuffled copy of the filtered testimonials
-  const shuffled = [...validTestimonials].sort(() => 0.5 - Math.random());
-
-  // Return the requested number of testimonials
-  return shuffled.slice(0, count);
-};
-
 const Testimonials = () => {
-  // Get 10 random testimonials (or adjust the number as needed)
   const selectedTestimonials = getRandomTestimonials(10);
-
-  // Calculate how many slides to append based on viewport size
-  // We only need to duplicate enough slides to fill one viewport
   const slidesToAppend = [...selectedTestimonials.slice(0, 3)];
   const extendedTestimonials = [...selectedTestimonials, ...slidesToAppend];
 
@@ -39,7 +17,11 @@ const Testimonials = () => {
         <div className={styles.testimonialsTrack}>
           {extendedTestimonials.map((testimonial, index) => (
             <div
-              key={`testimonial-${index}`}
+              // Create a truly unique key using both index and content
+              key={`testimonial-${index}-${testimonial.name.replace(
+                /\s+/g,
+                ""
+              )}`}
               className={styles.testimonialSlide}
               aria-label={`Testimonial ${
                 (index % selectedTestimonials.length) + 1
@@ -53,5 +35,3 @@ const Testimonials = () => {
     </section>
   );
 };
-
-export default Testimonials;

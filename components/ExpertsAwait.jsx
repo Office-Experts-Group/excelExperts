@@ -1,8 +1,7 @@
 import React from "react";
 import Image from "next/image";
-
+import Link from "next/link";
 import AnimateOnScroll from "./AnimateOnScroll";
-
 import styles from "../styles/expertsAwait.module.css";
 
 import bg from "../public/service-bg.webp";
@@ -10,18 +9,20 @@ import computer from "../public/icons/computerRed.png";
 import training from "../public/icons/training.png";
 import support from "../public/icons/support.png";
 import handShake from "../public/icons/handShake.png";
-import Link from "next/link";
 
 const ExpertsAwait = () => {
   return (
-    <section className={styles.expertsAwait} style={{ position: "relative" }}>
-      <Image
-        className={styles.bgImg}
-        src={bg}
-        alt="shape icon"
-        fill="true"
-        sizes="100vw"
-      />
+    <section className={styles.expertsAwait}>
+      <div className={styles.bgImgWrapper}>
+        <Image
+          className={styles.bgImg}
+          src={bg}
+          alt="shape icon"
+          width={1920}
+          height={1080}
+          sizes="100vw"
+        />
+      </div>
 
       <AnimateOnScroll animation="slide-left" delay={0.1} duration={1.2}>
         <div className={styles.content}>
