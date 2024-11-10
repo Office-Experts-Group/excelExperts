@@ -4,6 +4,7 @@ import ServiceHero from "../../components/ServiceHero";
 import Contact from "../../components/Contact";
 import PageSegmentMain from "./(components)/PageSegmentMain";
 import PageSegment4 from "./(components)/PageSegment4";
+import VideoSegment from "./(components)/VideoSegment";
 // import ExpertsAwait from "../../../../components/ExpertsAwait";
 // import FAQ from "../../../../components/FAQSection";
 
@@ -175,7 +176,7 @@ const Page = () => {
       <ServiceHero title={"Formulas and Custom Formulas"} />
       <PageSegmentMain />
       <PageSegment4 />
-
+      <VideoSegment />
       {/* <FAQ faqs={faqs} /> */}
       <Contact />
     </>

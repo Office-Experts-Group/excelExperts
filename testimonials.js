@@ -1,5 +1,5 @@
 import dulux from "./public/logos/Dulux-Group.webp";
-import queenslandRailLogo from "./public/logos/Hyundai-Construction-Equipment-Australia-140x35.webp";
+import queenslandRailLogo from "./public/logos/Queensland-Rail.webp";
 import arrow from "./public/logos/Arrow-Energy.webp";
 import herron from "./public/logos/herron.webp";
 import solarWiseLogo from "./public/logos/Solar-Wise.webp";
@@ -20,7 +20,6 @@ import breastcancerinstitute from "./public/logos/breast-cancer-institute-49x49.
 import bresnehan150x from "./public/logos/bresnehan-150x36-150x36.webp";
 import buildcorp from "./public/logos/buildcorp.webp";
 
-import bs150x from "./public/logos/bs-150x150-150x150.webp";
 import buscoachinternationalx from "./public/logos/bus-coach-international_x84-150x84.webp";
 import carscoaustraliax from "./public/logos/cars-co-australia_x150-150x150.webp";
 import chillit150x from "./public/logos/chill-it-150x47-150x47.webp";
