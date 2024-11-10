@@ -32,6 +32,7 @@ jobs:
       - name: Build
         run: |
           npm run build
+          npm run postbuild
         env:
           CI: false
           NEXT_TELEMETRY_DISABLED: 1
@@ -45,7 +46,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           app_location: "/"
-          output_location: ".next"
+          output_location: ".next" # Changed from .next to out
           skip_api_build: true
           skip_app_build: false
           skip_deploy_on_missing_secrets: true
