@@ -73,7 +73,7 @@
 }
 
 .imageWrapper {
-  position: relative;
+  position: relative !important;
   width: 100%;
   aspect-ratio: 7 / 4;
   overflow: hidden; // This is crucial for containing the zoom

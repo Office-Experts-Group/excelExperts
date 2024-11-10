@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export", // Required for Azure Static Web Apps
   images: {
-    unoptimized: true,
+    unoptimized: true, // Required for static export
   },
-  output: "export",
 };
 
 module.exports = nextConfig;

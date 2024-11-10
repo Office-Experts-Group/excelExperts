@@ -29,3 +29,9 @@ yarn-error.log*
 build
 dist
 out
+
+# scripts
+analyze-images.mjs
+find-images.mjs
+image-audit.csv
+image-build-report.json

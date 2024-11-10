@@ -14,8 +14,14 @@ import Link from "next/link";
 
 const ExpertsAwait = () => {
   return (
-    <section className={styles.expertsAwait}>
-      <Image className={styles.bgImg} src={bg} alt="shape icon" fill="true" />
+    <section className={styles.expertsAwait} style={{ position: "relative" }}>
+      <Image
+        className={styles.bgImg}
+        src={bg}
+        alt="shape icon"
+        fill="true"
+        sizes="100vw"
+      />
 
       <AnimateOnScroll animation="slide-left" delay={0.1} duration={1.2}>
         <div className={styles.content}>

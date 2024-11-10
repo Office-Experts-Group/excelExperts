@@ -31,11 +31,12 @@ const ServicePageCards = () => {
               className={styles.icon}
             />
           </div>
-          <div className={styles.imageWrapper}>
+          <div className={styles.imageWrapper} style={{ position: "relative" }}>
             <Image
               src={stuckImage}
               alt="Old version illustration"
               fill
+              sizes="(max-width: 280px) 100vw, 280px"
               className={styles.mainImage}
             />
           </div>
@@ -55,11 +56,13 @@ const ServicePageCards = () => {
               className={styles.icon}
             />
           </div>
-          <div className={styles.imageWrapper}>
+          <div className={styles.imageWrapper} style={{ position: "relative" }}>
+            {" "}
             <Image
               src={issuesImage}
               alt="Access issues illustration"
               fill
+              sizes="(max-width: 280px) 100vw, 280px"
               className={styles.mainImage}
             />
           </div>
@@ -79,11 +82,13 @@ const ServicePageCards = () => {
               className={styles.icon}
             />
           </div>
-          <div className={styles.imageWrapper}>
+          <div className={styles.imageWrapper} style={{ position: "relative" }}>
+            {" "}
             <Image
               src={expertsImage}
               alt="Expert help illustration"
               fill
+              sizes="(max-width: 280px) 100vw, 280px"
               className={styles.mainImage}
             />
           </div>
@@ -103,11 +108,12 @@ const ServicePageCards = () => {
               className={styles.icon}
             />
           </div>
-          <div className={styles.imageWrapper}>
+          <div className={styles.imageWrapper} style={{ position: "relative" }}>
             <Image
               src={migrateImage}
               alt="Migration illustration"
               fill
+              sizes="(max-width: 280px) 100vw, 280px"
               className={styles.mainImage}
             />
           </div>

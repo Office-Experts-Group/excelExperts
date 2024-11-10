@@ -15,7 +15,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.1); // Adjust opacity as needed
+    background-color: rgba(0, 0, 0, 0.1);
     z-index: 1;
   }
 
@@ -28,14 +28,5 @@
     color: $offWhite;
     max-width: 70vw;
     line-height: 4rem;
-  }
-
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
   }
 }

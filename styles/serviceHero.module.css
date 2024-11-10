@@ -25,13 +25,4 @@
   color: #f8f8f8;
   max-width: 70vw;
   line-height: 4rem;
-}
-.serviceHero img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }/*# sourceMappingURL=serviceHero.module.css.map */

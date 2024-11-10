@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
 import Image from "next/image";
 
 import styles from "../../../styles/servicePageCards.module.scss";
@@ -16,6 +18,17 @@ import whichIsBest from "../../../public/dashboard300x180.webp";
 import build from "../../../public/training300x200.webp";
 
 const ServicePageCards = () => {
+  console.log("Image imports:", { created, vsto, whichIsBest, build });
+
+  // Inside the component
+  useEffect(() => {
+    console.log("Image paths:", {
+      created: created.src,
+      vsto: vsto.src,
+      whichIsBest: whichIsBest.src,
+      build: build.src,
+    });
+  }, []);
   return (
     <section
       className={styles.servicePageCards}
@@ -34,11 +47,12 @@ const ServicePageCards = () => {
               className={styles.icon}
             />
           </div>
-          <div className={styles.imageWrapper}>
+          <div className={styles.imageWrapper} style={{ position: "relative" }}>
             <Image
               src={created}
               alt="Old version illustration"
               fill
+              sizes="(max-width: 280px) 100vw, 280px"
               className={styles.mainImage}
             />
           </div>
@@ -58,11 +72,12 @@ const ServicePageCards = () => {
               className={styles.icon}
             />
           </div>
-          <div className={styles.imageWrapper}>
+          <div className={styles.imageWrapper} style={{ position: "relative" }}>
             <Image
               src={vsto}
               alt="Access issues illustration"
               fill
+              sizes="(max-width: 280px) 100vw, 280px"
               className={styles.mainImage}
             />
           </div>
@@ -82,11 +97,12 @@ const ServicePageCards = () => {
               className={styles.icon}
             />
           </div>
-          <div className={styles.imageWrapper}>
+          <div className={styles.imageWrapper} style={{ position: "relative" }}>
             <Image
               src={whichIsBest}
               alt="Expert help illustration"
               fill
+              sizes="(max-width: 280px) 100vw, 280px"
               className={styles.mainImage}
             />
           </div>
@@ -106,11 +122,12 @@ const ServicePageCards = () => {
               className={styles.icon}
             />
           </div>
-          <div className={styles.imageWrapper}>
+          <div className={styles.imageWrapper} style={{ position: "relative" }}>
             <Image
               src={build}
               alt="Migration illustration"
               fill
+              sizes="(max-width: 280px) 100vw, 280px"
               className={styles.mainImage}
             />
           </div>
