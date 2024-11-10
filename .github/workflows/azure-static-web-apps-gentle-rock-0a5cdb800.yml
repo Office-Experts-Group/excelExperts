@@ -32,7 +32,6 @@ jobs:
       - name: Build
         run: |
           npm run build
-          touch .next/build-manifest.json
         env:
           CI: false
           NEXT_TELEMETRY_DISABLED: 1

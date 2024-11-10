@@ -1,9 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // Required for Azure Static Web Apps
+  output: "standalone", // Changed from "export" to "standalone"
   images: {
-    unoptimized: true, // Required for static export
+    unoptimized: true,
   },
+  trailingSlash: true,
+  poweredByHeader: false,
+  distDir: ".next", // Explicitly set the output directory
 };
 
 module.exports = nextConfig;
