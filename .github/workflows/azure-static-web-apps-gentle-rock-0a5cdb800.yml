@@ -14,43 +14,55 @@ jobs:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
     name: Build and Deploy Job
+    permissions:
+      id-token: write
+      contents: read
     steps:
       - uses: actions/checkout@v3
         with:
           submodules: true
+          lfs: false
 
+      # Add Node.js setup and caching
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: "18.x"
+          cache: "npm"
 
-      - name: Install Dependencies
-        run: |
-          npm ci
-          npm install sharp
+      # Cache Next.js build output
+      - name: Cache Next.js build output
+        uses: actions/cache@v3
+        with:
+          path: |
+            .next/cache
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
+          restore-keys: |
+            ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
+            ${{ runner.os }}-nextjs-
 
-      - name: Build
-        run: |
-          npm run build
-          npm run postbuild
-        env:
-          CI: false
-          NEXT_TELEMETRY_DISABLED: 1
-          NODE_ENV: production
+      - name: Install OIDC Client from Core Package
+        run: npm install @actions/core@1.6.0 @actions/http-client
 
-      - name: Deploy
+      - name: Get Id Token
+        uses: actions/github-script@v6
+        id: idtoken
+        with:
+          script: |
+            const coredemo = require('@actions/core')
+            return await coredemo.getIDToken()
+          result-encoding: string
+
+      - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GENTLE_ROCK_0A5CDB800 }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_THANKFUL_ISLAND_089139800 }}
           action: "upload"
           app_location: "/"
-          output_location: ".next" # Changed from .next to out
-          skip_api_build: true
-          skip_app_build: false
-          skip_deploy_on_missing_secrets: true
-          production_branch: "main"
+          api_location: ""
+          output_location: ".next"
+          github_id_token: ${{ steps.idtoken.outputs.result }}
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
@@ -61,6 +73,4 @@ jobs:
         id: closepullrequest
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GENTLE_ROCK_0A5CDB800 }}
           action: "close"
-          skip_deploy_on_missing_secrets: true
