@@ -39,7 +39,6 @@ const TestimonialPage = () => {
             <AnimateOnScroll
               key={uniqueKey}
               animation="fade-up"
-              delay={(index - 3) * 0.1} // Adjusted delay calculation
               className={styles.testimonialWrapper}
             >
               <TestimonialCard
