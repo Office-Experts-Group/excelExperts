@@ -10,9 +10,7 @@ const FooterServicesSection = () => {
       <div className={styles.mainLinks}>
         <h3>Our Business</h3>
         <Link href="https://www.officeexperts.com.au/about-us">About Us</Link>
-        <Link href="https://www.officeexperts.com.au/meet-the-team">
-          Meet The Team
-        </Link>
+        <Link href="/meet-the-team">Meet The Team</Link>
         <Link href="/client-testimonials">Testimonials</Link>
         <Link href="https://www.officeexperts.com.au/blog">Blog</Link>
       </div>
@@ -49,8 +47,8 @@ const FooterServicesSection = () => {
             Microsoft Office
           </Link>
           <Link href="/">Microsoft Excel</Link>
-          <Link href="https://www.accessexperts.com.au">Microsoft Access</Link>
-          <Link href="https://www.wordexperts.com.au">Microsoft Word</Link>
+          <Link href="https://www.accessexperts.com.au/">Microsoft Access</Link>
+          <Link href="https://www.wordexperts.com.au/">Microsoft Word</Link>
           <Link href="https://www.officeexperts.com.au/services/microsoft-powerpoint">
             Microsoft PowerPoint
           </Link>
