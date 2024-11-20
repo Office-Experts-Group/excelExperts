@@ -10,7 +10,7 @@
   font-weight: 500;
 }
 .servicesSection a:hover {
-  color: #ff403f;
+  color: #046999;
 }
 
 .mainLinks {
@@ -37,14 +37,15 @@
   margin-top: 1rem;
 }
 .dropdownSection h3:hover {
-  color: #ff403f;
+  color: #046999;
 }
 .dropdownSection .dropdownContent {
   max-height: 0;
   overflow: hidden;
   transition: all 1s ease-out;
 }
-.dropdownSection:hover .dropdownContent, .dropdownSection:focus-within .dropdownContent {
+.dropdownSection:hover .dropdownContent,
+.dropdownSection:focus-within .dropdownContent {
   max-height: 300px;
   padding: 1rem;
 }
@@ -61,4 +62,4 @@
   flex-direction: column;
   gap: 0.5rem;
   padding-left: 1rem;
-}/*# sourceMappingURL=footerServices.module.css.map */
+} /*# sourceMappingURL=footerServices.module.css.map */

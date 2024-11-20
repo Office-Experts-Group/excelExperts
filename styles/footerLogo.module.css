@@ -21,7 +21,7 @@
 .socials svg {
   cursor: pointer;
   transition: all 0.3s ease;
-  stroke: #ff403f;
+  stroke: #046999;
 }
 .socials svg:hover {
   transform: scale(1.2);
@@ -29,5 +29,5 @@
 }
 
 .facebook {
-  fill: #ff403f;
-}/*# sourceMappingURL=footerLogo.module.css.map */
+  fill: #046999;
+} /*# sourceMappingURL=footerLogo.module.css.map */

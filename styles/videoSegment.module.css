@@ -19,10 +19,9 @@
 }
 
 .subtitle {
-  color: #ff403f;
+  color: #046999;
   font-weight: 500;
   margin-bottom: 0.5rem;
-  text-transform: uppercase;
   letter-spacing: 1px;
 }
 
@@ -31,7 +30,6 @@
   font-weight: 700;
   color: #1e1e1e;
   margin-bottom: 2rem;
-  text-transform: uppercase;
 }
 
 .videoWrapper {
@@ -53,8 +51,8 @@
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  border: 2px solid #ff403f;
-  border-top-color: #ff403f;
+  border: 2px solid #046999;
+  border-top-color: #046999;
   animation: spin 1s linear infinite;
 }
 

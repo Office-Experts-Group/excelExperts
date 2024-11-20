@@ -24,7 +24,8 @@
   transition: all 0.5s ease-out;
   padding: 0;
 }
-.dropdownSection:hover .dropdownContent, .dropdownSection:focus-within .dropdownContent {
+.dropdownSection:hover .dropdownContent,
+.dropdownSection:focus-within .dropdownContent {
   max-height: 200px;
   padding: 0.5rem 0 0 0.5rem;
 }
@@ -56,7 +57,7 @@
   transition: color 0.5s;
 }
 .serviceGroup a:hover {
-  color: #ff403f;
+  color: #046999;
 }
 .serviceGroup a:not(:last-child)::after {
   content: "|";
@@ -71,5 +72,5 @@
   font-weight: 500;
 }
 .staticLink:hover {
-  color: #ff403f;
-}/*# sourceMappingURL=footerLocations.module.css.map */
+  color: #046999;
+} /*# sourceMappingURL=footerLocations.module.css.map */
