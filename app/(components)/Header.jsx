@@ -7,10 +7,10 @@ import styles from "../../styles/header.module.css";
 
 import { navigationData } from "../../navigationData";
 
-import MobileNav from "./MobileNav";
 import HomeDropdown from "../../components/HomeDropdown";
 import ServicesDropdown from "../../components/ServicesDropdown";
 import SocialLinks from "../../components/SocialLinks";
+import MobileNav from "../../components/MobileNavigation/MobileNav";
 
 import logo from "../../public/logo300x130.webp";
 

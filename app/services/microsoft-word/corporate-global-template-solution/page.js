@@ -9,6 +9,7 @@ import PageSegment8 from "./(components)/PageSegment8";
 import PageSegment4 from "./(components)/PageSegment4";
 import PageSegment5 from "./(components)/PageSegment5";
 import FAQSection from "../../../../components/FAQSection";
+import Contents from "./(components)/Contents";
 
 import faqs from "../../../../faqs/corporate-solutions";
 
@@ -185,6 +186,7 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
+      <Contents />
       <ServiceHero title="Corporate Global Template Solution" />
       <ServicePageCards />
       <PageSegmentMain />

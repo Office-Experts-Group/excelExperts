@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import AnimateOnScroll from "../../../../../components/AnimateOnScroll";
+import AnimateOnScroll from "../../../components/AnimateOnScroll";
 
-import styles from "../../../../../styles/pageSegment4.module.css";
+import styles from "../../../styles/pageSegment4.module.css";
 
-import success from "../../../../../public/success400x267.webp";
+import success from "../../../public/success400x267.webp";
 
 const Segment4Repeat = () => {
   const benefits = [
@@ -80,7 +80,7 @@ const Segment4Repeat = () => {
         <AnimateOnScroll animation="slide-right" duration={1} delay={0}>
           <div className={styles.content}>
             <h2 style={{ marginBottom: "1rem" }}>
-              We do it all<span> ...and we do it right!</span>
+              We do it all<em> ...and we do it right!</em>
             </h2>
             <p>
               Our expert designers excel when it comes to your document needs.

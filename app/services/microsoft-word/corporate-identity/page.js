@@ -9,6 +9,7 @@ import FAQSection from "../../../../components/FAQSection";
 import Contact from "../../../../components/Contact";
 
 import faqs from "../../../../faqs/corporate-identity";
+import Contents from "../companies-and-organisations/(components)/Contents";
 
 const schema = {
   "@context": "https://schema.org",
@@ -183,7 +184,7 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-
+      <Contents />
       <ServiceHero title="Corporate Identity" />
       <PageSegmentMain />
       <PageSegment4 />

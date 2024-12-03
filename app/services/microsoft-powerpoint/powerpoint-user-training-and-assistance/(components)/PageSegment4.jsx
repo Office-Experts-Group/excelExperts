@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 
-import AnimateOnScroll from "../../../../../components/AnimateOnScroll";
+import AnimateOnScroll from "../../../components/AnimateOnScroll";
 
-import styles from "../../../../../styles/pageSegment4.module.css";
+import styles from "../../../styles/pageSegment4.module.css";
 
-import eyes from "../../../../../public/eyes600x394.webp";
+import eyes from "../../../public/eyes600x394.webp";
 
 const PageSegment4 = () => {
   const checkItems = [

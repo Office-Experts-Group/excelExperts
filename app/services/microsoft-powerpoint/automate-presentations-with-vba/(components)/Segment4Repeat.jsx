@@ -33,6 +33,7 @@ const Segment4Repeat = () => {
               PowerPoint presentation needs. We do it all and we do it right!
             </p>
           </div>
+
           <div className={styles.pointsGrid}>
             {checkItems.map((text, index) => (
               <div key={index} className={styles.point}>

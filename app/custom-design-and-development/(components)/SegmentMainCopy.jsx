@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import styles from "../../../styles/pageSegment2.module.scss";
+import styles from "../../../styles/pageSegment2.module.css";
 
 import lady from "../../../public/service-img-1.webp";
 
@@ -16,7 +16,7 @@ const SegmentMainCopy = () => {
             <p>VBA Programming</p>
           </div>
         </Link>
-        <Link href="/">
+        <Link href="https://excelexperts.com.au">
           <div className={styles.contentLink}>
             <p>Microsoft Excel</p>
           </div>
@@ -25,50 +25,50 @@ const SegmentMainCopy = () => {
           className={styles.contentLink}
           style={{ display: "flex", alignItems: "center", gap: "4px" }}
         >
-          <Link href="https://www.officeexperts.com.au/services/microsoft-office-365">
+          <Link href="/services/microsoft-office-365">
             <p>Office 365</p>
           </Link>
           <p>/</p>
-          <Link href="https://www.officeexperts.com.au/services/by-business-solution/online-solutions">
+          <Link href="/services/by-business-solution/online-solutions">
             <p>SharePoint</p>
           </Link>
         </div>
-        <Link href="https://www.officeexperts.com.au/services/by-business-solution/cloud-based-solutions-with-azure">
+        <Link href="/services/by-business-solution/cloud-based-solutions-with-azure">
           <div className={styles.contentLink}>
             <p>Microsoft Azure</p>
           </div>
         </Link>
-        <Link href="https://www.officeexperts.com.au/services/microsoft-access">
+        <Link href="/services/microsoft-access">
           <div className={styles.contentLink}>
             <p>Microsoft Access</p>
           </div>
         </Link>
-        <Link href="https://www.officeexperts.com.au/services/microsoft-power-bi">
+        <Link href="/services/microsoft-power-bi">
           <div className={styles.contentLink}>
             <p>Power BI</p>
           </div>
         </Link>
-        <Link href="https://www.officeexperts.com.au/services/by-business-solution/custom-office-solutions">
+        <Link href="/services/by-business-solution/custom-office-solutions">
           <div className={styles.contentLink}>
             <p>Microsoft Outlook</p>
           </div>
         </Link>
-        <Link href="https://www.officeexperts.com.au/services/microsoft-dot-net">
+        <Link href="/services/microsoft-dot-net">
           <div className={styles.contentLink}>
             <p>VB.NET</p>
           </div>
         </Link>
-        <Link href="https://www.officeexperts.com.au/services/microsoft-dot-net">
+        <Link href="/services/microsoft-dot-net">
           <div className={styles.contentLink}>
             <p>Microsoft Word</p>
           </div>
         </Link>
-        <Link href="https://www.officeexperts.com.au/services/microsoft-dot-net">
+        <Link href="/services/microsoft-dot-net">
           <div className={styles.contentLink}>
             <p>C#.NET</p>
           </div>
         </Link>
-        <Link href="https://www.officeexperts.com.au/services/microsoft-powerpoint">
+        <Link href="/services/microsoft-powerpoint">
           <div className={styles.contentLink}>
             <p>Microsoft PowerPoint</p>
           </div>

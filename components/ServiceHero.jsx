@@ -12,11 +12,11 @@ const ServiceHero = ({ title }) => {
         <Image
           src={thirdParty}
           alt="A person helping somebody"
-          width={1920}
-          height={499}
-          priority
+          fill={true}
           className={styles.heroImage}
+          priority
           sizes="100vw"
+          style={{ objectFit: "cover", objectPosition: "center" }}
         />
       </div>
       <h1>{title}</h1>

@@ -20,8 +20,8 @@ const PageSegment4 = () => {
   // Then modify the render section to use the map function
   const CheckIcon = () => (
     <svg
-      stroke="#046999"
-      fill="#046999"
+      stroke="#ff403f"
+      fill="#ff403f"
       strokeWidth="2"
       viewBox="0 0 24 24"
       height="1em"

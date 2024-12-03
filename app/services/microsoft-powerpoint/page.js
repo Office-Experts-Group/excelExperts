@@ -4,10 +4,16 @@ import ServiceHero from "../../../components/ServiceHero";
 import ExpertsAwait from "../../../components/ExpertsAwait";
 import Contact from "../../../components/Contact";
 import PageSegmentMain from "./(components)/PageSegmentMain";
+import SolutionsCarousel from "./(components)/SolutionsCarousel";
+import Testimonials from "../microsoft-word/(components)/Testimonials";
+
+import { getTestimonialsPageSchema } from "../../../utils/testimonialSchemaGenerator";
+import { testimonials } from "../../../testimonials";
 
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
+    ...getTestimonialsPageSchema(testimonials),
     {
       "@type": "WebPage",
       "@id": "https://www.excelexperts.com.au/services/microsoft-powerpoint/",
@@ -117,6 +123,8 @@ const Page = () => {
       />
       <ServiceHero title="PowerPoint Consulting Services" />
       <PageSegmentMain />
+      <SolutionsCarousel />
+      <Testimonials testimonials={testimonials} />
       <ExpertsAwait />
       <Contact />
     </>

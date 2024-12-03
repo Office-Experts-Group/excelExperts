@@ -7,7 +7,7 @@ import lady from "../../../public/service-img-1.webp";
 
 const PageSegmentMain2 = () => {
   return (
-    <section className={styles.pageSegment} style={{ margin: "4rem 0 2rem 0" }}>
+    <section className={`${styles.pageSegment} ${styles.customMargin}`}>
       <Image
         src={lady}
         alt="lady in an office environment"

@@ -7,10 +7,10 @@ import AnimateOnScroll from "../../../../../components/AnimateOnScroll";
 import styles from "../../../../../styles/expertsAwait.module.css";
 
 import bg from "../../../../../public/service-bg.webp";
-import stuckIcon from "../../../../../public/icons/computerRed.png";
-import issuesIcon from "../../../../../public/icons/support.png";
-import migrateIcon from "../../../../../public/icons/idea.png";
-import expertsIcon from "../../../../../public/icons/deal.png";
+import stuckIcon from "../../../../../public/icons/computerBlue.webp";
+import issuesIcon from "../../../../../public/icons/supportBlue.webp";
+import migrateIcon from "../../../../../public/icons/ideaBlue.webp";
+import expertsIcon from "../../../../../public/icons/handShakeBlue.webp";
 
 const BlackSegment = () => {
   return (
@@ -71,7 +71,7 @@ const BlackSegment = () => {
               alt="Connection icon"
               width={30}
               height={30}
-              className={styles.icon}
+              className={`${styles.icon} ${styles.hidden}`}
             />
             <p>
               Users will have access to approved prebuilt styles and colour
@@ -85,7 +85,7 @@ const BlackSegment = () => {
               alt="Old version icon"
               width={30}
               height={30}
-              className={styles.icon}
+              className={`${styles.icon} ${styles.hidden}`}
             />
             <p>
               Your brand will be secure as users will not have the ability to
@@ -99,7 +99,7 @@ const BlackSegment = () => {
               alt="Old version icon"
               width={30}
               height={30}
-              className={styles.icon}
+              className={`${styles.icon} ${styles.hidden}`}
             />
             <p>
               Pasted text is inserted under a controlled environment which
@@ -113,7 +113,7 @@ const BlackSegment = () => {
               alt="documents icon"
               width={30}
               height={30}
-              className={styles.icon}
+              className={`${styles.icon} ${styles.hidden}`}
             />
             <p>
               Your documents will no longer be ruined by external formatting
