@@ -4,6 +4,9 @@ import ServiceHero from "../../components/ServiceHero";
 import MeetTheTeam from "../../components/MeetTheTeam";
 import Contact from "../../components/Contact";
 
+import handShake from "../../public/pageHeros/handshake.webp";
+import handShakeMob from "../../public/pageHeros/mob/handshakeMob.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -41,82 +44,6 @@ const schema = {
         },
       ],
     },
-    {
-      "@type": "Organization",
-      "@id": "https://excelexperts.com.au/#organization",
-      name: "Excel Experts",
-      url: "https://excelexperts.com.au/",
-      email: "excel@officeexperts.com.au",
-      telephone: "1300 10 28 10",
-      contactPoint: [
-        {
-          "@type": "ContactPoint",
-          telephone: "1300 10 28 10",
-          contactType: "customer service",
-          email: "consult@excelexperts.com.au",
-          availableLanguage: ["en", "en-AU"],
-        },
-      ],
-      priceRange: "$50-$5000",
-      paymentAccepted: "Credit Card, Cheque, Direct Debit",
-      currenciesAccepted: "AUD",
-      areaServed: [
-        {
-          "@type": "Country",
-          name: "Australia",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "New South Wales",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Victoria",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Queensland",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Western Australia",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "South Australia",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Tasmania",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Australian Capital Territory",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Northern Territory",
-        },
-      ],
-      logo: {
-        "@type": "ImageObject",
-        inLanguage: "en-AU",
-        "@id": "https://excelexperts.com.au/#/schema/logo/image/",
-        url: "/logo.png",
-        contentUrl: "/logo.png",
-        width: 326,
-        height: 107,
-        caption: "Excel Experts",
-      },
-      image: {
-        "@id": "https://excelexperts.com.au/#/schema/logo/image/",
-      },
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: "5",
-        reviewCount: "112",
-      },
-    },
   ],
 };
 
@@ -127,7 +54,13 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <ServiceHero title="Meet Our Team" />
+      <ServiceHero
+        title="Meet Our Team"
+        desktopImage={handShake}
+        mobileImage={handShakeMob}
+        altDesk={"handshake"}
+        altMob={"handshake"}
+      />
       <MeetTheTeam />
       <Contact />
     </>

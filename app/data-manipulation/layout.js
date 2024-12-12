@@ -31,40 +31,8 @@ export const metadata = {
     description:
       "We are experts in Data import/export, parsing and processing Data formatting automation, automated data manipulation solutions using VBA. Call us 1300102810",
     url: "https://www.excelexperts.com.au/data-manipulation/",
-    siteName: "Excel Experts",
-    images: [
-      {
-        url: "https://www.excelexperts.com.au/wp-content/uploads/2023/09/microsoft-office-experts-group-logo.png",
-        width: 1200,
-        height: 630,
-        alt: "Excel Experts Group Logo",
-      },
-    ],
-    locale: "en-AU",
-    type: "article",
   },
-
-  alternates: {
-    canonical: "https://www.excelexperts.com.au/data-manipulation/",
-  },
-
-  robots: {
-    index: true,
-    follow: true,
-    "max-image-preview": "large",
-    "max-snippet": -1,
-    "max-video-preview": -1,
-  },
-
-  twitter: {
-    card: "summary_large_image",
-    title: "Data Manipulation | Excel Experts",
-    description:
-      "We are experts in Data import/export, parsing and processing Data formatting automation, automated data manipulation solutions using VBA. Call us 1300102810",
-    images: [
-      "https://www.excelexperts.com.au/wp-content/uploads/2023/09/microsoft-office-experts-group-logo.png",
-    ],
-  },
+  canonical: "https://www.excelexperts.com.au/data-manipulation/",
 };
 
 export default function DataManipulationLayout({ children }) {

@@ -9,6 +9,9 @@ import FAQ from "../../components/FAQSection";
 
 import { faqs } from "../../faqs/pivot-tables.js";
 
+import graphTable from "../../public/pageHeros/graphTable.webp";
+import graphTableMob from "../../public/pageHeros/mob/graphTableMob.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -87,83 +90,6 @@ const schema = {
       ],
       inLanguage: "en-AU",
     },
-    {
-      "@type": "Organization",
-      "@id": "https://www.excelexperts.com.au/#organization",
-      name: "Office Experts Group",
-      url: "https://www.excelexperts.com.au/",
-      telephone: "1300 10 28 10",
-      email: "consult@exceleexperts.com.au",
-      contactPoint: [
-        {
-          "@type": "ContactPoint",
-          telephone: "1300 10 28 10",
-          contactType: "customer service",
-          email: "consult@excelexperts.com.au",
-          availableLanguage: ["en", "en-AU"],
-        },
-      ],
-      areaServed: [
-        {
-          "@type": "Country",
-          name: "Australia",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "New South Wales",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Victoria",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Queensland",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Western Australia",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "South Australia",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Tasmania",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Australian Capital Territory",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Northern Territory",
-        },
-      ],
-      logo: {
-        "@type": "ImageObject",
-        inLanguage: "en-AU",
-        "@id": "https://www.excelexperts.com.au/#/schema/logo/image/",
-        url: "/logo.png",
-        contentUrl: "/logo.png",
-        width: 1181,
-        height: 1181,
-        caption: "Office Experts Group",
-      },
-      image: {
-        "@id": "https://www.excelexperts.com.au/#/schema/logo/image",
-      },
-      sameAs: [
-        "https://www.facebook.com/MSOfficeExperts",
-        "https://x.com/OfficeExpertsG1",
-      ],
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: "5",
-        reviewCount: "112",
-      },
-    },
   ],
 };
 
@@ -174,7 +100,13 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <ServiceHero title="Pivot Tables, Charts and Reporting" />
+      <ServiceHero
+        title="Pivot Tables, Charts and Reporting"
+        desktopImage={graphTable}
+        mobileImage={graphTableMob}
+        altDesk={"graphs on a table"}
+        altMob={"graphs on a table"}
+      />
       <PageSegmentMain />
       <PageSegment4 />
       <ExpertsAwait />

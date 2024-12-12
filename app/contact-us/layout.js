@@ -14,17 +14,6 @@ export const metadata = {
     description:
       "Get in touch with our Microsoft Excel specialists for custom solutions, automation, support, and consulting services across Australia.",
     url: "https://www.excelexperts.com.au/contact-us/",
-    siteName: "Excel Experts",
-    images: [
-      {
-        url: "https://www.excelexperts.com.au/wp-content/uploads/2023/09/microsoft-office-experts-group-logo.png",
-        width: 1200,
-        height: 630,
-        alt: "Excel Experts Logo",
-      },
-    ],
-    locale: "en-AU",
-    type: "website",
   },
 
   // Additional metadata
@@ -62,36 +51,7 @@ export const metadata = {
     "Excel data migration consultation",
     "Legacy workbook modernization quote",
   ],
-
-  // Twitter Card
-  twitter: {
-    card: "summary_large_image",
-    site: "@ExcelExperts",
-    title: "Contact Excel Experts – Microsoft Excel Consulting & Development",
-    description:
-      "Get in touch with our Microsoft Excel specialists for custom solutions, automation, support, and consulting services across Australia.",
-    images: [
-      "https://www.excelexperts.com.au/wp-content/uploads/2023/09/microsoft-office-experts-group-logo.png",
-    ],
-  },
-
-  // Additional tags
-
   canonical: "https://www.excelexperts.com.au/contact-us/",
-  robots: {
-    index: true,
-    follow: true,
-    "max-image-preview": "large",
-    "max-snippet": -1,
-    "max-video-preview": -1,
-  },
-
-  // Icons
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-32x32.png",
-    apple: "/apple-touch-icon.png",
-  },
 };
 
 export default function RootLayout({ children }) {
