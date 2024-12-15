@@ -6,6 +6,9 @@ import Contact from "../../../../components/Contact";
 import PageSegmentMain from "./(components)/PageSegmentMain";
 import Segment4Repeat from "./(components)/Segment4Repeat";
 
+import tableGraph from "../../../../public/pageHeros/tableGraph.webp";
+import tableGraphMob from "../../../../public/pageHeros/mob/tableGraphMob.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -121,7 +124,13 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <ServiceHero title="Existing Presentation Redesign" />
+      <ServiceHero
+        title="Existing Presentation Redesign"
+        desktopImage={tableGraph}
+        mobileImage={tableGraphMob}
+        altDesk={"Graphs on a table"}
+        altMob={"Graphs on a table"}
+      />
       <PageSegmentMain />
       <Segment4Repeat />
       <ExpertsAwait />

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import styles from "../../../styles/pageSegment.module.scss";
 
-import dreadLady from "../../../public/dreadLady.webp";
+import code from "../../../public/540x480/code.webp";
 import semi from "../../../public/shapes/semi600x600.webp";
 
 const PageSegmentMain = () => {
@@ -22,8 +22,8 @@ const PageSegmentMain = () => {
       />
       <div className={styles.imgWrapper}>
         <Image
-          src={dreadLady}
-          alt="lady in an office environment"
+          src={code}
+          alt="programmer working on some code"
           width={540}
           height={480}
         />

@@ -5,7 +5,7 @@ import AnimateOnScroll from "../../../components/AnimateOnScroll";
 
 import styles from "../../../styles/pageSegment4.module.css";
 
-import hand from "../../../public/hand600x400.webp";
+import experts from "../../../public/experts600x400.webp";
 
 const PageSegment4 = () => {
   const pointsData = [
@@ -64,7 +64,7 @@ const PageSegment4 = () => {
         <AnimateOnScroll animation="scale-up" duration={1} delay={0.2}>
           <div className="image-wrapper">
             <Image
-              src={hand}
+              src={experts}
               alt="persons hand with digital people above it"
               width={600}
               height={400}

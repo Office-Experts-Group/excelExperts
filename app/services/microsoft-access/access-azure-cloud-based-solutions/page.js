@@ -27,11 +27,6 @@ const schema = {
       dateModified: "2024-10-27T00:00:00+00:00",
       description:
         "Professional Microsoft Access Azure cloud integration services. Our experts deliver seamless database migration, cloud optimization, and Azure integration solutions.",
-      breadcrumb: {
-        "@id":
-          "https://www.accessexperts.com.au/access-azure-cloud-solutions/#breadcrumb",
-      },
-      inLanguage: "en-AU",
       potentialAction: [
         {
           "@type": "ReadAction",
@@ -67,82 +62,35 @@ const schema = {
       inLanguage: "en-AU",
     },
     {
-      "@type": "Organization",
-      "@id": "https://www.accessexperts.com.au/#organization",
-      name: "Access Experts",
-      url: "https://www.accessexperts.com.au/",
-      telephone: "1300 10 28 10",
-      email: "consult@officeexperts.com.au",
-      priceRange: "$50-$5000",
-      paymentAccepted: "Credit Card, Cheque, Direct Debit",
-      currenciesAccepted: "AUD",
-      openingHours: "Mo-Fr 09:00-17:00",
-      contactPoint: [
+      "@type": "BreadcrumbList",
+      "@id":
+        "https://excelexperts.com.au/services/access-azure-cloud-based-solutions/#breadcrumb",
+      itemListElement: [
         {
-          "@type": "ContactPoint",
-          telephone: "1300 10 28 10",
-          contactType: "customer service",
-          email: "consult@officeexperts.com.au",
-          availableLanguage: ["en", "en-AU"],
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://excelexperts.com.au/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Services",
+          item: "https://excelexperts.com.au/services/",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Microsoft Access",
+          item: "https://excelexperts.com.au/services/microsoft-access/",
+        },
+        {
+          "@type": "ListItem",
+          position: 4,
+          name: "Access azure cloud based solutions",
+          item: "https://excelexperts.com.au/services/microsoft-access/access-azure-cloud-based-solutions/",
         },
       ],
-      areaServed: [
-        {
-          "@type": "Country",
-          name: "Australia",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "New South Wales",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Victoria",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Queensland",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Western Australia",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "South Australia",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Tasmania",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Australian Capital Territory",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Northern Territory",
-        },
-      ],
-      logo: {
-        "@type": "ImageObject",
-        inLanguage: "en-AU",
-        "@id": "https://www.accessexperts.com.au/#/schema/logo/image/",
-        url: "/logo.png",
-        contentUrl: "/logo.png",
-        width: 326,
-        height: 107,
-        caption: "Access Experts",
-      },
-      image: {
-        "@id": "https://www.accessexperts.com.au/#/schema/logo/image/",
-      },
-      sameAs: ["https://www.facebook.com/MSOfficeExperts"],
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: "5",
-        reviewCount: "112",
-      },
     },
   ],
 };

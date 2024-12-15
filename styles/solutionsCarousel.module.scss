@@ -160,7 +160,50 @@
   }
 }
 
+// .card {
+//   position: relative;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 1rem;
+//   justify-content: flex-end;
+//   width: 350px;
+//   height: 260px;
+//   overflow: hidden;
+//   cursor: pointer;
+//   z-index: 10;
+//   background-color: $cardBGC;
+
+//   @include phone {
+//     width: 100vw;
+//     height: 300px;
+//   }
+
+//   img {
+//     z-index: 3;
+//     align-self: center;
+//   }
+
+//   &::before {
+//     content: "";
+//     position: absolute;
+//     top: -25%;
+//     left: 25%;
+//     width: 50%;
+//     height: 50%;
+//     background-color: $cardBGC;
+//     filter: brightness(1.1);
+//     border-radius: 50%;
+//   }
+
+//   &:hover {
+//     .popIn {
+//       background-color: darken($theme, 10%);
+//     }
+//   }
+// }
+
 .popIn {
+  align-self: flex-end;
   display: flex;
   align-items: center;
   justify-content: space-between;

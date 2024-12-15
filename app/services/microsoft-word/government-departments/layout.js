@@ -11,17 +11,6 @@ export const metadata = {
     description:
       "Expert Excel and Word integration services for government departments. Specializing in data automation, spreadsheet integration, and accessible reporting solutions for state and federal agencies.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/government-departments/",
-    siteName: "Excel Experts",
-    images: [
-      {
-        url: "/logo.png",
-        width: 1200,
-        height: 630,
-        alt: "Excel Experts Logo",
-      },
-    ],
-    locale: "en-AU",
-    type: "website",
   },
 
   keywords: [
@@ -58,31 +47,8 @@ export const metadata = {
     "automated data extraction",
     "government spreadsheet consistency",
   ],
-
-  twitter: {
-    card: "summary_large_image",
-    site: "@OfficeExpertsG1",
-    title: "Government Excel-Word Integration Solutions",
-    description:
-      "Expert Excel and Word integration services for government departments. Specializing in data automation, spreadsheet integration, and accessible reporting solutions for state and federal agencies.",
-    images: ["/logo.png"],
-  },
-
   canonical:
     "https://www.excelexperts.com.au/services/microsoft-word/government-departments/",
-  robots: {
-    index: true,
-    follow: true,
-    "max-image-preview": "large",
-    "max-snippet": -1,
-    "max-video-preview": -1,
-  },
-
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-32x32.png",
-    apple: "/apple-touch-icon.png",
-  },
 };
 
 export default function RootLayout({ children }) {

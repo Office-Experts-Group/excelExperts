@@ -5,7 +5,7 @@ import AnimateOnScroll from "../../../components/AnimateOnScroll";
 
 import styles from "../../../styles/pageSegmentCenter.module.css";
 
-import pointing from "../../../public/pointing600x400.webp";
+import blueCode from "../../../public/blueCode600x400.webp";
 
 const PageSegmentCenter = () => {
   const points = [
@@ -23,8 +23,8 @@ const PageSegmentCenter = () => {
     <section className={`${styles.pageSegment} ${styles.customSegment}`}>
       <AnimateOnScroll animation="slide-left" duration={1} delay={0}>
         <Image
-          src={pointing}
-          alt="person pointing at a computer screen"
+          src={blueCode}
+          alt="digital futuristic design of someone coding"
           width={600}
           height={400}
         />

@@ -4,16 +4,16 @@ import React from "react";
 
 import styles from "../../../styles/pageSegment2.module.scss";
 
-import lady from "../../../public/service-img-1.webp";
+import office from "../../../public/office770x430.webp";
 
 const PageSegmentMain2 = () => {
   return (
     <section className={`${styles.pageSegment} ${styles.customMargin}`}>
       <Image
-        src={lady}
-        alt="lady in an office environment"
+        src={office}
+        alt="people working at an office desk"
         width={770}
-        height={424}
+        height={430}
       />
 
       <div className={styles.contents}>

@@ -18,7 +18,6 @@ export const metadata = {
     "enterprise Excel add-in development",
     "Excel functionality extension",
     "custom Excel toolbar development",
-    "Excel ribbon customization services",
     "Excel add-in deployment solutions",
     "business Excel add-in creation",
     "Excel VBA add-in programming",

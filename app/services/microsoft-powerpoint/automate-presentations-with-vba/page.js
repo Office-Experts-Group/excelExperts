@@ -6,6 +6,9 @@ import Contact from "../../../../components/Contact";
 import PageSegmentMain from "./(components)/PageSegmentMain";
 import Segment4Repeat from "./(components)/Segment4Repeat";
 
+import whiteboard from "../../../../public/pageHeros/whiteboard.webp";
+import calcMob from "../../../../public/pageHeros/mob/calcMob.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -120,7 +123,13 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <ServiceHero title="Automate Presentations with VBA" />
+      <ServiceHero
+        title="Automate Presentations with VBA"
+        desktopImage={whiteboard}
+        mobileImage={calcMob}
+        altDesk={"Whiteboard in a presentation"}
+        altMob={"Calculator on a desk"}
+      />
       <PageSegmentMain />
       <Segment4Repeat />
       <ExpertsAwait />

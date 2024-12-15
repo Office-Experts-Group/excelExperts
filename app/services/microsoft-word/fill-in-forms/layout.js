@@ -11,17 +11,6 @@ export const metadata = {
     description:
       "Professional form design services combining Excel data management with Word forms. Create dynamic, data-driven forms with automated Excel integration.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/fill-in-forms/",
-    siteName: "Excel Experts",
-    images: [
-      {
-        url: "/logo.png",
-        width: 1200,
-        height: 630,
-        alt: "Excel Experts Logo",
-      },
-    ],
-    locale: "en-AU",
-    type: "website",
   },
 
   keywords: [
@@ -53,31 +42,8 @@ export const metadata = {
     "excel form development",
     "business data automation",
   ],
-
-  twitter: {
-    card: "summary_large_image",
-    site: "@OfficeExpertsG1",
-    title: "Excel-Integrated Forms & Data Management Solutions",
-    description:
-      "Professional form design services combining Excel data management with Word forms. Create dynamic, data-driven forms with automated Excel integration.",
-    images: ["/logo.png"],
-  },
-
   canonical:
     "https://www.excelexperts.com.au/services/microsoft-word/fill-in-forms/",
-  robots: {
-    index: true,
-    follow: true,
-    "max-image-preview": "large",
-    "max-snippet": -1,
-    "max-video-preview": -1,
-  },
-
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-32x32.png",
-    apple: "/apple-touch-icon.png",
-  },
 };
 
 export default function RootLayout({ children }) {

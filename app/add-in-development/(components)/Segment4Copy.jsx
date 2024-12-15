@@ -5,7 +5,7 @@ import AnimateOnScroll from "../../../components/AnimateOnScroll";
 
 import styles from "../../../styles/pageSegment4.module.css";
 
-import training from "../../../public/training600x400.webp";
+import data from "../../../public/data600x400.webp";
 
 const Segment4Copy = () => {
   return (
@@ -37,8 +37,8 @@ const Segment4Copy = () => {
         <AnimateOnScroll animation="scale-up" duration={1} delay={0.2}>
           <div className="image-wrapper">
             <Image
-              src={training}
-              alt="lady pointing at a computer screen"
+              src={data}
+              alt="graph on a computer"
               width={600}
               height={400}
             />

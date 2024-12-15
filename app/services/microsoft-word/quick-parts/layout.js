@@ -12,17 +12,6 @@ export const metadata = {
     description:
       "Our Excel integration experts deliver Quick Parts solutions that seamlessly pull data from your spreadsheets into Word documents, creating dynamic, data-driven content blocks that save your business time and money.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/quick-parts/",
-    siteName: "Excel Experts Group",
-    images: [
-      {
-        url: "/logo.png",
-        width: 1200,
-        height: 630,
-        alt: "Excel Experts Group Logo",
-      },
-    ],
-    locale: "en-AU",
-    type: "article",
   },
 
   keywords: [
@@ -59,31 +48,8 @@ export const metadata = {
     "data integration solutions",
     "excel template automation",
   ],
-
-  twitter: {
-    card: "summary_large_image",
-    site: "@OfficeExpertsG1",
-    title: "Excel-Integrated Quick Parts Solutions",
-    description:
-      "Our Excel integration experts deliver Quick Parts solutions that seamlessly pull data from your spreadsheets into Word documents, creating dynamic, data-driven content blocks that save your business time and money.",
-    images: ["/logo.png"],
-  },
-
   canonical:
     "https://www.excelexperts.com.au/services/microsoft-word/quick-parts/",
-  robots: {
-    index: true,
-    follow: true,
-    "max-image-preview": "large",
-    "max-snippet": -1,
-    "max-video-preview": -1,
-  },
-
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-32x32.png",
-    apple: "/apple-touch-icon.png",
-  },
 };
 
 export default function RootLayout({ children }) {

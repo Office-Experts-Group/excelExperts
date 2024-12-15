@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import styles from "../../../styles/pageSegment2.module.css";
 
-import lady from "../../../public/service-img-1.webp";
+import tableWithCharts from "../../../public/tableWithCharts770x430.webp";
 
 const SegmentMainCopy = () => {
   return (
@@ -76,10 +76,10 @@ const SegmentMainCopy = () => {
       </div>
 
       <Image
-        src={lady}
+        src={tableWithCharts}
         alt="lady in an office environment"
         width={770}
-        height={424}
+        height={430}
       />
 
       <div className={styles.info}>

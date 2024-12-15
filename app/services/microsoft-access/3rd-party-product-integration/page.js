@@ -9,6 +9,9 @@ import FAQSection from "../../../../components/FAQSection";
 
 import faqs from "../../../../faqs/3rd-party-product-integration";
 
+import thirdParty from "../../../../public/pageHeros/3rdParty.webp";
+import calcMob from "../../../../public/pageHeros/mob/calcMob.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -32,7 +35,7 @@ const schema = {
             "@type": "ListItem",
             position: 1,
             item: {
-              "@id": "https://officeexperts.com.au/",
+              "@id": "https://excelexperts.com.au/",
               name: "Home",
             },
           },
@@ -40,7 +43,7 @@ const schema = {
             "@type": "ListItem",
             position: 2,
             item: {
-              "@id": "https://officeexperts.com.au/services/",
+              "@id": "https://excelexperts.com.au/services/",
               name: "Services",
             },
           },
@@ -48,7 +51,7 @@ const schema = {
             "@type": "ListItem",
             position: 3,
             item: {
-              "@id": "https://officeexperts.com.au/services/microsoft-access/",
+              "@id": "https://excelexperts.com.au/services/microsoft-access/",
               name: "Microsoft Access",
             },
           },
@@ -57,7 +60,7 @@ const schema = {
             position: 4,
             item: {
               "@id":
-                "https://officeexperts.com.au/services/microsoft-access/3rd-party-product-integration/",
+                "https://excelexperts.com.au/services/microsoft-access/3rd-party-product-integration/",
               name: "3rd Party Product Integration",
             },
           },
@@ -93,89 +96,6 @@ const schema = {
     },
     {
       "@type": "Organization",
-      "@id": "https://officeexperts.com.au/#organization",
-      additionalType: ["https://en.wikipedia.org/wiki/Microsoft_Access"],
-      name: "Office Experts",
-      url: "https://officeexperts.com.au/",
-      email: "consult@officeexperts.com.au",
-      telephone: "1300 10 28 10",
-      legalName: "Office Experts",
-      alternateName: [
-        "Word Experts",
-        "Excel Experts",
-        "Access Experts",
-        "PowerPlatform Experts",
-      ],
-      contactPoint: [
-        {
-          "@type": "ContactPoint",
-          telephone: "1300 10 28 10",
-          contactType: "customer service",
-          email: "consult@officeexperts.com.au",
-          availableLanguage: ["en", "en-AU"],
-        },
-      ],
-      areaServed: [
-        {
-          "@type": "Country",
-          name: "Australia",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "New South Wales",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Victoria",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Queensland",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Western Australia",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "South Australia",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Tasmania",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Australian Capital Territory",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Northern Territory",
-        },
-      ],
-      description:
-        "Our Australia-wide, cross-industry Microsoft Access database consultants deliver prompt, quality service with competitive pricing. Fulfilling all of your Microsoft Access consulting needs, our experts excel in Microsoft technology services from database creation to maintenance, troubleshooting, integration, data manipulation, programming, conversions, upgrades, training and support.",
-      brand: {
-        "@type": "Thing",
-        name: [
-          "Office Experts",
-          "Microsoft Access",
-          "Access consultant",
-          "Access training",
-          "Microsoft Access expert",
-          "Microsoft Access consultant",
-          "Microsoft Access training",
-          "Microsoft Access consulting",
-          "Access expert",
-          "Microsoft Excel",
-          "Microsoft Power BI",
-          "Microsoft Office 365",
-        ],
-      },
-      paymentAccepted: "Credit Card, Cheque, Direct Debit",
-      currenciesAccepted: "AUD",
-      priceRange: "$50-$5000",
-      isAccessibleForFree: false,
       hasOfferCatalog: {
         "@type": "OfferCatalog",
         name: "Microsoft Access Design, Development and Consulting Services",
@@ -259,25 +179,6 @@ const schema = {
           },
         ],
       },
-      logo: {
-        "@type": "ImageObject",
-        inLanguage: "en-AU",
-        "@id": "https://www.officeexperts.com.au/#/schema/logo/image/",
-        url: "/logo200x86.webp",
-        contentUrl: "/logo200x86.webp",
-        width: 200,
-        height: 86,
-        caption: "Office Experts",
-      },
-      image: {
-        "@id": "https://officeexperts.com.au/#/schema/logo/image/",
-      },
-      sameAs: ["https://www.facebook.com/MSOfficeExperts"],
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: "5",
-        reviewCount: "112",
-      },
     },
   ],
 };
@@ -289,7 +190,13 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <ServiceHero title="3rd Party Product Integration" />
+      <ServiceHero
+        title="3rd Party Product Integration"
+        desktopImage={thirdParty}
+        mobileImage={calcMob}
+        altDesk={"lady in an office environment "}
+        altMob={"Calculator on an office desk"}
+      />
       <PageSegmentMain />
       <ExpertsAwait />
       <Promo

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import styles from "../../../styles/pageSegment.module.css";
 
-import dreadLady from "../../../public/dreadLady.webp";
+import moreGraphs from "../../../public/moreGraphs600x400.webp";
 import semi from "../../../public/shapes/semi600x600.webp";
 
 const PageSegmentMain = () => {
@@ -21,10 +21,10 @@ const PageSegmentMain = () => {
       />
       <div className={styles.imgWrapper}>
         <Image
-          src={dreadLady}
+          src={moreGraphs}
           alt="lady in an office environment"
-          width={540}
-          height={480}
+          width={600}
+          height={400}
         />
       </div>
 

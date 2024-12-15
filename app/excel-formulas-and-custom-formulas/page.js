@@ -102,7 +102,7 @@ const Page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <ServiceHero
-        title={"Formulas and Custom Formulas"}
+        title={"Excel Formulas and Custom Formulas"}
         desktopImage={notes}
         mobileImage={codeMob}
         altDesk={"notes on a table"}

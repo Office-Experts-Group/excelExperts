@@ -5,7 +5,7 @@ import AnimateOnScroll from "../../components/AnimateOnScroll";
 
 import styles from "../../styles/isRight.module.css";
 
-import isRight from "../../public/isRight.webp";
+import isRight from "../../public/isRight505x635.webp";
 
 const IsRight = () => {
   return (

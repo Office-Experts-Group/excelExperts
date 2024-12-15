@@ -8,6 +8,9 @@ import PageSegmentMain from "./(components)/PageSegmentMain";
 import Segment4Repeat from "./(components)/Segment4Repeat";
 import PageSegment4 from "./(components)/PageSegment4";
 
+import support from "../../../../public/pageHeros/support.webp";
+import glassesMob from "../../../../public/pageHeros/mob/glassesMob.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -132,7 +135,13 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <ServiceHero title="PowerPoint User Training and Assistance" />
+      <ServiceHero
+        title="PowerPoint User Training and Assistance"
+        desktopImage={support}
+        mobileImage={glassesMob}
+        altDesk={"support icons on wooden blocks"}
+        altMob={"glasses on a table"}
+      />
       <PageSegmentMain />
       <Segment4Repeat />
       <ExpertsAwait />

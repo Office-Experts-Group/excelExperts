@@ -5,14 +5,14 @@ import AnimateOnScroll from "../../../components/AnimateOnScroll";
 
 import styles from "../../../styles/pageSegment3.module.css";
 
-import cloud from "../../../public/Cloud400x267.webp";
+import graphs from "../../../public/graphs400x300.webp";
 
 const PageSegment3 = () => {
   return (
     <section className={styles.pageSegment} style={{ padding: "8rem 10vw" }}>
       <AnimateOnScroll animation="slide-left" duration={1} delay={0}>
         <Image
-          src={cloud}
+          src={graphs}
           alt="person clicking a computer mouse"
           width={400}
           height={267}

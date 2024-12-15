@@ -6,7 +6,7 @@ import AnimateOnScroll from "../../../components/AnimateOnScroll";
 
 import styles from "../../../styles/pageSegmentCenter.module.css";
 
-import pointing from "../../../public/pointing600x400.webp";
+import tablet from "../../../public/tablet600x400.webp";
 
 const PageSegmentCenter = () => {
   const benefits = [
@@ -68,8 +68,8 @@ const PageSegmentCenter = () => {
 
       <AnimateOnScroll animation="slide-left" duration={1} delay={0}>
         <Image
-          src={pointing}
-          alt="person pointing at a computer screen"
+          src={tablet}
+          alt="person pointing at a tablet"
           width={600}
           height={400}
         />

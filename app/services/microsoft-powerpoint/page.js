@@ -10,6 +10,9 @@ import Testimonials from "../microsoft-word/(components)/Testimonials";
 import { getTestimonialsPageSchema } from "../../../utils/testimonialSchemaGenerator";
 import { testimonials } from "../../../testimonials";
 
+import twoComputers from "../../../public/pageHeros/twoComputers.webp";
+import meetingMob from "../../../public/pageHeros/mob/meetingMob.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -121,7 +124,13 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <ServiceHero title="PowerPoint Consulting Services" />
+      <ServiceHero
+        title="PowerPoint Consulting Services"
+        desktopImage={twoComputers}
+        mobileImage={meetingMob}
+        altDesk={"Two computers at an office"}
+        altMob={"Meeting with office people"}
+      />
       <PageSegmentMain />
       <SolutionsCarousel />
       <Testimonials testimonials={testimonials} />

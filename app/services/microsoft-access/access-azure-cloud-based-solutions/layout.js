@@ -15,17 +15,6 @@ export const metadata = {
     description:
       "Professional Microsoft Access and Azure cloud database integration services. Custom development, database migration, and web app connectivity solutions for business efficiency.",
     url: "https://www.accessexperts.com.au/access-azure-cloud-based-solutions/",
-    siteName: "Access Experts",
-    images: [
-      {
-        url: "https://www.accessexperts.com.au/wp-content/uploads/2023/09/microsoft-office-experts-group-logo.png",
-        width: 1200,
-        height: 630,
-        alt: "Access Experts Logo",
-      },
-    ],
-    locale: "en-AU",
-    type: "article",
   },
 
   // Additional metadata
@@ -72,37 +61,8 @@ export const metadata = {
     "Microsoft Access specialists Melbourne",
     "Azure database consultants Brisbane",
   ],
-
-  // Twitter Card
-  twitter: {
-    card: "summary_large_image",
-    title:
-      "Access/Azure Cloud Database Solutions | Microsoft Access Integration Experts",
-    description:
-      "Professional Microsoft Access and Azure cloud database integration services. Custom development, database migration, and web app connectivity solutions for business efficiency.",
-    images: [
-      "https://www.accessexperts.com.au/wp-content/uploads/2023/09/microsoft-office-experts-group-logo.png",
-    ],
-  },
-
-  // Additional tags
-
   canonical:
     "https://www.accessexperts.com.au/access-azure-cloud-based-solutions/",
-  robots: {
-    index: true,
-    follow: true,
-    "max-image-preview": "large",
-    "max-snippet": -1,
-    "max-video-preview": -1,
-  },
-
-  // Icons
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-32x32.png",
-    apple: "/apple-touch-icon.png",
-  },
 };
 
 export default function RootLayout({ children }) {

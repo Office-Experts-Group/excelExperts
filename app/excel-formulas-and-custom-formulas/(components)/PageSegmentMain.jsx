@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import styles from "../../../styles/pageSegment.module.scss";
 
-import dreadLady from "../../../public/dreadLady.webp";
+import twoComputers from "../../../public/540x480/twoComputers.webp";
 import semi from "../../../public/shapes/semi600x600.webp";
 
 const PageSegmentMain = () => {
@@ -21,8 +21,8 @@ const PageSegmentMain = () => {
       />
       <div className={styles.imgWrapper}>
         <Image
-          src={dreadLady}
-          alt="lady in an office environment"
+          src={twoComputers}
+          alt="two people working on computers"
           width={540}
           height={480}
         />

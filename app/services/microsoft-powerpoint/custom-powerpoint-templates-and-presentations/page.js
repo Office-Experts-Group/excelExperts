@@ -6,6 +6,9 @@ import Contact from "../../../../components/Contact";
 import PageSegmentMain from "./(components)/PageSegmentMain";
 import Segment4Repeat from "./(components)/Segment4Repeat";
 
+import graphMeeting from "../../../../public/pageHeros/graphMeeting.webp";
+import graphTableMob from "../../../../public/pageHeros/mob/graphTableMob.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -120,7 +123,13 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <ServiceHero title="Custom PowerPoint Templates and Presentations" />
+      <ServiceHero
+        title="Custom PowerPoint Templates and Presentations"
+        desktopImage={graphMeeting}
+        mobileImage={graphTableMob}
+        altDesk={"Graphs at an office meeting"}
+        altMob={"Graphs on a table"}
+      />
       <PageSegmentMain />
       <Segment4Repeat />
       <ExpertsAwait />

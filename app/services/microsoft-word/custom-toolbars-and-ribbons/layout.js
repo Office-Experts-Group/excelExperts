@@ -12,17 +12,6 @@ export const metadata = {
     description:
       "Expert customization of integrated Excel-Word toolbars and ribbons to streamline data transfer and automate report generation. Our team delivers efficient solutions for seamless spreadsheet-to-document workflow.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/custom-toolbars-and-ribbons/",
-    siteName: "Excel Experts Group",
-    images: [
-      {
-        url: "/logo.png",
-        width: 1200,
-        height: 630,
-        alt: "Excel Experts Group Logo",
-      },
-    ],
-    locale: "en-AU",
-    type: "website",
   },
 
   keywords: [
@@ -54,31 +43,8 @@ export const metadata = {
     "excel integration brisbane",
     "custom excel solutions perth",
   ],
-
-  twitter: {
-    card: "summary_large_image",
-    site: "@OfficeExpertsG1",
-    title: "Excel-Integrated Custom Toolbars & Ribbons Development",
-    description:
-      "Expert customization of integrated Excel-Word toolbars and ribbons to streamline data transfer and automate report generation. Our team delivers efficient solutions for seamless spreadsheet-to-document workflow.",
-    images: ["/logo.png"],
-  },
-
   canonical:
     "https://www.excelexperts.com.au/services/microsoft-word/custom-toolbars-and-ribbons/",
-  robots: {
-    index: true,
-    follow: true,
-    "max-image-preview": "large",
-    "max-snippet": -1,
-    "max-video-preview": -1,
-  },
-
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-32x32.png",
-    apple: "/apple-touch-icon.png",
-  },
 };
 
 export default function RootLayout({ children }) {

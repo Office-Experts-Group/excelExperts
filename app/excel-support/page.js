@@ -8,6 +8,9 @@ import PageSegmentMain from "./(components)/PageSegmentMain";
 import PageSegmentCenter from "./(components)/PageSegmentCenter";
 import PageSegment3 from "./(components)/PageSegment3";
 
+import handShake from "../../public/pageHeros/handShake.webp";
+import graphTableMob from "../../public/pageHeros/mob/graphTableMob.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -93,9 +96,9 @@ const Page = () => {
       />
       <ServiceHero
         title="Excel Support"
-        desktopImage={support}
+        desktopImage={handShake}
         mobileImage={graphTableMob}
-        altDesk={"support icons on wooden blocks"}
+        altDesk={"hands shaking"}
         altMob={"graphs on a table"}
       />
       <PageSegmentMain />
