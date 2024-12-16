@@ -3,33 +3,20 @@ import Image from "next/image";
 import PropTypes from "prop-types";
 
 import styles from "../styles/serviceHero.module.css";
+import thirdParty from "../public/pageHeros/3rdParty.webp";
 
-const ServiceHero = ({ title, desktopImage, mobileImage, altMob, altDesk }) => {
+const ServiceHero = ({ title }) => {
   return (
     <section className={styles.serviceHero}>
       <div className={styles.imageContainer}>
-        {/* Desktop/Tablet Image */}
         <Image
-          src={desktopImage}
-          alt={altDesk}
+          src={thirdParty}
+          alt="A person helping somebody"
           fill={true}
-          className={`${styles.heroImage} ${styles.desktopImage}`}
+          className={styles.heroImage}
           priority
           sizes="100vw"
           style={{ objectFit: "cover", objectPosition: "center" }}
-          placeholder="blur"
-        />
-
-        {/* Mobile Image */}
-        <Image
-          src={mobileImage || desktopImage}
-          alt={altMob}
-          fill={true}
-          className={`${styles.heroImage} ${styles.mobileImage}`}
-          priority
-          sizes="100vw"
-          style={{ objectFit: "cover", objectPosition: "center" }}
-          placeholder="blur"
         />
       </div>
       <h1>{title}</h1>
@@ -37,13 +24,8 @@ const ServiceHero = ({ title, desktopImage, mobileImage, altMob, altDesk }) => {
   );
 };
 
-ServiceHero.propTypes = {
-  title: PropTypes.string,
-  desktopImage: PropTypes.object,
-  mobileImage: PropTypes.object,
-  altDesk: PropTypes.string,
-  altMob: PropTypes.string,
-  objectPosition: PropTypes.string,
-};
-
 export default ServiceHero;
+
+ServiceHero.propTypes = {
+  title: PropTypes.string.isRequired,
+};
