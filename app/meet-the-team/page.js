@@ -4,8 +4,8 @@ import ServiceHero from "../../components/ServiceHero";
 import MeetTheTeam from "../../components/MeetTheTeam";
 import Contact from "../../components/Contact";
 
-import handShake from "../../public/pageHeros/handshake.webp";
-import handShakeMob from "../../public/pageHeros/mob/handshakeMob.webp";
+import handShake from "../../public/pageHeros/handShake.webp";
+import handShakeMob from "../../public/pageHeros/mob/handShakeMob.webp";
 
 const schema = {
   "@context": "https://schema.org",
