@@ -13,7 +13,7 @@ import Contents from "./(components)/Contents";
 
 import faqs from "../../../../faqs/companies-and-organisations";
 
-import report from "../../../../public/pageHeros/report.webp";
+import calculator from "../../../../public/pageHeros/calculator.webp";
 import glassesMob from "../../../../public/pageHeros/mob/glassesMob.webp";
 
 const schema = {
@@ -117,10 +117,10 @@ const Page = () => {
       <Contents />
       <ServiceHero
         title="Microsoft Power Apps Consulting Services"
-        desktopImage={report}
+        desktopImage={calculator}
         mobileImage={glassesMob}
         altMob={"glasses on a desk with a graph"}
-        altDesk={"meeting with person looking at a computer"}
+        altDesk={"Calculator on a desk with a graph"}
       />
       <ServicePageCards />
       <PageSegmentMain />

@@ -8,7 +8,7 @@ import PageSegmentMain from "./(components)/PageSegmentMain";
 import Segment4Repeat from "./(components)/Segment4Repeat";
 import PageSegment4 from "./(components)/PageSegment4";
 
-import support from "../../../../public/pageHeros/support.webp";
+import handShake from "../../../../public/pageHeros/handShake.webp";
 import glassesMob from "../../../../public/pageHeros/mob/glassesMob.webp";
 
 const schema = {
@@ -137,9 +137,9 @@ const Page = () => {
       />
       <ServiceHero
         title="PowerPoint User Training and Assistance"
-        desktopImage={support}
+        desktopImage={handShake}
         mobileImage={glassesMob}
-        altDesk={"support icons on wooden blocks"}
+        altDesk={"handshake between two persons"}
         altMob={"glasses on a table"}
       />
       <PageSegmentMain />

@@ -6,7 +6,7 @@ import Contact from "../../../../components/Contact";
 import PageSegmentMain from "./(components)/PageSegmentMain";
 import Segment4Repeat from "./(components)/Segment4Repeat";
 
-import whiteboard from "../../../../public/pageHeros/whiteboard.webp";
+import whiteBoard from "../../../../public/pageHeros/whiteBoard.webp";
 import calcMob from "../../../../public/pageHeros/mob/calcMob.webp";
 
 const schema = {
@@ -125,7 +125,7 @@ const Page = () => {
       />
       <ServiceHero
         title="Automate Presentations with VBA"
-        desktopImage={whiteboard}
+        desktopImage={whiteBoard}
         mobileImage={calcMob}
         altDesk={"Whiteboard in a presentation"}
         altMob={"Calculator on a desk"}

@@ -7,7 +7,7 @@ import PageSegmentMain from "./(components)/PageSegmentMain";
 import Segment4Repeat from "./(components)/Segment4Repeat";
 
 import tableGraph from "../../../../public/pageHeros/tableGraph.webp";
-import tableGraphMob from "../../../../public/pageHeros/mob/tableGraphMob.webp";
+import graphTableMob from "../../../../public/pageHeros/mob/graphTableMob.webp";
 
 const schema = {
   "@context": "https://schema.org",
@@ -127,7 +127,7 @@ const Page = () => {
       <ServiceHero
         title="Existing Presentation Redesign"
         desktopImage={tableGraph}
-        mobileImage={tableGraphMob}
+        mobileImage={graphTableMob}
         altDesk={"Graphs on a table"}
         altMob={"Graphs on a table"}
       />

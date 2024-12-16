@@ -9,7 +9,7 @@ import Contact from "../../../../components/Contact";
 
 import faqs from "../../../../faqs/accesibility";
 
-import deskGraph from "../../../../public/pageHeros/deskGraph.webp";
+import graphTable from "../../../../public/pageHeros/graphTable.webp";
 import calcMob from "../../../../public/pageHeros/mob/calcMob.webp";
 
 const schema = {
@@ -112,7 +112,7 @@ const Page = () => {
       />
       <ServiceHero
         title="Accessibility"
-        desktopImage={deskGraph}
+        desktopImage={graphTable}
         mobileImage={calcMob}
         altDesk={"Graphs on a table"}
         altMob={"Calculator on a table"}
