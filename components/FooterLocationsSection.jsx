@@ -5,36 +5,36 @@ import styles from "../styles/footerLocations.module.scss";
 
 const locationsByState = {
   "New South Wales": {
-    Sydney: "https://office-experts.com.au/word-and-powerpoint-experts-sydney/",
+    Sydney: "https://officeexperts.com.au/word-and-powerpoint-experts-sydney/",
     Wollongong:
-      "https://office-experts.com.au/office-excel-access-and-word-experts-wollongong/",
+      "https://officeexperts.com.au/office-excel-access-and-word-experts-wollongong/",
     "Central Coast":
-      "https://office-experts.com.au/excel-and-access-experts-central-coast-nsw/",
+      "https://officeexperts.com.au/excel-and-access-experts-central-coast-nsw/",
     "Northern Rivers":
-      "https://office-experts.com.au/office-excel-access-and-365-experts-northern-rivers-nsw/",
+      "https://officeexperts.com.au/office-excel-access-and-365-experts-northern-rivers-nsw/",
   },
   Victoria: {
     Melbourne:
-      "https://office-experts.com.au/word-and-powerpoint-experts-melbourne/",
+      "https://officeexperts.com.au/word-and-powerpoint-experts-melbourne/",
     Richmond:
-      "https://office-experts.com.au/office-and-office-365-experts-richmond/",
+      "https://officeexperts.com.au/office-and-office-365-experts-richmond/",
   },
   Queensland: {
     Brisbane:
-      "https://office-experts.com.au/office-excel-access-and-365-experts-brisbane/",
+      "https://officeexperts.com.au/office-excel-access-and-365-experts-brisbane/",
     "Gold Coast":
-      "https://office-experts.com.au/word-and-powerpoint-experts-gold-coast/",
+      "https://officeexperts.com.au/word-and-powerpoint-experts-gold-coast/",
   },
   "Western Australia": {
-    Perth: "https://office-experts.com.au/word-and-powerpoint-experts-perth/",
+    Perth: "https://officeexperts.com.au/word-and-powerpoint-experts-perth/",
   },
   ACT: {
     Canberra:
-      "https://office-experts.com.au/word-and-powerpoint-experts-canberra/",
+      "https://officeexperts.com.au/word-and-powerpoint-experts-canberra/",
   },
   "Northern Territory": {
     Darwin:
-      "https://office-experts.com.au/office-excel-access-and-365-experts-darwin/",
+      "https://officeexperts.com.au/office-excel-access-and-365-experts-darwin/",
   },
 };
 

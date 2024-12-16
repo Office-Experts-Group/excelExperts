@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import styles from "../../styles/solutions.module.scss";
 
-import project1 from "../../public/project-img-1.webp";
+import support from "../../public/microsoft/supportNoBG.webp";
 import project2 from "../../public/project-img-2.webp";
 import project3 from "../../public/project-img-3.webp";
 import project4 from "../../public/project-img-4.webp";
@@ -13,7 +13,7 @@ const Solutions = () => {
     {
       title: "Help and Training",
       link: "/excel-support",
-      image: project1,
+      image: support,
       description: [
         "Struggling with Excel and need help?",
         "Need occasional guidance?",
