@@ -17,7 +17,7 @@ import { testimonials } from "../../../testimonials";
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
-    ...getHomePageSchema(testimonials),
+    ...getHomePageSchema(testimonials)["@graph"],
     {
       "@type": "WebPage",
       "@id": "https://www.excelexperts.com.au/services/microsoft-access/",
