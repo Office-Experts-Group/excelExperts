@@ -24,7 +24,7 @@ export const navigationData = {
           },
           {
             label: "Training and Skill Development",
-            href: "/services/microsoft-office-365/",
+            href: "/excel-support/",
           },
         ],
       },

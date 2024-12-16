@@ -5,7 +5,7 @@ import AnimateOnScroll from "../../../components/AnimateOnScroll";
 
 import styles from "../../../styles/pageSegment3.module.css";
 
-import cloud from "../../../public/Cloud400x267.webp";
+import training from "../../../public/training400x300.webp";
 
 const PageSegment3 = () => {
   return (
@@ -16,10 +16,10 @@ const PageSegment3 = () => {
     >
       <AnimateOnScroll animation="slide-left" duration={1} delay={0}>
         <Image
-          src={cloud}
-          alt="person clicking a computer mouse"
+          src={training}
+          alt="person on an online meeting"
           width={400}
-          height={267}
+          height={300}
         />
       </AnimateOnScroll>
 
