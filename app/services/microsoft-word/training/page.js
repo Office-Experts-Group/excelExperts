@@ -14,7 +14,7 @@ import Contents from "./(components)/Contents";
 
 import faqs from "../../../../faqs/training";
 
-import support from "../../../../public/pageHeros/support.webp";
+import handShake from "../../../../public/pageHeros/handShake.webp";
 import coffeeMob from "../../../../public/pageHeros/mob/coffeeMob.webp";
 
 const schema = {
@@ -118,9 +118,9 @@ const Page = () => {
       <Contents />
       <ServiceHero
         title="Excel-Word Integration Training"
-        desktopImage={support}
+        desktopImage={handShake}
         mobileImage={coffeeMob}
-        altDesk={"support"}
+        altDesk={"handshake"}
         altMob={"coffee cup and laptop"}
       />
       <ServicePageCards />

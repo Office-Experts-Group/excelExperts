@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://excelexperts.com.au
+
+# Sitemaps
+Sitemap: https://excelexperts.com.au/sitemap.xml

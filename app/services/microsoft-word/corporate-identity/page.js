@@ -7,7 +7,6 @@ import PageSegment5 from "./(components)/PageSegment5";
 import ExpertsAwait from "../../../../components/ExpertsAwait";
 import FAQSection from "../../../../components/FAQSection";
 import Contact from "../../../../components/Contact";
-import Contents from "./(components)/Contents";
 
 import faqs from "../../../../faqs/corporate-identity";
 
@@ -112,7 +111,6 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <Contents />
       <ServiceHero
         title="Corporate Identity"
         desktopImage={invoice}
