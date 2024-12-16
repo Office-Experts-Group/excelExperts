@@ -18,9 +18,6 @@ const Hero = () => {
             alt="Office environment"
             className={styles.slideImage}
             priority
-            fill
-            sizes="100vw"
-            placeholder="blur"
           />
         </div>
         <div className={styles.slide}>
@@ -28,10 +25,6 @@ const Hero = () => {
             src={graph}
             alt="Document design"
             className={styles.slideImage}
-            priority
-            fill
-            sizes="100vw"
-            placeholder="blur"
           />
         </div>
       </div>

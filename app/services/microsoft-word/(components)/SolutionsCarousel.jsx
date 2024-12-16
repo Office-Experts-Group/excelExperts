@@ -7,6 +7,7 @@ import project1 from "../../../../public/project-img-1.webp";
 import project2 from "../../../../public/project-img-2.webp";
 import project3 from "../../../../public/project-img-3.webp";
 import project4 from "../../../../public/project-img-4.webp";
+import Image from "next/image";
 
 const SolutionsCarousel = () => {
   const solutionsData = [
@@ -124,7 +125,7 @@ const SolutionsCarousel = () => {
       image: project4,
       description: [
         "We can train your staff to use Word efficiently.",
-        "On call support via screen sharing – don’t waste time pulling your hair out, get the answers fast (fees apply).",
+        "On call support via screen sharing – don't waste time pulling your hair out, get the answers fast (fees apply).",
         "Video and PDF tutorials.",
       ],
     },
@@ -157,11 +158,16 @@ const SolutionsCarousel = () => {
                   className={`${styles.card} ${
                     styles[`card${(index % solutionsData.length) + 1}`]
                   }`}
-                  style={{
-                    background: `url(${solution.image.src}) no-repeat center center`,
-                    backgroundSize: "cover",
-                  }}
                 >
+                  <div className={styles.imageWrapper}>
+                    <Image
+                      src={solution.image}
+                      alt={solution.title}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 350px"
+                      className={styles.carouselImage}
+                    />
+                  </div>
                   <div className={styles.popIn}>
                     <h3>
                       <span>Word Experts</span>
