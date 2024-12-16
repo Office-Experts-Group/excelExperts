@@ -22,7 +22,7 @@ const ServiceHero = ({ title, desktopImage, mobileImage, altMob, altDesk }) => {
 
         {/* Mobile Image */}
         <Image
-          src={mobileImage || desktopImage} // Fallback to desktop if no mobile
+          src={mobileImage || desktopImage}
           alt={altMob}
           fill={true}
           className={`${styles.heroImage} ${styles.mobileImage}`}

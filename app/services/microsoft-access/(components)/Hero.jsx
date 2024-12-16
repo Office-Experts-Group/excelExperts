@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import styles from "../../../../styles/hero.module.css";
 
-import handShake from "../../../../public/hero/handShake.webp";
+import meeting from "../../../../public/hero/meeting.webp";
 import graph from "../../../../public/hero/graph.webp";
 import shapeLeft from "../../../../public/hero/shapeLeft.png";
 import shapeRight from "../../../../public/hero/shapeRight.webp";
@@ -15,10 +15,13 @@ const Hero = () => {
       <div className={styles.slider}>
         <div className={styles.slide}>
           <Image
-            src={handShake}
+            src={meeting}
             alt="Office environment"
             className={styles.slideImage}
             priority
+            fill
+            sizes="100vw"
+            placeholder="blur"
           />
         </div>
         <div className={styles.slide}>
@@ -27,6 +30,9 @@ const Hero = () => {
             alt="Document design"
             className={styles.slideImage}
             priority
+            fill
+            sizes="100vw"
+            placeholder="blur"
           />
         </div>
       </div>
