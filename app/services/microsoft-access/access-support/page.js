@@ -1,6 +1,6 @@
 import React from "react";
 
-import ServiceHero from "../../components/ServiceHero";
+import ServiceHero from "../../../../components/ServiceHero";
 import PageSegmentMain from "./(components)/PageSegmentMain";
 import PageSegment4 from "./(components)/PageSegment4";
 import PageSegmentCenter from "./(components)/PageSegmentCenter";

@@ -5,7 +5,7 @@ import AnimateOnScroll from "../../../../../components/AnimateOnScroll";
 
 import styles from "../../../../../styles/pageSegmentCenter.module.css";
 
-import pointing from "../../../../../public/pointing600x400.webp";
+import cloudSolution from "../../../../../public/cloudSolution600x400.webp";
 
 const PageSegmentCenter = () => {
   const benefits = [
@@ -25,8 +25,8 @@ const PageSegmentCenter = () => {
     <section className={`${styles.pageSegmentReverse} ${styles.noMargin}`}>
       <AnimateOnScroll animation="slide-left" duration={1} delay={0}>
         <Image
-          src={pointing}
-          alt="person pointing at a computer screen"
+          src={cloudSolution}
+          alt="digital design for cloud computing"
           width={600}
           height={400}
         />

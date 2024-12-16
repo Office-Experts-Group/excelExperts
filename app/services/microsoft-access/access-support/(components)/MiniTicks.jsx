@@ -5,7 +5,7 @@ import AnimateOnScroll from "../../../../../components/AnimateOnScroll";
 
 import styles from "../../../../../styles/pageSegmentCenter.module.css";
 
-import success from "../../../../../public/success400x267.webp";
+import cloud from "../../../../../public/Cloud400x267.webp";
 
 const MiniTicks = () => {
   const benefits = [
@@ -58,8 +58,8 @@ const MiniTicks = () => {
 
       <AnimateOnScroll animation="slide-right" duration={1} delay={0}>
         <Image
-          src={success}
-          alt="person pointing at a computer screen"
+          src={cloud}
+          alt="digital design for cloud computing"
           width={400}
           height={267}
           className={styles.miniTickImg}
