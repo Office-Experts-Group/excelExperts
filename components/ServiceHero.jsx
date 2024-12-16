@@ -17,6 +17,7 @@ const ServiceHero = ({ title, desktopImage, mobileImage, altMob, altDesk }) => {
           priority
           sizes="100vw"
           style={{ objectFit: "cover", objectPosition: "center" }}
+          placeholder="blur"
         />
 
         {/* Mobile Image */}
@@ -28,6 +29,7 @@ const ServiceHero = ({ title, desktopImage, mobileImage, altMob, altDesk }) => {
           priority
           sizes="100vw"
           style={{ objectFit: "cover", objectPosition: "center" }}
+          placeholder="blur"
         />
       </div>
       <h1>{title}</h1>
