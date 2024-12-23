@@ -6,9 +6,8 @@ import localFont from "next/font/local";
 import { EB_Garamond } from "next/font/google";
 
 import HeadTop from "../components/HeadTop";
-import Header from "./(components)/Header"; // Keep this static as it's above fold
+import Header from "./(components)/Header";
 
-// Dynamic imports for below-fold components
 const CookieConsent = dynamic(() => import("../components/CookieConsent"), {
   ssr: false, // Client-side only
 });

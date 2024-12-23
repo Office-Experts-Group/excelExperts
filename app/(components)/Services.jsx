@@ -59,6 +59,7 @@ const Services = () => {
                 "Our Australian experts each have at least 15 years' experience.",
               ]}
               link={"/vba-macro-development"}
+              linkText={"VBA & Macros"}
             />
           </CardIntersectionWrapper>
           <CardIntersectionWrapper>
@@ -73,6 +74,7 @@ const Services = () => {
                 "Custom high-end Excel solutions",
               ]}
               link={"custom-design-and-development"}
+              linkText={"Custom Development"}
             />
           </CardIntersectionWrapper>
           <CardIntersectionWrapper>
@@ -87,6 +89,7 @@ const Services = () => {
                 "Expert help with formulas, VBA or other built in functions.",
               ]}
               link={"/excel-formulas-and-custom-formulas"}
+              linkText={"Formulas"}
             />
           </CardIntersectionWrapper>
           <CardIntersectionWrapper>
@@ -99,6 +102,7 @@ const Services = () => {
                 "Macros setup on multiple computers for all Excel workbooks",
               ]}
               link={"/add-in-development"}
+              linkText={"Add-Ins"}
             />
           </CardIntersectionWrapper>
         </div>

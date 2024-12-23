@@ -19,22 +19,22 @@ export const metadata = {
   keywords: [
     // Core Services
     "Microsoft Excel development quote",
-    "Custom Excel solution development",
+    // "Custom Excel solution development",
 
-    // Specific Solutions
-    "Excel Power Query integration quote",
-    "Excel workbook migration estimate",
-    "Excel cloud solution cost",
-    "VBA macro development pricing",
+    // // Specific Solutions
+    // "Excel Power Query integration quote",
+    // "Excel workbook migration estimate",
+    // "Excel cloud solution cost",
+    // "VBA macro development pricing",
 
-    // Service-specific long tail
-    "Excel workbook upgrade consultation",
-    "Legacy spreadsheet migration quote",
-    "Excel SharePoint integration pricing",
+    // // Service-specific long tail
+    // "Excel workbook upgrade consultation",
+    // "Legacy spreadsheet migration quote",
+    // "Excel SharePoint integration pricing",
 
-    // Support Services
-    "Excel workbook maintenance quote",
-    "Spreadsheet backup solution pricing",
+    // // Support Services
+    // "Excel workbook maintenance quote",
+    // "Spreadsheet backup solution pricing",
   ],
   canonical: "https://www.excelexperts.com.au/contact-us/request-a-quote/",
 };

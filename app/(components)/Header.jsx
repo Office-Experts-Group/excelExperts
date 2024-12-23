@@ -54,6 +54,7 @@ const Header = () => {
             alt="Office experts logo"
             width={300}
             height={130}
+            priority
             className={styles.logoImg}
           />
         </Link>
