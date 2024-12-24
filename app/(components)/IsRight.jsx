@@ -6,6 +6,7 @@ import AnimateOnScroll from "../../components/AnimateOnScroll";
 import styles from "../../styles/isRight.module.css";
 
 import isRight from "../../public/isRight505x635.webp";
+import Link from "next/link";
 
 const IsRight = () => {
   return (
@@ -142,7 +143,9 @@ const IsRight = () => {
             </svg>
             <p>Powerful Reporting Dashboards</p>
           </div>
-          <button className={`btn ${styles.btn}`}>Learn More</button>
+          <Link href="/meet-the-team" className={`btn ${styles.btn}`}>
+            Meet our Team
+          </Link>
         </div>
       </AnimateOnScroll>
     </div>
