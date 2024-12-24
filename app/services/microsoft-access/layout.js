@@ -9,39 +9,39 @@ export const metadata = {
 
   keywords: [
     // Core database services
-    "Microsoft Access consulting",
+    // "Microsoft Access consulting",
     "Access database development",
-    "database solutions Australia",
+    // "database solutions Australia",
     "Access database migration",
-    "custom database development",
+    // "custom database development",
 
     // Specific solutions
-    "Access cloud solutions",
+    // "Access cloud solutions",
     "Azure database integration",
     "Access database upgrade",
-    "database conversion services",
-    "Access online solutions",
+    // "database conversion services",
+    // "Access online solutions",
 
     // Service-specific long tail
     "Access data management solutions",
-    "Access multi-user databases",
-    "Access reporting solutions",
-    "database structuring services",
-    "Access query optimization",
+    // "Access multi-user databases",
+    // "Access reporting solutions",
+    // "database structuring services",
+    // "Access query optimization",
 
     // Integration focused
     "Access SQL integration",
-    "SharePoint database integration",
-    "third party database integration",
-    "Access Azure migration",
-    "database cloud solutions",
+    // "SharePoint database integration",
+    // "third party database integration",
+    // "Access Azure migration",
+    // "database cloud solutions",
 
     // Support and maintenance
     "Access database support",
-    "database maintenance services",
-    "Access troubleshooting",
-    "database repair services",
-    "Access database training",
+    // "database maintenance services",
+    // "Access troubleshooting",
+    // "database repair services",
+    // "Access database training",
   ],
   canonical: "https://www.excelexperts.com.au/services/microsoft-access/",
 };

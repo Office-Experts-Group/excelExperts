@@ -14,33 +14,35 @@ export const metadata = {
   },
 
   keywords: [
+    "word fill in forms",
+
     // Core form services
-    "excel integrated forms",
-    "data-driven form design",
-    "excel form automation",
-    "spreadsheet form integration",
-    "excel data management forms",
+    // "excel integrated forms",
+    // "data-driven form design",
+    // "excel form automation",
+    // "spreadsheet form integration",
+    // "excel data management forms",
 
-    // Technical aspects
-    "excel VBA integration",
-    "spreadsheet automation",
-    "excel data extraction",
-    "automated form population",
-    "excel form controls",
+    // // Technical aspects
+    // "excel VBA integration",
+    // "spreadsheet automation",
+    // "excel data extraction",
+    // "automated form population",
+    // "excel form controls",
 
-    // Service-specific
-    "dynamic data forms",
-    "excel form templates",
-    "spreadsheet synchronized forms",
-    "automated data entry",
-    "excel-word integration",
+    // // Service-specific
+    // "dynamic data forms",
+    // "excel form templates",
+    // "spreadsheet synchronized forms",
+    // "automated data entry",
+    // "excel-word integration",
 
-    // Business benefits
-    "data workflow automation",
-    "spreadsheet form services",
-    "integrated form solutions",
-    "excel form development",
-    "business data automation",
+    // // Business benefits
+    // "data workflow automation",
+    // "spreadsheet form services",
+    // "integrated form solutions",
+    // "excel form development",
+    // "business data automation",
   ],
   canonical:
     "https://www.excelexperts.com.au/services/microsoft-word/fill-in-forms/",

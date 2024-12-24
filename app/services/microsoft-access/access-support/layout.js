@@ -24,37 +24,37 @@ export const metadata = {
     "Access database maintenance assistance",
 
     // Location-specific
-    "Microsoft Access consultants Sydney",
-    "Access database experts Melbourne",
-    "Database support services Brisbane",
-    "Access consulting Perth",
+    "Microsoft Access consultants",
+    // "Access database experts Melbourne",
+    // "Database support services Brisbane",
+    // "Access consulting Perth",
 
-    // Service-specific long tail
-    "Remote Access database error resolution",
-    "Custom Access database training programs",
-    "Microsoft Access VBA code review services",
-    "Database performance optimization Access",
-    "Access database upgrade assistance",
+    // // Service-specific long tail
+    // "Remote Access database error resolution",
+    // "Custom Access database training programs",
+    // "Microsoft Access VBA code review services",
+    // "Database performance optimization Access",
+    // "Access database upgrade assistance",
 
-    // Task-specific
-    "Access database corruption repair",
-    "Microsoft Access data recovery services",
-    "Access form development support",
-    "Database query optimization Access",
-    "Access report troubleshooting help",
+    // // Task-specific
+    // "Access database corruption repair",
+    // "Microsoft Access data recovery services",
+    // "Access form development support",
+    // "Database query optimization Access",
+    // "Access report troubleshooting help",
 
-    // Technology combinations
-    "Access SQL Server integration support",
-    "Microsoft 365 Access database sync",
-    "SharePoint Access database connection",
-    "Azure cloud Access database migration",
+    // // Technology combinations
+    // "Access SQL Server integration support",
+    // "Microsoft 365 Access database sync",
+    // "SharePoint Access database connection",
+    // "Azure cloud Access database migration",
 
-    // Specific solutions
-    "Access multi-user database support",
-    "Database security implementation Access",
-    "Access automation script debugging",
-    "Custom Access report development",
-    "Database normalization consulting Access",
+    // // Specific solutions
+    // "Access multi-user database support",
+    // "Database security implementation Access",
+    // "Access automation script debugging",
+    // "Custom Access report development",
+    // "Database normalization consulting Access",
   ],
   canonical: "https://www.accessexperts.com.au/access-support/",
 };

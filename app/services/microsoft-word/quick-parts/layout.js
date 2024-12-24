@@ -16,37 +16,37 @@ export const metadata = {
 
   keywords: [
     // Core Quick Parts services
-    "excel quick parts integration",
-    "data-driven quick parts",
-    "excel building blocks",
-    "spreadsheet data components",
-    "excel document automation",
+    "Word quick parts integration",
+    // "data-driven quick parts",
+    // "excel building blocks",
+    // "spreadsheet data components",
+    // "excel document automation",
 
-    // Location-based
-    "excel integration australia",
-    "spreadsheet consulting sydney",
-    "data automation melbourne",
-    "excel services brisbane",
-    "spreadsheet experts perth",
+    // // Location-based
+    // "excel integration australia",
+    // "spreadsheet consulting sydney",
+    // "data automation melbourne",
+    // "excel services brisbane",
+    // "spreadsheet experts perth",
 
-    // Service-specific
-    "excel data integration",
-    "spreadsheet automation",
-    "dynamic content blocks",
-    "automated data components",
-    "excel document efficiency",
+    // // Service-specific
+    // "excel data integration",
+    // "spreadsheet automation",
+    // "dynamic content blocks",
+    // "automated data components",
+    // "excel document efficiency",
 
-    // Industry-specific
-    "financial data automation",
-    "business spreadsheet solutions",
-    "enterprise data integration",
-    "professional excel services",
+    // // Industry-specific
+    // "financial data automation",
+    // "business spreadsheet solutions",
+    // "enterprise data integration",
+    // "professional excel services",
 
-    // Technology combinations
-    "excel word automation",
-    "spreadsheet productivity tools",
-    "data integration solutions",
-    "excel template automation",
+    // // Technology combinations
+    // "excel word automation",
+    // "spreadsheet productivity tools",
+    // "data integration solutions",
+    // "excel template automation",
   ],
   canonical:
     "https://www.excelexperts.com.au/services/microsoft-word/quick-parts/",

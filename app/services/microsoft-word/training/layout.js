@@ -15,32 +15,32 @@ export const metadata = {
 
   keywords: [
     // Core training services
-    "excel integration training",
-    "excel data management training",
-    "spreadsheet automation training",
-    "excel word integration",
-    "excel consulting services",
+    "Microsoft Word integration training",
+    // "excel data management training",
+    // "spreadsheet automation training",
+    // "excel word integration",
+    // "excel consulting services",
 
-    // Service types
-    "remote excel training",
-    "onsite excel training",
-    "individual excel training",
-    "group excel training",
-    "excel data management help",
+    // // Service types
+    // "remote excel training",
+    // "onsite excel training",
+    // "individual excel training",
+    // "group excel training",
+    // "excel data management help",
 
-    // Location-specific
-    "excel training australia",
-    "spreadsheet consultants sydney",
-    "excel training melbourne",
-    "excel experts brisbane",
-    "data management perth",
+    // // Location-specific
+    // "excel training australia",
+    // "spreadsheet consultants sydney",
+    // "excel training melbourne",
+    // "excel experts brisbane",
+    // "data management perth",
 
-    // Service features
-    "custom excel solutions",
-    "spreadsheet troubleshooting",
-    "data automation support",
-    "excel integration assistance",
-    "professional excel guidance",
+    // // Service features
+    // "custom excel solutions",
+    // "spreadsheet troubleshooting",
+    // "data automation support",
+    // "excel integration assistance",
+    // "professional excel guidance",
   ],
   canonical:
     "https://www.excelexperts.com.au/services/microsoft-word/training/",

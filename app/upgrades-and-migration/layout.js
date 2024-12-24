@@ -15,38 +15,38 @@ export const metadata = {
     // Core upgrade services
     "Excel version upgrade services",
     "Excel workbook migration solutions",
-    "Excel compatibility issue resolution",
-    "VBA macro upgrade services",
+    // "Excel compatibility issue resolution",
+    // "VBA macro upgrade services",
 
-    // Specific problems
-    "Excel 32-bit to 64-bit migration",
-    "Excel workbook performance optimization",
-    "Excel VBA code compatibility fixes",
-    "Excel ActiveX control migration",
+    // // Specific problems
+    // "Excel 32-bit to 64-bit migration",
+    // "Excel workbook performance optimization",
+    // "Excel VBA code compatibility fixes",
+    // "Excel ActiveX control migration",
 
-    // Version-specific
-    "Excel legacy version upgrade",
-    "Excel Office 365 migration services",
-    "Excel cross-version compatibility",
-    "Excel version upgrade consulting",
+    // // Version-specific
+    // "Excel legacy version upgrade",
+    // "Excel Office 365 migration services",
+    // "Excel cross-version compatibility",
+    // "Excel version upgrade consulting",
 
-    // Business solutions
-    "Business Excel upgrade services",
-    "Enterprise Excel migration",
-    "Excel upgrade consultation",
-    "Professional Excel migration support",
+    // // Business solutions
+    // "Business Excel upgrade services",
+    // "Enterprise Excel migration",
+    // "Excel upgrade consultation",
+    // "Professional Excel migration support",
 
-    // Technical solutions
-    "Excel shape size adjustment fixes",
-    "Excel crash prevention solutions",
-    "Excel workbook speed optimization",
-    "Excel VBA code modernization",
+    // // Technical solutions
+    // "Excel shape size adjustment fixes",
+    // "Excel crash prevention solutions",
+    // "Excel workbook speed optimization",
+    // "Excel VBA code modernization",
 
-    // Location-specific
-    "Excel upgrade services Australia",
-    "Excel migration experts Sydney",
-    "Excel upgrade consultation Melbourne",
-    "Excel version upgrade Brisbane",
+    // // Location-specific
+    // "Excel upgrade services Australia",
+    // "Excel migration experts Sydney",
+    // "Excel upgrade consultation Melbourne",
+    // "Excel version upgrade Brisbane",
   ],
   canonical: "https://www.excelexperts.com.au/upgrades-and-migration/",
 };

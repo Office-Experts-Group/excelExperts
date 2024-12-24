@@ -14,33 +14,34 @@ export const metadata = {
   },
 
   keywords: [
-    // Core services
-    "excel word integration",
-    "spreadsheet automation services",
-    "excel data automation",
-    "data transfer solutions",
-    "excel document integration",
+    "Miocrosoft Word automation",
+    // // Core services
+    // "excel word integration",
+    // "spreadsheet automation services",
+    // "excel data automation",
+    // "data transfer solutions",
+    // "excel document integration",
 
-    // Features
-    "automated data transfer",
-    "spreadsheet synchronization",
-    "excel data extraction",
-    "automated reporting tools",
-    "excel process automation",
+    // // Features
+    // "automated data transfer",
+    // "spreadsheet synchronization",
+    // "excel data extraction",
+    // "automated reporting tools",
+    // "excel process automation",
 
-    // Benefits
-    "reduce data entry",
-    "increase spreadsheet efficiency",
-    "improve data accuracy",
-    "streamline excel processes",
-    "automate excel tasks",
+    // // Benefits
+    // "reduce data entry",
+    // "increase spreadsheet efficiency",
+    // "improve data accuracy",
+    // "streamline excel processes",
+    // "automate excel tasks",
 
-    // Business focus
-    "business data solutions",
-    "corporate excel automation",
-    "enterprise spreadsheet solutions",
-    "professional excel services",
-    "data productivity consulting",
+    // // Business focus
+    // "business data solutions",
+    // "corporate excel automation",
+    // "enterprise spreadsheet solutions",
+    // "professional excel services",
+    // "data productivity consulting",
   ],
   canonical:
     "https://www.excelexperts.com.au/services/microsoft-word/remove-repetition-and-increase-productivity/",

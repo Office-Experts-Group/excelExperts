@@ -15,33 +15,34 @@ export const metadata = {
   },
 
   keywords: [
-    // Core popup form services
-    "excel integrated forms",
-    "data-driven popup forms",
-    "excel form automation",
-    "spreadsheet data forms",
-    "excel popup integration",
+    "microsoft word popup forms",
+    // // Core popup form services
+    // "excel integrated forms",
+    // "data-driven popup forms",
+    // "excel form automation",
+    // "spreadsheet data forms",
+    // "excel popup integration",
 
-    // Features and benefits
-    "spreadsheet data validation",
-    "excel automation tools",
-    "automated data entry",
-    "excel workflow solutions",
-    "spreadsheet productivity tools",
+    // // Features and benefits
+    // "spreadsheet data validation",
+    // "excel automation tools",
+    // "automated data entry",
+    // "excel workflow solutions",
+    // "spreadsheet productivity tools",
 
-    // Service-specific
-    "excel form integration",
-    "data automation consulting",
-    "excel popup development",
-    "spreadsheet automation",
-    "data template design",
+    // // Service-specific
+    // "excel form integration",
+    // "data automation consulting",
+    // "excel popup development",
+    // "spreadsheet automation",
+    // "data template design",
 
-    // Business focus
-    "business data solutions",
-    "excel template automation",
-    "spreadsheet efficiency",
-    "data entry optimization",
-    "excel quality control",
+    // // Business focus
+    // "business data solutions",
+    // "excel template automation",
+    // "spreadsheet efficiency",
+    // "data entry optimization",
+    // "excel quality control",
   ],
   canonical:
     "https://www.excelexperts.com.au/services/microsoft-word/popup-forms/",

@@ -20,45 +20,45 @@ export const metadata = {
   keywords: [
     // Core upgrade/migration services
     "Microsoft Access database migration services",
-    "Access database version upgrade specialist",
-    "Legacy Access database migration",
-    "Database corruption repair services",
+    // "Access database version upgrade specialist",
+    // "Legacy Access database migration",
+    // "Database corruption repair services",
 
-    // Specific migration types
-    "Access to SQL Server migration",
-    "Access database cloud migration",
-    "Azure database migration services",
-    "Access multi-user database conversion",
+    // // Specific migration types
+    // "Access to SQL Server migration",
+    // "Access database cloud migration",
+    // "Azure database migration services",
+    // "Access multi-user database conversion",
 
-    // Version-specific
-    "Access 2010 to 2019 upgrade",
-    "Access 97 database conversion",
-    "Access 2000 database migration",
-    "Access 365 compatibility upgrade",
+    // // Version-specific
+    // "Access 2010 to 2019 upgrade",
+    // "Access 97 database conversion",
+    // "Access 2000 database migration",
+    // "Access 365 compatibility upgrade",
 
-    // Problem-specific
-    "Slow Access database optimization",
-    "Access database corruption repair",
-    "Database splitting and optimization",
-    "Access performance troubleshooting",
+    // // Problem-specific
+    // "Slow Access database optimization",
+    // "Access database corruption repair",
+    // "Database splitting and optimization",
+    // "Access performance troubleshooting",
 
-    // Solution-specific
-    "Access backend migration SQL Server",
-    "Access Azure cloud integration",
-    "SharePoint database migration",
-    "Access database upsizing services",
+    // // Solution-specific
+    // "Access backend migration SQL Server",
+    // "Access Azure cloud integration",
+    // "SharePoint database migration",
+    // "Access database upsizing services",
 
-    // Industry-specific
-    "Enterprise Access database migration",
-    "Multi-location database upgrade",
-    "Secure database migration services",
-    "Critical database upgrade planning",
+    // // Industry-specific
+    // "Enterprise Access database migration",
+    // "Multi-location database upgrade",
+    // "Secure database migration services",
+    // "Critical database upgrade planning",
 
-    // Technology combinations
-    "Access SQL Server integration",
-    "Azure cloud database migration",
-    "SharePoint Access integration",
-    "Office 365 database migration",
+    // // Technology combinations
+    // "Access SQL Server integration",
+    // "Azure cloud database migration",
+    // "SharePoint Access integration",
+    // "Office 365 database migration",
   ],
   canonical:
     "https://www.accessexperts.com.au/services/microsoft-access/upgrades-and-migration/",

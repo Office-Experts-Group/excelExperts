@@ -17,32 +17,32 @@ export const metadata = {
 
   keywords: [
     // Core services
-    "excel word integration",
-    "spreadsheet document automation",
-    "excel data templates",
-    "automated report generation",
-    "data-driven documents",
+    "microsoft word corporate templates",
+    // "spreadsheet document automation",
+    // "excel data templates",
+    // "automated report generation",
+    // "data-driven documents",
 
-    // Service-specific
-    "excel template design",
-    "spreadsheet automation",
-    "excel data protection",
-    "automated formatting",
-    "integrated document solutions",
+    // // Service-specific
+    // "excel template design",
+    // "spreadsheet automation",
+    // "excel data protection",
+    // "automated formatting",
+    // "integrated document solutions",
 
-    // Business focus
-    "financial reporting automation",
-    "excel data management",
-    "automated business reports",
-    "spreadsheet integration",
-    "data template services",
+    // // Business focus
+    // "financial reporting automation",
+    // "excel data management",
+    // "automated business reports",
+    // "spreadsheet integration",
+    // "data template services",
 
-    // Professional services
-    "professional excel templates",
-    "corporate data solutions",
-    "automated consistency tools",
-    "excel reporting system",
-    "integrated document workflow",
+    // // Professional services
+    // "professional excel templates",
+    // "corporate data solutions",
+    // "automated consistency tools",
+    // "excel reporting system",
+    // "integrated document workflow",
   ],
   canonical:
     "https://www.excelexperts.com.au/services/microsoft-word/corporate-identity/",

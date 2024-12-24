@@ -5,7 +5,7 @@ export const metadata = {
   // Basic metadata
   title: "Word Upgrades and Migration | Excel Expert Australia",
   description:
-    "Specialized Microsoft Word upgrade and migration services from Excel Experts Group. Our Excel-focused team provides comprehensive Microsoft Office solutions, ensuring seamless integration between Excel and Word documents.",
+    "Specialised Microsoft Word upgrade and migration services from Excel Experts Group. Our Excel-focused team provides comprehensive Microsoft Office solutions, ensuring seamless integration between Excel and Word documents.",
 
   // OpenGraph
   openGraph: {
@@ -17,38 +17,39 @@ export const metadata = {
 
   // Additional metadata
   keywords: [
-    // Core services
-    "Excel-Word integration services",
-    "Office suite migration",
-    "Excel-compatible Word upgrades",
-    "Cross-application document conversion",
-    "Excel data to Word migration",
+    "Word upgrades and migration",
+    // // Core services
+    // "Excel-Word integration services",
+    // "Office suite migration",
+    // "Excel-compatible Word upgrades",
+    // "Cross-application document conversion",
+    // "Excel data to Word migration",
 
-    // Specific services
-    "Word-Excel template migration",
-    "Office suite macro upgrades",
-    "Cross-platform formatting solutions",
-    "Excel-Word compatibility fixes",
-    "Integrated document repair",
+    // // Specific services
+    // "Word-Excel template migration",
+    // "Office suite macro upgrades",
+    // "Cross-platform formatting solutions",
+    // "Excel-Word compatibility fixes",
+    // "Integrated document repair",
 
-    // Problem-specific
-    "Excel-Word formatting issues",
-    "Office suite document repair",
-    "Cross-application compatibility",
-    "Integrated document recovery",
-    "Excel-Word template integration",
+    // // Problem-specific
+    // "Excel-Word formatting issues",
+    // "Office suite document repair",
+    // "Cross-application compatibility",
+    // "Integrated document recovery",
+    // "Excel-Word template integration",
 
-    // Location-based
-    "Excel-Word migration Australia",
-    "Office suite experts Sydney",
-    "Microsoft integration specialists Melbourne",
-    "Excel-Word consultants Brisbane",
+    // // Location-based
+    // "Excel-Word migration Australia",
+    // "Office suite experts Sydney",
+    // "Microsoft integration specialists Melbourne",
+    // "Excel-Word consultants Brisbane",
 
-    // Business solutions
-    "integrated Office migration",
-    "enterprise suite upgrades",
-    "corporate Excel-Word solutions",
-    "professional Office integration",
+    // // Business solutions
+    // "integrated Office migration",
+    // "enterprise suite upgrades",
+    // "corporate Excel-Word solutions",
+    // "professional Office integration",
   ],
   canonical:
     "https://www.excelexperts.com.au/services/microsoft-word/upgrades-and-migration/",

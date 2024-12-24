@@ -16,33 +16,34 @@ export const metadata = {
   },
 
   keywords: [
-    // Core services
-    "excel integration services australia",
-    "data-driven office solutions",
-    "excel-based consulting services",
-    "integrated office automation",
-    "excel-powered business solutions",
+    "Microsoft Word template conversions",
+    // // Core services
+    // "excel integration services australia",
+    // "data-driven office solutions",
+    // "excel-based consulting services",
+    // "integrated office automation",
+    // "excel-powered business solutions",
 
-    // Product specific
-    "excel development specialists",
-    "excel-access integration",
-    "excel power platform solutions",
-    "excel-sharepoint integration",
-    "excel cloud solutions",
+    // // Product specific
+    // "excel development specialists",
+    // "excel-access integration",
+    // "excel power platform solutions",
+    // "excel-sharepoint integration",
+    // "excel cloud solutions",
 
-    // Service specific
-    "excel vba automation",
-    "data-driven template creation",
-    "excel database integration",
-    "automated workflow solutions",
-    "excel dashboard development",
+    // // Service specific
+    // "excel vba automation",
+    // "data-driven template creation",
+    // "excel database integration",
+    // "automated workflow solutions",
+    // "excel dashboard development",
 
-    // Location based
-    "excel integration services sydney",
-    "data solutions melbourne",
-    "excel consulting brisbane",
-    "excel experts perth",
-    "microsoft integration australia wide",
+    // // Location based
+    // "excel integration services sydney",
+    // "data solutions melbourne",
+    // "excel consulting brisbane",
+    // "excel experts perth",
+    // "microsoft integration australia wide",
   ],
 
   canonical: "https://www.excelexperts.com.au/services/",

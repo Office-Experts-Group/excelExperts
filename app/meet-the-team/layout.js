@@ -19,39 +19,39 @@ export const metadata = {
   keywords: [
     // Team expertise
     "Microsoft Excel developers Australia",
-    "Excel consultants",
-    "Spreadsheet experts",
-    "Microsoft certified Excel specialists",
+    // "Excel consultants",
+    // "Spreadsheet experts",
+    // "Microsoft certified Excel specialists",
 
-    // Technical expertise
-    "Data analysis experts",
-    "VBA programming specialists",
-    "Custom Excel solutions",
-    "Spreadsheet automation consultants",
+    // // Technical expertise
+    // "Data analysis experts",
+    // "VBA programming specialists",
+    // "Custom Excel solutions",
+    // "Spreadsheet automation consultants",
 
-    // Service-related
-    "Excel training team",
-    "Data visualization specialists",
-    "Excel dashboard developers",
-    "Data migration experts",
+    // // Service-related
+    // "Excel training team",
+    // "Data visualization specialists",
+    // "Excel dashboard developers",
+    // "Data migration experts",
 
-    // Location-specific
-    "Australian Excel consultants",
-    "Microsoft Excel experts Sydney",
-    "Excel specialists Melbourne",
-    "Excel consultants Brisbane",
+    // // Location-specific
+    // "Australian Excel consultants",
+    // "Microsoft Excel experts Sydney",
+    // "Excel specialists Melbourne",
+    // "Excel consultants Brisbane",
 
-    // Skills-focused
-    "Excel macro experts",
-    "Data processing specialists",
-    "Excel UI/UX designers",
-    "Data security experts",
+    // // Skills-focused
+    // "Excel macro experts",
+    // "Data processing specialists",
+    // "Excel UI/UX designers",
+    // "Data security experts",
 
-    // Professional qualities
-    "Certified Excel developers",
-    "Experienced Excel consultants",
-    "Professional Excel team",
-    "Expert data analysts",
+    // // Professional qualities
+    // "Certified Excel developers",
+    // "Experienced Excel consultants",
+    // "Professional Excel team",
+    // "Expert data analysts",
   ],
   canonical: "https://www.excelexperts.com.au/meet-the-team/",
 };

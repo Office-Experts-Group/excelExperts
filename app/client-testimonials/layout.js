@@ -18,13 +18,13 @@ export const metadata = {
   // Core keywords focused on testimonials and trust
   keywords: [
     "Excel consultants reviews Australia",
-    "Excel development testimonials",
-    "Excel experts client feedback",
-    "Excel consulting case studies",
-    "Excel automation success stories",
-    "Microsoft Excel consultant reviews",
-    "Excel development project examples",
-    "Excel solutions testimonials",
+    // "Excel development testimonials",
+    // "Excel experts client feedback",
+    // "Excel consulting case studies",
+    // "Excel automation success stories",
+    // "Microsoft Excel consultant reviews",
+    // "Excel development project examples",
+    // "Excel solutions testimonials",
   ],
   canonical: "https://www.excelexperts.com.au/client-testimonials/",
 };

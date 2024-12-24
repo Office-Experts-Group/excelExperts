@@ -16,39 +16,39 @@ export const metadata = {
   keywords: [
     // Core VBA services
     "VBA macro development services",
-    "Excel VBA programming",
-    "Office automation solutions",
-    "Custom macro development",
+    // "Excel VBA programming",
+    // "Office automation solutions",
+    // "Custom macro development",
 
-    // Specific solutions
-    "Office add-in development",
-    "VBA code automation",
-    "Custom Excel macros",
-    "Office 365 VBA solutions",
+    // // Specific solutions
+    // "Office add-in development",
+    // "VBA code automation",
+    // "Custom Excel macros",
+    // "Office 365 VBA solutions",
 
-    // Technical specifications
-    "Microsoft Office VBA programming",
-    "Excel macro automation",
-    "VBA code development",
-    "Office macro integration",
+    // // Technical specifications
+    // "Microsoft Office VBA programming",
+    // "Excel macro automation",
+    // "VBA code development",
+    // "Office macro integration",
 
-    // Service-specific
-    "VBA consulting services",
-    "Macro upgrade services",
-    "Excel automation experts",
-    "Office VBA developers",
+    // // Service-specific
+    // "VBA consulting services",
+    // "Macro upgrade services",
+    // "Excel automation experts",
+    // "Office VBA developers",
 
-    // Business solutions
-    "Business process automation",
-    "Custom office solutions",
-    "Enterprise VBA development",
-    "Automated workflow solutions",
+    // // Business solutions
+    // "Business process automation",
+    // "Custom office solutions",
+    // "Enterprise VBA development",
+    // "Automated workflow solutions",
 
-    // Location-specific
-    "VBA developers Australia",
-    "Excel macro experts Sydney",
-    "Office automation specialists Melbourne",
-    "VBA consultants Brisbane",
+    // // Location-specific
+    // "VBA developers Australia",
+    // "Excel macro experts Sydney",
+    // "Office automation specialists Melbourne",
+    // "VBA consultants Brisbane",
   ],
   canonical: "https://www.excelexperts.com.au/vba-macro-development/",
 };

@@ -14,38 +14,39 @@ export const metadata = {
   },
 
   keywords: [
-    // Core government services
-    "government excel integration",
-    "government data automation",
-    "federal data management",
-    "state government excel solutions",
-    "government spreadsheet automation",
+    "government department data solutions",
+    // // Core government services
+    // "government excel integration",
+    // "government data automation",
+    // "federal data management",
+    // "state government excel solutions",
+    // "government spreadsheet automation",
 
-    // Service-specific
-    "government data analysis",
-    "excel reporting automation",
-    "government data compliance",
-    "automated government reports",
-    "excel data integration",
+    // // Service-specific
+    // "government data analysis",
+    // "excel reporting automation",
+    // "government data compliance",
+    // "automated government reports",
+    // "excel data integration",
 
-    // Location-based
-    "australian government excel services",
-    "federal department data solutions",
-    "state department excel automation",
+    // // Location-based
+    // "australian government excel services",
+    // "federal department data solutions",
+    // "state department excel automation",
 
-    // Technical aspects
-    "government data accessibility",
-    "spreadsheet management",
-    "government data standards",
-    "compliant data processing",
-    "automated report formatting",
+    // // Technical aspects
+    // "government data accessibility",
+    // "spreadsheet management",
+    // "government data standards",
+    // "compliant data processing",
+    // "automated report formatting",
 
-    // Specific solutions
-    "government excel templates",
-    "data automation systems",
-    "excel reporting controls",
-    "automated data extraction",
-    "government spreadsheet consistency",
+    // // Specific solutions
+    // "government excel templates",
+    // "data automation systems",
+    // "excel reporting controls",
+    // "automated data extraction",
+    // "government spreadsheet consistency",
   ],
   canonical:
     "https://www.excelexperts.com.au/services/microsoft-word/government-departments/",

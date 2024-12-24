@@ -14,7 +14,7 @@ const ServiceHero = ({ title }) => {
           alt="A person helping somebody"
           fill={true}
           className={styles.heroImage}
-          priority
+          priority={true}
           sizes="100vw"
           style={{ objectFit: "cover", objectPosition: "center" }}
         />

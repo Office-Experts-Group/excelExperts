@@ -16,32 +16,32 @@ export const metadata = {
 
   keywords: [
     // Core services
-    "excel word integration tools",
-    "excel data automation ribbons",
-    "spreadsheet integration toolbars",
-    "excel reporting automation",
-    "custom excel word tools",
+    // "excel word integration tools",
+    // "excel data automation ribbons",
+    // "spreadsheet integration toolbars",
+    // "excel reporting automation",
+    // "custom excel word tools",
 
-    // Specific features
-    "excel data transfer buttons",
-    "automated report generation",
-    "spreadsheet integration tools",
-    "excel ribbon programming",
+    // // Specific features
+    // "excel data transfer buttons",
+    // "automated report generation",
+    // "spreadsheet integration tools",
+    // "excel ribbon programming",
     "data automation interfaces",
 
     // Business benefits
-    "financial report automation",
-    "spreadsheet workflow optimization",
-    "data transfer efficiency",
-    "excel productivity tools",
-    "automated data extraction",
+    // "financial report automation",
+    // "spreadsheet workflow optimization",
+    // "data transfer efficiency",
+    // "excel productivity tools",
+    // "automated data extraction",
 
-    // Location-specific
-    "excel integration australia",
-    "spreadsheet automation sydney",
-    "data automation melbourne",
-    "excel integration brisbane",
-    "custom excel solutions perth",
+    // // Location-specific
+    // "excel integration australia",
+    // "spreadsheet automation sydney",
+    // "data automation melbourne",
+    // "excel integration brisbane",
+    // "custom excel solutions perth",
   ],
   canonical:
     "https://www.excelexperts.com.au/services/microsoft-word/custom-toolbars-and-ribbons/",
