@@ -181,7 +181,7 @@ const Page = () => {
       <CTAFull />
       <Promo
         h2="We Deliver the Best Quality"
-        p="Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, perferendis nisi enim perspiciatis voluptatem voluptatum!"
+        p="We are a team of highly skilled and experienced professionals who are passionate about what we do. We are committed to providing our clients with the best possible service and results."
       />
       <Contact />
     </>
