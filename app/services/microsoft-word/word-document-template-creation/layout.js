@@ -12,7 +12,7 @@ export const metadata = {
   openGraph: {
     title: "Word Document & Template Creation with Excel Integration",
     description:
-      "Specialized Word templates designed by Excel experts, featuring seamless data integration, automated reporting, and professional branding across your Microsoft Office suite.",
+      "specialised Word templates designed by Excel experts, featuring seamless data integration, automated reporting, and professional branding across your Microsoft Office suite.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/word-document-template-creation/",
   },
 

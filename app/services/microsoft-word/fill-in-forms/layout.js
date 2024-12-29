@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 export const metadata = {
   title: "Excel-Integrated Form Solutions | Data-Driven Forms | Excel Experts",
   description:
-    "Expert form design services combining Excel data management with Word forms. Specialized in creating data-driven forms with automated Excel integration, spreadsheet synchronization, and advanced VBA solutions.",
+    "Expert form design services combining Excel data management with Word forms. specialised in creating data-driven forms with automated Excel integration, spreadsheet synchronization, and advanced VBA solutions.",
 
   openGraph: {
     title: "Excel-Integrated Forms & Data Management Solutions",

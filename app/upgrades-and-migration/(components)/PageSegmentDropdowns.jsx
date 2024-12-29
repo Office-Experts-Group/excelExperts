@@ -18,7 +18,7 @@ const UpgradeIssues = () => {
     {
       title: "Macro or VBA issues with incompatible code such as Windows APIs",
       content:
-        "VBA code and macros may not work correctly when migrating to newer Excel versions. We analyze and update your code, ensuring all functionalities are compatible and optimized for performance.",
+        "VBA code and macros may not work correctly when migrating to newer Excel versions. We analyze and update your code, ensuring all functionalities are compatible and optimised for performance.",
     },
     {
       title: "Shapes and ActiveX buttons change size",

@@ -65,9 +65,9 @@ export const metadata = {
     siteName: "Excel Experts",
     images: [
       {
-        url: "https://www.excelexperts.com.au/wp-content/uploads/2023/09/microsoft-office-experts-group-logo.png",
+        url: "https://www.excelexperts.com.au/logo.webp",
         width: 1200,
-        height: 630,
+        height: 620,
         alt: "Excel Experts Group Logo",
       },
     ],
@@ -93,9 +93,7 @@ export const metadata = {
     title: "Excel Help Australia - Expert Excel Programmer & Consultant",
     description:
       "Excel Experts is the Leading Excel Help Service Provider in Australia. Highly Experienced Excel Programmers & Developers. Call 1300 102 810",
-    images: [
-      "https://www.excelexperts.com.au/wp-content/uploads/2023/09/microsoft-office-experts-group-logo.png",
-    ],
+    images: ["https://www.excelexperts.com.au/logo.webp"],
   },
 
   canonical: "https://www.excelexperts.com.au/",

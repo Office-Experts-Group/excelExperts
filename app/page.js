@@ -146,7 +146,7 @@ const schema = {
       logo: {
         "@type": "ImageObject",
         inLanguage: "en-AU",
-        "@id": "https://www.excelexperts.com.au/#/schema/logo//image",
+        "@id": "https://www.excelexperts.com.au/logo.webp",
         url: "/logo.png",
         contentUrl: "/logo.png",
         width: 1181,
@@ -154,7 +154,7 @@ const schema = {
         caption: "Office Experts Group",
       },
       image: {
-        "@id": "https://www.excelexperts.com.au/#/schema/logo/image",
+        "@id": "https://www.excelexperts.com.au/logo.webp",
       },
       sameAs: [
         "https://www.facebook.com/MSOfficeExperts",

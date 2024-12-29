@@ -5,13 +5,13 @@ export const metadata = {
   title:
     "Excel-Integrated Development Services | Data-Driven Solutions Australia",
   description:
-    "Excel Experts team specializes in integrated Microsoft Office solutions, combining Excel's analytical power with comprehensive Office suite capabilities. Call us 1300 10 28 10 or Email us consult@excelexperts.com.au",
+    "Excel Experts team specialises in integrated Microsoft Office solutions, combining Excel's analytical power with comprehensive Office suite capabilities. Call us 1300 10 28 10 or Email us consult@excelexperts.com.au",
 
   openGraph: {
     title:
       "Excel-Integrated Development Services | Data-Driven Solutions Australia",
     description:
-      "Excel Experts team specializes in integrated Microsoft Office solutions, combining Excel's analytical power with comprehensive Office suite capabilities. Call us 1300 10 28 10 or Email us consult@excelexperts.com.au",
+      "Excel Experts team specialises in integrated Microsoft Office solutions, combining Excel's analytical power with comprehensive Office suite capabilities. Call us 1300 10 28 10 or Email us consult@excelexperts.com.au",
     url: "https://www.excelexperts.com.au/services/",
   },
 

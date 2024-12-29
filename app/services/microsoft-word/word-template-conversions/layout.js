@@ -5,7 +5,7 @@ export const metadata = {
   title:
     "Word Design Services | Excel-Integrated Templates | Data-Driven Design Solutions",
   description:
-    "Excel Experts specialize in converting your existing documents into smart, data-integrated Word templates. Our solutions combine Excel's powerful data handling with Word's document capabilities for automated, professional results.",
+    "Excel Experts specialise in converting your existing documents into smart, data-integrated Word templates. Our solutions combine Excel's powerful data handling with Word's document capabilities for automated, professional results.",
 
   openGraph: {
     title: "Word Template Conversions | Excel-Integrated Design Services",
