@@ -3,13 +3,13 @@ import PropTypes from "prop-types";
 
 export const metadata = {
   // Basic metadata
-  title: "Microsoft Access: Help and Training – Database Solutions",
+  title: "Microsoft Access Help and Training | Access Experts",
   description:
     "Expert Microsoft Access database consultants providing remote and onsite support, troubleshooting, training, and maintenance services. Available Australia-wide with competitive rates.",
 
   // OpenGraph
   openGraph: {
-    title: "Microsoft Access Help & Training | Access Database Experts",
+    title: "Microsoft Access Help & Training | Access Experts",
     description:
       "Professional Microsoft Access database support and training services. Remote or onsite assistance for database issues, custom training, and expert consultancy.",
     url: "https://www.excelexperts.com.au/services/microsoft-access/access-support/",

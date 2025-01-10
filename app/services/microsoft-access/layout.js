@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export const metadata = {
   // Basic metadata
-  title: "Microsoft Access Services | Database Solutions Australia",
+  title: "Microsoft Access Services | Access Experts",
   description:
     "Professional Microsoft Access database consulting and development services across Australia. Specialising in custom database solutions, cloud integration, and business automation.",
 
@@ -23,21 +23,21 @@ export const metadata = {
     // "Access online solutions",
 
     // Service-specific long tail
-    "Access data management solutions",
+    // "Access data management solutions",
     // "Access multi-user databases",
     // "Access reporting solutions",
     // "database structuring services",
     // "Access query optimization",
 
     // Integration focused
-    "Access SQL integration",
+    // "Access SQL integration",
     // "SharePoint database integration",
     // "third party database integration",
     // "Access Azure migration",
     // "database cloud solutions",
 
     // Support and maintenance
-    "Access database support",
+    // "Access database support",
     // "database maintenance services",
     // "Access troubleshooting",
     // "database repair services",

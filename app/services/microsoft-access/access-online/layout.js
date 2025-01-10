@@ -3,14 +3,13 @@ import PropTypes from "prop-types";
 
 export const metadata = {
   // Basic metadata
-  title:
-    "Access Online | Microsoft Access Cloud Database Solutions & Integration",
+  title: "Access Online Database Solutions | Access Experts",
   description:
     "Specialised Microsoft Access online database solutions with Azure and SharePoint integration. Expert consultants delivering cloud-based Access database development, Office 365 integration, and mobile access solutions across Australia.",
 
   // OpenGraph
   openGraph: {
-    title: "Access Online | Cloud-Based Microsoft Access Database Solutions",
+    title: "Access Online Database Solutions | Access Experts",
     description:
       "Professional Microsoft Access cloud database solutions, including Office 365 integration, SharePoint connectivity, and Azure hosting. Expert consultants for online database development and mobile access solutions.",
     url: "https://www.accessexperts.com.au/access-online/",

@@ -3,13 +3,13 @@ import PropTypes from "prop-types";
 
 export const metadata = {
   // Basic metadata
-  title: "Meet Our Microsoft Excel Experts | Excel Specialists Australia",
+  title: "Meet Our Team | Excel Experts Australia",
   description:
     "Meet our team of certified Microsoft Excel developers, consultants, and trainers. Experts in spreadsheet development, analysis, and business solutions across Australia.",
 
   // OpenGraph
   openGraph: {
-    title: "Meet Our Expert Excel Team | Excel Experts Australia",
+    title: "Meet Our Team | Excel Experts Australia",
     description:
       "Connect with our skilled team of Microsoft Excel specialists. Experts in spreadsheet development, data analysis, VBA programming, and business solutions.",
     url: "https://www.excelexperts.com.au/meet-the-team/",

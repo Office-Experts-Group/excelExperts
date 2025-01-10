@@ -2,12 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export const metadata = {
-  title: "Government Excel-Word Integration Solutions",
+  title: "Government Excel-Word Integration Solutions | Excel Experts",
   description:
     "Expert Excel and Word integration services for government departments. specialising in data automation, spreadsheet integration, and accessible reporting solutions for state and federal agencies.",
 
   openGraph: {
-    title: "Government Excel-Word Integration Solutions",
+    title: "Government Excel-Word Integration Solutions | Excel Experts",
     description:
       "Expert Excel and Word integration services for government departments. specialising in data automation, spreadsheet integration, and accessible reporting solutions for state and federal agencies.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/government-departments/",

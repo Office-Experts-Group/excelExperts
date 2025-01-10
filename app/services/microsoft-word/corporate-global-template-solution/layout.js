@@ -2,12 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export const metadata = {
-  title: "Excel-Integrated Corporate Word Solutions",
+  title: "Excel-Integrated Corporate Word Solutions | Excel Experts",
   description:
     "Advanced Corporate Template Solution combining Excel data automation with Word templates. Create professional documents that automatically pull from your Excel data while maintaining consistent formatting and branding.",
 
   openGraph: {
-    title: "Excel-Integrated Corporate Word Solutions",
+    title: "Excel-Integrated Corporate Word Solutions | Excel Experts",
     description:
       "Advanced Corporate Template Solution combining Excel data automation with Word templates. Create professional documents that automatically pull from your Excel data while maintaining consistent formatting and branding.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/corporate-global-template-solution/",

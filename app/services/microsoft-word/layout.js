@@ -2,17 +2,15 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export const metadata = {
-  title:
-    "Excel-Integrated Development Services | Data-Driven Solutions Australia",
+  title: "Word Template Conversions | Excel Experts",
   description:
-    "Excel Experts team specialises in integrated Microsoft Office solutions, combining Excel's analytical power with comprehensive Office suite capabilities. Call us 1300 10 28 10 or Email us consult@excelexperts.com.au",
+    "Our team of Word design experts take the stress out of your company templates by converting all of your organisation's documents to our easy to use templates, complete with your branding, a consistent look and a professional feel.",
 
   openGraph: {
-    title:
-      "Excel-Integrated Development Services | Data-Driven Solutions Australia",
+    title: "Word Template Conversions | Excel Experts",
     description:
-      "Excel Experts team specialises in integrated Microsoft Office solutions, combining Excel's analytical power with comprehensive Office suite capabilities. Call us 1300 10 28 10 or Email us consult@excelexperts.com.au",
-    url: "https://www.excelexperts.com.au/services/",
+      "Our team of Word design experts take the stress out of your company templates by converting all of your organisation's documents to our easy to use templates, complete with your branding, a consistent look and a professional feel.",
+    url: "https://www.excelexperts.com.au/services/microsoft-word/word-template-conversions/",
   },
 
   keywords: [
@@ -46,7 +44,8 @@ export const metadata = {
     // "microsoft integration australia wide",
   ],
 
-  canonical: "https://www.excelexperts.com.au/services/",
+  canonical:
+    "https://www.excelexperts.com.au/services/microsoft-word/word-template-conversions/",
 };
 
 export default function RootLayout({ children }) {

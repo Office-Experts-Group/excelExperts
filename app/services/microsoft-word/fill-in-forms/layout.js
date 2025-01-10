@@ -2,14 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export const metadata = {
-  title: "Excel-Integrated Form Solutions | Data-Driven Forms | Excel Experts",
+  title: "Excel-Integrated Form Solutions | Excel Experts",
   description:
-    "Expert form design services combining Excel data management with Word forms. specialised in creating data-driven forms with automated Excel integration, spreadsheet synchronization, and advanced VBA solutions.",
-
+    "Expert form design services combining Excel data management with Word forms. Specialising in creating data-driven forms with automated Excel integration, spreadsheet synchronization, and advanced VBA solutions.",
   openGraph: {
-    title: "Excel-Integrated Forms & Data Management Solutions",
+    title: "Excel-Integrated Form Solutions | Excel Experts",
     description:
-      "Professional form design services combining Excel data management with Word forms. Create dynamic, data-driven forms with automated Excel integration.",
+      "Expert form design services combining Excel data management with Word forms. Specialising in creating data-driven forms with automated Excel integration, spreadsheet synchronization, and advanced VBA solutions.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/fill-in-forms/",
   },
 

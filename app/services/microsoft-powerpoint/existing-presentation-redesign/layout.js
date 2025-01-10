@@ -1,12 +1,10 @@
 export const metadata = {
-  title:
-    "PowerPoint Presentation Redesign Services | Expert Template Transformation",
+  title: "PowerPoint Presentation Redesign Services | Excel Experts",
   description:
     "Professional PowerPoint presentation redesign services. Transform existing presentations into high-quality templates with master slides that meet brand guidelines. Contact us at 1300 10 28 10",
 
   openGraph: {
-    title:
-      "PowerPoint Presentation Redesign Services | Expert Template Transformation",
+    title: "PowerPoint Presentation Redesign Services | Excel Experts",
     description:
       "Professional PowerPoint presentation redesign services. Transform existing presentations into high-quality templates with master slides that meet brand guidelines.",
     url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign/",

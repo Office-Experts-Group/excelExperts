@@ -2,12 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export const metadata = {
-  title: "Word Accessibility Solutions | Microsoft Word Accessibility",
+  title: "Word Accessibility Solutions | Excel Experts",
   description:
     "As Excel specialists, our Word accessibility solutions seamlessly integrate with your Excel-based workflows. Our experts ensure your documents maintain accessibility standards while working harmoniously with your Excel data exports and reporting processes.",
 
   openGraph: {
-    title: "Word Accessibility Solutions | Microsoft Word Accessibility",
+    title: "Word Accessibility Solutions | Excel Experts",
     description:
       "As Excel specialists, our Word accessibility solutions seamlessly integrate with your Excel-based workflows. Our experts ensure your documents maintain accessibility standards while working harmoniously with your Excel data exports and reporting processes.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/accessibility/",

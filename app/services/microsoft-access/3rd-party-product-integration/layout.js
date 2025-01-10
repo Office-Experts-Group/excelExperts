@@ -3,14 +3,13 @@ import PropTypes from "prop-types";
 
 export const metadata = {
   // Basic metadata
-  title:
-    "3rd Party Product Integration – Microsoft Access Services – Office Experts",
+  title: "3rd Party Product Integration | Access Experts",
   description:
     "specialised Microsoft Access database integration services for connecting Access with CRMs, accounting packages, and other third-party applications. Expert consultants providing viable integration solutions with competitive pricing.",
 
   // OpenGraph
   openGraph: {
-    title: "Microsoft Access Integration Solutions | Office Experts Australia",
+    title: "3rd Party Product Integration | Access Experts",
     description:
       "Professional Microsoft Access integration services connecting your databases with CRMs, accounting software, and third-party applications. Competitive pricing and expert consultation.",
     url: "https://www.officeexperts.com.au/services/microsoft-access/3rd-party-product-integration/",

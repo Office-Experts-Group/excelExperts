@@ -2,14 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export const metadata = {
-  title:
-    "Excel-Integrated Corporate Templates | Data-Driven Document Solutions",
+  title: "Excel-Integrated Corporate Templates | Excel Experts",
   description:
     "Our Excel integration experts deliver Word templates that automatically populate with your spreadsheet data while maintaining consistent formatting and protecting your corporate identity.",
 
   openGraph: {
-    title:
-      "Excel-Integrated Corporate Identity Solutions | Document Automation",
+    title: "Excel-Integrated Corporate Identity Solutions | Excel Experts",
     description:
       "Professional template solutions combining Excel data integration with Word formatting protection. Automate document creation while maintaining corporate identity.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/corporate-identity/",

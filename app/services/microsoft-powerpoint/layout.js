@@ -1,10 +1,10 @@
 export const metadata = {
-  title: "PowerPoint Experts | Presentation Design & Development Services",
+  title: "Presentation Design & Development Services | Excel Experts",
   description:
     "Professional PowerPoint presentation design and development services from certified experts. Custom templates, VBA automation, and expert consultation for all your presentation needs. Contact us at 1300 10 28 10",
 
   openGraph: {
-    title: "PowerPoint Experts | Presentation Design & Development Services",
+    title: "Presentation Design & Development Services | Excel Experts",
     description:
       "Professional PowerPoint presentation design and development services from certified experts. Custom templates, VBA automation, and expert consultation for all your presentation needs.",
     url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/",

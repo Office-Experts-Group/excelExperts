@@ -2,12 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export const metadata = {
-  title: "Excel-Word Integration | Data Automation Solutions | Excel Experts",
+  title: "Data Automation Solutions | Excel Experts",
   description:
     "Our Excel-Word integration solutions automate data transfer between spreadsheets and documents. We streamline your workflow by eliminating repetitive data entry and ensuring consistent data flow across platforms.",
 
   openGraph: {
-    title: "Excel-Word Integration and Productivity Solutions",
+    title: "Data Automation Solutions | Excel Experts",
     description:
       "Our Excel-Word integration solutions automate data transfer between spreadsheets and documents. We streamline your workflow by eliminating repetitive data entry and ensuring consistent data flow across platforms.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/remove-repetition-and-increase-productivity/",

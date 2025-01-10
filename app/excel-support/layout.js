@@ -1,10 +1,10 @@
 export const metadata = {
-  title: "Excel Support & Training Services | Excel Expert",
+  title: "Excel Support & Training Services | Excel Experts",
   description:
     "Professional Excel support and training services via remote access or phone. Our expert consultants provide instant guidance, troubleshooting, and dedicated support for individuals and teams. Contact us at 1300 102 810",
 
   openGraph: {
-    title: "Excel Support & Training Services | Excel Expert",
+    title: "Excel Support & Training Services | Excel Experts",
     description:
       "Professional Excel support and training services via remote access or phone. Our expert consultants provide instant guidance, troubleshooting, and dedicated support for individuals and teams.",
     url: "https://www.excelexperts.com.au/excel-support/",

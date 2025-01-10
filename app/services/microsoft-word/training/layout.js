@@ -2,14 +2,14 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export const metadata = {
-  title: "Excel-Word Integration Training | Data Management Training",
+  title: "Excel-Word Integration Training | Excel Experts",
   description:
-    "Our Excel integration experts provide comprehensive training on managing data flow between Excel and Word. Learn to automate data transfer, create dynamic reports, and optimize your spreadsheet-to-document workflow.",
+    "Our Excel integration experts provide comprehensive training on managing data flow between Excel and Word. Learn to automate data transfer, create dynamic reports, and optimise your spreadsheet-to-document workflow.",
 
   openGraph: {
-    title: "Excel-Word Integration Training | Data Management Training",
+    title: "Excel-Word Integration Training | Excel Experts",
     description:
-      "Our Excel integration experts provide comprehensive training on managing data flow between Excel and Word. Learn to automate data transfer, create dynamic reports, and optimize your spreadsheet-to-document workflow.",
+      "Our Excel integration experts provide comprehensive training on managing data flow between Excel and Word. Learn to automate data transfer, create dynamic reports, and optimise your spreadsheet-to-document workflow.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/training/",
   },
 

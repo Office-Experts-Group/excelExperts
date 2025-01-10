@@ -2,13 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export const metadata = {
-  title:
-    "Excel-Integrated Quick Parts | Data-Driven Document Components | Excel Experts",
+  title: "Excel-Integrated Quick Parts | Excel Experts",
   description:
     "Our Excel integration experts deliver Quick Parts solutions that seamlessly pull data from your spreadsheets into Word documents, creating dynamic, data-driven content blocks that save your business time and money.",
 
   openGraph: {
-    title: "Excel-Integrated Quick Parts Solutions",
+    title: "Excel-Integrated Quick Parts Solutions | Excel Experts",
     description:
       "Our Excel integration experts deliver Quick Parts solutions that seamlessly pull data from your spreadsheets into Word documents, creating dynamic, data-driven content blocks that save your business time and money.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/quick-parts/",

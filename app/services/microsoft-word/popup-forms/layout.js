@@ -2,13 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export const metadata = {
-  title:
-    "Excel-Integrated Popup Forms | Data-Driven Form Solutions | Excel Experts",
+  title: "Excel-Integrated Popup Forms | Excel Experts",
   description:
     "Our Excel integration experts deliver popup forms that seamlessly connect with your spreadsheet data, enhancing data entry processes, improving accuracy, and streamlining Excel-to-Word workflows while saving your business money.",
-
   openGraph: {
-    title: "Excel-Integrated Popup Forms | Data-Driven Form Solutions",
+    title: "Excel-Integrated Popup Forms | Excel Experts",
     description:
       "Our Excel integration experts deliver popup forms that seamlessly connect with your spreadsheet data, enhancing data entry processes, improving accuracy, and streamlining Excel-to-Word workflows while saving your business money.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/popup-forms/",

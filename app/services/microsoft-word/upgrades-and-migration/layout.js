@@ -3,13 +3,13 @@ import PropTypes from "prop-types";
 
 export const metadata = {
   // Basic metadata
-  title: "Word Upgrades and Migration | Excel Expert Australia",
+  title: "Word Upgrades and Migration | Excel Experts",
   description:
     "Specialised Microsoft Word upgrade and migration services from Excel Experts Group. Our Excel-focused team provides comprehensive Microsoft Office solutions, ensuring seamless integration between Excel and Word documents.",
 
   // OpenGraph
   openGraph: {
-    title: "Word Upgrades and Migration Services - Excel Experts Group",
+    title: "Word Upgrades and Migration | Excel Experts",
     description:
       "Professional Microsoft Word upgrade and migration services with Excel integration expertise. Specialists in cross-application compatibility and data integration.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/upgrades-and-migration/",

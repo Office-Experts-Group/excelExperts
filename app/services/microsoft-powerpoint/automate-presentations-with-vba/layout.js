@@ -1,11 +1,10 @@
 export const metadata = {
-  title: "PowerPoint VBA Automation Services | Expert Presentation Development",
+  title: "PowerPoint VBA Automation Services | Excel Experts",
   description:
     "Professional PowerPoint VBA automation services from certified experts. Automate data integration, custom programming, and streamline your presentation workflow. Contact us at 1300 10 28 10",
 
   openGraph: {
-    title:
-      "PowerPoint VBA Automation Services | Expert Presentation Development",
+    title: "PowerPoint VBA Automation Services | Excel Experts",
     description:
       "Professional PowerPoint VBA automation services from certified experts. Automate data integration, custom programming, and streamline your presentation workflow.",
     url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba/",

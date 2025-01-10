@@ -1,11 +1,10 @@
 export const metadata = {
-  title: "Custom PowerPoint Templates & Corporate Presentation Design Services",
+  title: "Custom PowerPoint Templates & Presentations | Excel Experts",
   description:
     "Professional PowerPoint template design and corporate presentation services. Custom master slides, brand-aligned templates, and expert design solutions. Contact us at 1300 10 28 10",
 
   openGraph: {
-    title:
-      "Custom PowerPoint Templates & Corporate Presentation Design Services",
+    title: "Custom PowerPoint Templates & Presentations | Excel Experts",
     description:
       "Professional PowerPoint template design and corporate presentation services. Custom master slides, brand-aligned templates, and expert design solutions.",
     url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations/",

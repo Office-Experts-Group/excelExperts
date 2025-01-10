@@ -2,15 +2,15 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export const metadata = {
-  title:
-    "Excel-Word Integration Tools | Custom Ribbon Design | Data Automation Tools",
+  title: "Custom Toolbars & Ribbon Design | Exxcel Experts",
   description:
-    "Expert customization of integrated Excel-Word toolbars and ribbons to streamline data transfer and automate report generation. Our team delivers efficient solutions for seamless spreadsheet-to-document workflow.",
+    "Expert customisation of integrated Excel-Word toolbars and ribbons to streamline data transfer and automate report generation. Our team delivers efficient solutions for seamless spreadsheet-to-document workflow.",
 
   openGraph: {
-    title: "Excel-Integrated Custom Toolbars & Ribbons Development",
+    title: "Custom Toolbars & Ribbon Design | Exxcel Experts",
+
     description:
-      "Expert customization of integrated Excel-Word toolbars and ribbons to streamline data transfer and automate report generation. Our team delivers efficient solutions for seamless spreadsheet-to-document workflow.",
+      "Expert customisation of integrated Excel-Word toolbars and ribbons to streamline data transfer and automate report generation. Our team delivers efficient solutions for seamless spreadsheet-to-document workflow.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/custom-toolbars-and-ribbons/",
   },
 
