@@ -12,9 +12,16 @@ import PageSegmentDropdowns from "./(components)/PageSegmentDropdowns";
 import marker from "../../public/pageHeros/marker.webp";
 import coffeeMob from "../../public/pageHeros/mob/coffeeMob.webp";
 
+import {
+  generateProfessionalServiceSchema,
+  generateOrganizationSchema,
+} from "../../utils/schemaGenerators";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
+    generateProfessionalServiceSchema(),
+    generateOrganizationSchema(),
     {
       "@type": "WebPage",
       "@id": "https://www.excelexperts.com.au/upgrades-and-migration/",

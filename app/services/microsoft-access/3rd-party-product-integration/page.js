@@ -12,17 +12,24 @@ import faqs from "../../../../faqs/3rd-party-product-integration";
 import thirdParty from "../../../../public/pageHeros/3rdParty.webp";
 import calcMob from "../../../../public/pageHeros/mob/calcMob.webp";
 
+import {
+  generateProfessionalServiceSchema,
+  generateOrganizationSchema,
+} from "../../../../utils/schemaGenerators";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
+    generateOrganizationSchema(),
+    generateProfessionalServiceSchema(),
     {
       "@type": "WebPage",
       "@id":
-        "https://officeexperts.com.au/services/microsoft-access/3rd-party-product-integration",
-      url: "https://officeexperts.com.au/services/microsoft-access/3rd-party-product-integration",
-      name: "Office Experts: For All Your Microsoft Technology Development and Consulting Services",
+        "https://excelexperts.com.au/services/microsoft-access/3rd-party-product-integration",
+      url: "https://excelexperts.com.au/services/microsoft-access/3rd-party-product-integration",
+      name: "Excel Experts: For All Your Microsoft Technology Development and Consulting Services",
       isPartOf: {
-        "@id": "https://officeexperts.com.au/#website",
+        "@id": "https://excelexperts.com.au/#website",
       },
       datePublished: "2024-10-27T00:00:00+00:00",
       dateModified: "2024-10-27T00:00:00+00:00",
@@ -70,20 +77,20 @@ const schema = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://officeexperts.com.au/#website",
-      url: "https://officeexperts.com.au/services/microsoft-access/3rd-party-product-integration",
-      name: "Office Experts: Microsoft Access Development and Consulting Services",
+      "@id": "https://excelexperts.com.au/#website",
+      url: "https://excelexperts.com.au/services/microsoft-access/3rd-party-product-integration",
+      name: "Excel Experts: Microsoft Access Development and Consulting Services",
       description:
-        "Your Microsoft Access Design, Development and Consulting Experts",
+        "Your Microsoft Excel and Access Design, Development and Consulting Experts",
       publisher: {
-        "@id": "https://officeexperts.com.au/#organization",
+        "@id": "https://excelexperts.com.au/#organization",
       },
       potentialAction: [
         {
           "@type": "SearchAction",
           target: {
             "@type": "EntryPoint",
-            urlTemplate: "https://officeexperts.com.au/?s={search_term_string}",
+            urlTemplate: "https://excelexperts.com.au/?s={search_term_string}",
           },
           "query-input": {
             "@type": "PropertyValueSpecification",
@@ -98,7 +105,7 @@ const schema = {
       "@type": "Organization",
       hasOfferCatalog: {
         "@type": "OfferCatalog",
-        name: "Microsoft Access Design, Development and Consulting Services",
+        name: "Microsoft Excel and Access Design, Development and Consulting Services",
         itemListElement: [
           {
             "@type": "Offer",

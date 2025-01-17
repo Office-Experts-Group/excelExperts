@@ -20,6 +20,7 @@ export const metadata = {
   keywords: [
     // Core upgrade/migration services
     "Microsoft Access database migration services",
+    "Microsoft Access upgrade solutions",
     // "Access database version upgrade specialist",
     // "Legacy Access database migration",
     // "Database corruption repair services",
@@ -60,8 +61,13 @@ export const metadata = {
     // "SharePoint Access integration",
     // "Office 365 database migration",
   ],
-  canonical:
-    "https://www.accessexperts.com.au/services/microsoft-access/upgrades-and-migration/",
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-access/upgrades-and-migration/",
+    languages: {
+      "en-AU": "/services/microsoft-access/upgrades-and-migration/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

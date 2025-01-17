@@ -43,8 +43,16 @@ export const metadata = {
     // "professional excel services",
     // "data productivity consulting",
   ],
-  canonical:
-    "https://www.excelexperts.com.au/services/microsoft-word/remove-repetition-and-increase-productivity/",
+
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical:
+      "/services/microsoft-word/remove-repetition-and-increase-productivity/",
+    languages: {
+      "en-AU":
+        "/services/microsoft-word/remove-repetition-and-increase-productivity/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

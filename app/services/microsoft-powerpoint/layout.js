@@ -28,6 +28,13 @@ export const metadata = {
     "powerpoint training australia",
   ],
   canonical: "https://www.excelexperts.com.au/services/microsoft-powerpoint/",
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-powerpoint/",
+    languages: {
+      "en-AU": "/services/microsoft-powerpoint/",
+    },
+  },
 };
 
 export default function PowerPointServicesLayout({ children }) {

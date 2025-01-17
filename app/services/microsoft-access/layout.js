@@ -44,6 +44,13 @@ export const metadata = {
     // "Access database training",
   ],
   canonical: "https://www.excelexperts.com.au/services/microsoft-access/",
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-access/",
+    languages: {
+      "en-AU": "/services/microsoft-access/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

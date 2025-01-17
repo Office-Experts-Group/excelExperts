@@ -27,8 +27,13 @@ export const metadata = {
     // "power bi integration excel reports",
     // "excel data analysis solutions australia",
   ],
-  canonical:
-    "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions/",
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/pivot-tables-charts-and-reporting-solutions/",
+    languages: {
+      "en-AU": "/pivot-tables-charts-and-reporting-solutions/",
+    },
+  },
 };
 
 export default function PivotTablesChartsReportingLayout({ children }) {

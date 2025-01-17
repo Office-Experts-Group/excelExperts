@@ -51,6 +51,14 @@ export const metadata = {
     // "VBA consultants Brisbane",
   ],
   canonical: "https://www.excelexperts.com.au/vba-macro-development/",
+
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/vba-macro-development/",
+    languages: {
+      "en-AU": "/vba-macro-development/",
+    },
+  },
 };
 
 export default function VbaMacroDevelopmentLayout({ children }) {

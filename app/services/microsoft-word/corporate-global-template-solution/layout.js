@@ -17,7 +17,7 @@ export const metadata = {
     // Core services
     // "excel word integration",
     // "excel data automation",
-    "corporate word templates",
+    "corporate Microsoft word templates",
     // "excel reporting solutions",
     // "integrated template design",
 
@@ -42,8 +42,14 @@ export const metadata = {
     // "spreadsheet reporting",
     // "excel template integration",
   ],
-  canonical:
-    "https://www.excelexperts.com.au/services/microsoft-word/corporate-global-template-solution/",
+
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-word/corporate-global-template-solution/",
+    languages: {
+      "en-AU": "/services/microsoft-word/corporate-global-template-solution/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

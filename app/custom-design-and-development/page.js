@@ -13,9 +13,16 @@ import Contents from "./(components)/Contents";
 import graphic from "../../public/pageHeros/graphic.webp";
 import codeMob from "../../public/pageHeros/mob/codeMob.webp";
 
+import {
+  generateProfessionalServiceSchema,
+  generateOrganizationSchema,
+} from "../../utils/schemaGenerators";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
+    generateOrganizationSchema(),
+    generateProfessionalServiceSchema(),
     {
       "@type": "WebPage",
       "@id": "https://www.excelexperts.com.au/custom-design-and-development/",

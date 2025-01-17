@@ -3,15 +3,15 @@ import PropTypes from "prop-types";
 
 export const metadata = {
   // Basic metadata
-  title: "Request a Quote – Excel Experts – Microsoft Excel Development",
+  title: "Request a Quote | Excel Experts",
   description:
     "Submit your Microsoft Excel project requirements, specifications, and files for a detailed quote. Our experienced Excel developers provide custom solutions, automation services, and spreadsheet consulting.",
 
   // OpenGraph
   openGraph: {
-    title: "Request a Quote for Microsoft Excel Services",
+    title: "Request a Quote | Excel Experts",
     description:
-      "Get a customized quote for your Microsoft Excel needs. From development and automation to troubleshooting and upgrades - our experts deliver tailored solutions with competitive pricing.",
+      "Submit your Microsoft Excel project requirements, specifications, and files for a detailed quote. Our experienced Excel developers provide custom solutions, automation services, and spreadsheet consulting.",
     url: "https://www.excelexperts.com.au/contact-us/request-a-quote/",
   },
 
@@ -36,7 +36,14 @@ export const metadata = {
     // "Excel workbook maintenance quote",
     // "Spreadsheet backup solution pricing",
   ],
-  canonical: "https://www.excelexperts.com.au/contact-us/request-a-quote/",
+
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/contact-us/request-a-quote/",
+    languages: {
+      "en-AU": "/contact-us/request-a-quote/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

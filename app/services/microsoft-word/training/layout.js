@@ -42,8 +42,14 @@ export const metadata = {
     // "excel integration assistance",
     // "professional excel guidance",
   ],
-  canonical:
-    "https://www.excelexperts.com.au/services/microsoft-word/training/",
+
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-word/training/",
+    languages: {
+      "en-AU": "/services/microsoft-word/training/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

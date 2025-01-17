@@ -12,16 +12,24 @@ import PageSegment8 from "./(components)/PageSegment8";
 import Contact from "../../../../components/Contact";
 import Promo from "../../../../components/Promo";
 
+import {
+  generateProfessionalServiceSchema,
+  generateOrganizationSchema,
+} from "../../../../utils/schemaGenerators";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
+    generateOrganizationSchema(),
+    generateProfessionalServiceSchema(),
     {
       "@type": "WebPage",
-      "@id": "https://www.accessexperts.com.au/access-azure-cloud-solutions/",
-      url: "https://www.accessexperts.com.au/access-azure-cloud-solutions/",
+      "@id":
+        "https://www.excelexperts.com.au/services/microsoft-access/access-azure-cloud-solutions/",
+      url: "https://www.excelexperts.com.au/services/microsoft-access/access-azure-cloud-solutions/",
       name: "Microsoft Access Azure Cloud Solutions & Integration Services",
       isPartOf: {
-        "@id": "https://www.accessexperts.com.au/#website",
+        "@id": "https://www.excelexperts.com.au/#website",
       },
       datePublished: "2024-10-27T00:00:00+00:00",
       dateModified: "2024-10-27T00:00:00+00:00",
@@ -30,19 +38,21 @@ const schema = {
       potentialAction: [
         {
           "@type": "ReadAction",
-          target: ["https://www.accessexperts.com.au/azure-cloud-solutions/"],
+          target: [
+            "https://www.excelexperts.com.au/services/microsoft-access/access-azure-cloud-solutions/",
+          ],
         },
       ],
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.accessexperts.com.au/#website",
-      url: "https://www.accessexperts.com.au/",
-      name: "Access Experts: Azure Cloud Integration Services",
+      "@id": "https://www.excelexperts.com.au/#website",
+      url: "https://www.excelexperts.com.au/",
+      name: "Excel Experts: Azure Cloud Integration Services",
       description:
-        "Expert Microsoft Access and Azure Cloud Integration Solutions",
+        "Expert Microsoft Excel, Access and Azure Cloud Integration Solutions",
       publisher: {
-        "@id": "https://www.accessexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au/#organization",
       },
       potentialAction: [
         {
@@ -50,7 +60,7 @@ const schema = {
           target: {
             "@type": "EntryPoint",
             urlTemplate:
-              "https://www.accessexperts.com.au/?s={search_term_string}",
+              "https://www.excelexperts.com.au/?s={search_term_string}",
           },
           "query-input": {
             "@type": "PropertyValueSpecification",
@@ -64,7 +74,7 @@ const schema = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://excelexperts.com.au/services/access-azure-cloud-based-solutions/#breadcrumb",
+        "https://excelexperts.com.au/services/microsoft-access/access-azure-cloud-based-solutions/#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",

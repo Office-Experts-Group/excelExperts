@@ -2,19 +2,19 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export const metadata = {
-  title: "Word Template Conversions | Excel Experts",
+  title: "Microsoft Word Services | Excel Experts",
   description:
-    "Our team of Word design experts take the stress out of your company templates by converting all of your organisation's documents to our easy to use templates, complete with your branding, a consistent look and a professional feel.",
+    "Our Excel Experts team has a dedicated wing of Word design professionals who can help you with all aspects of your company's Word documents, excel, access and power platform integrations.",
 
   openGraph: {
-    title: "Word Template Conversions | Excel Experts",
+    title: "Microsoft Word Services | Excel Experts",
     description:
-      "Our team of Word design experts take the stress out of your company templates by converting all of your organisation's documents to our easy to use templates, complete with your branding, a consistent look and a professional feel.",
-    url: "https://www.excelexperts.com.au/services/microsoft-word/word-template-conversions/",
+      "Our Excel Experts team has a dedicated wing of Word design professionals who can help you with all aspects of your company's Word documents, excel, access and power platform integrations.",
+    url: "https://www.excelexperts.com.au/services/microsoft-word/",
   },
 
   keywords: [
-    "Microsoft Word template conversions",
+    "Microsoft Word and Excel Integration",
     // // Core services
     // "excel integration services australia",
     // "data-driven office solutions",
@@ -44,8 +44,13 @@ export const metadata = {
     // "microsoft integration australia wide",
   ],
 
-  canonical:
-    "https://www.excelexperts.com.au/services/microsoft-word/word-template-conversions/",
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-word/",
+    languages: {
+      "en-AU": "/services/microsoft-word/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

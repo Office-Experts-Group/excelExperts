@@ -9,9 +9,16 @@ import Segment4Repeat from "./(components)/Segment4Repeat";
 import whiteBoard from "../../../../public/pageHeros/whiteBoard.webp";
 import calcMob from "../../../../public/pageHeros/mob/calcMob.webp";
 
+import {
+  generateProfessionalServiceSchema,
+  generateOrganizationSchema,
+} from "../../../../utils/schemaGenerators";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
+    generateProfessionalServiceSchema(),
+    generateOrganizationSchema(),
     {
       "@type": "WebPage",
       "@id":

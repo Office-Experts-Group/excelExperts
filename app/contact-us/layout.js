@@ -50,7 +50,13 @@ export const metadata = {
     // "Excel data migration consultation",
     // "Legacy workbook modernization quote",
   ],
-  canonical: "https://www.excelexperts.com.au/contact-us/",
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/contact-us/",
+    languages: {
+      "en-AU": "/contact-us/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

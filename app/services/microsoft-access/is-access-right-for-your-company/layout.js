@@ -3,15 +3,15 @@ import PropTypes from "prop-types";
 
 export const metadata = {
   // Basic metadata
-  title: "Is Access Right for your Company? |  Access Experts",
+  title: "Is Microsoft Access Right for your Company? |  Access Experts",
   description:
-    "Expert guidance on whether Microsoft Access is the right database solution for your business needs. specialised in data management, structuring, multi-user systems, and reporting solutions.",
+    "Expert guidance on whether Microsoft Access is the right database solution for your business needs. We specialise in data management, structuring, multi-user systems, and reporting solutions.",
 
   // OpenGraph
   openGraph: {
     title: "Is Microsoft Access Right for Your Business? | Access Experts",
     description:
-      "Professional consultation on Microsoft Access database solutions for business. Expert analysis of data management needs, user requirements, and system compatibility.",
+      "Expert guidance on whether Microsoft Access is the right database solution for your business needs. We specialise in data management, structuring, multi-user systems, and reporting solutions.",
     url: "https://www.excelexperts.com.au/services/microsoft-access/is-access-right-for-your-company/",
   },
 
@@ -53,8 +53,14 @@ export const metadata = {
     // "Access CRM database solutions",
     // "Access workflow automation systems",
   ],
-  canonical:
-    "https://www.excelexperts.com.au/services/microsoft-access/is-access-right-for-your-company/",
+
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-access/is-access-right-for-your-company/",
+    languages: {
+      "en-AU": "/services/microsoft-access/is-access-right-for-your-company/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

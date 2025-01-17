@@ -7,16 +7,23 @@ import PageSegmentMain from "./(components)/PageSegmentMain";
 import SolutionsCarousel from "./(components)/SolutionsCarousel";
 import Testimonials from "../microsoft-word/(components)/Testimonials";
 
-import { getTestimonialsPageSchema } from "../../../utils/testimonialSchemaGenerator";
+import { getHomePageSchema } from "../../../utils/testimonialSchemaGenerator";
 import { testimonials } from "../../../testimonials";
 
 import twoComputers from "../../../public/pageHeros/twoComputers.webp";
 import meetingMob from "../../../public/pageHeros/mob/meetingMob.webp";
 
+import {
+  generateProfessionalServiceSchema,
+  generateOrganizationSchema,
+} from "../../../utils/schemaGenerators";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
-    ...getTestimonialsPageSchema(testimonials)["@graph"],
+    ...getHomePageSchema(testimonials)["@graph"],
+    generateProfessionalServiceSchema(),
+    generateOrganizationSchema(),
     {
       "@type": "WebPage",
       "@id": "https://www.excelexperts.com.au/services/microsoft-powerpoint/",

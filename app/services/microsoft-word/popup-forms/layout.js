@@ -42,8 +42,14 @@ export const metadata = {
     // "data entry optimization",
     // "excel quality control",
   ],
-  canonical:
-    "https://www.excelexperts.com.au/services/microsoft-word/popup-forms/",
+
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-word/popup-forms/",
+    languages: {
+      "en-AU": "/services/microsoft-word/popup-forms/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

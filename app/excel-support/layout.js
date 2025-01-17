@@ -27,7 +27,13 @@ export const metadata = {
     // "expert excel problem solving assistance",
     // "online excel consultant support services",
   ],
-  canonical: "https://www.excelexperts.com.au/excel-support/",
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/excel-support/",
+    languages: {
+      "en-AU": "/excel-support/",
+    },
+  },
 };
 
 export default function ExcelSupportLayout({ children }) {

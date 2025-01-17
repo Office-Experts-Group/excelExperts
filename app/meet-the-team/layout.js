@@ -11,7 +11,7 @@ export const metadata = {
   openGraph: {
     title: "Meet Our Team | Excel Experts Australia",
     description:
-      "Connect with our skilled team of Microsoft Excel specialists. Experts in spreadsheet development, data analysis, VBA programming, and business solutions.",
+      "Meet our team of certified Microsoft Excel developers, consultants, and trainers. Experts in spreadsheet development, analysis, and business solutions across Australia.",
     url: "https://www.excelexperts.com.au/meet-the-team/",
   },
 
@@ -53,7 +53,13 @@ export const metadata = {
     // "Professional Excel team",
     // "Expert data analysts",
   ],
-  canonical: "https://www.excelexperts.com.au/meet-the-team/",
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/meet-the-team/",
+    languages: {
+      "en-AU": "/meet-the-team/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

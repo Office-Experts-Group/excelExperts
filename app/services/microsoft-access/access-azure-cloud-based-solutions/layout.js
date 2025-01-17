@@ -11,8 +11,8 @@ export const metadata = {
   openGraph: {
     title: "Access & Azure Cloud Based Database Solutions | Access Experts",
     description:
-      "Professional Microsoft Access and Azure cloud database integration services. Custom development, database migration, and web app connectivity solutions for business efficiency.",
-    url: "https://www.accessexperts.com.au/access-azure-cloud-based-solutions/",
+      "Expert Microsoft Access and Azure integration services for cloud-based database solutions. Custom Access database development with Azure SQL Server hosting for secure, scalable, and accessible data management.",
+    url: "https://www.excelexperts.com.au/services/microsoft-access/access-azure-cloud-based-solutions/",
   },
 
   // Additional metadata
@@ -59,8 +59,13 @@ export const metadata = {
     // "Microsoft Access specialists Melbourne",
     // "Azure database consultants Brisbane",
   ],
-  canonical:
-    "https://www.accessexperts.com.au/access-azure-cloud-based-solutions/",
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-access/access-azure-cloud-based-solutions/",
+    languages: {
+      "en-AU": "/services/microsoft-access/access-azure-cloud-based-solutions/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

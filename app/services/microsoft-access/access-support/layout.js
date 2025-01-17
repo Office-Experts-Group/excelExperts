@@ -3,13 +3,13 @@ import PropTypes from "prop-types";
 
 export const metadata = {
   // Basic metadata
-  title: "Microsoft Access Help and Training | Access Experts",
+  title: "Microsoft Access Support and Training | Excel Experts",
   description:
     "Expert Microsoft Access database consultants providing remote and onsite support, troubleshooting, training, and maintenance services. Available Australia-wide with competitive rates.",
 
   // OpenGraph
   openGraph: {
-    title: "Microsoft Access Help & Training | Access Experts",
+    title: "Microsoft Access Support & Training | Excel Experts",
     description:
       "Professional Microsoft Access database support and training services. Remote or onsite assistance for database issues, custom training, and expert consultancy.",
     url: "https://www.excelexperts.com.au/services/microsoft-access/access-support/",
@@ -24,7 +24,7 @@ export const metadata = {
     "Access database maintenance assistance",
 
     // Location-specific
-    "Microsoft Access consultants",
+    // "Microsoft Access consultants",
     // "Access database experts Melbourne",
     // "Database support services Brisbane",
     // "Access consulting Perth",
@@ -56,7 +56,13 @@ export const metadata = {
     // "Custom Access report development",
     // "Database normalization consulting Access",
   ],
-  canonical: "https://www.accessexperts.com.au/access-support/",
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-access/access-support/",
+    languages: {
+      "en-AU": "/services/microsoft-access/access-support/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

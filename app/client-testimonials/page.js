@@ -10,9 +10,16 @@ import { testimonials } from "../../testimonials";
 import testimonialsPic from "../../public/pageHeros/testimonials.webp";
 import testimonialsMob from "../../public/pageHeros/mob/testimonialsMob.webp";
 
+import {
+  generateProfessionalServiceSchema,
+  generateOrganizationSchema,
+} from "../../utils/schemaGenerators";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
+    generateOrganizationSchema(),
+    generateProfessionalServiceSchema(),
     {
       ...getTestimonialsPageSchema(testimonials),
       "@type": "WebPage",

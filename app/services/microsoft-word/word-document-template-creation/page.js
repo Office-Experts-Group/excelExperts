@@ -13,9 +13,16 @@ import faqs from "../../../../faqs/document-template-creation";
 import graphTable from "../../../../public/pageHeros/graphTable.webp";
 import graph from "../../../../public/pageHeros/mob/graph.webp";
 
+import {
+  generateProfessionalServiceSchema,
+  generateOrganizationSchema,
+} from "../../../../utils/schemaGenerators";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
+    generateProfessionalServiceSchema(),
+    generateOrganizationSchema(),
     {
       "@type": "WebPage",
       "@id":

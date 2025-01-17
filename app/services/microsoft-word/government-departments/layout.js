@@ -48,8 +48,14 @@ export const metadata = {
     // "automated data extraction",
     // "government spreadsheet consistency",
   ],
-  canonical:
-    "https://www.excelexperts.com.au/services/microsoft-word/government-departments/",
+
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-word/government-departments/",
+    languages: {
+      "en-AU": "/services/microsoft-word/government-departments/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

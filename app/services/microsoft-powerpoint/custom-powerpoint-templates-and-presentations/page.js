@@ -9,9 +9,16 @@ import Segment4Repeat from "./(components)/Segment4Repeat";
 import graphMeeting from "../../../../public/pageHeros/graphMeeting.webp";
 import graphTableMob from "../../../../public/pageHeros/mob/graphTableMob.webp";
 
+import {
+  generateProfessionalServiceSchema,
+  generateOrganizationSchema,
+} from "../../../../utils/schemaGenerators";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
+    generateProfessionalServiceSchema(),
+    generateOrganizationSchema(),
     {
       "@type": "WebPage",
       "@id":

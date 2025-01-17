@@ -14,9 +14,16 @@ import Contents from "./(components)/Contents";
 import twoComputers from "../../../../public/pageHeros/twoComputers.webp";
 import seatMob from "../../../../public/pageHeros/mob/seatMob.webp";
 
+import {
+  generateProfessionalServiceSchema,
+  generateOrganizationSchema,
+} from "../../../../utils/schemaGenerators";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
+    generateProfessionalServiceSchema(),
+    generateOrganizationSchema(),
     {
       "@type": "WebPage",
       "@id":

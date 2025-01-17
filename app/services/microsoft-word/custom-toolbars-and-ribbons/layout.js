@@ -43,8 +43,14 @@ export const metadata = {
     // "excel integration brisbane",
     // "custom excel solutions perth",
   ],
-  canonical:
-    "https://www.excelexperts.com.au/services/microsoft-word/custom-toolbars-and-ribbons/",
+
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-word/custom-toolbars-and-ribbons/",
+    languages: {
+      "en-AU": "/services/microsoft-word/custom-toolbars-and-ribbons/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

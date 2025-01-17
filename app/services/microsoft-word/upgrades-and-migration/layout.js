@@ -51,8 +51,14 @@ export const metadata = {
     // "corporate Excel-Word solutions",
     // "professional Office integration",
   ],
-  canonical:
-    "https://www.excelexperts.com.au/services/microsoft-word/upgrades-and-migration/",
+
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-word/upgrades-and-migration/",
+    languages: {
+      "en-AU": "/services/microsoft-word/upgrades-and-migration/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

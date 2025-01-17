@@ -8,9 +8,16 @@ import ContactDetails from "../../components/ContactDetails";
 import contactUs from "../../public/pageHeros/contactUs.webp";
 import contactUsMob from "../../public/pageHeros/mob/contactUsMob.webp";
 
+import {
+  generateProfessionalServiceSchema,
+  generateOrganizationSchema,
+} from "../../utils/schemaGenerators";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
+    generateOrganizationSchema(),
+    generateProfessionalServiceSchema(),
     {
       "@type": "WebPage",
       "@id": "https://www.excelexperts.com.au/contact-us/",

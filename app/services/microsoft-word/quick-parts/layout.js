@@ -47,8 +47,13 @@ export const metadata = {
     // "data integration solutions",
     // "excel template automation",
   ],
-  canonical:
-    "https://www.excelexperts.com.au/services/microsoft-word/quick-parts/",
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-word/quick-parts/",
+    languages: {
+      "en-AU": "/services/microsoft-word/quick-parts/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

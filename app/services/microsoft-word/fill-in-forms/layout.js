@@ -43,8 +43,13 @@ export const metadata = {
     // "excel form development",
     // "business data automation",
   ],
-  canonical:
-    "https://www.excelexperts.com.au/services/microsoft-word/fill-in-forms/",
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-word/fill-in-forms/",
+    languages: {
+      "en-AU": "/services/microsoft-word/fill-in-forms/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

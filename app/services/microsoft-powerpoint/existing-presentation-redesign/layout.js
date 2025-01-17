@@ -27,8 +27,13 @@ export const metadata = {
     // "presentation design update",
     // "powerpoint experts australia",
   ],
-  canonical:
-    "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign/",
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-powerpoint/existing-presentation-redesign/",
+    languages: {
+      "en-AU": "/services/microsoft-powerpoint/existing-presentation-redesign/",
+    },
+  },
 };
 
 export default function PowerPointRedesignLayout({ children }) {

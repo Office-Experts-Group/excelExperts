@@ -3,16 +3,15 @@ import PropTypes from "prop-types";
 
 export const metadata = {
   // Basic metadata
-  title:
-    "Word Template Creation | Excel-Integrated Document Solutions | Microsoft Office Services",
+  title: "Word Template Creation | Excel Experts",
   description:
     "Excel Experts create professional Word templates with seamless Excel integration capabilities. Our templates feature automated data integration, custom formatting, and comprehensive branding across your Microsoft Office documents.",
 
   // OpenGraph
   openGraph: {
-    title: "Word Document & Template Creation with Excel Integration",
+    title: "Word Template Creation | Excel Experts",
     description:
-      "specialised Word templates designed by Excel experts, featuring seamless data integration, automated reporting, and professional branding across your Microsoft Office suite.",
+      "Excel Experts create professional Word templates with seamless Excel integration capabilities. Our templates feature automated data integration, custom formatting, and comprehensive branding across your Microsoft Office documents.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/word-document-template-creation/",
   },
 
@@ -47,8 +46,14 @@ export const metadata = {
     // "automated business documents",
     // "Excel-Word workflow automation",
   ],
-  canonical:
-    "https://www.excelexperts.com.au/services/microsoft-word/word-document-template-creation/",
+
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-word/word-document-template-creation/",
+    languages: {
+      "en-AU": "/services/microsoft-word/word-document-template-creation/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

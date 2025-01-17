@@ -1,11 +1,11 @@
 export const metadata = {
   title: "Custom Design and Development | Excel Experts",
   description:
-    "We can build What You Need! We have extensive experience in all aspects of Excel custom design and development including. Call us 1300102810",
+    "We can build What You Need! We have extensive experience in all aspects of Excel custom design and development. Call us 1300102810",
   openGraph: {
     title: "Custom Design and Development | Excel Experts",
     description:
-      "We can build What You Need! We have extensive experience in all aspects of Excel custom design and development including. Call us 1300102810",
+      "We can build What You Need! We have extensive experience in all aspects of Excel custom design and development. Call us 1300102810",
     url: "https://www.excelexperts.com.au/custom-design-and-development/",
   },
   keywords: [
@@ -20,7 +20,13 @@ export const metadata = {
     // "custom excel development",
     // "business automation excel",
   ],
-  canonical: "https://www.excelexperts.com.au/custom-design-and-development/",
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/custom-design-and-development/",
+    languages: {
+      "en-AU": "/custom-design-and-development/",
+    },
+  },
 };
 
 export default function CustomDesignDevelopmentLayout({ children }) {

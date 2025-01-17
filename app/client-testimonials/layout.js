@@ -3,15 +3,15 @@ import PropTypes from "prop-types";
 
 export const metadata = {
   // Basic metadata
-  title: "Client Testimonials | Excel Experts Australia",
+  title: "Client Testimonials | Excel Experts",
   description:
-    "Read what our clients say about their experience with Excel Experts. Discover how we've helped businesses across Australia optimize their Excel workflows and improve efficiency.",
+    "Read what our clients say about their experience with Excel Experts. Discover how we've helped businesses across Australia optimise their Excel workflows and improve efficiency.",
 
   // OpenGraph
   openGraph: {
-    title: "Client Testimonials | Excel Experts Australia",
+    title: "Client Testimonials | Excel Experts",
     description:
-      "Read trusted reviews and success stories from businesses we've helped with Excel solutions across Australia. Professional Excel consulting and development services.",
+      "Read what our clients say about their experience with Excel Experts. Discover how we've helped businesses across Australia optimise their Excel workflows and improve efficiency.",
     url: "https://www.excelexperts.com.au/client-testimonials/",
   },
 
@@ -26,12 +26,22 @@ export const metadata = {
     // "Excel development project examples",
     // "Excel solutions testimonials",
   ],
-  canonical: "https://www.excelexperts.com.au/client-testimonials/",
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/client-testimonials/",
+    languages: {
+      "en-AU": "/client-testimonials/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {
   return <>{children}</>;
 }
+
+RootLayout.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
 RootLayout.propTypes = {
   children: PropTypes.node.isRequired,

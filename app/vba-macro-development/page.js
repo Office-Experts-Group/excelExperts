@@ -12,9 +12,16 @@ import Promo from "./(components)/Promo";
 import graphic from "../../public/pageHeros/graphic.webp";
 import graph from "../../public/pageHeros/mob/graph.webp";
 
+import {
+  generateProfessionalServiceSchema,
+  generateOrganizationSchema,
+} from "../../utils/schemaGenerators";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
+    generateProfessionalServiceSchema(),
+    generateOrganizationSchema(),
     {
       "@type": "WebPage",
       "@id": "https://www.excelexperts.com.au/vba-macro-development/",

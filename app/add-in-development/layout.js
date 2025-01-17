@@ -8,7 +8,13 @@ export const metadata = {
       "What is an Excel Add-In? An Excel add-in contains code that adds additional functionality to Excel, usually in the form of new functions. Call us 1300102810",
     url: "https://www.excelexperts.com.au/add-in-development/",
   },
-  canonical: "https://www.excelexperts.com.au/add-in-development/",
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/add-in-development/",
+    languages: {
+      "en-AU": "/add-in-development/",
+    },
+  },
 
   keywords: [
     "Excel add-in development Australia",

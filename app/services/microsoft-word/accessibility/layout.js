@@ -46,8 +46,14 @@ export const metadata = {
     // "spreadsheet accessibility automation",
     // "excel reporting standards",
   ],
-  canonical:
-    "https://www.excelexperts.com.au/services/microsoft-word/accessibility/",
+
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-word/accessibility/",
+    languages: {
+      "en-AU": "/services/microsoft-word/accessibility/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

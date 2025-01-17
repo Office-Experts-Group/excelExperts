@@ -30,8 +30,14 @@ export const metadata = {
     // "spreadsheet document control",
     // "excel data management",
   ],
-  canonical:
-    "https://www.excelexperts.com.au/services/microsoft-word/companies-and-organisations/",
+
+  metadataBase: new URL("https://www.excelexperts.com.au"),
+  alternates: {
+    canonical: "/services/microsoft-word/companies-and-organisations/",
+    languages: {
+      "en-AU": "/services/microsoft-word/companies-and-organisations/",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

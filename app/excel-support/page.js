@@ -11,9 +11,16 @@ import PageSegment3 from "./(components)/PageSegment3";
 import handShake from "../../public/pageHeros/handShake.webp";
 import graphTableMob from "../../public/pageHeros/mob/graphTableMob.webp";
 
+import {
+  generateProfessionalServiceSchema,
+  generateOrganizationSchema,
+} from "../../utils/schemaGenerators";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
+    generateOrganizationSchema(),
+    generateProfessionalServiceSchema(),
     {
       "@type": "WebPage",
       "@id": "https://www.excelexperts.com.au/excel-support/",
