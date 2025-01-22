@@ -20,10 +20,17 @@ const Contact = dynamic(() => import("../components/Contact"));
 import { getHomePageSchema } from "../utils/testimonialSchemaGenerator";
 import { testimonials } from "../testimonials";
 
+import {
+  generateOrganizationSchema,
+  generateProfessionalServiceSchema,
+} from "../utils/SchemaGenerators";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
     ...getHomePageSchema(testimonials)["@graph"],
+    generateOrganizationSchema(),
+    generateProfessionalServiceSchema(),
     {
       "@type": "WebPage",
       "@id": "https://www.excelexperts.com.au/",
@@ -88,78 +95,6 @@ const schema = {
         },
       ],
       inLanguage: "en-AU",
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://www.excelexperts.com.au/#organization",
-      name: "Office Experts Group",
-      url: "https://www.excelexperts.com.au/",
-      telephone: "1300 10 28 10",
-      email: "consult@exceleexperts.com.au",
-      contactPoint: [
-        {
-          "@type": "ContactPoint",
-          telephone: "1300 10 28 10",
-          contactType: "customer service",
-          email: "consult@excelexperts.com.au",
-          availableLanguage: ["en", "en-AU"],
-        },
-      ],
-      areaServed: [
-        {
-          "@type": "Country",
-          name: "Australia",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "New South Wales",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Victoria",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Queensland",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Western Australia",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "South Australia",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Tasmania",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Australian Capital Territory",
-        },
-        {
-          "@type": "AdministrativeArea",
-          name: "Northern Territory",
-        },
-      ],
-      logo: {
-        "@type": "ImageObject",
-        inLanguage: "en-AU",
-        "@id": "https://www.excelexperts.com.au/logo.webp",
-        url: "/logo.png",
-        contentUrl: "/logo.png",
-        width: 1181,
-        height: 1181,
-        caption: "Office Experts Group",
-      },
-      image: {
-        "@id": "https://www.excelexperts.com.au/logo.webp",
-      },
-      sameAs: [
-        "https://www.facebook.com/MSOfficeExperts",
-        "https://x.com/OfficeExpertsG1",
-      ],
     },
   ],
 };

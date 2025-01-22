@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 export const metadata = {
   title: "Custom Toolbars & Ribbon Design | Exxcel Experts",
@@ -56,7 +55,3 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return <>{children}</>;
 }
-
-RootLayout.propTypes = {
-  children: PropTypes.node.isRequired,
-};

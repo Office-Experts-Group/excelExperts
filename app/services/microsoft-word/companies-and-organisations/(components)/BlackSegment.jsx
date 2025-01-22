@@ -36,10 +36,7 @@ const BlackSegment = () => {
               work efficiently within set guidelines.
             </p>
             <div className={styles.link}>
-              <Link
-                href="tel:+61-1300-12-20-38"
-                className={`${styles.btn} btn`}
-              >
+              <Link href="tel:+61-1300-102-810" className={`${styles.btn} btn`}>
                 <svg
                   stroke="currentColor"
                   fill="currentColor"

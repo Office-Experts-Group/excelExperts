@@ -7,11 +7,19 @@ export const generateProfessionalServiceSchema = () => ({
   description: "Professional Microsoft Excel consulting and support services",
   priceRange: "$$",
   serviceType: "Microsoft Excel Consulting",
-  availableService: {
-    "@type": "Service",
-    name: "Remote Consulting",
-    description: "Australia-wide remote Microsoft Excel consulting services",
-  },
+  availableService: [
+    {
+      "@type": "Service",
+      name: "Remote Consulting",
+      description: "Australia-wide remote Microsoft Excel consulting services",
+    },
+    {
+      "@type": "Service",
+      name: "On-site Consulting",
+      description:
+        "In-house Microsoft Excel consulting services available in major metropolitan areas",
+    },
+  ],
   areaServed: [
     {
       "@type": "Country",
@@ -249,7 +257,7 @@ export const generateProfessionalServiceSchema = () => ({
     "@type": "Organization",
     "@id": `https://www.excelexperts.com.au/#organization`,
   },
-  telephone: "1300 122 038",
+  telephone: "1300 102 810",
   email: "consult@excelexperts.com.au",
 });
 
@@ -258,14 +266,14 @@ export const generateOrganizationSchema = () => ({
   "@id": "https://www.excelexperts.com.au/#organization",
   name: "Office Experts Group",
   url: "https://www.excelexperts.com.au/",
-  telephone: "1300 122 038",
+  telephone: "1300 102 810",
   email: "consult@excelexperts.com.au",
   // Enhanced contact point information
   contactPoint: [
     {
       "@type": "ContactPoint",
       contactType: "customer service",
-      telephone: "1300 122 038",
+      telephone: "1300 102 810",
       email: "consult@excelexperts.com.au",
       availableLanguage: ["en", "en-AU"],
       contactOption: "TollFree",
@@ -275,15 +283,74 @@ export const generateOrganizationSchema = () => ({
   // Remote service availability
   hasOfferCatalog: {
     "@type": "OfferCatalog",
-    name: "Services",
+    name: "Excel Consulting Services",
     itemListElement: [
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Remote Microsoft Excel Consulting",
+          name: "Add-in Development",
           description:
-            "Australia-wide remote Microsoft Excel consulting and support",
+            "Custom Excel add-in development for enhanced spreadsheet functionality",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Data Manipulation",
+          description:
+            "Professional data cleaning, transformation, and analysis services",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Pivot Tables & Reporting",
+          description:
+            "Advanced pivot table creation and custom reporting solutions",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Excel Support",
+          description:
+            "Ongoing technical support and maintenance for Excel solutions",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Custom Development",
+          description: "Tailored Excel solution design and implementation",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Formula Development",
+          description: "Complex Excel formula creation and optimisation",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Upgrades & Migration",
+          description: "Excel version upgrades and workbook migration services",
+        },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "VBA Macro Development",
+          description: "Custom VBA macro programming for Excel automation",
         },
       },
     ],

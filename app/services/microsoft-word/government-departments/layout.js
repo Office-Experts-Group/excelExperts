@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 export const metadata = {
   title: "Government Excel-Word Integration Solutions | Excel Experts",
@@ -61,7 +60,3 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return <>{children}</>;
 }
-
-RootLayout.propTypes = {
-  children: PropTypes.node.isRequired,
-};
