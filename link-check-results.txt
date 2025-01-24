@@ -1,0 +1,341 @@
+SCAN DETAILS
+============
+Scanned Directories: app, components, styles, public
+Total Files Scanned: 362
+
+POTENTIALLY TRUNCATED LINKS
+==========================
+https://www.officeexperts.com.au/services/microsoft-office
+   File: app/(components)/FooterServicesSection.jsx
+   Context: ontent}>
+          <Link href="https://www.officeexperts.com.au/services/microsoft-office">
+            Micros
+
+ERRORS
+======
+404: /excel-support
+   Found in: app/(components)/CTAMain.jsx
+   Context: /div>
+
+            <Link href="/excel-support" className={styles.l
+
+404: /custom-design-and-development
+   Found in: app/(components)/Hero.jsx
+   Context:      </h1>
+        <Link href="/custom-design-and-development" className="btn">
+  
+
+404: /vba-macro-developmentVBA macros
+   Found in: app/add-in-development/(components)/PageSegment4.jsx
+   Context: " "}
+              <Link href="/vba-macro-developmentVBA macros">VBA macros</Link>.
+
+
+404: /add-in-development
+   Found in: Unknown source
+
+404: /services/by-business-solution/dashboards
+   Found in: app/custom-design-and-development/(components)/PageSegmentMain2.jsx
+   Context: Links</h3>
+        <Link href="/services/by-business-solution/dashboards">
+          <div cla
+
+404: /services/by-business-solution/3rd-party-application-or-office-integration
+   Found in: app/custom-design-and-development/(components)/PageSegmentMain2.jsx
+   Context:    </Link>
+        <Link href="/services/by-business-solution/3rd-party-application-or-office-integration">
+          <div cla
+
+404: /services/microsoft-word/custom-toolbars-and-ribbons
+   Found in: app/custom-design-and-development/(components)/PageSegmentMain2.jsx
+   Context:    </Link>
+        <Link href="/services/microsoft-word/custom-toolbars-and-ribbons">
+          <div cla
+
+404: /services/microsoft-word/word-template-conversions
+   Found in: app/custom-design-and-development/(components)/PageSegmentMain2.jsx
+   Context:    </Link>
+        <Link href="/services/microsoft-word/word-template-conversions">
+          <div cla
+
+404: /vba-macro-development
+   Found in: app/custom-design-and-development/(components)/SegmentMainCopy.jsx
+   Context: vices</h3>
+        <Link href="/vba-macro-development">
+          <div cla
+
+404: /services/microsoft-office-365
+   Found in: app/custom-design-and-development/(components)/SegmentMainCopy.jsx
+   Context:        >
+          <Link href="/services/microsoft-office-365">
+            <p>Off
+
+404: /services/by-business-solution/online-solutions
+   Found in: app/custom-design-and-development/(components)/SegmentMainCopy.jsx
+   Context: <p>/</p>
+          <Link href="/services/by-business-solution/online-solutions">
+            <p>Sha
+
+404: /services/by-business-solution/cloud-based-solutions-with-azure
+   Found in: app/custom-design-and-development/(components)/SegmentMainCopy.jsx
+   Context:     </div>
+        <Link href="/services/by-business-solution/cloud-based-solutions-with-azure">
+          <div cla
+
+404: /services/microsoft-access
+   Found in: app/custom-design-and-development/(components)/SegmentMainCopy.jsx
+   Context:    </Link>
+        <Link href="/services/microsoft-access">
+          <div cla
+
+404: /services/microsoft-power-bi
+   Found in: app/custom-design-and-development/(components)/SegmentMainCopy.jsx
+   Context:    </Link>
+        <Link href="/services/microsoft-power-bi">
+          <div cla
+
+404: /services/by-business-solution/custom-office-solutions
+   Found in: app/custom-design-and-development/(components)/SegmentMainCopy.jsx
+   Context:    </Link>
+        <Link href="/services/by-business-solution/custom-office-solutions">
+          <div cla
+
+404: /services/microsoft-dot-net
+   Found in: app/custom-design-and-development/(components)/SegmentMainCopy.jsx
+   Context:    </Link>
+        <Link href="/services/microsoft-dot-net">
+          <div cla
+
+404: /services/microsoft-powerpoint
+   Found in: app/custom-design-and-development/(components)/SegmentMainCopy.jsx
+   Context:    </Link>
+        <Link href="/services/microsoft-powerpoint">
+          <div cla
+
+404: /data-manipulation
+   Found in: Unknown source
+
+404: /excel-formulas-and-custom-formulas
+   Found in: Unknown source
+
+404: /about-us
+   Found in: app/meet-the-team/(components)/Services.jsx
+   Context: e{" "}
+            <Link href={"/about-us"}>About Us</Link> pag
+
+404: /pivot-tables-charts-and-reporting-solutions
+   Found in: Unknown source
+
+404: /is-access-right-for-your-company/
+   Found in: app/services/microsoft-access/(components)/CTAMain.jsx
+   Context: /div>
+
+            <Link
+              href="/is-access-right-for-your-company/"
+              class
+
+404: /access-azure-cloudbased-services
+   Found in: app/services/microsoft-access/(components)/Hero.jsx
+   Context:      </h1>
+        <Link href="/access-azure-cloudbased-services" className="btn">
+  
+
+404: /services/microsoft-access/3rd-party-product-integration
+   Found in: Unknown source
+
+404: /services/microsoft-access/access-azure-cloud-based-solutions
+   Found in: Unknown source
+
+404: /services/microsoft-access/access-online
+   Found in: Unknown source
+
+404: /services/microsoft-access/access-support
+   Found in: Unknown source
+
+404: /access-online
+   Found in: app/services/microsoft-access/is-access-right-for-your-company/(components)/Contents.jsx
+   Context: nks</h3>
+          <Link href="/access-online">
+            <div c
+
+404: /3rd-party-product-integration
+   Found in: app/services/microsoft-access/is-access-right-for-your-company/(components)/Contents.jsx
+   Context:  </Link>
+          <Link href="/3rd-party-product-integration">
+            <div c
+
+404: /access-support
+   Found in: app/services/microsoft-access/is-access-right-for-your-company/(components)/Contents.jsx
+   Context:  </Link>
+          <Link href="/access-support">
+            <div c
+
+404: /services/microsoft-access/is-access-right-for-your-company
+   Found in: Unknown source
+
+404: /access-azure-cloud-based-solutions
+   Found in: app/services/microsoft-access/upgrades-and-migration/(components)/Promo.jsx
+   Context: " "}
+              <Link href="/access-azure-cloud-based-solutions">
+                Mi
+
+404: /services/microsoft-access/upgrades-and-migration
+   Found in: Unknown source
+
+404: /services/microsoft-powerpoint/automate-presentations-with-vba
+   Found in: Unknown source
+
+404: /services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations
+   Found in: Unknown source
+
+404: /services/microsoft-powerpoint/existing-presentation-redesign
+   Found in: Unknown source
+
+404: /services/microsoft-powerpoint/powerpoint-user-training-and-assistance
+   Found in: Unknown source
+
+404: /services/microsoft-word/accessibility
+   Found in: Unknown source
+
+404: /services/microsoft-word/companies-and-organisations
+   Found in: Unknown source
+
+404: /services/microsoft-word/corporate-global-template-solution
+   Found in: Unknown source
+
+404: /services/microsoft-word/corporate-identity
+   Found in: Unknown source
+
+404: /services/microsoft-word/fill-in-forms
+   Found in: Unknown source
+
+404: /services/microsoft-word/government-departments
+   Found in: Unknown source
+
+404: /services/microsoft-word
+   Found in: Unknown source
+
+404: /services/microsoft-word/popup-forms
+   Found in: Unknown source
+
+404: /services/microsoft-word/quick-parts
+   Found in: Unknown source
+
+404: /services/microsoft-word/remove-repetition-and-increase-productivity
+   Found in: Unknown source
+
+404: /services/microsoft-word/training
+   Found in: Unknown source
+
+404: /services/microsoft-word/upgrades-and-migration
+   Found in: Unknown source
+
+404: /services/microsoft-word/word-document-template-creation
+   Found in: Unknown source
+
+89/98: https://www.dulux.com.au - Error: fetch failed
+   Found in: Unknown source
+
+92/98: https://www.hyundai.com.au/ - Error: fetch failed
+   Found in: Unknown source
+
+CHECK RESULTS
+============
+1/98: /contact-us - Status: 200
+2/98: /excel-support - Status: 404
+3/98: https://www.officeexperts.com.au/faq - Status: 200
+4/98: https://www.officeexperts.com.au/terms-and-conditions - Status: 200
+5/98: https://www.officeexperts.com.au/privacy-policy - Status: 200
+6/98: https://www.officeexperts.com.au/refund-policy - Status: 200
+7/98: /meet-the-team - Status: 200
+8/98: /client-testimonials - Status: 200
+9/98: / - Status: 200
+10/98: https://www.officeexperts.com.au/about-us - Status: 200
+11/98: https://www.officeexperts.com.au/blog - Status: 200
+12/98: https://www.powerplatformexperts.com.au/ - Status: 200
+13/98: https://www.powerplatformexperts.com.au/services/microsoft-power-platform/microsoft-power-apps - Status: 200
+14/98: https://www.powerplatformexperts.com.au/services/microsoft-power-platform/microsoft-power-bi - Status: 200
+15/98: https://www.powerplatformexperts.com.au/services/microsoft-power-platform/microsoft-power-automate - Status: 200
+16/98: https://www.powerplatformexperts.com.au/services/microsoft-power-platform/microsoft-power-pages - Status: 200
+17/98: https://www.officeexperts.com.au/services/microsoft-office - Status: 200
+18/98: https://www.accessexperts.com.au/ - Status: 200
+19/98: https://www.wordexperts.com.au/ - Status: 200
+20/98: https://www.officeexperts.com.au/services/microsoft-powerpoint - Status: 200
+21/98: https://www.officeexperts.com.au/services/microsoft-office-365 - Status: 200
+22/98: https://www.officeexperts.com.au/services/by-business-solution/cloud-based-solutions-with-azure - Status: 200
+23/98: https://www.officeexperts.com.au/services/by-business-solution/office-and-sql-server-integration - Status: 200
+24/98: https://www.officeexperts.com.au/services/by-business-solution/online-solutions - Status: 200
+25/98: https://www.officeexperts.com.au/services/by-product-and-technology/microsoft-dot-net - Status: 200
+26/98: https://www.officeexperts.com.au/services/by-business-solution/custom-office-solutions - Status: 200
+27/98: https://www.officeexperts.com.au/services/by-product-and-technology/microsoft-publisher - Status: 200
+28/98: /custom-design-and-development - Status: 404
+29/98: /vba-macro-developmentVBA macros - Status: 404
+30/98: /add-in-development - Status: 404
+31/98: /contact-us/request-a-quote - Status: 200
+32/98: /services/by-business-solution/dashboards - Status: 404
+33/98: /services/by-business-solution/3rd-party-application-or-office-integration - Status: 404
+34/98: /services/microsoft-word/custom-toolbars-and-ribbons - Status: 404
+35/98: /services/microsoft-word/word-template-conversions - Status: 404
+36/98: https://excelexperts.com.au/vba-macro-development - Status: 200
+37/98: https://excelexperts.com.au/data-manipulation - Status: 200
+38/98: https://excelexperts.com.au/add-in-development - Status: 200
+39/98: /vba-macro-development - Status: 404
+40/98: /services/microsoft-office-365 - Status: 404
+41/98: /services/by-business-solution/online-solutions - Status: 404
+42/98: /services/by-business-solution/cloud-based-solutions-with-azure - Status: 404
+43/98: /services/microsoft-access - Status: 404
+44/98: /services/microsoft-power-bi - Status: 404
+45/98: /services/by-business-solution/custom-office-solutions - Status: 404
+46/98: /services/microsoft-dot-net - Status: 404
+47/98: /services/microsoft-powerpoint - Status: 404
+48/98: https://excelexperts.com.au - Status: 200
+49/98: /data-manipulation - Status: 404
+50/98: /excel-formulas-and-custom-formulas - Status: 404
+51/98: /about-us - Status: 404
+52/98:  - Status: 200
+53/98: /pivot-tables-charts-and-reporting-solutions - Status: 404
+54/98: /search - Status: 200
+55/98: /is-access-right-for-your-company/ - Status: 404
+56/98: /access-azure-cloudbased-services - Status: 404
+57/98: /services/microsoft-access/3rd-party-product-integration - Status: 404
+58/98: https://www.officeexperts.com.au/services/by-business-solution/office-and-sql-server-integration/ - Status: 200
+59/98: /services/microsoft-access/access-azure-cloud-based-solutions - Status: 404
+60/98: /services/microsoft-access/access-online - Status: 404
+61/98: /services/microsoft-access/access-support - Status: 404
+62/98: /access-online - Status: 404
+63/98: /3rd-party-product-integration - Status: 404
+64/98: /access-support - Status: 404
+65/98: /upgrades-and-migration - Status: 200
+66/98: /services/microsoft-access/is-access-right-for-your-company - Status: 404
+67/98: /access-azure-cloud-based-solutions - Status: 404
+68/98: https://www.officeexperts.com.au/services/microsoft-dot-net - Status: 200
+69/98: https://www.officeexperts.com.au/services/by-business-solution/database-development-and-solutions - Status: 200
+70/98: /services/microsoft-access/upgrades-and-migration - Status: 404
+71/98: /services/microsoft-powerpoint/automate-presentations-with-vba - Status: 404
+72/98: /services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations - Status: 404
+73/98: /services/microsoft-powerpoint/existing-presentation-redesign - Status: 404
+74/98: /services/microsoft-powerpoint/powerpoint-user-training-and-assistance - Status: 404
+75/98: /training - Status: 200
+76/98: /services/microsoft-word/accessibility - Status: 404
+77/98: /services/microsoft-word/companies-and-organisations - Status: 404
+78/98: /services/microsoft-word/corporate-global-template-solution - Status: 404
+79/98: /services/microsoft-word/corporate-identity - Status: 404
+80/98: /services/microsoft-word/fill-in-forms - Status: 404
+81/98: /services/microsoft-word/government-departments - Status: 404
+82/98: /services/microsoft-word - Status: 404
+83/98: /services/microsoft-word/popup-forms - Status: 404
+84/98: /services/microsoft-word/quick-parts - Status: 404
+85/98: /services/microsoft-word/remove-repetition-and-increase-productivity - Status: 404
+86/98: /services/microsoft-word/training - Status: 404
+87/98: /services/microsoft-word/upgrades-and-migration - Status: 404
+88/98: /services/microsoft-word/word-document-template-creation - Status: 404
+89/98: https://www.dulux.com.au - Error: fetch failed
+90/98: https://www.bekaert.com/en/ - Status: 200
+91/98: http://www.queenslandrail.com.au/ - Status: 200
+92/98: https://www.hyundai.com.au/ - Error: fetch failed
+93/98: https://www.sgwater.com.au/ - Status: 503
+94/98: https://www.facebook.com/MSOfficeExperts - Status: 400
+95/98: https://www.instagram.com/officeexpertsgroup - Status: 200
+96/98: https://www.twitter.com/OfficeExpertsG1 - Status: 200
+97/98: https://www.youtube.com/channel/UCw2Xf02ukEwvM6fQ2lVZxuw - Status: 200
+98/98: https://www.linkedin.com/company/office-experts-group - Status: 200
