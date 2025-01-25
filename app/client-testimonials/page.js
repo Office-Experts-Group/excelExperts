@@ -6,7 +6,9 @@ import ServiceHero from "../../components/ServiceHero";
 
 import { getTestimonialsPageSchema } from "../../utils/testimonialSchemaGenerator";
 import { testimonials } from "../../testimonials";
-
+import { filterAndSortTestimonials } from "../../utils/filterTestimonials";
+const serviceTestimonials =
+  filterAndSortTestimonials(testimonials, "excel") || testimonials;
 import testimonialsPic from "../../public/pageHeros/testimonials.webp";
 import testimonialsMob from "../../public/pageHeros/mob/testimonialsMob.webp";
 
@@ -21,7 +23,7 @@ const schema = {
     generateOrganizationSchema(),
     generateProfessionalServiceSchema(),
     {
-      ...getTestimonialsPageSchema(testimonials),
+      ...getTestimonialsPageSchema(serviceTestimonials, "excel")["@graph"],
       "@type": "WebPage",
       "@id": "https://www.excelexperts.com.au/client-testimonials/",
       url: "https://www.excelexperts.com.au/client-testimonials/",
@@ -109,7 +111,7 @@ const Page = () => {
         altDesk={"Wooden block with smiley face"}
         altMob={"five stars"}
       />
-      <TestimonialPage testimonials={testimonials} />
+      <TestimonialPage testimonials={serviceTestimonials} />
       <Contact />
     </>
   );

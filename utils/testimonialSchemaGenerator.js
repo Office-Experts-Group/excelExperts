@@ -192,7 +192,7 @@ export const generateTestimonialsSchema = (
 export const getHomePageSchema = (testimonials) => {
   return generateTestimonialsSchema(
     testimonials,
-    "https://wwexcelexperts.com.au",
+    "https://www.excelexperts.com.au",
     "/",
     false
   );
@@ -201,8 +201,8 @@ export const getHomePageSchema = (testimonials) => {
 export const getAboutPageSchema = (testimonials) => {
   return generateTestimonialsSchema(
     testimonials,
-    "https://wwexcelexperts.com.au",
-    "/about-us/",
+    "https://www.excelexperts.com.au",
+    "https://officeexperts.com.au/about-us/",
     false
   );
 };

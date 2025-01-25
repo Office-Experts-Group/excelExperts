@@ -1,3 +1,4 @@
+// extensive list of testimonials
 import dulux from "./public/logos/Dulux-Group.webp";
 import queenslandRailLogo from "./public/logos/Queensland-Rail.webp";
 import arrow from "./public/logos/Arrow-Energy.webp";
@@ -64,6 +65,8 @@ import transgrid150x from "./public/logos/transgrid-150x56-150x56.webp";
 import unitingcareaustralia150x from "./public/logos/uniting-care-australia-150x48-150x48.webp";
 import warringtonfire150x from "./public/logos/warringtonfire-150x150-150x150.webp";
 import windowline150x from "./public/logos/window-line-150x45-150x45.webp";
+import facade from "./public/logos/facade150x64.webp";
+import advancescanning from "./public/logos/advance-scanning-services-1-150x150-150x150.webp";
 
 export const testimonials = [
   {
@@ -74,6 +77,33 @@ export const testimonials = [
     image: lowespetroleumservicebp150x,
     width: 150,
     height: 50,
+  },
+  {
+    content:
+      "Scott has provided exceptional service and support. He has an excellent knowledge of Access Databases and manufacturing procedures. He is fast and effective.",
+    name: "Peter Norwood",
+    contact: "www.astau.co",
+    image: ast,
+    width: 150,
+    height: 41,
+  },
+  {
+    content:
+      'Stephen has proven to be amazing, expeditious, knowledgeable and creative in his approach to working with me, developing project management software specific to our industry. He has created a product tailor made that was impossible to buy "off the shelf". I have no hesitation in recommending Office Experts to any colleagues.',
+    name: "Sarah-Jane Burchett",
+    contact: "facaderesolutions.com.au",
+    image: facade,
+    width: 150,
+    height: 64,
+  },
+  {
+    content:
+      "Thank you Jason Ellinopoullos. The service and after care we received was amazing. The automatic emailing training matrix and equipment register you created for me exceeded my expectations. Not only does it save me time but it is a very simple to use and amazing looking program. I look forward to using you on my next project.",
+    name: "Bradley Lanciano, Operations Manager",
+    contact: "www.advancescanning.com.au",
+    image: advancescanning,
+    width: 150,
+    height: 150,
   },
   {
     content:
@@ -336,15 +366,6 @@ export const testimonials = [
   },
   {
     content:
-      "Linda was simply brilliant in building me the Excel template I needed to offer my clients more meaningful reporting. The spreadsheet has been set up for easy data entry to eliminate the error rate we were experiencing. And what's even better, it's totally future proof too. I have reduced the time I spend on monthly reporting by at least 50% thanks to Linda! I have been working with Jason on a few tasks these last few weeks, which were all time sensitive. I am impressed with his ability to grasp the challenge and assist in getting to a suitable solution. He produced a macro-enabled spreadsheet that allowed us to automate a complicated task. He is exceptionally prompt and pleasant to work with. For every project we worked on, he shared our urgency and turned around the work fast enough and of high quality, for us to still meet our deadlines.",
-    name: "Jen Galama",
-    contact: "www.trafficact.com.au",
-    image: trafficact,
-    width: 131,
-    height: 49,
-  },
-  {
-    content:
       "Excel Experts work has been exemplary. On time, on budget and always up to specifications. Helpful advice and prompt service always. I would not hesitate to recommend them to others.",
     name: "Ken Wyper",
     contact: "www.transgrid.com.au",
@@ -474,18 +495,18 @@ export const testimonials = [
       "Thank you Jason Ellinopoullos. The service and after care we received was amazing. The automatic emailing training matrix and equipment register you created for me exceeded my expectations. Not only does it save me time but it is a very simple to use and amazing looking program. I look forward to using you on my next project.",
     name: "Bradley Lanciano, Operations Manager",
     contact: "www.advancescanning.com.au",
-    image: "",
-    width: 0,
-    height: 0,
+    image: advancescanning,
+    width: 150,
+    height: 150,
   },
   {
     content:
       "I contacted Office Experts with very late notice for some urgent work that we required. Jason was extremely helpful and met all of the required deadlines that our customer had put on us even consulting with us after normal working hours. Jason also offered some great ideas and tips that we had not even thought of which has made the use of the spreadsheet very efficient, saving us time and money. I have been back to get minor changes done and once again everything was done well within time requirements and cost effective. I highly recommended Jason and Office Experts and will be using them in the future.",
     name: "Darryl Cloete",
     contact: "www.linkedin.com/in/darryl-cloete-6081ba16b",
-    image: "",
-    width: 0,
-    height: 0,
+    image: hitech150x,
+    width: 150,
+    height: 100,
   },
   {
     content:
@@ -732,20 +753,20 @@ export const testimonials = [
   },
   {
     content:
-      "Linda was simply brilliant in building me the Excel template I needed to offer my clients more meaningful reporting. The spreadsheet has been set up for easy data entry to eliminate the error rate we were experiencing. And what's even better, it's totally future proof too. I have reduced the time I spend on monthly reporting by at least 50% thanks to Linda! I have been working with Jason on a few tasks these last few weeks, which were all time sensitive. I am impressed with his ability to grasp the challenge and assist in getting to a suitable solution. He produced a macro-enabled spreadsheet that allowed us to automate a complicated task. He is exceptionally prompt and pleasant to work with. For every project we worked on, he shared our urgency and turned around the work fast enough and of high quality, for us to still meet our deadlines.",
-    name: "Jen Galama",
-    contact: "www.trafficact.com.au",
-    image: trafficact,
-    width: 131,
-    height: 49,
-  },
-  {
-    content:
       "During a recent project, the assistance of Office Experts was invaluable. They assisted our company in the development of an inspection tool using Office based software. This tool will save us a significant amount of time and resources per annum. From design through testing and to completion, I could not speak highly enough of them. Our one on one consultant Linda Campbell was exceptional and really delivered exactly what we were after. I would recommend Office Experts for any business that is looking to streamline processes and make their day to day operation more efficient.",
     name: "Brett McLeod",
     contact: "www.persal.com.au",
     image: persalandcox,
     width: 150,
     height: 124,
+  },
+  {
+    content:
+      "Jason did an excellent job of translating my requirements for a Risk Register into a finished product that was both functional, easy to use and able to be further refined without the need for further programming.",
+    name: "Garry O'Shea",
+    contact: "www.duluxgroup.com.au",
+    image: dulux,
+    width: 150,
+    height: 38,
   },
 ];
