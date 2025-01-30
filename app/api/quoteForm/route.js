@@ -130,6 +130,7 @@ export async function POST(req) {
       <p><strong>Message:</strong></p>
       <p>${message || "Not provided"}</p>
       ${htmlSignature}
+            <em>This form was filled out on the website: https://excelexperts.com.au @ ${new Date().toLocaleString()}</em>
     `;
 
     const customerHtmlMessage = `
