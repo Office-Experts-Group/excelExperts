@@ -45,9 +45,9 @@ export const metadata = {
 
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/services/microsoft-word",
+    canonical: "/services/microsoft-word/word-template-conversions/",
     languages: {
-      "en-AU": "/services/microsoft-word",
+      "en-AU": "/services/microsoft-word/word-template-conversions",
     },
   },
 };
