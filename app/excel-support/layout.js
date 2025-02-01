@@ -29,9 +29,9 @@ export const metadata = {
   ],
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/excel-support/",
+    canonical: "/excel-support",
     languages: {
-      "en-AU": "/excel-support/",
+      "en-AU": "/excel-support",
     },
   },
 };

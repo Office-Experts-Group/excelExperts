@@ -34,9 +34,9 @@ export const metadata = {
   },
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/data-manipulation/",
+    canonical: "/data-manipulation",
     languages: {
-      "en-AU": "/data-manipulation/",
+      "en-AU": "/data-manipulation",
     },
   },
 };

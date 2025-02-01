@@ -29,9 +29,9 @@ export const metadata = {
   ],
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/services/microsoft-powerpoint/existing-presentation-redesign/",
+    canonical: "/services/microsoft-powerpoint/existing-presentation-redesign",
     languages: {
-      "en-AU": "/services/microsoft-powerpoint/existing-presentation-redesign/",
+      "en-AU": "/services/microsoft-powerpoint/existing-presentation-redesign",
     },
   },
 };

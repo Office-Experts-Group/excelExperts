@@ -45,9 +45,9 @@ export const metadata = {
 
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/services/microsoft-word/custom-toolbars-and-ribbons/",
+    canonical: "/services/microsoft-word/custom-toolbars-and-ribbons",
     languages: {
-      "en-AU": "/services/microsoft-word/custom-toolbars-and-ribbons/",
+      "en-AU": "/services/microsoft-word/custom-toolbars-and-ribbons",
     },
   },
 };

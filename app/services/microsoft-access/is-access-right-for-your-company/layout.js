@@ -55,9 +55,9 @@ export const metadata = {
 
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/services/microsoft-access/is-access-right-for-your-company/",
+    canonical: "/services/microsoft-access/is-access-right-for-your-company",
     languages: {
-      "en-AU": "/services/microsoft-access/is-access-right-for-your-company/",
+      "en-AU": "/services/microsoft-access/is-access-right-for-your-company",
     },
   },
 };

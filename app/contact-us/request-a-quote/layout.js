@@ -38,9 +38,9 @@ export const metadata = {
 
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/contact-us/request-a-quote/",
+    canonical: "/contact-us/request-a-quote",
     languages: {
-      "en-AU": "/contact-us/request-a-quote/",
+      "en-AU": "/contact-us/request-a-quote",
     },
   },
 };

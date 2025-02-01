@@ -31,10 +31,10 @@ export const metadata = {
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
     canonical:
-      "/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations/",
+      "/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
     languages: {
       "en-AU":
-        "/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations/",
+        "/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
     },
   },
 };

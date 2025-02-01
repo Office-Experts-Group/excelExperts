@@ -30,9 +30,9 @@ export const metadata = {
 
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/excel-formulas-and-custom-formulas/",
+    canonical: "/excel-formulas-and-custom-formulas",
     languages: {
-      "en-AU": "/excel-formulas-and-custom-formulas/",
+      "en-AU": "/excel-formulas-and-custom-formulas",
     },
   },
 };

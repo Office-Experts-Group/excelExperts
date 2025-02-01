@@ -44,9 +44,9 @@ export const metadata = {
   ],
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/services/microsoft-word/fill-in-forms/",
+    canonical: "/services/microsoft-word/fill-in-forms",
     languages: {
-      "en-AU": "/services/microsoft-word/fill-in-forms/",
+      "en-AU": "/services/microsoft-word/fill-in-forms",
     },
   },
 };

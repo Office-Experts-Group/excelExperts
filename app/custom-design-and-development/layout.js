@@ -22,9 +22,9 @@ export const metadata = {
   ],
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/custom-design-and-development/",
+    canonical: "/custom-design-and-development",
     languages: {
-      "en-AU": "/custom-design-and-development/",
+      "en-AU": "/custom-design-and-development",
     },
   },
 };

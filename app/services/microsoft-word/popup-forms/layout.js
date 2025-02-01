@@ -44,9 +44,9 @@ export const metadata = {
 
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/services/microsoft-word/popup-forms/",
+    canonical: "/services/microsoft-word/popup-forms",
     languages: {
-      "en-AU": "/services/microsoft-word/popup-forms/",
+      "en-AU": "/services/microsoft-word/popup-forms",
     },
   },
 };

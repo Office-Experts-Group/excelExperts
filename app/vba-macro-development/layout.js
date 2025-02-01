@@ -54,9 +54,9 @@ export const metadata = {
 
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/vba-macro-development/",
+    canonical: "/vba-macro-development",
     languages: {
-      "en-AU": "/vba-macro-development/",
+      "en-AU": "/vba-macro-development",
     },
   },
 };

@@ -53,9 +53,9 @@ export const metadata = {
 
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/services/microsoft-word/upgrades-and-migration/",
+    canonical: "/services/microsoft-word/upgrades-and-migration",
     languages: {
-      "en-AU": "/services/microsoft-word/upgrades-and-migration/",
+      "en-AU": "/services/microsoft-word/upgrades-and-migration",
     },
   },
 };

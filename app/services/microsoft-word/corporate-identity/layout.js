@@ -44,9 +44,9 @@ export const metadata = {
 
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/services/microsoft-word/corporate-identity/",
+    canonical: "/services/microsoft-word/corporate-identity",
     languages: {
-      "en-AU": "/services/microsoft-word/corporate-identity/",
+      "en-AU": "/services/microsoft-word/corporate-identity",
     },
   },
 };

@@ -27,12 +27,11 @@ export const metadata = {
     // "presentation branding solutions",
     "powerpoint training australia",
   ],
-  canonical: "https://www.excelexperts.com.au/services/microsoft-powerpoint/",
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/services/microsoft-powerpoint/",
+    canonical: "/services/microsoft-powerpoint",
     languages: {
-      "en-AU": "/services/microsoft-powerpoint/",
+      "en-AU": "/services/microsoft-powerpoint",
     },
   },
 };

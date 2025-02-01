@@ -29,9 +29,9 @@ export const metadata = {
   ],
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/pivot-tables-charts-and-reporting-solutions/",
+    canonical: "/pivot-tables-charts-and-reporting-solutions",
     languages: {
-      "en-AU": "/pivot-tables-charts-and-reporting-solutions/",
+      "en-AU": "/pivot-tables-charts-and-reporting-solutions",
     },
   },
 };

@@ -10,9 +10,9 @@ export const metadata = {
   },
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/add-in-development/",
+    canonical: "/add-in-development",
     languages: {
-      "en-AU": "/add-in-development/",
+      "en-AU": "/add-in-development",
     },
   },
 

@@ -50,9 +50,9 @@ export const metadata = {
 
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/services/microsoft-word/government-departments/",
+    canonical: "/services/microsoft-word/government-departments",
     languages: {
-      "en-AU": "/services/microsoft-word/government-departments/",
+      "en-AU": "/services/microsoft-word/government-departments",
     },
   },
 };

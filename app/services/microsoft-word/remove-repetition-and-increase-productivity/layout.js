@@ -46,10 +46,10 @@ export const metadata = {
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
     canonical:
-      "/services/microsoft-word/remove-repetition-and-increase-productivity/",
+      "/services/microsoft-word/remove-repetition-and-increase-productivity",
     languages: {
       "en-AU":
-        "/services/microsoft-word/remove-repetition-and-increase-productivity/",
+        "/services/microsoft-word/remove-repetition-and-increase-productivity",
     },
   },
 };

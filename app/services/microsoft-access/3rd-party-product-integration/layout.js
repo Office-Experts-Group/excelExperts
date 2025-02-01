@@ -59,9 +59,9 @@ export const metadata = {
 
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/services/microsoft-access/3rd-party-product-integration/",
+    canonical: "/services/microsoft-access/3rd-party-product-integration",
     languages: {
-      "en-AU": "/services/microsoft-access/3rd-party-product-integration/",
+      "en-AU": "/services/microsoft-access/3rd-party-product-integration",
     },
   },
 };

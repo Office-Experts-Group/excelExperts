@@ -51,9 +51,9 @@ export const metadata = {
   ],
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/contact-us/",
+    canonical: "/contact-us",
     languages: {
-      "en-AU": "/contact-us/",
+      "en-AU": "/contact-us",
     },
   },
 };

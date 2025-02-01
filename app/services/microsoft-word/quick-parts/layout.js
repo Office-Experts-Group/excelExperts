@@ -48,9 +48,9 @@ export const metadata = {
   ],
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/services/microsoft-word/quick-parts/",
+    canonical: "/services/microsoft-word/quick-parts",
     languages: {
-      "en-AU": "/services/microsoft-word/quick-parts/",
+      "en-AU": "/services/microsoft-word/quick-parts",
     },
   },
 };

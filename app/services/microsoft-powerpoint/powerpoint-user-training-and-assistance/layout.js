@@ -33,10 +33,10 @@ export const metadata = {
   metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
     canonical:
-      "/services/microsoft-powerpoint/powerpoint-user-training-and-assistance/",
+      "/services/microsoft-powerpoint/powerpoint-user-training-and-assistance",
     languages: {
       "en-AU":
-        "/services/microsoft-powerpoint/powerpoint-user-training-and-assistance/",
+        "/services/microsoft-powerpoint/powerpoint-user-training-and-assistance",
     },
   },
 };
