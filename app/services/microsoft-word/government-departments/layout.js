@@ -9,7 +9,7 @@ export const metadata = {
     title: "Government Excel-Word Integration Solutions | Excel Experts",
     description:
       "Expert Excel and Word integration services for government departments. specialising in data automation, spreadsheet integration, and accessible reporting solutions for state and federal agencies.",
-    url: "https://www.excelexperts.com.au/services/microsoft-word/government-departments/",
+    url: "https://www.excelexperts.com.au/services/microsoft-word/government-departments",
   },
 
   keywords: [
@@ -47,14 +47,6 @@ export const metadata = {
     // "automated data extraction",
     // "government spreadsheet consistency",
   ],
-
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/services/microsoft-word/government-departments",
-    languages: {
-      "en-AU": "/services/microsoft-word/government-departments",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

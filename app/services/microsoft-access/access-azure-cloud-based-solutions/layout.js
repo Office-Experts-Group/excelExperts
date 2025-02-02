@@ -11,7 +11,7 @@ export const metadata = {
     title: "Access & Azure Cloud Based Database Solutions | Access Experts",
     description:
       "Expert Microsoft Access and Azure integration services for cloud-based database solutions. Custom Access database development with Azure SQL Server hosting for secure, scalable, and accessible data management.",
-    url: "https://www.excelexperts.com.au/services/microsoft-access/access-azure-cloud-based-solutions/",
+    url: "https://www.excelexperts.com.au/services/microsoft-access/access-azure-cloud-based-solutions",
   },
 
   // Additional metadata
@@ -58,13 +58,6 @@ export const metadata = {
     // "Microsoft Access specialists Melbourne",
     // "Azure database consultants Brisbane",
   ],
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/services/microsoft-access/access-azure-cloud-based-solutions",
-    languages: {
-      "en-AU": "/services/microsoft-access/access-azure-cloud-based-solutions",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

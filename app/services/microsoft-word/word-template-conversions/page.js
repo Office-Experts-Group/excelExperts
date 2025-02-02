@@ -30,16 +30,16 @@ const schema = {
       url: "https://www.excelexperts.com.au/services/microsoft-word/word-template-conversions/",
       name: "Word Design Services | Word Template Designers | Word Design Company | Excel Experts",
       isPartOf: {
-        "@id": "https://www.excelexperts.com.au/#website",
+        "@id": "https://www.excelexperts.com.au#website",
       },
       about: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2024-10-27T00:00:00+00:00",
       dateModified: "2024-10-27T00:00:00+00:00",
       breadcrumb: {
         "@id":
-          "https://www.excelexperts.com.au/services/microsoft-word/word-template-conversions/#breadcrumb",
+          "https://www.excelexperts.com.au/services/microsoft-word/word-template-conversions#breadcrumb",
       },
       inLanguage: "en-AU",
       potentialAction: [
@@ -54,7 +54,7 @@ const schema = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.excelexperts.com.au/services/microsoft-word/word-template-conversions/#breadcrumb",
+        "https://www.excelexperts.com.au/services/microsoft-word/word-template-conversions#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
@@ -83,13 +83,13 @@ const schema = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.excelexperts.com.au/#website",
+      "@id": "https://www.excelexperts.com.au#website",
       url: "https://www.excelexperts.com.au/",
       name: "Excel Experts Group: Microsoft Excel Experts, Microsoft Access Database Experts, Microsoft Word Experts, PowerPoint Experts, Azure, Power BI, SQL Server, SharePoint, Microsoft Office 365",
       description:
         "Your Microsoft Excel and Office Suite Design, Development and Consulting Experts",
       publisher: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       potentialAction: [
         {

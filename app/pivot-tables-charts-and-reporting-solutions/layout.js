@@ -7,7 +7,7 @@ export const metadata = {
     title: "Pivot Tables, Charts & Reporting Solutions | Excel Experts",
     description:
       "Professional Excel pivot table and chart solutions from certified experts. Custom reporting solutions, VBA programming, and expert consultation for all your Excel reporting needs.",
-    url: "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions/",
+    url: "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions",
   },
 
   keywords: [
@@ -27,13 +27,6 @@ export const metadata = {
     // "power bi integration excel reports",
     // "excel data analysis solutions australia",
   ],
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/pivot-tables-charts-and-reporting-solutions",
-    languages: {
-      "en-AU": "/pivot-tables-charts-and-reporting-solutions",
-    },
-  },
 };
 
 export default function PivotTablesChartsReportingLayout({ children }) {

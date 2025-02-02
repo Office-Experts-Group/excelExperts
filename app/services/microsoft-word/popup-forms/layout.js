@@ -8,7 +8,7 @@ export const metadata = {
     title: "Excel-Integrated Popup Forms | Excel Experts",
     description:
       "Our Excel integration experts deliver popup forms that seamlessly connect with your spreadsheet data, enhancing data entry processes, improving accuracy, and streamlining Excel-to-Word workflows while saving your business money.",
-    url: "https://www.excelexperts.com.au/services/microsoft-word/popup-forms/",
+    url: "https://www.excelexperts.com.au/services/microsoft-word/popup-forms",
   },
 
   keywords: [
@@ -41,14 +41,6 @@ export const metadata = {
     // "data entry optimization",
     // "excel quality control",
   ],
-
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/services/microsoft-word/popup-forms",
-    languages: {
-      "en-AU": "/services/microsoft-word/popup-forms",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

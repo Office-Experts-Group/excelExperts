@@ -25,14 +25,14 @@ const schema = {
     {
       "@type": "WebPage",
       "@id":
-        "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions/",
-      url: "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions/",
+        "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions",
+      url: "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions",
       name: "Pivot Tables, Charts & Reporting Solutions | Excel Experts",
       isPartOf: {
-        "@id": "https://www.excelexperts.com.au/#website",
+        "@id": "https://www.excelexperts.com.au#website",
       },
       about: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2018-01-02T16:19:12+00:00",
       dateModified: "2022-11-09T00:28:14+00:00",
@@ -40,14 +40,14 @@ const schema = {
         "We are Reporting Solution Experts! If you need help with charting, pivot charts, pivot tables or any other Excel features then our experts can help.",
       breadcrumb: {
         "@id":
-          "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions/#breadcrumb",
+          "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions#breadcrumb",
       },
       inLanguage: "en-AU",
       potentialAction: [
         {
           "@type": "ReadAction",
           target: [
-            "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions/",
+            "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions",
           ],
         },
       ],
@@ -55,13 +55,13 @@ const schema = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions/#breadcrumb",
+        "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.excelexperts.com.au/",
+          item: "https://www.excelexperts.com.au",
         },
         {
           "@type": "ListItem",
@@ -69,33 +69,6 @@ const schema = {
           name: "Pivot Tables, Charts and Reporting Solutions",
         },
       ],
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.excelexperts.com.au/#website",
-      url: "https://www.excelexperts.com.au/",
-      name: "Excel Experts - Microsoft Excel Design, Development and Consulting, Office Experts Group",
-      description:
-        "Your Microsoft Technology Design, Development and Consulting Experts",
-      publisher: {
-        "@id": "https://www.excelexperts.com.au/#organization",
-      },
-      potentialAction: [
-        {
-          "@type": "SearchAction",
-          target: {
-            "@type": "EntryPoint",
-            urlTemplate:
-              "https://www.excelexperts.com.au/?s={search_term_string}",
-          },
-          "query-input": {
-            "@type": "PropertyValueSpecification",
-            valueRequired: true,
-            valueName: "search_term_string",
-          },
-        },
-      ],
-      inLanguage: "en-AU",
     },
   ],
 };

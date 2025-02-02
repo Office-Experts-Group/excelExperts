@@ -7,7 +7,7 @@ export const metadata = {
     title: "PowerPoint Presentation Redesign Services | Excel Experts",
     description:
       "Professional PowerPoint presentation redesign services. Transform existing presentations into high-quality templates with master slides that meet brand guidelines.",
-    url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign/",
+    url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign",
   },
 
   keywords: [
@@ -27,13 +27,6 @@ export const metadata = {
     // "presentation design update",
     // "powerpoint experts australia",
   ],
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/services/microsoft-powerpoint/existing-presentation-redesign",
-    languages: {
-      "en-AU": "/services/microsoft-powerpoint/existing-presentation-redesign",
-    },
-  },
 };
 
 export default function PowerPointRedesignLayout({ children }) {

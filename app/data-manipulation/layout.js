@@ -30,14 +30,7 @@ export const metadata = {
     title: "Data Manipulation | Excel Experts",
     description:
       "We are experts in Data import/export, parsing and processing Data formatting automation, automated data manipulation solutions using VBA. Call us 1300102810",
-    url: "https://www.excelexperts.com.au/data-manipulation/",
-  },
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/data-manipulation",
-    languages: {
-      "en-AU": "/data-manipulation",
-    },
+    url: "https://www.excelexperts.com.au/data-manipulation",
   },
 };
 

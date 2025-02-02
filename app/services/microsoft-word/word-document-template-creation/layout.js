@@ -11,7 +11,7 @@ export const metadata = {
     title: "Word Template Creation | Excel Experts",
     description:
       "Excel Experts create professional Word templates with seamless Excel integration capabilities. Our templates feature automated data integration, custom formatting, and comprehensive branding across your Microsoft Office documents.",
-    url: "https://www.excelexperts.com.au/services/microsoft-word/word-document-template-creation/",
+    url: "https://www.excelexperts.com.au/services/microsoft-word/word-document-template-creation",
   },
 
   // Additional metadata
@@ -45,14 +45,6 @@ export const metadata = {
     // "automated business documents",
     // "Excel-Word workflow automation",
   ],
-
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/services/microsoft-word/word-document-template-creation",
-    languages: {
-      "en-AU": "/services/microsoft-word/word-document-template-creation",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

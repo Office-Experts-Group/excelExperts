@@ -11,7 +11,7 @@ export const metadata = {
     title: "3rd Party Product Integration | Access Experts",
     description:
       "Professional Microsoft Access integration services connecting your databases with CRMs, accounting software, and third-party applications. Competitive pricing and expert consultation.",
-    url: "https://www.excelexperts.com.au/services/microsoft-access/3rd-party-product-integration/",
+    url: "https://www.excelexperts.com.au/services/microsoft-access/3rd-party-product-integration",
   },
 
   // Additional metadata
@@ -56,14 +56,6 @@ export const metadata = {
     // "Database integration experts Brisbane",
     // "Access development services Perth",
   ],
-
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/services/microsoft-access/3rd-party-product-integration",
-    languages: {
-      "en-AU": "/services/microsoft-access/3rd-party-product-integration",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

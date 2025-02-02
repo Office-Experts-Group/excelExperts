@@ -9,7 +9,7 @@ export const metadata = {
     title: "Excel-Integrated Corporate Word Solutions | Excel Experts",
     description:
       "Advanced Corporate Template Solution combining Excel data automation with Word templates. Create professional documents that automatically pull from your Excel data while maintaining consistent formatting and branding.",
-    url: "https://www.excelexperts.com.au/services/microsoft-word/corporate-global-template-solution/",
+    url: "https://www.excelexperts.com.au/services/microsoft-word/corporate-global-template-solution",
   },
 
   keywords: [
@@ -41,14 +41,6 @@ export const metadata = {
     // "spreadsheet reporting",
     // "excel template integration",
   ],
-
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/services/microsoft-word/corporate-global-template-solution",
-    languages: {
-      "en-AU": "/services/microsoft-word/corporate-global-template-solution",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

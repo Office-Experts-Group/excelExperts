@@ -25,14 +25,14 @@ const schema = {
     generateProfessionalServiceSchema(),
     {
       "@type": "WebPage",
-      "@id": "https://www.excelexperts.com.au/custom-design-and-development/",
-      url: "https://www.excelexperts.com.au/custom-design-and-development/",
+      "@id": "https://www.excelexperts.com.au/custom-design-and-development",
+      url: "https://www.excelexperts.com.au/custom-design-and-development",
       name: "Custom Design and Development | Excel Experts",
       isPartOf: {
-        "@id": "https://www.excelexperts.com.au/#website",
+        "@id": "https://www.excelexperts.com.au#website",
       },
       about: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2018-01-02T13:09:44+00:00",
       dateModified: "2022-11-09T00:30:41+00:00",
@@ -40,14 +40,14 @@ const schema = {
         "We can build What You Need! We have extensive experience in all aspects of Excel custom design and development including. Call us 1300102810",
       breadcrumb: {
         "@id":
-          "https://www.excelexperts.com.au/custom-design-and-development/#breadcrumb",
+          "https://www.excelexperts.com.au/custom-design-and-development#breadcrumb",
       },
       inLanguage: "en-AU",
       potentialAction: [
         {
           "@type": "ReadAction",
           target: [
-            "https://www.excelexperts.com.au/custom-design-and-development/",
+            "https://www.excelexperts.com.au/custom-design-and-development",
           ],
         },
       ],
@@ -55,13 +55,13 @@ const schema = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.excelexperts.com.au/custom-design-and-development/#breadcrumb",
+        "https://www.excelexperts.com.au/custom-design-and-development#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.excelexperts.com.au/",
+          item: "https://www.excelexperts.com.au",
         },
         {
           "@type": "ListItem",
@@ -69,33 +69,6 @@ const schema = {
           name: "Custom Design and Development",
         },
       ],
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.excelexperts.com.au/#website",
-      url: "https://www.excelexperts.com.au/",
-      name: "Excel Experts - Microsoft Excel Design, Development and Consulting, Office Experts Group",
-      description:
-        "Your Microsoft Technology Design, Development and Consulting Experts",
-      publisher: {
-        "@id": "https://www.excelexperts.com.au/#organization",
-      },
-      potentialAction: [
-        {
-          "@type": "SearchAction",
-          target: {
-            "@type": "EntryPoint",
-            urlTemplate:
-              "https://www.excelexperts.com.au/?s={search_term_string}",
-          },
-          "query-input": {
-            "@type": "PropertyValueSpecification",
-            valueRequired: true,
-            valueName: "search_term_string",
-          },
-        },
-      ],
-      inLanguage: "en-AU",
     },
   ],
 };

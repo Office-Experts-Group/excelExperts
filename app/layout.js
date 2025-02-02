@@ -61,7 +61,7 @@ export const metadata = {
     title: "Excel Help Australia - Expert Excel Programmer & Consultant",
     description:
       "Excel Experts is the Leading Excel Help Service Provider in Australia. Highly Experienced Excel Programmers & Developers. Call 1300 102 810",
-    url: "https://www.excelexperts.com.au/",
+    url: "https://www.excelexperts.com.au",
     siteName: "Excel Experts",
     images: [
       {
@@ -96,14 +96,11 @@ export const metadata = {
     images: ["/logo.png"],
   },
 
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    languages: {
-      "en-AU": "/",
-      en: "/",
-      "x-default": "/",
-    },
-  },
+  metadataBase: new URL(
+    process.env.NODE_ENV === "production"
+      ? "https://www.excelexperts.com.au"
+      : "http://localhost:3000"
+  ),
 
   robots: {
     index: true,

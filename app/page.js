@@ -33,51 +33,39 @@ const schema = {
     generateProfessionalServiceSchema(),
     {
       "@type": "WebPage",
-      "@id": "https://www.excelexperts.com.au/",
-      url: "https://www.excelexperts.com.au/",
+      "@id": "https://www.excelexperts.com.au",
+      url: "https://www.excelexperts.com.au",
       name: "Excel Help Australia - Expert Excel Programmer & Consultant",
       isPartOf: {
-        "@id": "https://www.excelexperts.com.au/#website",
+        "@id": "https://www.excelexperts.com.au#website",
       },
       about: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
       dateModified: "2024-10-26T00:00:00+00:00",
       description:
         "Excel Experts is the Leading Excel Help Service Provider in Australia. Highly Experienced Excel Programmers & Developers. Call 1300 102 810",
       breadcrumb: {
-        "@id": "https://www.excelexperts.com.au/#breadcrumb",
+        "@id": "https://www.excelexperts.com.au#breadcrumb",
       },
       inLanguage: "en-AU",
       potentialAction: [
         {
           "@type": "ReadAction",
-          target: ["https://www.excelexperts.com.au/"],
-        },
-      ],
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.excelexperts.com.au/#breadcrumb",
-      itemListElement: [
-        {
-          "@type": "ListItem",
-          position: 1,
-          name: "Home",
-          item: "https://www.excelexperts.com.au/",
+          target: ["https://www.excelexperts.com.au"],
         },
       ],
     },
     {
       "@type": "WebSite",
-      "@id": "https://www.excelexperts.com.au/#website",
-      url: "https://www.excelexperts.com.au/",
+      "@id": "https://www.excelexperts.com.au#website",
+      url: "https://www.excelexperts.com.au",
       name: "Excel Experts - Microsoft Excel Design, Development and Consulting, Office Experts Group",
       description:
         "Your Microsoft Technology Design, Development and Consulting Experts",
       publisher: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       potentialAction: [
         {
@@ -85,7 +73,7 @@ const schema = {
           target: {
             "@type": "EntryPoint",
             urlTemplate:
-              "https://www.excelexperts.com.au/?s={search_term_string}",
+              "https://www.excelexperts.com.au?s={search_term_string}",
           },
           "query-input": {
             "@type": "PropertyValueSpecification",
@@ -95,6 +83,18 @@ const schema = {
         },
       ],
       inLanguage: "en-AU",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.excelexperts.com.au#breadcrumb",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.excelexperts.com.au",
+        },
+      ],
     },
   ],
 };

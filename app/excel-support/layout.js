@@ -7,7 +7,7 @@ export const metadata = {
     title: "Excel Support & Training Services | Excel Experts",
     description:
       "Professional Excel support and training services via remote access or phone. Our expert consultants provide instant guidance, troubleshooting, and dedicated support for individuals and teams.",
-    url: "https://www.excelexperts.com.au/excel-support/",
+    url: "https://www.excelexperts.com.au/excel-support",
   },
 
   keywords: [
@@ -27,13 +27,6 @@ export const metadata = {
     // "expert excel problem solving assistance",
     // "online excel consultant support services",
   ],
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/excel-support",
-    languages: {
-      "en-AU": "/excel-support",
-    },
-  },
 };
 
 export default function ExcelSupportLayout({ children }) {

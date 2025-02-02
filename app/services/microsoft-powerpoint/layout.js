@@ -7,7 +7,7 @@ export const metadata = {
     title: "Presentation Design & Development Services | Excel Experts",
     description:
       "Professional PowerPoint presentation design and development services from certified experts. Custom templates, VBA automation, and expert consultation for all your presentation needs.",
-    url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/",
+    url: "https://www.excelexperts.com.au/services/microsoft-powerpoint",
   },
 
   keywords: [
@@ -27,13 +27,6 @@ export const metadata = {
     // "presentation branding solutions",
     "powerpoint training australia",
   ],
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/services/microsoft-powerpoint",
-    languages: {
-      "en-AU": "/services/microsoft-powerpoint",
-    },
-  },
 };
 
 export default function PowerPointServicesLayout({ children }) {

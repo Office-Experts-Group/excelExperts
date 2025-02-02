@@ -22,14 +22,14 @@ const schema = {
     {
       "@type": "WebPage",
       "@id":
-        "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations/",
-      url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations/",
+        "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
+      url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
       name: "Custom PowerPoint Templates & Corporate Presentation Design Services",
       isPartOf: {
-        "@id": "https://www.excelexperts.com.au/#website",
+        "@id": "https://www.excelexperts.com.au#website",
       },
       about: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2018-01-02T16:19:12+00:00",
       dateModified: "2022-11-09T00:28:14+00:00",
@@ -37,14 +37,14 @@ const schema = {
         "Professional PowerPoint template design services including custom master slides, corporate branding, and expert presentation design solutions.",
       breadcrumb: {
         "@id":
-          "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations/#breadcrumb",
+          "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations#breadcrumb",
       },
       inLanguage: "en-AU",
       potentialAction: [
         {
           "@type": "ReadAction",
           target: [
-            "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations/",
+            "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
           ],
         },
       ],
@@ -52,25 +52,25 @@ const schema = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations/#breadcrumb",
+        "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.excelexperts.com.au/",
+          item: "https://www.excelexperts.com.au",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Services",
-          item: "https://www.excelexperts.com.au/services/",
+          item: "https://www.excelexperts.com.au/services",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Microsoft PowerPoint Services",
-          item: "https://www.excelexperts.com.au/services/microsoft-powerpoint/",
+          item: "https://www.excelexperts.com.au/services/microsoft-powerpoint",
         },
         {
           "@type": "ListItem",
@@ -82,12 +82,12 @@ const schema = {
     {
       "@type": "Service",
       "@id":
-        "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations/#service",
+        "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations#service",
       name: "Custom PowerPoint Templates and Presentation Design",
       description:
         "Professional PowerPoint template design services including master slides, corporate branding, and custom presentation solutions.",
       provider: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       areaServed: {
         "@type": "Country",

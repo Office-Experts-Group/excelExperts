@@ -11,7 +11,7 @@ export const metadata = {
     title: "Request a Quote | Excel Experts",
     description:
       "Submit your Microsoft Excel project requirements, specifications, and files for a detailed quote. Our experienced Excel developers provide custom solutions, automation services, and spreadsheet consulting.",
-    url: "https://www.excelexperts.com.au/contact-us/request-a-quote/",
+    url: "https://www.excelexperts.com.au/contact-us/request-a-quote",
   },
 
   // Additional metadata
@@ -35,14 +35,6 @@ export const metadata = {
     // "Excel workbook maintenance quote",
     // "Spreadsheet backup solution pricing",
   ],
-
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/contact-us/request-a-quote",
-    languages: {
-      "en-AU": "/contact-us/request-a-quote",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

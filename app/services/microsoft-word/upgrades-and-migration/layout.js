@@ -11,7 +11,7 @@ export const metadata = {
     title: "Word Upgrades and Migration | Excel Experts",
     description:
       "Professional Microsoft Word upgrade and migration services with Excel integration expertise. Specialists in cross-application compatibility and data integration.",
-    url: "https://www.excelexperts.com.au/services/microsoft-word/upgrades-and-migration/",
+    url: "https://www.excelexperts.com.au/services/microsoft-word/upgrades-and-migration",
   },
 
   // Additional metadata
@@ -50,14 +50,6 @@ export const metadata = {
     // "corporate Excel-Word solutions",
     // "professional Office integration",
   ],
-
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/services/microsoft-word/upgrades-and-migration",
-    languages: {
-      "en-AU": "/services/microsoft-word/upgrades-and-migration",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

@@ -7,7 +7,7 @@ export const metadata = {
     title: "Excel Upgrades and Migration | Excel Experts",
     description:
       "Stuck on an Old Version? Expert help with Excel workbook upgrades, VBA migration, and version compatibility issues. Professional Excel upgrade services across Australia. Call 1300102810",
-    url: "https://www.excelexperts.com.au/upgrades-and-migration/",
+    url: "https://www.excelexperts.com.au/upgrades-and-migration",
   },
 
   keywords: [
@@ -47,14 +47,6 @@ export const metadata = {
     // "Excel upgrade consultation Melbourne",
     // "Excel version upgrade Brisbane",
   ],
-
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/upgrades-and-migration",
-    languages: {
-      "en-AU": "/upgrades-and-migration",
-    },
-  },
 };
 
 export default function UpgradesAndMigrationLayout({ children }) {

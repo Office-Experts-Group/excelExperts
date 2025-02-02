@@ -11,7 +11,7 @@ export const metadata = {
     title: "Microsoft Access Support & Training | Excel Experts",
     description:
       "Professional Microsoft Access database support and training services. Remote or onsite assistance for database issues, custom training, and expert consultancy.",
-    url: "https://www.excelexperts.com.au/services/microsoft-access/access-support/",
+    url: "https://www.excelexperts.com.au/services/microsoft-access/access-support",
   },
 
   // Additional metadata
@@ -55,13 +55,6 @@ export const metadata = {
     // "Custom Access report development",
     // "Database normalization consulting Access",
   ],
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/services/microsoft-access/access-support",
-    languages: {
-      "en-AU": "/services/microsoft-access/access-support",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

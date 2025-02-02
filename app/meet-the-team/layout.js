@@ -11,7 +11,7 @@ export const metadata = {
     title: "Meet Our Team | Excel Experts Australia",
     description:
       "Meet our team of certified Microsoft Excel developers, consultants, and trainers. Experts in spreadsheet development, analysis, and business solutions across Australia.",
-    url: "https://www.excelexperts.com.au/meet-the-team/",
+    url: "https://www.excelexperts.com.au/meet-the-team",
   },
 
   // Additional metadata
@@ -52,13 +52,6 @@ export const metadata = {
     // "Professional Excel team",
     // "Expert data analysts",
   ],
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/meet-the-team",
-    languages: {
-      "en-AU": "/meet-the-team",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

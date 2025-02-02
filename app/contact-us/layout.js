@@ -11,7 +11,7 @@ export const metadata = {
     title: "Contact Us | Excel Experts",
     description:
       "Get in touch with our Microsoft Excel specialists for custom solutions, automation, support, and consulting services across Australia.",
-    url: "https://www.excelexperts.com.au/contact-us/",
+    url: "https://www.excelexperts.com.au/contact-us",
   },
 
   // Additional metadata
@@ -49,13 +49,6 @@ export const metadata = {
     // "Excel data migration consultation",
     // "Legacy workbook modernization quote",
   ],
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/contact-us",
-    languages: {
-      "en-AU": "/contact-us",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

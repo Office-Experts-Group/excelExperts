@@ -26,14 +26,14 @@ const schema = {
     generateOrganizationSchema(),
     {
       "@type": "WebPage",
-      "@id": "https://www.excelexperts.com.au/services/microsoft-powerpoint/",
-      url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/",
+      "@id": "https://www.excelexperts.com.au/services/microsoft-powerpoint",
+      url: "https://www.excelexperts.com.au/services/microsoft-powerpoint",
       name: "PowerPoint Experts | Presentation Design & Development Services",
       isPartOf: {
-        "@id": "https://www.excelexperts.com.au/#website",
+        "@id": "https://www.excelexperts.com.au#website",
       },
       about: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2018-01-02T16:19:12+00:00",
       dateModified: "2022-11-09T00:28:14+00:00",
@@ -41,14 +41,14 @@ const schema = {
         "Professional PowerPoint experts delivering presentation design, custom templates, VBA automation and training services across Australia.",
       breadcrumb: {
         "@id":
-          "https://www.excelexperts.com.au/services/microsoft-powerpoint/#breadcrumb",
+          "https://www.excelexperts.com.au/services/microsoft-powerpoint#breadcrumb",
       },
       inLanguage: "en-AU",
       potentialAction: [
         {
           "@type": "ReadAction",
           target: [
-            "https://www.excelexperts.com.au/services/microsoft-powerpoint/",
+            "https://www.excelexperts.com.au/services/microsoft-powerpoint",
           ],
         },
       ],
@@ -56,19 +56,19 @@ const schema = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.excelexperts.com.au/services/microsoft-powerpoint/#breadcrumb",
+        "https://www.excelexperts.com.au/services/microsoft-powerpoint#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.excelexperts.com.au/",
+          item: "https://www.excelexperts.com.au",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Services",
-          item: "https://www.excelexperts.com.au/services/",
+          item: "https://www.excelexperts.com.au/services",
         },
         {
           "@type": "ListItem",
@@ -80,12 +80,12 @@ const schema = {
     {
       "@type": "Service",
       "@id":
-        "https://www.excelexperts.com.au/services/microsoft-powerpoint/#service",
+        "https://www.excelexperts.com.au/services/microsoft-powerpoint#service",
       name: "PowerPoint Consulting Services",
       description:
         "Professional PowerPoint presentation design and development services including custom templates, VBA automation, and expert training.",
       provider: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       areaServed: {
         "@type": "Country",

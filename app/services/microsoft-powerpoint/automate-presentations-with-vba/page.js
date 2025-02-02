@@ -22,14 +22,14 @@ const schema = {
     {
       "@type": "WebPage",
       "@id":
-        "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba/",
-      url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba/",
+        "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba",
+      url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba",
       name: "PowerPoint VBA Automation Services | Expert Presentation Development",
       isPartOf: {
-        "@id": "https://www.excelexperts.com.au/#website",
+        "@id": "https://www.excelexperts.com.au#website",
       },
       about: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2018-01-02T16:19:12+00:00",
       dateModified: "2022-11-09T00:28:14+00:00",
@@ -37,14 +37,14 @@ const schema = {
         "Professional PowerPoint VBA automation services including custom programming, data integration, and workflow automation solutions.",
       breadcrumb: {
         "@id":
-          "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba/#breadcrumb",
+          "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba#breadcrumb",
       },
       inLanguage: "en-AU",
       potentialAction: [
         {
           "@type": "ReadAction",
           target: [
-            "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba/",
+            "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba",
           ],
         },
       ],
@@ -52,25 +52,25 @@ const schema = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba/#breadcrumb",
+        "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.excelexperts.com.au/",
+          item: "https://www.excelexperts.com.au",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Services",
-          item: "https://www.excelexperts.com.au/services/",
+          item: "https://www.excelexperts.com.au/services",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Microsoft PowerPoint Services",
-          item: "https://www.excelexperts.com.au/services/microsoft-powerpoint/",
+          item: "https://www.excelexperts.com.au/services/microsoft-powerpoint",
         },
         {
           "@type": "ListItem",
@@ -82,12 +82,12 @@ const schema = {
     {
       "@type": "Service",
       "@id":
-        "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba/#service",
+        "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba#service",
       name: "PowerPoint VBA Automation Services",
       description:
         "Custom VBA programming and automation services for Microsoft PowerPoint presentations, including data integration and workflow optimization.",
       provider: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       areaServed: {
         "@type": "Country",

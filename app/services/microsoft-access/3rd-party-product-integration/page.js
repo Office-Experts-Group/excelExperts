@@ -29,7 +29,7 @@ const schema = {
       url: "https://excelexperts.com.au/services/microsoft-access/3rd-party-product-integration",
       name: "Excel Experts: For All Your Microsoft Technology Development and Consulting Services",
       isPartOf: {
-        "@id": "https://excelexperts.com.au/#website",
+        "@id": "https://excelexperts.com.au#website",
       },
       datePublished: "2024-10-27T00:00:00+00:00",
       dateModified: "2024-10-27T00:00:00+00:00",
@@ -42,7 +42,7 @@ const schema = {
             "@type": "ListItem",
             position: 1,
             item: {
-              "@id": "https://excelexperts.com.au/",
+              "@id": "https://excelexperts.com.au",
               name: "Home",
             },
           },
@@ -50,7 +50,7 @@ const schema = {
             "@type": "ListItem",
             position: 2,
             item: {
-              "@id": "https://excelexperts.com.au/services/",
+              "@id": "https://excelexperts.com.au/services",
               name: "Services",
             },
           },
@@ -58,7 +58,7 @@ const schema = {
             "@type": "ListItem",
             position: 3,
             item: {
-              "@id": "https://excelexperts.com.au/services/microsoft-access/",
+              "@id": "https://excelexperts.com.au/services/microsoft-access",
               name: "Microsoft Access",
             },
           },
@@ -67,38 +67,12 @@ const schema = {
             position: 4,
             item: {
               "@id":
-                "https://excelexperts.com.au/services/microsoft-access/3rd-party-product-integration/",
+                "https://excelexperts.com.au/services/microsoft-access/3rd-party-product-integration",
               name: "3rd Party Product Integration",
             },
           },
         ],
       },
-      inLanguage: "en-AU",
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://excelexperts.com.au/#website",
-      url: "https://excelexperts.com.au/services/microsoft-access/3rd-party-product-integration",
-      name: "Excel Experts: Microsoft Access Development and Consulting Services",
-      description:
-        "Your Microsoft Excel and Access Design, Development and Consulting Experts",
-      publisher: {
-        "@id": "https://excelexperts.com.au/#organization",
-      },
-      potentialAction: [
-        {
-          "@type": "SearchAction",
-          target: {
-            "@type": "EntryPoint",
-            urlTemplate: "https://excelexperts.com.au/?s={search_term_string}",
-          },
-          "query-input": {
-            "@type": "PropertyValueSpecification",
-            valueRequired: true,
-            valueName: "search_term_string",
-          },
-        },
-      ],
       inLanguage: "en-AU",
     },
     {

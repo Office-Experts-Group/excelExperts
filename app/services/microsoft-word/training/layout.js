@@ -9,7 +9,7 @@ export const metadata = {
     title: "Excel-Word Integration Training | Excel Experts",
     description:
       "Our Excel integration experts provide comprehensive training on managing data flow between Excel and Word. Learn to automate data transfer, create dynamic reports, and optimise your spreadsheet-to-document workflow.",
-    url: "https://www.excelexperts.com.au/services/microsoft-word/training/",
+    url: "https://www.excelexperts.com.au/services/microsoft-word/training",
   },
 
   keywords: [
@@ -41,14 +41,6 @@ export const metadata = {
     // "excel integration assistance",
     // "professional excel guidance",
   ],
-
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/services/microsoft-word/training",
-    languages: {
-      "en-AU": "/services/microsoft-word/training",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

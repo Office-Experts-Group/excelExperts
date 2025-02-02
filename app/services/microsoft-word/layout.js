@@ -9,7 +9,7 @@ export const metadata = {
     title: "Microsoft Word Services | Excel Experts",
     description:
       "Our Excel Experts team has a dedicated wing of Word design professionals who can help you with all aspects of your company's Word documents, excel, access and power platform integrations.",
-    url: "https://www.excelexperts.com.au/services/microsoft-word/",
+    url: "https://www.excelexperts.com.au/services/microsoft-word",
   },
 
   keywords: [
@@ -42,14 +42,6 @@ export const metadata = {
     // "excel experts perth",
     // "microsoft integration australia wide",
   ],
-
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/services/microsoft-word/word-template-conversions/",
-    languages: {
-      "en-AU": "/services/microsoft-word/word-template-conversions",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

@@ -11,7 +11,7 @@ export const metadata = {
     title: "Access Online Database Solutions | Excel Experts",
     description:
       "Professional Microsoft Access cloud database solutions, including Office 365 integration, SharePoint connectivity, and Azure hosting. Expert consultants for online database development and mobile access solutions.",
-    url: "https://www.excelexperts.com.au/services/microsoft-access/access-online/",
+    url: "https://www.excelexperts.com.au/services/microsoft-access/access-online",
   },
 
   // Additional metadata
@@ -58,13 +58,6 @@ export const metadata = {
     // "Melbourne Access cloud services",
     // "Brisbane Access online solutions",
   ],
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/services/microsoft-access/access-online",
-    languages: {
-      "en-AU": "/services/microsoft-access/access-online",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

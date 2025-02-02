@@ -28,10 +28,10 @@ const schema = {
       url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance/",
       name: "PowerPoint Training & Expert Assistance Services | Professional Support",
       isPartOf: {
-        "@id": "https://www.excelexperts.com.au/#website",
+        "@id": "https://www.excelexperts.com.au#website",
       },
       about: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2018-01-02T16:19:12+00:00",
       dateModified: "2022-11-09T00:28:14+00:00",
@@ -39,7 +39,7 @@ const schema = {
         "Professional PowerPoint training and assistance services including remote support, custom training sessions, and expert troubleshooting.",
       breadcrumb: {
         "@id":
-          "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance/#breadcrumb",
+          "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance#breadcrumb",
       },
       inLanguage: "en-AU",
       potentialAction: [
@@ -54,7 +54,7 @@ const schema = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance/#breadcrumb",
+        "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
@@ -84,12 +84,12 @@ const schema = {
     {
       "@type": "Service",
       "@id":
-        "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance/#service",
+        "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance#service",
       name: "PowerPoint Training and Assistance Services",
       description:
         "Professional PowerPoint training and support services including remote assistance, custom training programs, and expert troubleshooting.",
       provider: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       areaServed: {
         "@type": "Country",

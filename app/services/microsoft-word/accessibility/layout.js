@@ -9,7 +9,7 @@ export const metadata = {
     title: "Word Accessibility Solutions | Excel Experts",
     description:
       "As Excel specialists, our Word accessibility solutions seamlessly integrate with your Excel-based workflows. Our experts ensure your documents maintain accessibility standards while working harmoniously with your Excel data exports and reporting processes.",
-    url: "https://www.excelexperts.com.au/services/microsoft-word/accessibility/",
+    url: "https://www.excelexperts.com.au/services/microsoft-word/accessibility",
   },
 
   keywords: [
@@ -45,14 +45,6 @@ export const metadata = {
     // "spreadsheet accessibility automation",
     // "excel reporting standards",
   ],
-
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/services/microsoft-word/accessibility",
-    languages: {
-      "en-AU": "/services/microsoft-word/accessibility",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

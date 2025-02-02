@@ -9,7 +9,7 @@ export const metadata = {
     title: "VBA Macro Development & Programming Services | Excel Experts",
     description:
       "Professional VBA macro development services for Microsoft Office. Custom automation solutions, add-in development, and expert programming for Excel, Access, Word, and Office 365.",
-    url: "https://www.excelexperts.com.au/vba-macro-development/",
+    url: "https://www.excelexperts.com.au/vba-macro-development",
   },
 
   // Keywords
@@ -50,15 +50,6 @@ export const metadata = {
     // "Office automation specialists Melbourne",
     // "VBA consultants Brisbane",
   ],
-  canonical: "https://www.excelexperts.com.au/vba-macro-development/",
-
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/vba-macro-development",
-    languages: {
-      "en-AU": "/vba-macro-development",
-    },
-  },
 };
 
 export default function VbaMacroDevelopmentLayout({ children }) {

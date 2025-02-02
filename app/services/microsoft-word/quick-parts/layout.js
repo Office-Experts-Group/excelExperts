@@ -9,7 +9,7 @@ export const metadata = {
     title: "Excel-Integrated Quick Parts Solutions | Excel Experts",
     description:
       "Our Excel integration experts deliver Quick Parts solutions that seamlessly pull data from your spreadsheets into Word documents, creating dynamic, data-driven content blocks that save your business time and money.",
-    url: "https://www.excelexperts.com.au/services/microsoft-word/quick-parts/",
+    url: "https://www.excelexperts.com.au/services/microsoft-word/quick-parts",
   },
 
   keywords: [
@@ -46,13 +46,6 @@ export const metadata = {
     // "data integration solutions",
     // "excel template automation",
   ],
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/services/microsoft-word/quick-parts",
-    languages: {
-      "en-AU": "/services/microsoft-word/quick-parts",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

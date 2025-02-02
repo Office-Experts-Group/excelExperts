@@ -11,7 +11,7 @@ export const metadata = {
     title: "Client Testimonials | Excel Experts",
     description:
       "Read what our clients say about their experience with Excel Experts. Discover how we've helped businesses across Australia optimise their Excel workflows and improve efficiency.",
-    url: "https://www.excelexperts.com.au/client-testimonials/",
+    url: "https://www.excelexperts.com.au/client-testimonials",
   },
 
   // Core keywords focused on testimonials and trust
@@ -25,13 +25,6 @@ export const metadata = {
     // "Excel development project examples",
     // "Excel solutions testimonials",
   ],
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/client-testimonials",
-    languages: {
-      "en-AU": "/client-testimonials",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

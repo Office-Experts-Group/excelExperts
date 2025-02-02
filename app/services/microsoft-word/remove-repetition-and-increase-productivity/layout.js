@@ -9,7 +9,7 @@ export const metadata = {
     title: "Data Automation Solutions | Excel Experts",
     description:
       "Our Excel-Word integration solutions automate data transfer between spreadsheets and documents. We streamline your workflow by eliminating repetitive data entry and ensuring consistent data flow across platforms.",
-    url: "https://www.excelexperts.com.au/services/microsoft-word/remove-repetition-and-increase-productivity/",
+    url: "https://www.excelexperts.com.au/services/microsoft-word/remove-repetition-and-increase-productivity",
   },
 
   keywords: [
@@ -42,16 +42,6 @@ export const metadata = {
     // "professional excel services",
     // "data productivity consulting",
   ],
-
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical:
-      "/services/microsoft-word/remove-repetition-and-increase-productivity",
-    languages: {
-      "en-AU":
-        "/services/microsoft-word/remove-repetition-and-increase-productivity",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

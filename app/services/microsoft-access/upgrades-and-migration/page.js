@@ -31,7 +31,7 @@ const schema = {
       url: "https://excelexperts.com.au/services/microsoft-access/upgrades-and-migration/",
       name: "Microsoft Access Database Upgrades & Migration Services",
       isPartOf: {
-        "@id": "https://excelexperts.com.au/#website",
+        "@id": "https://excelexperts.com.au#website",
       },
       datePublished: "2024-10-27T00:00:00+00:00",
       dateModified: "2024-10-27T00:00:00+00:00",
@@ -42,7 +42,7 @@ const schema = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://excelexperts.com.au/services/microsoft-access/upgrades-and-migration/#breadcrumb",
+        "https://excelexperts.com.au/services/microsoft-access/upgrades-and-migration#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",

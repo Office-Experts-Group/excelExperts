@@ -27,14 +27,14 @@ const schema = {
     generateOrganizationSchema(),
     {
       "@type": "WebPage",
-      "@id": "https://www.excelexperts.com.au/services/microsoft-word/",
-      url: "https://www.excelexperts.com.au/services/microsoft-word/",
+      "@id": "https://www.excelexperts.com.au/services/microsoft-word",
+      url: "https://www.excelexperts.com.au/services/microsoft-word",
       name: "Microsoft Word Services | Excel Integration Experts",
       isPartOf: {
-        "@id": "https://www.excelexperts.com.au/#website",
+        "@id": "https://www.excelexperts.com.au#website",
       },
       about: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2024-10-27T00:00:00+00:00",
       dateModified: "2024-10-27T00:00:00+00:00",
@@ -42,32 +42,32 @@ const schema = {
         "We offer comprehensive Microsoft Word services with Excel integration expertise. Our support and training help your staff leverage the power of integrated Office solutions. Call us Today 1300 10 28 10",
       breadcrumb: {
         "@id":
-          "https://www.excelexperts.com.au/services/microsoft-word/#breadcrumb",
+          "https://www.excelexperts.com.au/services/microsoft-word#breadcrumb",
       },
       inLanguage: "en-AU",
       potentialAction: [
         {
           "@type": "ReadAction",
-          target: ["https://www.excelexperts.com.au/services/microsoft-word/"],
+          target: ["https://www.excelexperts.com.au/services/microsoft-word"],
         },
       ],
     },
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.excelexperts.com.au/services/microsoft-word/#breadcrumb",
+        "https://www.excelexperts.com.au/services/microsoft-word#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.excelexperts.com.au/",
+          item: "https://www.excelexperts.com.au",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Services",
-          item: "https://www.excelexperts.com.au/services/",
+          item: "https://www.excelexperts.com.au/services",
         },
         {
           "@type": "ListItem",
@@ -75,33 +75,6 @@ const schema = {
           name: "Our Microsoft Word Services",
         },
       ],
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.excelexperts.com.au/#website",
-      url: "https://www.excelexperts.com.au/",
-      name: "Excel Experts Group: Microsoft Excel Experts, Microsoft Access Database Experts, Microsoft Word Experts, PowerPoint Experts, Azure, Power BI, SQL Server, SharePoint, Microsoft Office 365",
-      description:
-        "Your Microsoft Excel and Office Suite Design, Development and Consulting Experts",
-      publisher: {
-        "@id": "https://www.excelexperts.com.au/#organization",
-      },
-      potentialAction: [
-        {
-          "@type": "SearchAction",
-          target: {
-            "@type": "EntryPoint",
-            urlTemplate:
-              "https://www.excelexperts.com.au/?s={search_term_string}",
-          },
-          "query-input": {
-            "@type": "PropertyValueSpecification",
-            valueRequired: true,
-            valueName: "search_term_string",
-          },
-        },
-      ],
-      inLanguage: "en-AU",
     },
   ],
 };

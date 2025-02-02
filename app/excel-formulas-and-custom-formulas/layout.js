@@ -7,7 +7,7 @@ export const metadata = {
     title: "Excel Formulas and Custom Formulas | Excel Experts",
     description:
       "Expert help with Excel formulas and custom formula development. Our specialists optimise formula-intensive workbooks, create VBA functions, and provide professional formula troubleshooting services.",
-    url: "https://www.excelexperts.com.au/excel-formulas-and-custom-formulas/",
+    url: "https://www.excelexperts.com.au/excel-formulas-and-custom-formulas",
   },
 
   keywords: [
@@ -27,14 +27,6 @@ export const metadata = {
     // "Excel workbook optimization",
     // "Formula performance solutions",
   ],
-
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/excel-formulas-and-custom-formulas",
-    languages: {
-      "en-AU": "/excel-formulas-and-custom-formulas",
-    },
-  },
 };
 
 export default function ExcelFormulasLayout({ children }) {

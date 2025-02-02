@@ -9,7 +9,7 @@ export const metadata = {
     title: "Excel-Integrated Corporate Identity Solutions | Excel Experts",
     description:
       "Professional template solutions combining Excel data integration with Word formatting protection. Automate document creation while maintaining corporate identity.",
-    url: "https://www.excelexperts.com.au/services/microsoft-word/corporate-identity/",
+    url: "https://www.excelexperts.com.au/services/microsoft-word/corporate-identity",
   },
 
   keywords: [
@@ -41,14 +41,6 @@ export const metadata = {
     // "excel reporting system",
     // "integrated document workflow",
   ],
-
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/services/microsoft-word/corporate-identity",
-    languages: {
-      "en-AU": "/services/microsoft-word/corporate-identity",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

@@ -23,39 +23,39 @@ const schema = {
     generateProfessionalServiceSchema(),
     {
       "@type": "WebPage",
-      "@id": "https://www.excelexperts.com.au/excel-support/",
-      url: "https://www.excelexperts.com.au/excel-support/",
+      "@id": "https://www.excelexperts.com.au/excel-support",
+      url: "https://www.excelexperts.com.au/excel-support",
       name: "Help Support & Training | Excel Experts",
       isPartOf: {
-        "@id": "https://www.excelexperts.com.au/#website",
+        "@id": "https://www.excelexperts.com.au#website",
       },
       about: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2018-01-02T16:30:22+00:00",
       dateModified: "2022-11-09T00:29:31+00:00",
       description:
         "Excel Help Resolve Your Issues Onsite or Remote Access Professional Guidance Highly Experienced Consultants Competitive Rates. Call us to get more info",
       breadcrumb: {
-        "@id": "https://www.excelexperts.com.au/excel-support/#breadcrumb",
+        "@id": "https://www.excelexperts.com.au/excel-support#breadcrumb",
       },
       inLanguage: "en-AU",
       potentialAction: [
         {
           "@type": "ReadAction",
-          target: ["https://www.excelexperts.com.au/excel-support/"],
+          target: ["https://www.excelexperts.com.au/excel-support"],
         },
       ],
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.excelexperts.com.au/excel-support/#breadcrumb",
+      "@id": "https://www.excelexperts.com.au/excel-support#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.excelexperts.com.au/",
+          item: "https://www.excelexperts.com.au",
         },
         {
           "@type": "ListItem",
@@ -63,33 +63,6 @@ const schema = {
           name: "Microsoft Excel: Help and Training",
         },
       ],
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.excelexperts.com.au/#website",
-      url: "https://www.excelexperts.com.au/",
-      name: "Excel Experts - Microsoft Excel Design, Development and Consulting, Office Experts Group",
-      description:
-        "Your Microsoft Technology Design, Development and Consulting Experts",
-      publisher: {
-        "@id": "https://www.excelexperts.com.au/#organization",
-      },
-      potentialAction: [
-        {
-          "@type": "SearchAction",
-          target: {
-            "@type": "EntryPoint",
-            urlTemplate:
-              "https://www.excelexperts.com.au/?s={search_term_string}",
-          },
-          "query-input": {
-            "@type": "PropertyValueSpecification",
-            valueRequired: true,
-            valueName: "search_term_string",
-          },
-        },
-      ],
-      inLanguage: "en-AU",
     },
   ],
 };

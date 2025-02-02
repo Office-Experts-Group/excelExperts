@@ -22,14 +22,14 @@ const schema = {
     {
       "@type": "WebPage",
       "@id":
-        "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign/",
-      url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign/",
-      name: "PowerPoint Presentation Redesign Services | Expert Template Transformation",
+        "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign",
+      url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign",
+      name: "PowerPoint Presentation Redesign Services | Excel Experts",
       isPartOf: {
-        "@id": "https://www.excelexperts.com.au/#website",
+        "@id": "https://www.excelexperts.com.au#website",
       },
       about: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2018-01-02T16:19:12+00:00",
       dateModified: "2022-11-09T00:28:14+00:00",
@@ -37,14 +37,14 @@ const schema = {
         "Professional PowerPoint presentation redesign services including template transformation, master slide creation, and brand guideline implementation.",
       breadcrumb: {
         "@id":
-          "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign/#breadcrumb",
+          "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign#breadcrumb",
       },
       inLanguage: "en-AU",
       potentialAction: [
         {
           "@type": "ReadAction",
           target: [
-            "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign/",
+            "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign",
           ],
         },
       ],
@@ -52,25 +52,25 @@ const schema = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign/#breadcrumb",
+        "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.excelexperts.com.au/",
+          item: "https://www.excelexperts.com.au",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Services",
-          item: "https://www.excelexperts.com.au/services/",
+          item: "https://www.excelexperts.com.au/services",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Microsoft PowerPoint Services",
-          item: "https://www.excelexperts.com.au/services/microsoft-powerpoint/",
+          item: "https://www.excelexperts.com.au/services/microsoft-powerpoint",
         },
         {
           "@type": "ListItem",
@@ -82,12 +82,12 @@ const schema = {
     {
       "@type": "Service",
       "@id":
-        "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign/#service",
+        "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign#service",
       name: "PowerPoint Presentation Redesign Services",
       description:
         "Professional presentation transformation services including template redesign, master slide creation, and brand alignment.",
       provider: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       areaServed: {
         "@type": "Country",

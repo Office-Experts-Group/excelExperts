@@ -9,7 +9,7 @@ export const metadata = {
     title: "Excel-Integrated Word Solutions | Excel Experts",
     description:
       "Expert team delivering Excel-integrated Word templates for companies. Automate document generation from Excel data while maintaining corporate identity standards.",
-    url: "https://www.excelexperts.com.au/services/microsoft-word/companies-and-organisations/",
+    url: "https://www.excelexperts.com.au/services/microsoft-word/companies-and-organisations",
   },
 
   keywords: [
@@ -29,14 +29,6 @@ export const metadata = {
     // "spreadsheet document control",
     // "excel data management",
   ],
-
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/services/microsoft-word/companies-and-organisations",
-    languages: {
-      "en-AU": "/services/microsoft-word/companies-and-organisations",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

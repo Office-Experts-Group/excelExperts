@@ -7,7 +7,7 @@ export const metadata = {
     title: "Custom PowerPoint Templates & Presentations | Excel Experts",
     description:
       "Professional PowerPoint template design and corporate presentation services. Custom master slides, brand-aligned templates, and expert design solutions.",
-    url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations/",
+    url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
   },
 
   keywords: [
@@ -27,16 +27,6 @@ export const metadata = {
     // "powerpoint theme development",
     // "corporate template design australia",
   ],
-
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical:
-      "/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
-    languages: {
-      "en-AU":
-        "/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
-    },
-  },
 };
 
 export default function PowerPointTemplatesLayout({ children }) {

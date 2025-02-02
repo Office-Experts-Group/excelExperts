@@ -8,7 +8,7 @@ export const metadata = {
     title: "Excel-Integrated Form Solutions | Excel Experts",
     description:
       "Expert form design services combining Excel data management with Word forms. Specialising in creating data-driven forms with automated Excel integration, spreadsheet synchronization, and advanced VBA solutions.",
-    url: "https://www.excelexperts.com.au/services/microsoft-word/fill-in-forms/",
+    url: "https://www.excelexperts.com.au/services/microsoft-word/fill-in-forms",
   },
 
   keywords: [
@@ -42,13 +42,6 @@ export const metadata = {
     // "excel form development",
     // "business data automation",
   ],
-  metadataBase: new URL("https://www.excelexperts.com.au"),
-  alternates: {
-    canonical: "/services/microsoft-word/fill-in-forms",
-    languages: {
-      "en-AU": "/services/microsoft-word/fill-in-forms",
-    },
-  },
 };
 
 export default function RootLayout({ children }) {

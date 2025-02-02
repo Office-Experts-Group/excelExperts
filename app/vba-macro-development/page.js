@@ -24,14 +24,14 @@ const schema = {
     generateOrganizationSchema(),
     {
       "@type": "WebPage",
-      "@id": "https://www.excelexperts.com.au/vba-macro-development/",
-      url: "https://www.excelexperts.com.au/vba-macro-development/",
+      "@id": "https://www.excelexperts.com.au/vba-macro-development",
+      url: "https://www.excelexperts.com.au/vba-macro-development",
       name: "VBA Macro Developers | Excel Experts",
       isPartOf: {
-        "@id": "https://www.excelexperts.com.au/#website",
+        "@id": "https://www.excelexperts.com.au#website",
       },
       about: {
-        "@id": "https://www.excelexperts.com.au/#organization",
+        "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2018-12-10T04:46:06+00:00",
       dateModified: "2022-12-04T23:31:33+00:00",
@@ -39,26 +39,25 @@ const schema = {
         "Meet our expert team and know about their special skills. Get in touch for more information.",
       breadcrumb: {
         "@id":
-          "https://www.excelexperts.com.au/vba-macro-development/#breadcrumb",
+          "https://www.excelexperts.com.au/vba-macro-development#breadcrumb",
       },
       inLanguage: "en-AU",
       potentialAction: [
         {
           "@type": "ReadAction",
-          target: ["https://www.excelexperts.com.au/vba-macro-development/"],
+          target: ["https://www.excelexperts.com.au/vba-macro-development"],
         },
       ],
     },
     {
       "@type": "BreadcrumbList",
-      "@id":
-        "https://www.excelexperts.com.au/vba-macro-development/#breadcrumb",
+      "@id": "https://www.excelexperts.com.au/vba-macro-development#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.excelexperts.com.au/",
+          item: "https://www.excelexperts.com.au",
         },
         {
           "@type": "ListItem",
@@ -66,33 +65,6 @@ const schema = {
           name: "VBA Macro Development",
         },
       ],
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.excelexperts.com.au/#website",
-      url: "https://www.excelexperts.com.au/",
-      name: "Excel Experts - Microsoft Excel Design, Development and Consulting, Office Experts Group",
-      description:
-        "Your Microsoft Technology Design, Development and Consulting Experts",
-      publisher: {
-        "@id": "https://www.excelexperts.com.au/#organization",
-      },
-      potentialAction: [
-        {
-          "@type": "SearchAction",
-          target: {
-            "@type": "EntryPoint",
-            urlTemplate:
-              "https://www.excelexperts.com.au/?s={search_term_string}",
-          },
-          "query-input": {
-            "@type": "PropertyValueSpecification",
-            valueRequired: true,
-            valueName: "search_term_string",
-          },
-        },
-      ],
-      inLanguage: "en-AU",
     },
   ],
 };
