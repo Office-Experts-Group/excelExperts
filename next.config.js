@@ -90,6 +90,11 @@ const REDIRECTS = [
     destination: "https://www.officeexperts.com.au/about-us",
     permanent: true,
   },
+  {
+    source: "/testimonials/the-money-institute/",
+    destination: "/client-testimonials",
+    permanent: true,
+  },
 ];
 
 /** @type {import('next').NextConfig} */
@@ -108,6 +113,20 @@ const nextConfig = {
 
   async redirects() {
     return REDIRECTS;
+  },
+
+  async headers() {
+    return [
+      {
+        source: "/:path*",
+        headers: [
+          {
+            key: "X-Robots-Tag",
+            value: "index, follow",
+          },
+        ],
+      },
+    ];
   },
 
   webpack: (config, { dev, isServer }) => {
