@@ -6,7 +6,7 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 export async function POST(req) {
   try {
     const body = await req.json();
-    const { name, email, phone, message, honeypot } = body;
+    const { name, email, phone, message, honeypot, company } = body;
 
     // Validate required fields
     if (!name || !email || !message) {
@@ -45,6 +45,7 @@ export async function POST(req) {
     const clientTextMessage = `
       You have received a new message from ${name} (${email}).
       Phone: ${phone || "Not provided"}.
+      Company: ${company || "Not provided"}.
       Message: ${message}
 
       This form was filled out on the website: https://excelexperts.com.au @ ${new Date().toLocaleString()}
@@ -64,6 +65,7 @@ export async function POST(req) {
     const clientHtmlMessage = `
       <p>You have received a new message from <strong>${name}</strong> (${email}).</p>
       <p><strong>Phone:</strong> ${phone || "Not provided"}</p>
+      <p><strong>Company:</strong> ${company || "Not provided"}</p>
       <p><strong>Message:</strong></p>
       <p>${message}</p>
       
