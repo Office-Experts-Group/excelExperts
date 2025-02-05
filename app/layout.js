@@ -85,6 +85,7 @@ export const metadata = {
     "excel programmer",
     "excel specialist",
     "excel support",
+    "excel expert near me",
   ],
 
   twitter: {

@@ -51,6 +51,7 @@ export async function POST(req) {
       softwareVersions,
       website,
       honeypot,
+      company,
     } = body;
 
     // Validate required fields
@@ -67,6 +68,20 @@ export async function POST(req) {
         { status: 400 }
       );
     }
+
+    // Format current time in AEST
+    const timeFormatter = new Intl.DateTimeFormat("en-AU", {
+      timeZone: "Australia/Sydney",
+      year: "numeric",
+      month: "numeric",
+      day: "numeric",
+      hour: "numeric",
+      minute: "numeric",
+      second: "numeric",
+      hour12: true,
+    });
+
+    const currentTimeAEST = timeFormatter.format(new Date());
 
     // File validation (only if a file is provided)
     let attachments = [];
@@ -99,12 +114,12 @@ export async function POST(req) {
     const clientTextMessage = `
       You have received a new quote request from ${name} (${email}).
       Phone: ${phone || "Not provided"}.
+      Company: ${company || "Not provided"}.
       Operating System: ${operatingSystem || "Not provided"}.
       Software Versions: ${softwareVersions || "Not provided"}.
       Website: ${website || "Not provided"}.
       Message: ${message || "Not provided"}
-
-      ${textSignature}
+    This email was sent at ${currentTimeAEST} from https://excelexperts.com.au
     `;
 
     const customerTextMessage = `
@@ -120,6 +135,7 @@ export async function POST(req) {
     const clientHtmlMessage = `
       <p>You have received a new quote request from <strong>${name}</strong> (${email}).</p>
       <p><strong>Phone:</strong> ${phone || "Not provided"}</p>
+      <p><strong>Company:</strong> ${company || "Not provided"}</p>
       <p><strong>Operating System:</strong> ${
         operatingSystem || "Not provided"
       }</p>
@@ -130,28 +146,18 @@ export async function POST(req) {
       <p><strong>Message:</strong></p>
       <p>${message || "Not provided"}</p>
       ${htmlSignature}
-            <em>This form was filled out on the website: https://excelexperts.com.au @ ${new Date().toLocaleString()}</em>
+            <em>This form was filled out on the website: https://excelexperts.com.au @ ${currentTimeAEST}</em>
     `;
 
     const customerHtmlMessage = `
       <p>Hi ${name},</p>
- <p>Thanks for contacting us.</p>
+      <p>Thanks for contacting us.</p>
       <p>One of our team members will be in touch shortly.</p>
       ${htmlSignature}
     `;
 
     try {
-      // Send email to business
-      await sgMail.send({
-        from: "consult@officeexperts.com.au",
-        to: "joshua@officeexperts.com.au",
-        subject: "New Quote Request Submission",
-        text: clientTextMessage,
-        html: clientHtmlMessage,
-        ...(attachments.length > 0 && { attachments }),
-        replyTo: email,
-      });
-
+      // Send email to client
       await sgMail.send({
         from: "consult@officeexperts.com.au",
         to: "consult@excelexperts.com.au",
