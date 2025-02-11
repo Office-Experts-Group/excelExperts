@@ -64,9 +64,9 @@ const Hero = () => {
             </h4>
           </div>
         </div>
-        <h1>
+        <h2>
           Excel<br></br>Experts
-        </h1>
+        </h2>
         <Link href="/custom-design-and-development" className="btn">
           Discover More
         </Link>

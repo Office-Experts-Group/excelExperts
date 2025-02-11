@@ -55,6 +55,12 @@ export const metadata = {
     // "Custom Access report development",
     // "Database normalization consulting Access",
   ],
+  alternates: {
+    canonical: "https://accessexperts.com.au/access-support",
+    languages: {
+      en: "https://accessexperts.com.au/access-support",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

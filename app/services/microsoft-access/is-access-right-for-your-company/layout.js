@@ -52,6 +52,12 @@ export const metadata = {
     // "Access CRM database solutions",
     // "Access workflow automation systems",
   ],
+  alternates: {
+    canonical: "https://accessexperts.com.au/is-access-right-for-your-company",
+    languages: {
+      en: "https://accessexperts.com.au/is-access-right-for-your-company",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

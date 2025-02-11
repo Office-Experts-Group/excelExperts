@@ -20,6 +20,9 @@ export const metadata = {
     // "custom excel development",
     // "business automation excel",
   ],
+  alternates: {
+    canonical: "https://www.excelexperts.com.au/custom-design-and-development",
+  },
 };
 
 export default function CustomDesignDevelopmentLayout({ children }) {

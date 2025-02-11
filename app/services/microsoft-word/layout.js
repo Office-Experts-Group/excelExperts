@@ -42,6 +42,10 @@ export const metadata = {
     // "excel experts perth",
     // "microsoft integration australia wide",
   ],
+
+  alternates: {
+    canonical: "https://www.excelexperts.com.au/services/microsoft-word",
+  },
 };
 
 export default function RootLayout({ children }) {

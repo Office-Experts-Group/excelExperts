@@ -45,6 +45,9 @@ export const metadata = {
     // "automated business documents",
     // "Excel-Word workflow automation",
   ],
+  alternates: {
+    canonical: "https://wordexperts.com.au/word-document-template-creation",
+  },
 };
 
 export default function RootLayout({ children }) {

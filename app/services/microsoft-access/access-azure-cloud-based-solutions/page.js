@@ -17,6 +17,9 @@ import {
   generateOrganizationSchema,
 } from "../../../../utils/schemaGenerators";
 
+import marker from "../../../../public/pageHeros/marker.webp";
+import glassesMob from "../../../../public/pageHeros/mob/glassesMob.webp";
+
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -85,7 +88,13 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <ServiceHero title="Azure Cloud Based Solutions" />
+      <ServiceHero
+        title="Azure Cloud Based Solutions"
+        desktopImage={marker}
+        altDesk={"marker on a digital design"}
+        mobileImage={glassesMob}
+        altMob={"glasses on a desk"}
+      />
       <PageSegmentMain2 />
       <PageSegment3 />
       <PageSegment4New />

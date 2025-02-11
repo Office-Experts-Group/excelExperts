@@ -50,6 +50,9 @@ export const metadata = {
     // "Office automation specialists Melbourne",
     // "VBA consultants Brisbane",
   ],
+  alternates: {
+    canonical: "https://www.excelexperts.com.au/vba-macro-development",
+  },
 };
 
 export default function VbaMacroDevelopmentLayout({ children }) {

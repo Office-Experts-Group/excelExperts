@@ -58,6 +58,13 @@ export const metadata = {
     // "Microsoft Access specialists Melbourne",
     // "Azure database consultants Brisbane",
   ],
+  alternates: {
+    canonical:
+      "https://accessexperts.com.au/access-azure-cloud-based-solutions",
+    languages: {
+      en: "https://accessexperts.com.au/access-azure-cloud-based-solutions",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

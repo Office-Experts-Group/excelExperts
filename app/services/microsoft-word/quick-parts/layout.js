@@ -46,6 +46,12 @@ export const metadata = {
     // "data integration solutions",
     // "excel template automation",
   ],
+  alternates: {
+    canonical: "https://wordexperts.com.au/quick-parts",
+    languages: {
+      en: "https://wordexperts.com.au/quick-parts",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

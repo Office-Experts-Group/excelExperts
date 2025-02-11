@@ -42,6 +42,10 @@ export const metadata = {
     // "database repair services",
     // "Access database training",
   ],
+
+  alternates: {
+    canonical: "https://www.excelexperts.com.au/services/microsoft-access",
+  },
 };
 
 export default function RootLayout({ children }) {

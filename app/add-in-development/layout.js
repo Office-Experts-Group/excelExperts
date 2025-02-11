@@ -28,6 +28,10 @@ export const metadata = {
     // "Excel business automation tools",
     // "custom Excel function development",
   ],
+
+  alternates: {
+    canonical: "https://www.excelexperts.com.au/add-in-development",
+  },
 };
 
 export default function AddInDevelopmentLayout({ children }) {

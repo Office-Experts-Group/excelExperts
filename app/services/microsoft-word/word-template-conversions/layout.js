@@ -42,11 +42,10 @@ export const metadata = {
     // "Excel-Word automation",
   ],
 
-  metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/services/microsoft-word/word-template-conversions/",
+    canonical: "https://wordexperts.com.au/word-template-conversions",
     languages: {
-      "en-AU": "/services/microsoft-word/word-template-conversions/",
+      en: "https://wordexperts.com.au/word-template-conversions",
     },
   },
 };

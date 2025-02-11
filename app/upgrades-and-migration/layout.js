@@ -47,6 +47,10 @@ export const metadata = {
     // "Excel upgrade consultation Melbourne",
     // "Excel version upgrade Brisbane",
   ],
+
+  alternates: {
+    canonical: "https://www.excelexperts.com.au/upgrades-and-migration",
+  },
 };
 
 export default function UpgradesAndMigrationLayout({ children }) {

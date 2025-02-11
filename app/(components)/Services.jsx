@@ -26,7 +26,7 @@ const Services = () => {
               <span> for Microsoft Access</span>
             </p>
           </div>
-          <h2>Australia's Leading Excel Help Service</h2>
+          <h1>Australia's Leading Excel Help Service</h1>
           <p>
             Our expert Microsoft Excel programmers are the very best when it
             comes to custom Microsoft Excel programming, development, databases,

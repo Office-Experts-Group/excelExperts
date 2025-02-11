@@ -45,6 +45,12 @@ export const metadata = {
     // "spreadsheet accessibility automation",
     // "excel reporting standards",
   ],
+  alternates: {
+    canonical: "https://wordexperts.com.au/accessibility",
+    languages: {
+      en: "https://wordexperts.com.au/accessibility",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

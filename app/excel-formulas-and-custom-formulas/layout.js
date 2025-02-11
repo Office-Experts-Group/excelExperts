@@ -27,6 +27,11 @@ export const metadata = {
     // "Excel workbook optimization",
     // "Formula performance solutions",
   ],
+
+  alternates: {
+    canonical:
+      "https://www.excelexperts.com.au/excel-formulas-and-custom-formulas",
+  },
 };
 
 export default function ExcelFormulasLayout({ children }) {

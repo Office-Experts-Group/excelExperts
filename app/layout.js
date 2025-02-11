@@ -103,6 +103,10 @@ export const metadata = {
       : "http://localhost:3000"
   ),
 
+  verification: {
+    google: "y1M45syrvP16wsyt53gqQOxdgwLE2djYyAsEdfR0U8Y",
+  },
+
   robots: {
     index: true,
     follow: true,

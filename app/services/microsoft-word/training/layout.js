@@ -41,6 +41,12 @@ export const metadata = {
     // "excel integration assistance",
     // "professional excel guidance",
   ],
+  alternates: {
+    canonical: "https://wordexperts.com.au/training",
+    languages: {
+      en: "https://wordexperts.com.au/training",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

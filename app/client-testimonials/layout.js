@@ -25,6 +25,9 @@ export const metadata = {
     // "Excel development project examples",
     // "Excel solutions testimonials",
   ],
+  alternates: {
+    canonical: "https://www.excelexperts.com.au/client-testimonials",
+  },
 };
 
 export default function RootLayout({ children }) {

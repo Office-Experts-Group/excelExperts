@@ -56,6 +56,9 @@ export const metadata = {
     // "Database integration experts Brisbane",
     // "Access development services Perth",
   ],
+  alternates: {
+    canonical: "https://accessexperts.com.au/3rd-party-product-integration",
+  },
 };
 
 export default function RootLayout({ children }) {

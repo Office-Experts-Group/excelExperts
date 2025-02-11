@@ -27,6 +27,11 @@ export const metadata = {
     // "powerpoint theme development",
     // "corporate template design australia",
   ],
+
+  alternates: {
+    canonical:
+      "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
+  },
 };
 
 export default function PowerPointTemplatesLayout({ children }) {

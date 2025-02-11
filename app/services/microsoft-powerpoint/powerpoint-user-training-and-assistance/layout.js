@@ -30,14 +30,9 @@ export const metadata = {
     // "powerpoint training australia",
   ],
 
-  metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
     canonical:
-      "/services/microsoft-powerpoint/powerpoint-user-training-and-assistance",
-    languages: {
-      "en-AU":
-        "/services/microsoft-powerpoint/powerpoint-user-training-and-assistance",
-    },
+      "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance/",
   },
 };
 

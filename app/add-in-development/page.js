@@ -80,7 +80,7 @@ const Page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <ServiceHero
-        title={"3rd Party Product Integration"}
+        title={"Add-in Development"}
         desktopImage={calculator}
         mobileImage={calcMob}
         altDesk={"Calculator on a table"}

@@ -52,6 +52,10 @@ export const metadata = {
     // "Professional Excel team",
     // "Expert data analysts",
   ],
+
+  alternates: {
+    canonical: "https://www.excelexperts.com.au/meet-the-team",
+  },
 };
 
 export default function RootLayout({ children }) {

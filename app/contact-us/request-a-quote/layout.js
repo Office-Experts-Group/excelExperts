@@ -35,6 +35,9 @@ export const metadata = {
     // "Excel workbook maintenance quote",
     // "Spreadsheet backup solution pricing",
   ],
+  alternates: {
+    canonical: "https://www.excelexperts.com.au/contact-us/request-a-quote",
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -1,6 +1,16 @@
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const REDIRECTS = [
   {
+    source: "/services",
+    destination: "/",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-excel",
+    destination: "https://excelexperts.com.au",
+    permanent: true,
+  },
+  {
     source: "/is-access-right-for-your-company",
     destination: "/services/microsoft-access/is-access-right-for-your-company",
     permanent: true,
@@ -86,11 +96,6 @@ const REDIRECTS = [
     permanent: true,
   },
   {
-    source: "/about-us",
-    destination: "https://www.officeexperts.com.au/about-us",
-    permanent: true,
-  },
-  {
     source: "/testimonials/the-money-institute/",
     destination: "/client-testimonials",
     permanent: true,
@@ -111,8 +116,26 @@ const nextConfig = {
     minimumCacheTTL: 31536000,
   },
 
+  async rewrites() {
+    return [
+      {
+        source: "/about-us",
+        destination: "https://www.officeexperts.com.au/about-us",
+      },
+      // Add other external redirects here
+    ];
+  },
+
   async redirects() {
-    return REDIRECTS;
+    return REDIRECTS.map((redirect) => ({
+      ...redirect,
+      // For external redirects, only add basePath
+      ...(redirect.destination.startsWith("https://")
+        ? {
+            basePath: false,
+          }
+        : {}),
+    }));
   },
 
   async headers() {

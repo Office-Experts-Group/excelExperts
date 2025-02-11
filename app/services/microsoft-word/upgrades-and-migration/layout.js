@@ -50,6 +50,12 @@ export const metadata = {
     // "corporate Excel-Word solutions",
     // "professional Office integration",
   ],
+  alternates: {
+    canonical: "https://wordexperts.com.au/upgrades-and-migration",
+    languages: {
+      en: "https://wordexperts.com.au/upgrades-and-migration",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

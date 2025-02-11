@@ -60,11 +60,10 @@ export const metadata = {
     // "SharePoint Access integration",
     // "Office 365 database migration",
   ],
-  metadataBase: new URL("https://www.excelexperts.com.au"),
   alternates: {
-    canonical: "/services/microsoft-access/upgrades-and-migration/",
+    canonical: "https://accessexperts.com.au/upgrades-and-migration",
     languages: {
-      "en-AU": "/services/microsoft-access/upgrades-and-migration/",
+      en: "https://accessexperts.com.au/upgrades-and-migration",
     },
   },
 };

@@ -41,6 +41,12 @@ export const metadata = {
     // "data entry optimization",
     // "excel quality control",
   ],
+  alternates: {
+    canonical: "https://wordexperts.com.au/popup-forms",
+    languages: {
+      en: "https://wordexperts.com.au/popup-forms",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

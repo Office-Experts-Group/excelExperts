@@ -37,3 +37,38 @@ export const goneUrls = [
   "/upgrades-and-migration/attachment/data-migration-2/",
   "/microsoft-excel/attachment/support-icon/",
 ].map((url) => url.toLowerCase());
+
+export const moreGoneUrls = [
+  "/government-departments",
+  "/companies-and-organisations",
+  "/popup-forms",
+  "/blog",
+  "/upgrades-and-migration/attachment/cloud-migration-2",
+  "/training",
+  "/author/ppexperts",
+  "/remove-repetition-and-increase-productivity",
+  "/microsoft-excel/attachment/microsoft-access-consulting-services_access-experts",
+  "/custom-toolbars-and-ribbons",
+  "/corporate-identity",
+  "/word-document-template-creation",
+  "/quick-parts",
+  "/word-template-conversions",
+  "/accessibility",
+  "/tips-and-tricks/printing-adding-the-full-saved-file-path-to-headers-and-footers-in-excel-2002",
+  "/tips-and-tricks/general-show-all-menu-items-automatically-in-excel",
+  "/tips-and-tricks/general-automatically-creating-charts-in-excel",
+  "/fusion_tb_category/header",
+  "/excel-consulting-services",
+  "/fusion_tb_category/footer",
+  "/excel-consultants",
+  "/tips-and-tricks",
+  "/tips-and-tricks/feed",
+  "/portfolio",
+  "/free-macros",
+  "/testimonials/the-money-institute",
+  "/author/grant",
+  "/faq",
+].map((url) => url.toLowerCase());
+
+// Combined array for easier use
+export const allGoneUrls = [...goneUrls, ...moreGoneUrls];

@@ -27,6 +27,10 @@ export const metadata = {
     // "presentation branding solutions",
     "powerpoint training australia",
   ],
+
+  alternates: {
+    canonical: "https://www.excelexperts.com.au/services/microsoft-powerpoint",
+  },
 };
 
 export default function PowerPointServicesLayout({ children }) {

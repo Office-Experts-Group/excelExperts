@@ -3,7 +3,6 @@ import React from "react";
 import Contact from "../../components/Contact";
 import ServiceHero from "../../components/ServiceHero";
 import CTAMain from "./(components)/CTAMain";
-import ContactDetails from "../../components/ContactDetails";
 
 import contactUs from "../../public/pageHeros/contactUs.webp";
 import contactUsMob from "../../public/pageHeros/mob/contactUsMob.webp";
@@ -80,7 +79,6 @@ const Page = () => {
       />
       <CTAMain />
       <Contact />
-      <ContactDetails />
     </>
   );
 };

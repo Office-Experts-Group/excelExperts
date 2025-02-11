@@ -58,6 +58,12 @@ export const metadata = {
     // "Melbourne Access cloud services",
     // "Brisbane Access online solutions",
   ],
+  alternates: {
+    canonical: "https://accessexperts.com.au/access-online",
+    languages: {
+      en: "https://accessexperts.com.au/access-online",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

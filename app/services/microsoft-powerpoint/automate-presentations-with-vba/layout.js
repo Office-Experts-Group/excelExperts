@@ -27,6 +27,11 @@ export const metadata = {
     // "powerpoint process automation",
     // "vba powerpoint experts australia",
   ],
+
+  alternates: {
+    canonical:
+      "https://excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba",
+  },
 };
 
 export default function PowerPointVBAServicesLayout({ children }) {

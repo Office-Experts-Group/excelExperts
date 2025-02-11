@@ -42,6 +42,12 @@ export const metadata = {
     // "excel integration brisbane",
     // "custom excel solutions perth",
   ],
+  alternates: {
+    canonical: "https://wordexperts.com.au/custom-toolbars-and-ribbons",
+    languages: {
+      en: "https://wordexperts.com.au/custom-toolbars-and-ribbons",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {
