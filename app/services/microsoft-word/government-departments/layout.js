@@ -49,9 +49,6 @@ export const metadata = {
   ],
   alternates: {
     canonical: "https://wordexperts.com.au/government-departments",
-    languages: {
-      en: "https://wordexperts.com.au/government-departments",
-    },
   },
 };
 

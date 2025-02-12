@@ -52,9 +52,6 @@ export const metadata = {
   ],
   alternates: {
     canonical: "https://wordexperts.com.au/upgrades-and-migration",
-    languages: {
-      en: "https://wordexperts.com.au/upgrades-and-migration",
-    },
   },
 };
 

@@ -45,9 +45,6 @@ export const metadata = {
   alternates: {
     canonical:
       "https://wordexperts.com.au/remove-repetition-and-increase-productivity",
-    languages: {
-      en: "https://wordexperts.com.au/remove-repetition-and-increase-productivity",
-    },
   },
 };
 

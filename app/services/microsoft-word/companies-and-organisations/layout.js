@@ -31,9 +31,6 @@ export const metadata = {
   ],
   alternates: {
     canonical: "https://wordexperts.com.au/companies-and-organisations",
-    languages: {
-      en: "https://wordexperts.com.au/companies-and-organisations",
-    },
   },
 };
 

@@ -44,7 +44,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.excelexperts.com.au/services/microsoft-access",
+    canonical: "https://www.accessexperts.com.au",
   },
 };
 

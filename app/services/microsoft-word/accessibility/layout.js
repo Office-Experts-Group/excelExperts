@@ -47,9 +47,6 @@ export const metadata = {
   ],
   alternates: {
     canonical: "https://wordexperts.com.au/accessibility",
-    languages: {
-      en: "https://wordexperts.com.au/accessibility",
-    },
   },
 };
 

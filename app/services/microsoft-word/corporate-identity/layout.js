@@ -43,9 +43,6 @@ export const metadata = {
   ],
   alternates: {
     canonical: "https://wordexperts.com.au/corporate-identity",
-    languages: {
-      en: "https://wordexperts.com.au/corporate-identity",
-    },
   },
 };
 

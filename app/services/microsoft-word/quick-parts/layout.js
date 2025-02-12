@@ -48,9 +48,6 @@ export const metadata = {
   ],
   alternates: {
     canonical: "https://wordexperts.com.au/quick-parts",
-    languages: {
-      en: "https://wordexperts.com.au/quick-parts",
-    },
   },
 };
 
