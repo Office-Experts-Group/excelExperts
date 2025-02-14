@@ -30,7 +30,12 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba",
+      "https://www.powerplatformexperts.com.au/services/microsoft-power-platform/automate-presentations-with-vba",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-power-platform/automate-presentations-with-vba",
+      },
+    ],
   },
 };
 

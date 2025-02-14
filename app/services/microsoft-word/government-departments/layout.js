@@ -48,7 +48,12 @@ export const metadata = {
     // "government spreadsheet consistency",
   ],
   alternates: {
-    canonical: "https://wordexperts.com.au/government-departments",
+    canonical: "https://www.wordexperts.com.au/government-departments",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-word/government-departments",
+      },
+    ],
   },
 };
 

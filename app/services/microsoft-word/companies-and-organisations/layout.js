@@ -29,8 +29,14 @@ export const metadata = {
     // "spreadsheet document control",
     // "excel data management",
   ],
+
   alternates: {
-    canonical: "https://wordexperts.com.au/companies-and-organisations",
+    canonical: "https://www.wordexperts.com.au/companies-and-organisations",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-word/companies-and-organisations",
+      },
+    ],
   },
 };
 

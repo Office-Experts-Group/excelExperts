@@ -41,8 +41,14 @@ export const metadata = {
     // "excel reporting system",
     // "integrated document workflow",
   ],
+
   alternates: {
-    canonical: "https://wordexperts.com.au/corporate-identity",
+    canonical: "https://www.wordexperts.com.au/corporate-identity",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-word/corporate-identity",
+      },
+    ],
   },
 };
 

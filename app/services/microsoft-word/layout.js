@@ -44,7 +44,13 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.excelexperts.com.au/services/microsoft-word",
+    canonical:
+      "https://www.wordexperts.com.au/word-document-template-conversions",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-word/word-document-template-conversions",
+      },
+    ],
   },
 };
 

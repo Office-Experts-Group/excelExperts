@@ -44,7 +44,12 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.accessexperts.com.au",
+    canonical: "https://www.accessexperts.com.au/upgrades-and-migration",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-access/upgrades-and-migration",
+      },
+    ],
   },
 };
 

@@ -51,7 +51,12 @@ export const metadata = {
     // "professional Office integration",
   ],
   alternates: {
-    canonical: "https://wordexperts.com.au/upgrades-and-migration",
+    canonical: "https://www.wordexperts.com.au/upgrades-and-migration",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-word/upgrades-and-migration",
+      },
+    ],
   },
 };
 

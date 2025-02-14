@@ -29,7 +29,13 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.excelexperts.com.au/services/microsoft-powerpoint",
+    canonical:
+      "https://www.powerplatformexperts.com.au/services/microsoft-power-platform/powerpoint-user-training-and-assistance",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-power-platform/powerpoint-user-training-and-assistance",
+      },
+    ],
   },
 };
 

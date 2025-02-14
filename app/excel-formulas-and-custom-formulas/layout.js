@@ -29,8 +29,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical:
-      "https://www.excelexperts.com.au/excel-formulas-and-custom-formulas",
+    canonical: "/excel-formulas-and-custom-formulas",
   },
 };
 

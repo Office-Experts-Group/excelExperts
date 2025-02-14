@@ -57,7 +57,12 @@ export const metadata = {
     // "Access development services Perth",
   ],
   alternates: {
-    canonical: "https://accessexperts.com.au/3rd-party-product-integration",
+    canonical: "https://www.accessexperts.com.au/3rd-party-product-integration",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-access/3rd-party-product-integration",
+      },
+    ],
   },
 };
 

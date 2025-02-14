@@ -51,7 +51,12 @@ export const metadata = {
     // "VBA consultants Brisbane",
   ],
   alternates: {
-    canonical: "https://www.excelexperts.com.au/vba-macro-development",
+    canonical: "https://www.wordexperts.com.au/vba-macro-development",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-word/vba-macro-development",
+      },
+    ],
   },
 };
 

@@ -46,7 +46,12 @@ export const metadata = {
     // "excel reporting standards",
   ],
   alternates: {
-    canonical: "https://wordexperts.com.au/accessibility",
+    canonical: "https://www.wordexperts.com.au/accessibility",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-word/accessibility",
+      },
+    ],
   },
 };
 

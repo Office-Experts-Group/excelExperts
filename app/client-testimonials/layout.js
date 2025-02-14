@@ -26,7 +26,7 @@ export const metadata = {
     // "Excel solutions testimonials",
   ],
   alternates: {
-    canonical: "https://www.excelexperts.com.au/client-testimonials",
+    canonical: "/client-testimonials",
   },
 };
 

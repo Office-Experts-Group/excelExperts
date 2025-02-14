@@ -44,7 +44,12 @@ export const metadata = {
   ],
   alternates: {
     canonical:
-      "https://wordexperts.com.au/remove-repetition-and-increase-productivity",
+      "https://www.wordexperts.com.au/remove-repetition-and-increase-productivity",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-word/remove-repetition-and-increase-productivity",
+      },
+    ],
   },
 };
 

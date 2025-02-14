@@ -54,7 +54,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.excelexperts.com.au/meet-the-team",
+    canonical: "/meet-the-team",
   },
 };
 

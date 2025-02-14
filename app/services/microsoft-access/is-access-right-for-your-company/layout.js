@@ -54,9 +54,11 @@ export const metadata = {
   ],
   alternates: {
     canonical: "https://accessexperts.com.au/is-access-right-for-your-company",
-    languages: {
-      en: "https://accessexperts.com.au/is-access-right-for-your-company",
-    },
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-access/is-access-right-for-your-company",
+      },
+    ],
   },
 };
 

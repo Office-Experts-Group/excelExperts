@@ -49,7 +49,12 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.excelexperts.com.au/upgrades-and-migration",
+    canonical: "https://www.wordexperts.com.au/upgrades-and-migration",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-word/upgrades-and-migration",
+      },
+    ],
   },
 };
 

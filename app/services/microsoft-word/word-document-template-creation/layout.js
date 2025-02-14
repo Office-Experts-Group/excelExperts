@@ -46,7 +46,12 @@ export const metadata = {
     // "Excel-Word workflow automation",
   ],
   alternates: {
-    canonical: "https://wordexperts.com.au/word-document-template-creation",
+    canonical: "https://www.wordexperts.com.au/word-document-template-creation",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-word/word-document-template-creation",
+      },
+    ],
   },
 };
 

@@ -21,7 +21,7 @@ export const metadata = {
     // "business automation excel",
   ],
   alternates: {
-    canonical: "https://www.excelexperts.com.au/custom-design-and-development",
+    canonical: "/custom-design-and-development",
   },
 };
 

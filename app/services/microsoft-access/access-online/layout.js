@@ -59,10 +59,12 @@ export const metadata = {
     // "Brisbane Access online solutions",
   ],
   alternates: {
-    canonical: "https://accessexperts.com.au/access-online",
-    languages: {
-      en: "https://accessexperts.com.au/access-online",
-    },
+    canonical: "https://www.accessexperts.com.au/access-online",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-access/access-online",
+      },
+    ],
   },
 };
 

@@ -43,7 +43,12 @@ export const metadata = {
     // "business data automation",
   ],
   alternates: {
-    canonical: "https://wordexperts.com.au/fill-in-forms",
+    canonical: "https://www.wordexperts.com.au/fill-in-forms",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-word/fill-in-forms",
+      },
+    ],
   },
 };
 

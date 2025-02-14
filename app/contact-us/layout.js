@@ -50,7 +50,7 @@ export const metadata = {
     // "Legacy workbook modernization quote",
   ],
   alternates: {
-    canonical: "https://www.excelexperts.com.au/contact-us",
+    canonical: "/contact-us",
   },
 };
 

@@ -56,6 +56,9 @@ export const metadata = {
   title: "Excel Help Australia - Expert Excel Programmer & Consultant",
   description:
     "Excel Experts is the Leading Excel Help Service Provider in Australia. Highly Experienced Excel Programmers & Developers. Call 1300 102 810",
+  alternates: {
+    canonical: "https://www.excelexperts.com.au",
+  },
 
   openGraph: {
     title: "Excel Help Australia - Expert Excel Programmer & Consultant",
@@ -75,18 +78,18 @@ export const metadata = {
     type: "website",
   },
 
-  keywords: [
-    "excel consultant",
-    "excel consulting",
-    "excel contractor",
-    "excel developer",
-    "excel expert",
-    "excel professional",
-    "excel programmer",
-    "excel specialist",
-    "excel support",
-    "excel expert near me",
-  ],
+  // keywords: [
+  //   "excel consultant",
+  //   "excel consulting",
+  //   "excel contractor",
+  //   "excel developer",
+  //   "excel expert",
+  //   "excel professional",
+  //   "excel programmer",
+  //   "excel specialist",
+  //   "excel support",
+  //   "excel expert near me",
+  // ],
 
   twitter: {
     card: "summary_large_image",

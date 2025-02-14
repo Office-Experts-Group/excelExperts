@@ -43,6 +43,11 @@ export const metadata = {
   ],
   alternates: {
     canonical: "https://wordexperts.com.au/training",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-word/training",
+      },
+    ],
   },
 };
 

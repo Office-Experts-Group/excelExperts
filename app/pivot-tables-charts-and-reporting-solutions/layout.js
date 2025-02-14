@@ -29,8 +29,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical:
-      "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions",
+    canonical: "/pivot-tables-charts-and-reporting-solutions",
   },
 };
 

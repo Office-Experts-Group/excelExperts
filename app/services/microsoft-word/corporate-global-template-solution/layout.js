@@ -41,8 +41,15 @@ export const metadata = {
     // "spreadsheet reporting",
     // "excel template integration",
   ],
+
   alternates: {
-    canonical: "https://wordexperts.com.au/corporate-global-template-solution",
+    canonical:
+      "https://www.wordexperts.com.au/corporate-global-template-solution",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-word/corporate-global-template-solution",
+      },
+    ],
   },
 };
 

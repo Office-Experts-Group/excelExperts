@@ -42,7 +42,12 @@ export const metadata = {
     // "excel quality control",
   ],
   alternates: {
-    canonical: "https://wordexperts.com.au/popup-forms",
+    canonical: "https://www.wordexperts.com.au/popup-forms",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-word/popup-forms",
+      },
+    ],
   },
 };
 

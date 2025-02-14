@@ -57,9 +57,11 @@ export const metadata = {
   ],
   alternates: {
     canonical: "https://accessexperts.com.au/access-support",
-    languages: {
-      en: "https://accessexperts.com.au/access-support",
-    },
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-access/access-support",
+      },
+    ],
   },
 };
 

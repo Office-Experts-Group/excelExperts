@@ -30,7 +30,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.excelexperts.com.au/add-in-development",
+    canonical: "/add-in-development",
   },
 };
 

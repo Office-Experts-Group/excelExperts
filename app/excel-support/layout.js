@@ -29,7 +29,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.excelexperts.com.au/excel-support",
+    canonical: "/excel-support",
   },
 };
 

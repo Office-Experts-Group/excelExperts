@@ -30,7 +30,12 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
+      "https://www.powerplatformexperts.com.au/services/microsoft-power-platform/custom-powerpoint-templates-and-presentations",
+    alternate: [
+      {
+        url: "https://www.officeexperts.com.au/services/microsoft-power-platform/custom-powerpoint-templates-and-presentations",
+      },
+    ],
   },
 };
 
