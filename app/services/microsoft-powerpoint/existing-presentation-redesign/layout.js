@@ -30,12 +30,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.powerplatformexperts.com.au/services/microsoft-power-platform/existing-presentation-redesign",
-    alternate: [
-      {
-        url: "https://www.officeexperts.com.au/services/microsoft-power-platform/existing-presentation-redesign",
-      },
-    ],
+      "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign",
   },
 };
 

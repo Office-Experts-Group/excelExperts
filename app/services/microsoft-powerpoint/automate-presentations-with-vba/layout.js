@@ -10,32 +10,11 @@ export const metadata = {
     url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba",
   },
 
-  keywords: [
-    // "powerpoint vba automation services",
-    // "presentation automation experts",
-    // "custom powerpoint vba programming",
-    // "automated data integration powerpoint",
-    // "powerpoint macro development",
-    // "presentation workflow automation",
-    // "powerpoint vba consultancy",
-    // "automated presentation updates",
-    "powerpoint automation solutions",
-    // "custom vba development powerpoint",
-    // "presentation efficiency automation",
-    // "powerpoint data integration",
-    // "automated slide creation",
-    // "powerpoint process automation",
-    // "vba powerpoint experts australia",
-  ],
+  keywords: ["powerpoint automation solutions"],
 
   alternates: {
     canonical:
-      "https://www.powerplatformexperts.com.au/services/microsoft-power-platform/automate-presentations-with-vba",
-    alternate: [
-      {
-        url: "https://www.officeexperts.com.au/services/microsoft-power-platform/automate-presentations-with-vba",
-      },
-    ],
+      "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba",
   },
 };
 

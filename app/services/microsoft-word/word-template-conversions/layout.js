@@ -16,37 +16,10 @@ export const metadata = {
   keywords: [
     // Core services
     "Excel-Word template integration and conversions",
-    // "data-driven Word templates",
-    // "Excel-powered document design",
-    // "spreadsheet to Word conversion",
-    // "automated document templates",
-
-    // // Service-specific
-    // "Excel data integration services",
-    // "dynamic Word templates",
-    // "automated document solutions",
-    // "smart Word templates",
-    // "data-linked Word templates",
-
-    // // Location-based
-    // "Excel-Word integration Australia",
-    // "data template services Sydney",
-    // "automated document solutions Melbourne",
-    // "Excel-Word experts Brisbane",
-
-    // // Business focus
-    // "business intelligence templates",
-    // "automated corporate documents",
-    // "data-driven document design",
-    // "integrated template solutions",
-    // "Excel-Word automation",
   ],
 
   alternates: {
     canonical: "https://wordexperts.com.au/word-template-conversions",
-    languages: {
-      en: "https://wordexperts.com.au/word-template-conversions",
-    },
   },
 };
 

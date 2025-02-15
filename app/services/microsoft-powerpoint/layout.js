@@ -10,32 +10,10 @@ export const metadata = {
     url: "https://www.excelexperts.com.au/services/microsoft-powerpoint",
   },
 
-  keywords: [
-    // "powerpoint presentation design services",
-    // "custom powerpoint template development",
-    // "professional presentation solutions",
-    // "powerpoint vba automation",
-    // "powerpoint master slides australia",
-    // "corporate presentation design",
-    // "powerpoint consulting services",
-    // "presentation template creation",
-    // "powerpoint automation services",
-    // "presentation redesign services",
-    // "professional powerpoint training",
-    // "corporate template development",
-    // "powerpoint expert consultation",
-    // "presentation branding solutions",
-    "powerpoint training australia",
-  ],
+  keywords: ["powerpoint training australia"],
 
   alternates: {
-    canonical:
-      "https://www.powerplatformexperts.com.au/services/microsoft-power-platform/powerpoint-user-training-and-assistance",
-    alternate: [
-      {
-        url: "https://www.officeexperts.com.au/services/microsoft-power-platform/powerpoint-user-training-and-assistance",
-      },
-    ],
+    canonical: "https://www.excelexperts.com.au/services/microsoft-powerpoint",
   },
 };
 

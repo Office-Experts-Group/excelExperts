@@ -10,32 +10,11 @@ export const metadata = {
     url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
   },
 
-  keywords: [
-    // "custom powerpoint templates",
-    // "corporate presentation design",
-    // "powerpoint master slides",
-    // "brand guidelines templates",
-    // "professional presentation templates",
-    // "corporate powerpoint themes",
-    // "custom slide design",
-    "powerpoint template creation",
-    // "business presentation design",
-    // "branded powerpoint templates",
-    // "professional slide layouts",
-    // "corporate identity templates",
-    // "presentation design services",
-    // "powerpoint theme development",
-    // "corporate template design australia",
-  ],
+  keywords: ["powerpoint template creation"],
 
   alternates: {
     canonical:
-      "https://www.powerplatformexperts.com.au/services/microsoft-power-platform/custom-powerpoint-templates-and-presentations",
-    alternate: [
-      {
-        url: "https://www.officeexperts.com.au/services/microsoft-power-platform/custom-powerpoint-templates-and-presentations",
-      },
-    ],
+      "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
   },
 };
 
