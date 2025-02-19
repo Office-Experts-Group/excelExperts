@@ -122,7 +122,6 @@ const nextConfig = {
         source: "/about-us",
         destination: "https://www.officeexperts.com.au/about-us",
       },
-      // Add other external redirects here
     ];
   },
 
