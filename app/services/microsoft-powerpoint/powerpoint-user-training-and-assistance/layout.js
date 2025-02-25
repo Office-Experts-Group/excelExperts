@@ -12,27 +12,11 @@ export const metadata = {
     url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance/",
   },
 
-  keywords: [
-    "powerpoint training services",
-    "powerpoint expert assistance",
-    // "remote powerpoint support",
-    // "onsite powerpoint training",
-    // "powerpoint troubleshooting help",
-    // "presentation skills training",
-    // "powerpoint consultancy services",
-    // "custom powerpoint training",
-    // "group powerpoint training",
-    // "individual powerpoint coaching",
-    // "powerpoint upgrade assistance",
-    // "presentation conversion help",
-    // "powerpoint how-to videos",
-    // "professional powerpoint guidance",
-    // "powerpoint training australia",
-  ],
+  keywords: ["powerpoint training services", "powerpoint expert assistance"],
 
   alternates: {
     canonical:
-      "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance/",
+      "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance",
   },
 };
 
