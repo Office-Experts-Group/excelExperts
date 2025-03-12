@@ -15,35 +15,6 @@ export const metadata = {
   keywords: [
     // Core accessibility services with Excel focus
     "excel to word accessibility",
-    // "microsoft word excel integration",
-    // "accessible excel reports",
-    // "excel data accessibility",
-    // "accessible reporting templates",
-
-    // // Location-based with Excel focus
-    // "excel accessibility consultants sydney",
-    // "excel document services melbourne",
-    // "excel reporting specialists brisbane",
-    // "excel integration experts perth",
-
-    // // Service-specific long tail with Excel emphasis
-    // "excel to word conversion accessibility",
-    // "accessible excel reporting",
-    // "integrated template design",
-    // "WCAG compliant excel exports",
-    // "spreadsheet accessibility standards",
-
-    // // Industry-specific with Excel focus
-    // "financial document accessibility",
-    // "data reporting accessibility",
-    // "spreadsheet accessibility services",
-    // "excel integration services",
-
-    // // Technology combinations
-    // "microsoft excel word integration",
-    // "excel template accessibility",
-    // "spreadsheet accessibility automation",
-    // "excel reporting standards",
   ],
   alternates: {
     canonical: "https://www.wordexperts.com.au/accessibility",

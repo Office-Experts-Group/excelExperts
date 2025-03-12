@@ -12,35 +12,7 @@ export const metadata = {
     url: "https://www.excelexperts.com.au/services/microsoft-word/corporate-global-template-solution",
   },
 
-  keywords: [
-    // Core services
-    // "excel word integration",
-    // "excel data automation",
-    "corporate Microsoft word templates",
-    // "excel reporting solutions",
-    // "integrated template design",
-
-    // // Features
-    // "excel data extraction",
-    // "automated report generation",
-    // "spreadsheet integration",
-    // "data consistency control",
-    // "excel word synchronization",
-
-    // // Benefits
-    // "improved reporting efficiency",
-    // "automated data updates",
-    // "excel report standardization",
-    // "data formatting consistency",
-    // "integrated document workflow",
-
-    // // Use cases
-    // "financial report automation",
-    // "excel data management",
-    // "automated document creation",
-    // "spreadsheet reporting",
-    // "excel template integration",
-  ],
+  keywords: ["corporate Microsoft word templates"],
 
   alternates: {
     canonical:

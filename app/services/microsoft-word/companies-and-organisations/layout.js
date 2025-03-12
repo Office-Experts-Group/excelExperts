@@ -12,23 +12,7 @@ export const metadata = {
     url: "https://www.excelexperts.com.au/services/microsoft-word/companies-and-organisations",
   },
 
-  keywords: [
-    // "excel word integration",
-    // "excel data automation",
-    // "spreadsheet document generation",
-    // "excel reporting templates",
-    // "automated financial reports",
-    // "excel word template design",
-    // "data-driven documents",
-    "corporate reporting automation",
-    // "excel document formatting",
-    // "spreadsheet integration",
-    // "excel template consulting",
-    // "financial document automation",
-    // "excel reporting solutions",
-    // "spreadsheet document control",
-    // "excel data management",
-  ],
+  keywords: ["corporate reporting automation"],
 
   alternates: {
     canonical: "https://www.wordexperts.com.au/companies-and-organisations",

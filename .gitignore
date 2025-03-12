@@ -35,3 +35,9 @@ analyze-images.mjs
 find-images.mjs
 image-audit.csv
 image-build-report.json
+
+analyze-app-structure.js
+app-routes.json
+check404s.js
+link-check-results.txt
+.deployment
