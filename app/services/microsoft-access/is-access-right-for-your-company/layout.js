@@ -12,6 +12,17 @@ export const metadata = {
     description:
       "Expert guidance on whether Microsoft Access is the right database solution for your business needs. We specialise in data management, structuring, multi-user systems, and reporting solutions.",
     url: "https://www.excelexperts.com.au/services/microsoft-access/is-access-right-for-your-company",
+    siteName: "Excel Experts",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Office Experts Group Logo",
+      },
+    ],
+    locale: "en-AU",
+    type: "website",
   },
 
   // Additional metadata

@@ -6,45 +6,30 @@ export const metadata = {
   description:
     "Professional Microsoft Access database consulting and development services across Australia. Specialising in custom database solutions, cloud integration, and business automation.",
 
-  keywords: [
-    // Core database services
-    // "Microsoft Access consulting",
-    "Access database development",
-    // "database solutions Australia",
-    "Access database migration",
-    // "custom database development",
+  keywords: [, "Access database migration", "Access database upgrade"],
 
-    // Specific solutions
-    // "Access cloud solutions",
-    "Azure database integration",
-    "Access database upgrade",
-    // "database conversion services",
-    // "Access online solutions",
-
-    // Service-specific long tail
-    // "Access data management solutions",
-    // "Access multi-user databases",
-    // "Access reporting solutions",
-    // "database structuring services",
-    // "Access query optimization",
-
-    // Integration focused
-    // "Access SQL integration",
-    // "SharePoint database integration",
-    // "third party database integration",
-    // "Access Azure migration",
-    // "database cloud solutions",
-
-    // Support and maintenance
-    // "Access database support",
-    // "database maintenance services",
-    // "Access troubleshooting",
-    // "database repair services",
-    // "Access database training",
-  ],
+  // OpenGraph
+  openGraph: {
+    title: "Microsoft Access Database Upgrades & Migration Services",
+    description:
+      "Expert Microsoft Access database upgrade and migration services. Our specialists ensure smooth transitions, resolve compatibility issues, and optimise database performance with minimal disruption.",
+    url: "https://www.excelexperts.com.au/services/microsoft-access/upgrades-and-migration",
+    siteName: "Excel Experts",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Office Experts Logo",
+      },
+    ],
+    locale: "en-AU",
+    type: "article",
+  },
 
   alternates: {
-    canonical: "https://www.accessexperts.com.au/upgrades-and-migration",
+    canonical:
+      "https://www.excelexperts.com.au/services/microsoft-access/upgrades-and-migration",
     alternate: [
       {
         url: "https://www.officeexperts.com.au/services/microsoft-access/upgrades-and-migration",

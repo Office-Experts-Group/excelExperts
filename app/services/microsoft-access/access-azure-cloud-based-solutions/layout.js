@@ -12,6 +12,17 @@ export const metadata = {
     description:
       "Expert Microsoft Access and Azure integration services for cloud-based database solutions. Custom Access database development with Azure SQL Server hosting for secure, scalable, and accessible data management.",
     url: "https://www.excelexperts.com.au/services/microsoft-access/access-azure-cloud-based-solutions",
+    siteName: "Excel Experts",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Office Experts Group Logo",
+      },
+    ],
+    locale: "en-AU",
+    type: "website",
   },
 
   // Additional metadata

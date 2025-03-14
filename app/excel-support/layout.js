@@ -1,32 +1,27 @@
 export const metadata = {
-  title: "Excel Support & Training Services | Excel Experts",
+  title: "Excel Support & Training Services",
   description:
-    "Professional Excel support and training services via remote access or phone. Our expert consultants provide instant guidance, troubleshooting, and dedicated support for individuals and teams. Contact us at 1300 102 810",
+    "Professional Excel support and training services via remote access or phone. Our expert consultants provide instant guidance, troubleshooting, and dedicated support for individuals and teams.",
 
   openGraph: {
-    title: "Excel Support & Training Services | Excel Experts",
+    title: "Excel Support & Training Services",
     description:
       "Professional Excel support and training services via remote access or phone. Our expert consultants provide instant guidance, troubleshooting, and dedicated support for individuals and teams.",
     url: "https://www.excelexperts.com.au/excel-support",
+    siteName: "Excel Experts",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Office Experts Group Logo",
+      },
+    ],
+    locale: "en-AU",
+    type: "website",
   },
 
-  keywords: [
-    "remote excel support and training",
-    // "excel consultant skype support services",
-    // "professional excel troubleshooting assistance",
-    // "instant excel support for teams",
-    // "dedicated excel consultant remote access",
-    // "excel expert phone consultation services",
-    // "microsoft excel team training support",
-    // "excel workbook troubleshooting services",
-    // "remote excel consulting australia",
-    // "excel expert guidance and support",
-    // "professional excel help and training",
-    // "virtual excel consultant services",
-    // "excel remote support solutions australia",
-    // "expert excel problem solving assistance",
-    // "online excel consultant support services",
-  ],
+  keywords: ["remote excel support and training"],
 
   alternates: {
     canonical: "/excel-support",

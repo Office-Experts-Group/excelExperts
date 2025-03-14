@@ -11,6 +11,17 @@ export const metadata = {
     description:
       "Expert customisation of integrated Excel-Word toolbars and ribbons to streamline data transfer and automate report generation. Our team delivers efficient solutions for seamless spreadsheet-to-document workflow.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/custom-toolbars-and-ribbons",
+    siteName: "Excel Experts",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Office Experts Logo",
+      },
+    ],
+    locale: "en-AU",
+    type: "article",
   },
 
   keywords: ["data automation interfaces"],

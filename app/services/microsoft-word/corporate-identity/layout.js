@@ -10,6 +10,17 @@ export const metadata = {
     description:
       "Professional template solutions combining Excel data integration with Word formatting protection. Automate document creation while maintaining corporate identity.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/corporate-identity",
+    siteName: "Excel Experts",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Office Experts Logo",
+      },
+    ],
+    locale: "en-AU",
+    type: "article",
   },
 
   keywords: [

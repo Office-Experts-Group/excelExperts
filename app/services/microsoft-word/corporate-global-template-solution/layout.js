@@ -10,6 +10,17 @@ export const metadata = {
     description:
       "Advanced Corporate Template Solution combining Excel data automation with Word templates. Create professional documents that automatically pull from your Excel data while maintaining consistent formatting and branding.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/corporate-global-template-solution",
+    siteName: "Excel Experts",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Office Experts Logo",
+      },
+    ],
+    locale: "en-AU",
+    type: "article",
   },
 
   keywords: ["corporate Microsoft word templates"],

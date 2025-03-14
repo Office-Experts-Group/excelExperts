@@ -10,6 +10,17 @@ export const metadata = {
     description:
       "As Excel specialists, our Word accessibility solutions seamlessly integrate with your Excel-based workflows. Our experts ensure your documents maintain accessibility standards while working harmoniously with your Excel data exports and reporting processes.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/accessibility",
+    siteName: "Excel Experts",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Office Experts Logo",
+      },
+    ],
+    locale: "en-AU",
+    type: "article",
   },
 
   keywords: [

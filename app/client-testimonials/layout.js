@@ -12,19 +12,21 @@ export const metadata = {
     description:
       "Read what our clients say about their experience with Excel Experts. Discover how we've helped businesses across Australia optimise their Excel workflows and improve efficiency.",
     url: "https://www.excelexperts.com.au/client-testimonials",
+    siteName: "Excel Experts",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Office Experts Group Logo",
+      },
+    ],
+    locale: "en-AU",
+    type: "website",
   },
 
   // Core keywords focused on testimonials and trust
-  keywords: [
-    "Excel consultants reviews Australia",
-    // "Excel development testimonials",
-    // "Excel experts client feedback",
-    // "Excel consulting case studies",
-    // "Excel automation success stories",
-    // "Microsoft Excel consultant reviews",
-    // "Excel development project examples",
-    // "Excel solutions testimonials",
-  ],
+  keywords: ["Excel consultants reviews Australia"],
   alternates: {
     canonical: "/client-testimonials",
   },

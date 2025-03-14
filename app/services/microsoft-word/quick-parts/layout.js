@@ -10,6 +10,17 @@ export const metadata = {
     description:
       "Our Excel integration experts deliver Quick Parts solutions that seamlessly pull data from your spreadsheets into Word documents, creating dynamic, data-driven content blocks that save your business time and money.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/quick-parts",
+    siteName: "Excel Experts",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Office Experts Logo",
+      },
+    ],
+    locale: "en-AU",
+    type: "article",
   },
 
   keywords: [

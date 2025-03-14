@@ -12,39 +12,21 @@ export const metadata = {
     description:
       "Excel Experts create professional Word templates with seamless Excel integration capabilities. Our templates feature automated data integration, custom formatting, and comprehensive branding across your Microsoft Office documents.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/word-document-template-creation",
+    siteName: "Excel Experts",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Office Experts Logo",
+      },
+    ],
+    locale: "en-AU",
+    type: "article",
   },
 
   // Additional metadata
-  keywords: [
-    "Word document template creation",
-    // // Core template services
-    // "Excel-Word template integration",
-    // "data-driven Word templates",
-    // "Excel-linked document templates",
-    // "automated report templates",
-    // "integrated Office templates",
-
-    // // Specific services
-    // "Excel data merge templates",
-    // "dynamic document creation",
-    // "automated Word templates",
-    // "Excel-Word automation",
-    // "integrated document solutions",
-
-    // // Features
-    // "Excel data integration",
-    // "automated document updating",
-    // "cross-application templates",
-    // "dynamic content generation",
-    // "automated report formatting",
-
-    // // Business focus
-    // "business intelligence templates",
-    // "data-driven documentation",
-    // "integrated reporting solutions",
-    // "automated business documents",
-    // "Excel-Word workflow automation",
-  ],
+  keywords: ["Word document template creation"],
   alternates: {
     canonical: "https://www.wordexperts.com.au/word-document-template-creation",
     alternate: [

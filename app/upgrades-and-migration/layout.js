@@ -8,53 +8,27 @@ export const metadata = {
     description:
       "Stuck on an Old Version? Expert help with Excel workbook upgrades, VBA migration, and version compatibility issues. Professional Excel upgrade services across Australia. Call 1300102810",
     url: "https://www.excelexperts.com.au/upgrades-and-migration",
+    siteName: "Excel Experts",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Office Experts Group Logo",
+      },
+    ],
+    locale: "en-AU",
+    type: "website",
   },
 
   keywords: [
     // Core upgrade services
     "Excel version upgrade services",
     "Excel workbook migration solutions",
-    // "Excel compatibility issue resolution",
-    // "VBA macro upgrade services",
-
-    // // Specific problems
-    // "Excel 32-bit to 64-bit migration",
-    // "Excel workbook performance optimization",
-    // "Excel VBA code compatibility fixes",
-    // "Excel ActiveX control migration",
-
-    // // Version-specific
-    // "Excel legacy version upgrade",
-    // "Excel Office 365 migration services",
-    // "Excel cross-version compatibility",
-    // "Excel version upgrade consulting",
-
-    // // Business solutions
-    // "Business Excel upgrade services",
-    // "Enterprise Excel migration",
-    // "Excel upgrade consultation",
-    // "Professional Excel migration support",
-
-    // // Technical solutions
-    // "Excel shape size adjustment fixes",
-    // "Excel crash prevention solutions",
-    // "Excel workbook speed optimization",
-    // "Excel VBA code modernization",
-
-    // // Location-specific
-    // "Excel upgrade services Australia",
-    // "Excel migration experts Sydney",
-    // "Excel upgrade consultation Melbourne",
-    // "Excel version upgrade Brisbane",
   ],
 
   alternates: {
     canonical: "https://www.wordexperts.com.au/upgrades-and-migration",
-    alternate: [
-      {
-        url: "https://www.officeexperts.com.au/services/microsoft-word/upgrades-and-migration",
-      },
-    ],
   },
 };
 

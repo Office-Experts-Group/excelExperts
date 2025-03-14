@@ -10,36 +10,22 @@ export const metadata = {
     description:
       "Our Excel integration experts provide comprehensive training on managing data flow between Excel and Word. Learn to automate data transfer, create dynamic reports, and optimise your spreadsheet-to-document workflow.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/training",
+    siteName: "Excel Experts",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Office Experts Logo",
+      },
+    ],
+    locale: "en-AU",
+    type: "article",
   },
 
   keywords: [
     // Core training services
     "Microsoft Word integration training",
-    // "excel data management training",
-    // "spreadsheet automation training",
-    // "excel word integration",
-    // "excel consulting services",
-
-    // // Service types
-    // "remote excel training",
-    // "onsite excel training",
-    // "individual excel training",
-    // "group excel training",
-    // "excel data management help",
-
-    // // Location-specific
-    // "excel training australia",
-    // "spreadsheet consultants sydney",
-    // "excel training melbourne",
-    // "excel experts brisbane",
-    // "data management perth",
-
-    // // Service features
-    // "custom excel solutions",
-    // "spreadsheet troubleshooting",
-    // "data automation support",
-    // "excel integration assistance",
-    // "professional excel guidance",
   ],
   alternates: {
     canonical: "https://wordexperts.com.au/training",

@@ -9,39 +9,20 @@ export const metadata = {
     description:
       "Expert form design services combining Excel data management with Word forms. Specialising in creating data-driven forms with automated Excel integration, spreadsheet synchronization, and advanced VBA solutions.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/fill-in-forms",
+    siteName: "Excel Experts",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Office Experts Logo",
+      },
+    ],
+    locale: "en-AU",
+    type: "article",
   },
 
-  keywords: [
-    "word fill in forms",
-
-    // Core form services
-    // "excel integrated forms",
-    // "data-driven form design",
-    // "excel form automation",
-    // "spreadsheet form integration",
-    // "excel data management forms",
-
-    // // Technical aspects
-    // "excel VBA integration",
-    // "spreadsheet automation",
-    // "excel data extraction",
-    // "automated form population",
-    // "excel form controls",
-
-    // // Service-specific
-    // "dynamic data forms",
-    // "excel form templates",
-    // "spreadsheet synchronized forms",
-    // "automated data entry",
-    // "excel-word integration",
-
-    // // Business benefits
-    // "data workflow automation",
-    // "spreadsheet form services",
-    // "integrated form solutions",
-    // "excel form development",
-    // "business data automation",
-  ],
+  keywords: ["word fill in forms"],
   alternates: {
     canonical: "https://www.wordexperts.com.au/fill-in-forms",
     alternate: [

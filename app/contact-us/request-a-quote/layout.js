@@ -12,28 +12,23 @@ export const metadata = {
     description:
       "Submit your Microsoft Excel project requirements, specifications, and files for a detailed quote. Our experienced Excel developers provide custom solutions, automation services, and spreadsheet consulting.",
     url: "https://www.excelexperts.com.au/contact-us/request-a-quote",
+    siteName: "Excel Experts",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Office Experts Group Logo",
+      },
+    ],
+    locale: "en-AU",
+    type: "website",
   },
 
   // Additional metadata
   keywords: [
     // Core Services
     "Microsoft Excel development quote",
-    // "Custom Excel solution development",
-
-    // // Specific Solutions
-    // "Excel Power Query integration quote",
-    // "Excel workbook migration estimate",
-    // "Excel cloud solution cost",
-    // "VBA macro development pricing",
-
-    // // Service-specific long tail
-    // "Excel workbook upgrade consultation",
-    // "Legacy spreadsheet migration quote",
-    // "Excel SharePoint integration pricing",
-
-    // // Support Services
-    // "Excel workbook maintenance quote",
-    // "Spreadsheet backup solution pricing",
   ],
   alternates: {
     canonical: "https://www.excelexperts.com.au/contact-us/request-a-quote",
