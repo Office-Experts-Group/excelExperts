@@ -39,9 +39,9 @@ const PageSegment3 = () => {
           </p>
           <p>
             We offer both group or individual sessions, allowing for
-            personalized attention or collaborative learning based on your
+            personalised attention or collaborative learning based on your
             preference. Our trainers are highly skilled and experienced,
-            producing customized "How To" videos that serve as helpful resources
+            producing customised "How To" videos that serve as helpful resources
             for your ongoing learning. Rest assured, with our highly experienced
             trainers, you'll receive valuable, practical knowledge to master
             Microsoft Excel efficiently.

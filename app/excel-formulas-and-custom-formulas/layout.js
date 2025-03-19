@@ -1,10 +1,10 @@
 export const metadata = {
-  title: "Excel Formulas and Custom Formulas | Excel Experts",
+  title: "Excel Formulas and Custom Formulas",
   description:
     "Expert help with Excel formulas and custom formula development. Our specialists optimise formula-intensive workbooks, create VBA functions, and provide professional formula troubleshooting services.",
 
   openGraph: {
-    title: "Excel Formulas and Custom Formulas | Excel Experts",
+    title: "Excel Formulas and Custom Formulas",
     description:
       "Expert help with Excel formulas and custom formula development. Our specialists optimise formula-intensive workbooks, create VBA functions, and provide professional formula troubleshooting services.",
     url: "https://www.excelexperts.com.au/excel-formulas-and-custom-formulas",

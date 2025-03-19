@@ -63,7 +63,7 @@ const Hero = () => {
         <h1>
           Access<br></br>Experts
         </h1>
-        <Link href="/access-azure-cloudbased-services" className="btn">
+        <Link href="/access-azure-cloud-based-solutions" className="btn">
           Discover More
         </Link>
       </div>

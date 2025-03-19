@@ -32,27 +32,27 @@ const Contents = () => {
             <path d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-40 728H184V184h656v656z"></path>
           </svg>
           <h3>Quick Links</h3>
-          <Link href="/access-online">
+          <Link href="https://www.accessexperts.com.au/access-online">
             <div className={styles.contentLink}>
               <p>Data management</p>
             </div>
           </Link>
-          <Link href="/3rd-party-product-integration">
+          <Link href="https://www.accessexperts.com.au/3rd-party-product-integration">
             <div className={styles.contentLink}>
               <p>Data structuring and querying</p>
             </div>
           </Link>
-          <Link href="/access-support">
+          <Link href="https://www.accessexperts.com.au/access-support">
             <div className={styles.contentLink}>
               <p>Multiple user management</p>
             </div>
           </Link>
-          <Link href="/upgrades-and-migration">
+          <Link href="https://www.accessexperts.com.au/upgrades-and-migration">
             <div className={styles.contentLink}>
               <p>Data reporting</p>
             </div>
           </Link>
-          <Link href="/contact-us">
+          <Link href="https://www.accessexperts.com.au/contact-us">
             <div className={styles.contentLink}>
               <p>Contact Us</p>
             </div>

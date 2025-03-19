@@ -14,6 +14,7 @@ import addIns from "../../public/microsoft/addInsNoBG.webp";
 
 import scott from "../../public/scott.webp";
 import signature from "../../public/signature.webp";
+import Link from "next/link";
 
 const Services = () => {
   return (
@@ -26,12 +27,14 @@ const Services = () => {
               <span> for Microsoft Access</span>
             </p>
           </div>
-          <h1>Australia's Leading Excel Help Service</h1>
+          <h1>Australia's Leading Excel Consultants</h1>
           <p>
             Our expert Microsoft Excel programmers are the very best when it
             comes to custom Microsoft Excel programming, development, databases,
-            integration, understanding your business needs, support, data
-            manipulation and so much more.
+            integration, understanding your business needs,{" "}
+            <Link href="/excel-support">support</Link>,{" "}
+            <Link href="/data-manipulation"> data manipulation</Link> and so
+            much more.
           </p>
           <div className={styles.signature}>
             <div>

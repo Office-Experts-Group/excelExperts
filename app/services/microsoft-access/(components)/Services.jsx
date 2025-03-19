@@ -72,7 +72,9 @@ const Services = () => {
                 "Need an Access database setup to be used remotely?",
                 "Using Azure in combination with Access we can setup a custom, cost effective cloud database to suit your needs.",
               ]}
-              link={"/access-azure-cloud-based-solutions"}
+              link={
+                "https://www.accessexperts.com.au/access-azure-cloud-based-solutions"
+              }
             />
           </CardIntersectionWrapper>
           <CardIntersectionWrapper>
@@ -84,7 +86,9 @@ const Services = () => {
                 "Need an accounting package, CRM, 3rd party product or Office app linked to Access?",
                 "Want to extend 3rd party product functionality with Access?",
               ]}
-              link={"/3rd-party-product-integration"}
+              link={
+                "https://www.accessexperts.com.au/3rd-party-product-integration"
+              }
             />
           </CardIntersectionWrapper>
           <CardIntersectionWrapper>
@@ -96,7 +100,7 @@ const Services = () => {
                 "Have a database that needs upgrading or is failing after upgrading?",
                 "Have a database that needs to be converted from or to another format?",
               ]}
-              link={"/upgrades-and-migration"}
+              link={"https://www.accessexperts.com.au/upgrades-and-migration"}
             />
           </CardIntersectionWrapper>
         </div>

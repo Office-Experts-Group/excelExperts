@@ -33,9 +33,12 @@ const IsRight = () => {
           <h2>Is Excel Right For Your Needs?</h2>
           <p className={styles.text}>
             We offer Excel consulting services from our team of professionals
-            who can give you expert advice on all features of Excel and VBA
-            macro programming, as well as advising whether Excel is the right
-            solution for your business. Excel is a great choice for:
+            who can give you expert advice on all features of Excel and{" "}
+            <Link className={styles.link} href="/vba-macro-development">
+              VBA macro programming
+            </Link>
+            , as well as advising whether Excel is the right solution for your
+            business. Excel is a great choice for:
           </p>
           <div className={styles.contentGrid}>
             <div className={styles.excerpt}>

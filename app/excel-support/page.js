@@ -35,7 +35,7 @@ const schema = {
       datePublished: "2018-01-02T16:30:22+00:00",
       dateModified: "2022-11-09T00:29:31+00:00",
       description:
-        "Excel Help Resolve Your Issues Onsite or Remote Access Professional Guidance Highly Experienced Consultants Competitive Rates. Call us to get more info",
+        "Excel Experts Help Resolve Your Issues Onsite or via Remote Access. Professional Support and training from Highly Experienced Consultants.",
       breadcrumb: {
         "@id": "https://www.excelexperts.com.au/excel-support#breadcrumb",
       },
