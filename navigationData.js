@@ -233,6 +233,10 @@ export const navigationData = {
             label: "VBScript",
             href: `${OFFICE_EXPERTS_URL}/services/microsoft-vbscript`,
           },
+          {
+            label: "Support & Training",
+            href: "https://www.officeexperts.com.au/microsoft-support-and-training-australia",
+          },
         ],
       },
       {

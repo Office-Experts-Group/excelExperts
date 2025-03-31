@@ -5,10 +5,10 @@ export function middleware(request) {
   const path = request.nextUrl.pathname;
   const normalizedPath = path.toLowerCase();
 
-  // Handle static media files - prevent URL indexing while preserving image discovery
+  // Handle static media files - completely block from crawling
   if (path.includes("/_next/static/media/")) {
     const response = NextResponse.next();
-    response.headers.set("X-Robots-Tag", "noimageindex, noindex");
+    response.headers.set("X-Robots-Tag", "noindex, nofollow");
     return response;
   }
 
@@ -49,11 +49,8 @@ export function middleware(request) {
       "connect-src 'self' *.vimeo.com *.vimeocdn.com *.google-analytics.com *.googletagmanager.com *.officeexperts.com.au;"
   );
 
-  // Handle Next.js system paths
-  if (
-    request.nextUrl.pathname.startsWith("/_next/") &&
-    !request.nextUrl.pathname.startsWith("/_next/image")
-  ) {
+  // Handle ALL Next.js system paths
+  if (path.startsWith("/_next/")) {
     response.headers.set("X-Robots-Tag", "noindex, nofollow");
   }
 
@@ -64,6 +61,6 @@ export const config = {
   matcher: [
     "/((?!api|_next/static|_next/image|favicon.ico).*)",
     "/_next/static/media/:path*",
-    "/_next/image",
+    "/_next/:path*",
   ],
 };

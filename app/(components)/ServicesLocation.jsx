@@ -10,6 +10,7 @@ import vba from "../../public/microsoft/vbaNoBG.webp";
 import custom from "../../public/microsoft/excelCustomNoBG.webp";
 import formula from "../../public/microsoft/formulaNoBG.webp";
 import addIns from "../../public/microsoft/addInsNoBG.webp";
+import Link from "next/link";
 
 const Services = ({ location }) => {
   return (
@@ -25,8 +26,8 @@ const Services = ({ location }) => {
           <h2>Microsoft Excel Services - {location}</h2>
           <p>
             Our reputation is built on delivering sophisticated spreadsheet
-            solutions, custom formula development, and comprehensive Excel
-            support. With a growing list of satisfied clients, we take pride in
+            solutions, <Link href="/excel-formulas-and-custom-formulas"> custom formula development </Link>, and comprehensive <Link href="/excel-support"> Excel
+            support</Link>. With a growing list of satisfied clients, we take pride in
             offering expert implementation, tailored data analysis, and
             strategic guidance to meet diverse financial and operational
             challenges. Whether it's complex calculations, automated reports,

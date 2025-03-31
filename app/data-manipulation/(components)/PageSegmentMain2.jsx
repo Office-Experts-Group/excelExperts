@@ -92,7 +92,7 @@ const PageSegmentMain2 = () => {
           and reduce errors. From importing and exporting large datasets to
           automating formatting and conversions, we harness the power of VBA,
           Excel, and Visual Studio to make data manipulation seamless and
-          efficient. Whether it&aspos;s batch processing or handling diverse
+          efficient. Whether it's batch processing or handling diverse
           file formats like CSV, XML, and JSON, we ensure your data operations
           are fast and reliable
         </p>

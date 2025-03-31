@@ -114,6 +114,8 @@ const nextConfig = {
   images: {
     formats: ["image/webp"],
     minimumCacheTTL: 31536000,
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256],
   },
 
   async rewrites() {
@@ -140,7 +142,31 @@ const nextConfig = {
   async headers() {
     return [
       {
-        // Match all routes including static files and images
+        // Match all Next.js media files
+        source: "/_next/static/media/:path*",
+        headers: [
+          {
+            key: "X-Robots-Tag",
+            value: "noindex, nofollow",
+          },
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
+      {
+        // Match all Next.js static files
+        source: "/_next/:path*",
+        headers: [
+          {
+            key: "X-Robots-Tag",
+            value: "noindex, nofollow",
+          },
+        ],
+      },
+      {
+        // Match all static files and images
         source: "/:all*(svg|jpg|png|webp|css|js|woff|woff2|ttf|eot)",
         locale: false,
         headers: [
@@ -168,13 +194,16 @@ const nextConfig = {
             key: "X-XSS-Protection",
             value: "1; mode=block",
           },
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
         ],
       },
       {
         // Regular routes
         source: "/:path*",
         headers: [
-          // Same headers as above
           {
             key: "X-Robots-Tag",
             value: "index, follow, noimageindex",

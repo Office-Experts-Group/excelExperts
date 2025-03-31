@@ -8,8 +8,8 @@ import ServicesLocation from "../(components)/ServicesLocation";
 import Promo from "../../components/Promo";
 import GoodToKnow from "../../components/GoodToKnow";
 
-import canberra from "../../public/pageHeros/canberra.webp";
-import canberraMob from "../../public/pageHeros/mob/canberraMob.webp";
+import brisbane from "../../public/pageHeros/brisbane.webp";
+import brisbaneMob from "../../public/pageHeros/mob/brisbaneMob.webp";
 
 import { getHomePageSchema } from "../../utils/testimonialSchemaGenerator";
 import {
@@ -30,9 +30,9 @@ const schema = {
     ...getHomePageSchema(testimonials, "excel")["@graph"],
     {
       "@type": "WebPage",
-      "@id": "https://www.excelexperts.com.au/excel-consultants-canberra",
-      url: "https://www.excelexperts.com.au/excel-consultants-canberra",
-      name: "Excel Consultants Canberra",
+      "@id": "https://www.excelexperts.com.au/excel-consultants-brisbane",
+      url: "https://www.excelexperts.com.au/excel-consultants-brisbane",
+      name: "Excel Consultants Brisbane",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
@@ -40,14 +40,14 @@ const schema = {
       dateModified: "2025-03-26T00:00:00+00:00",
       breadcrumb: {
         "@id":
-          "https://www.excelexperts.com.au/excel-consultants-canberra#breadcrumb",
+          "https://www.excelexperts.com.au/excel-consultants-brisbane#breadcrumb",
       },
       inLanguage: "en-AU",
       potentialAction: [
         {
           "@type": "ReadAction",
           target: [
-            "https://www.excelexperts.com.au/excel-consultants-canberra",
+            "https://www.excelexperts.com.au/excel-consultants-brisbane",
           ],
         },
       ],
@@ -55,7 +55,7 @@ const schema = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.excelexperts.com.au/excel-consultants-canberra#breadcrumb",
+        "https://www.excelexperts.com.au/excel-consultants-brisbane#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
@@ -66,7 +66,7 @@ const schema = {
         {
           "@type": "ListItem",
           position: 2,
-          name: "Power Platform Consultants Canberra",
+          name: "Power Platform Consultants Brisbane",
         },
       ],
     },
@@ -74,7 +74,7 @@ const schema = {
 };
 
 const Page = () => {
-  const location = "Canberra";
+  const location = "Brisbane";
 
   return (
     <>
@@ -84,10 +84,10 @@ const Page = () => {
       />
       <ServiceHero
         title={`Excel Consultants ${location}`}
-        desktopImage={canberra}
-        mobileImage={canberraMob}
-        altDesk="Canberra"
-        altMob="Canberra"
+        desktopImage={brisbane}
+        mobileImage={brisbaneMob}
+        altDesk="Brisbane"
+        altMob="Brisbane"
       />
       <LocationSummary location={location} service="Excel" />
       <LocationPages location={location} />
