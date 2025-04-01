@@ -35,7 +35,7 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2019-08-06T08:12:54+00:00",
-      dateModified: "2022-11-09T00:24:40+00:00",
+      dateModified: "2025-03-31T00:24:40+00:00",
       description:
         "Are you struggling with some of the features in Excel? Do you need some guidance from time to time? Call us on 1300102810",
       breadcrumb: {

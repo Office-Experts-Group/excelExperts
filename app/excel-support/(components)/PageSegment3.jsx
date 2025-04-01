@@ -15,12 +15,13 @@ const PageSegment3 = () => {
       style={{ marginBottom: "4rem" }}
     >
       <AnimateOnScroll animation="slide-left" duration={1} delay={0}>
-        <Image
-          src={training}
-          alt="person on an online meeting"
-          width={400}
-          height={300}
-        />
+      <Image
+  src={training}
+  alt="person on an online meeting"
+  width={400}
+  height={300}
+  className={styles.imageCrush}
+/>
       </AnimateOnScroll>
 
       <div className={styles.content}>

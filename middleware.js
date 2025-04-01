@@ -40,13 +40,13 @@ export function middleware(request) {
   response.headers.set(
     "Content-Security-Policy",
     "default-src 'self'; " +
-      "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.vimeo.com *.googletagmanager.com *.google-analytics.com; " +
-      "style-src 'self' 'unsafe-inline'; " +
-      "img-src 'self' data: https: *.vimeocdn.com *.google-analytics.com *.googletagmanager.com; " +
-      "font-src 'self'; " +
-      "frame-src 'self' *.vimeo.com player.vimeo.com *.googletagmanager.com; " +
-      "media-src 'self' *.vimeo.com *.vimeocdn.com; " +
-      "connect-src 'self' *.vimeo.com *.vimeocdn.com *.google-analytics.com *.googletagmanager.com *.officeexperts.com.au;"
+    "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.vimeo.com *.googletagmanager.com *.google-analytics.com *.ahrefs.com analytics.ahrefs.com; " +
+    "style-src 'self' 'unsafe-inline' fonts.googleapis.com; " + // Added fonts.googleapis.com here
+    "img-src 'self' data: https: *.vimeocdn.com *.google-analytics.com *.googletagmanager.com *.ahrefs.com; " +
+    "font-src 'self' fonts.gstatic.com; " + // Added fonts.gstatic.com here
+    "frame-src 'self' *.vimeo.com player.vimeo.com *.googletagmanager.com; " +
+    "media-src 'self' *.vimeo.com *.vimeocdn.com; " +
+    "connect-src 'self' *.vimeo.com *.vimeocdn.com *.google-analytics.com *.googletagmanager.com *.officeexperts.com.au *.ahrefs.com analytics.ahrefs.com;"
   );
 
   // Handle ALL Next.js system paths

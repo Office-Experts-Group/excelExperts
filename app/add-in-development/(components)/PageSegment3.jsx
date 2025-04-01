@@ -6,6 +6,7 @@ import AnimateOnScroll from "../../../components/AnimateOnScroll";
 import styles from "../../../styles/pageSegment3.module.css";
 
 import ladyComputer from "../../../public/ladyComputer300x200.webp";
+import Link from "next/link";
 
 const PageSegment3 = () => {
   return (
@@ -30,7 +31,7 @@ const PageSegment3 = () => {
           </div>
           <p>
             VSTO is a set of development tools available with Microsoft Visual
-            Studio that supports the Microsoft .NET Framework. It is used by
+            Studio that supports the <Link href={"https://www.officeexperts.com.au/services/microsoft-dot-net"}>Microsoft .NET Framework</Link>. It is used by
             developers to write code connecting Microsoft Office applications.
             Developers using VSTO can use .NET languages, instead of using VBA.
             VSTO add-ins are installed on a PC and are compiled applications.

@@ -10,7 +10,7 @@ import city from "../../../public/city400x300.webp";
 const PageSegment3 = () => {
   const checkItems = [
     "Upgrade or fix your current workbook if it was designed poorly, needs some smarts or needs some automation",
-    "Migrate your Excel workbook to a custom database application! Excel is a poor application to use as a multi-user database. Click here to learn more.",
+    "Migrate your Excel workbook to a custom database application! Excel is a poor application to use as a multi-user database.",
     "Update your solution using Excel for what it is good at!",
   ];
 

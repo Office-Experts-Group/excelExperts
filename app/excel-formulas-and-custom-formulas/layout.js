@@ -21,7 +21,7 @@ export const metadata = {
     type: "website",
   },
 
-  keywords: ["excel custom formula development services"],
+  keywords: ["excel custom formula development"],
 
   alternates: {
     canonical: "/excel-formulas-and-custom-formulas",

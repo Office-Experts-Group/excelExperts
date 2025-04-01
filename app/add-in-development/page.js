@@ -38,7 +38,7 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2018-01-02T15:23:26+00:00",
-      dateModified: "2022-11-09T00:17:29+00:00",
+      dateModified: "2025-03-31T00:17:29+00:00",
       description:
         "What is an Excel Add-In? An Excel add-in contains code that adds additional functionality to Excel, usually in the form of new functions. Call us 1300102810",
       breadcrumb: {

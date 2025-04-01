@@ -34,9 +34,9 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2018-12-10T04:46:06+00:00",
-      dateModified: "2022-12-04T23:31:33+00:00",
+      dateModified: "2025-03-04T23:31:33+00:00",
       description:
-        "Meet our expert team and know about their special skills. Get in touch for more information.",
+        "Expert VBA and macro development services for all Microsoft Office applications. Our experienced programmers create custom automated solutions including form creation, data manipulation, and task automation. ",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/vba-macro-development#breadcrumb",

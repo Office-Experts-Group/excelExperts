@@ -5,6 +5,7 @@ import styles from "../../../styles/pageSegment.module.css";
 
 import moreGraphs from "../../../public/moreGraphs600x400.webp";
 import semi from "../../../public/shapes/semi600x600.webp";
+import Link from "next/link";
 
 const PageSegmentMain = () => {
   return (
@@ -34,8 +35,8 @@ const PageSegmentMain = () => {
           <h2>Extending Microsoft Excel Functionality</h2>
           <p>
             An Excel add-in contains code to extend Excel's functionality,
-            usually in the form of new functions, custom ribbon or toolbar
-            buttons. Once an add-in is deployed to your Excel environment, the
+            usually in the form of new functions, <Link href={"https://www.wordexperts.com.au/custom-toolbars-and-ribbons"}>custom ribbon or toolbar
+            buttons</Link>. Once an add-in is deployed to your Excel environment, the
             new functions and buttons are available to all of your Excel
             workbooks to automate your repetitive tasks and processes. Excel
             add-ins can be created with:

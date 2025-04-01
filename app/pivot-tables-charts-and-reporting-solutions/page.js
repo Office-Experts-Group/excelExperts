@@ -35,7 +35,7 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2018-01-02T16:19:12+00:00",
-      dateModified: "2022-11-09T00:28:14+00:00",
+      dateModified: "2025-03-31T00:28:14+00:00",
       description:
         "We are Reporting Solution Experts! If you need help with charting, pivot charts, pivot tables or any other Excel features then our experts can help.",
       breadcrumb: {

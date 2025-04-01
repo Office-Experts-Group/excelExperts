@@ -1,11 +1,11 @@
 export const metadata = {
-  title: "Add in Development | Excel Experts",
+  title: "Excel Add in Development",
   description:
-    "What is an Excel Add-In? An Excel add-in contains code that adds additional functionality to Excel, usually in the form of new functions. Call us 1300102810",
+    "Professional Excel Add-in Development services by certified experts. Custom add-ins to extend Excel functionality, automate tasks, and enhance productivity for your business. Get tailored solutions with our Excel Add-in Development team.",
   openGraph: {
-    title: "Add in Development | Excel Experts",
+    title: "Excel Add in Development",
     description:
-      "What is an Excel Add-In? An Excel add-in contains code that adds additional functionality to Excel, usually in the form of new functions. Call us 1300102810",
+      "Professional Excel Add-in Development services by certified experts. Custom add-ins to extend Excel functionality, automate tasks, and enhance productivity for your business. Get tailored solutions with our Excel Add-in Development team.",
     url: "https://www.excelexperts.com.au/add-in-development",
     siteName: "Excel Experts",
     images: [
@@ -20,7 +20,7 @@ export const metadata = {
     type: "website",
   },
 
-  keywords: ["Excel add-in development Australia"],
+  keywords: ["Excel add-in development"],
 
   alternates: {
     canonical: "/add-in-development",

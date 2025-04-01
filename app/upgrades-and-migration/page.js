@@ -7,6 +7,7 @@ import ExpertsAwait from "../../components/ExpertsAwait";
 import ServicePageCards from "./(components)/ServicePageCards";
 import PageSegment4 from "./(components)/PageSegment4";
 import PageSegment3 from "./(components)/PageSegment3";
+import PageSegment3copy from "./(components)/PageSegment3copy";
 import PageSegmentDropdowns from "./(components)/PageSegmentDropdowns";
 
 import marker from "../../public/pageHeros/marker.webp";
@@ -34,7 +35,7 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2017-11-26T03:05:43+00:00",
-      dateModified: "2022-11-09T01:38:27+00:00",
+      dateModified: "2025-03-09T01:38:27+00:00",
       description:
         "Stuck on an Old Version? Are you experiencing the cold reality or unsettling concerns that your Microsoft Office workbooks, documents. Call us 1300102810",
       breadcrumb: {
@@ -90,6 +91,7 @@ const Page = () => {
       <PageSegment3 />
       <ExpertsAwait />
       <PageSegmentDropdowns />
+      <PageSegment3copy />
       <Contact />
     </>
   );

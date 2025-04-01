@@ -33,9 +33,9 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2018-01-02T16:30:22+00:00",
-      dateModified: "2022-11-09T00:29:31+00:00",
+      dateModified: "2025-03-09T00:29:31+00:00",
       description:
-        "Excel Experts Help Resolve Your Issues Onsite or via Remote Access. Professional Support and training from Highly Experienced Consultants.",
+        "Professional Support and training from Highly Experienced Consultants. Excel Experts Help Resolve Your Issues Onsite or via Remote Access. Australia Wide. Call 1300 102 810",
       breadcrumb: {
         "@id": "https://www.excelexperts.com.au/excel-support#breadcrumb",
       },

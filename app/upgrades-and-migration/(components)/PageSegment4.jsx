@@ -6,13 +6,10 @@ import AnimateOnScroll from "../../../components/AnimateOnScroll";
 import styles from "../../../styles/pageSegment4.module.css";
 
 import ladyComputer from "../../../public/ladyComputer600x400.webp";
+import Link from "next/link";
 
 const PageSegment4 = () => {
-  const checkItems = [
-    "Workbooks that are slow and unworkable",
-    "Excel being the wrong application for their business needs",
-    "Using Excel as a database having been led down the wrong path",
-  ];
+
 
   return (
     <div
@@ -25,28 +22,11 @@ const PageSegment4 = () => {
             <div className={styles.underline}>
               <h2>Migrating Away From Excel?</h2>
             </div>
-            <p>Our experts often help clients who are suffering from:</p>
+            <p>Excel is a fantastic tool, but it's not a one-size-fits-all solution. Over time, many businesses find their workbooks becoming sluggish and unmanageable, leading to lost productivity and frustration. Others realise that Excel simply isn't built for the complexity of their operations, yet they've relied on it for too long. Some even use it as a database, a practice that introduces serious risks, from data corruption, multi-user issues, and compliance issues.</p>
 
-            <div className={styles.checks}>
-              {checkItems.map((text, index) => (
-                <div key={index} className={styles.check}>
-                  <div className={styles.cross}>
-                    <svg
-                      stroke="currentColor"
-                      fill="currentColor"
-                      strokeWidth="2"
-                      viewBox="0 0 1024 1024"
-                      height="1em"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 0 0 203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"></path>
-                    </svg>
-                  </div>
-                  <p>{text}</p>
-                </div>
-              ))}
-            </div>
+            <p>If any of this sounds familiar, it's time to rethink your approach. We've helped businesses of all sizes move beyond Excel to smarter, more efficient systems that scale with their growth in many Microsoft technologies.</p>
+
+            <p>Ready to explore better alternatives? Our team also specialises in Microsoft Power Platform solutions including <Link href={"https://www.powerplatformexperts.com.au/services/microsoft-power-platform/microsoft-power-bi"}> Power BI</Link> for robust data visualization, <Link href={"https://www.powerplatformexperts.com.au/services/microsoft-power-platform/microsoft-power-apps"}>Power Apps</Link> for custom business applications, and <Link href={"https://www.powerplatformexperts.com.au/services/microsoft-power-platform/microsoft-power-automate"}>Power Automate</Link> for streamlined workflows. For more complex data management needs, we offer expertise in <Link href={"https://www.accessexperts.com.au"}>Microsoft Access</Link> for database development and SharePoint implementation. These powerful platforms can transform how your business handles data while maintaining seamless integration with your existing Microsoft ecosystem.</p>
           </div>
         </AnimateOnScroll>
 

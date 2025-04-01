@@ -17,6 +17,7 @@ import {
   generateProfessionalServiceSchema,
   generateOrganizationSchema,
 } from "../../utils/schemaGenerators";
+import PageSegmentCenter from "./(components)/PageSegmentCenter";
 
 const schema = {
   "@context": "https://schema.org",
@@ -28,7 +29,7 @@ const schema = {
       "@id":
         "https://www.excelexperts.com.au/excel-formulas-and-custom-formulas",
       url: "https://www.excelexperts.com.au/excel-formulas-and-custom-formulas",
-      name: "Excel Formulas and Custom Formulas | Excel Expert",
+      name: "Excel Formulas and Custom Formulas",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
@@ -36,9 +37,9 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2018-08-31T22:15:28+00:00",
-      dateModified: "2022-11-09T01:37:16+00:00",
+      dateModified: "2025-03-09T01:37:16+00:00",
       description:
-        "We provide Office Microsoft Excel Help Support and Training in Australia. Visit www.officeexperts.com.au to get more info",
+        "Get expert help with complex Excel formulas and custom formula solutions. Our specialists simplify calculations, improve workbook performance, and implement unique business logic. Remote or onsite support available across Australia.",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-formulas-and-custom-formulas#breadcrumb",
@@ -92,6 +93,7 @@ const Page = () => {
       <PageSegment4 />
       <VideoSegment />
       <ExpertsAwait />
+      <PageSegmentCenter />
       <div style={{ marginTop: "6rem" }}>
         <FAQ faqs={faqs} />
       </div>

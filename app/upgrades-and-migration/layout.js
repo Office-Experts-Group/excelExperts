@@ -1,12 +1,12 @@
 export const metadata = {
-  title: "Excel Upgrades and Migration | Excel Experts",
+  title: "Excel Upgrades and Migration",
   description:
-    "Stuck on an Old Version? Expert help with Excel workbook upgrades, VBA migration, and version compatibility issues. Professional Excel upgrade services across Australia. Call 1300102810",
+    "Stuck on an Old Version? Expert help with Excel workbook upgrades, VBA migration, and version compatibility issues. Professional Excel upgrade services across Australia. Call 1300 102 810",
 
   openGraph: {
-    title: "Excel Upgrades and Migration | Excel Experts",
+    title: "Excel Upgrades and Migration",
     description:
-      "Stuck on an Old Version? Expert help with Excel workbook upgrades, VBA migration, and version compatibility issues. Professional Excel upgrade services across Australia. Call 1300102810",
+      "Stuck on an Old Version? Expert help with Excel workbook upgrades, VBA migration, and version compatibility issues. Professional Excel upgrade services across Australia. Call 1300 102 810",
     url: "https://www.excelexperts.com.au/upgrades-and-migration",
     siteName: "Excel Experts",
     images: [
@@ -23,8 +23,8 @@ export const metadata = {
 
   keywords: [
     // Core upgrade services
-    "Excel version upgrade services",
-    "Excel workbook migration solutions",
+    "Excel upgrade consultants",
+    "Excel migration solutions",
   ],
 
   alternates: {
