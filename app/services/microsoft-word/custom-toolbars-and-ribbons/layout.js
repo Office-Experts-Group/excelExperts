@@ -26,7 +26,7 @@ export const metadata = {
 
   keywords: ["data automation interfaces"],
   alternates: {
-    canonical: "https://wordexperts.com.au/custom-toolbars-and-ribbons",
+    canonical: "https://www.wordexperts.com.au/custom-toolbars-and-ribbons",
   },
 
   alternates: {

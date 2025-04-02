@@ -29,9 +29,6 @@ export const metadata = {
   keywords: [
     // Location-based
     "Microsoft Excel consultant locations Australia",
-    "Excel VBA developers Australia",
-    "Excel dashboard specialists",
-    "Data analysis consultants Australia",
   ],
 
   // Twitter Card

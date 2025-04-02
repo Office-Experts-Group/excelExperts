@@ -31,7 +31,7 @@ export const metadata = {
     "Access database remote support services",
   ],
   alternates: {
-    canonical: "https://accessexperts.com.au/access-support",
+    canonical: "https://www.accessexperts.com.au/access-support",
     alternate: [
       {
         url: "https://www.officeexperts.com.au/services/microsoft-access/access-support",

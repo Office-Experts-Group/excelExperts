@@ -86,7 +86,7 @@ const SegmentMainCopy = () => {
         <h2>We Are Integration Experts!</h2>
         <p>
           Our team excels at integrating Microsoft technologies to create
-          smooth, cohesive workflows. We maximize the potential of your systems,
+          smooth, cohesive workflows. We maximise the potential of your systems,
           ensuring that everything from data management to reporting works
           efficiently and effectively.
         </p>
@@ -96,7 +96,7 @@ const SegmentMainCopy = () => {
           productivity and reduces manual work. By leveraging automation and
           smart integration, we simplify complex processes and ensure your data
           flows effortlessly between systems, giving you more time to focus on
-          what truly matters.
+          what truly matters. Your Business.
         </p>
       </div>
     </section>

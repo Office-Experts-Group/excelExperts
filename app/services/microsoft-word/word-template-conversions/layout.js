@@ -30,7 +30,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://wordexperts.com.au/word-template-conversions",
+    canonical: "https://www.wordexperts.com.au/word-template-conversions",
   },
 };
 

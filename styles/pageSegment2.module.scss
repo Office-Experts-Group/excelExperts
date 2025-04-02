@@ -8,6 +8,11 @@
   gap: 2rem;
   padding: 4rem 10vw;
 
+  a {
+    color: $theme;
+    font-weight: 700;
+  }
+
   @include tablet {
     padding: 4rem 2vw;
     gap: 0rem;

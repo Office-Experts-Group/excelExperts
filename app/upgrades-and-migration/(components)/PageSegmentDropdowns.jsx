@@ -53,9 +53,9 @@ const UpgradeIssues = () => {
           {issueDetails.map((issue, index) => (
             <details key={index} className={styles.faqItem}>
               <summary>
-                <span className={styles.questionText}>{issue.title}</span>
+                <span className={styles.questionText}><span>{issue.title}</span></span>
               </summary>
-              <div className={styles.content}>{issue.content}</div>
+              <div className={styles.content}><span>{issue.content}</span></div>
             </details>
           ))}
         </div>

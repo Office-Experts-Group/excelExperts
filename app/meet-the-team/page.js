@@ -19,30 +19,30 @@ const schema = {
     generateProfessionalServiceSchema(),
     {
       "@type": "WebPage",
-      "@id": "https://excelexperts.com.au/meet-the-team",
-      url: "https://excelexperts.com.au/meet-the-team",
+      "@id": "https://www.excelexperts.com.au/meet-the-team",
+      url: "https://www.excelexperts.com.au/meet-the-team",
       name: "Meet Our Microsoft Excel Experts",
       isPartOf: {
-        "@id": "https://excelexperts.com.au#website",
+        "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-27T00:00:00+00:00",
       dateModified: "2024-10-27T00:00:00+00:00",
       description:
         "Meet our team of experienced Microsoft Excel consultants. Expert developers and consultants dedicated to delivering quality spreadsheet solutions.",
       breadcrumb: {
-        "@id": "https://excelexperts.com.au/meet-the-team#breadcrumb",
+        "@id": "https://www.excelexperts.com.au/meet-the-team#breadcrumb",
       },
       inLanguage: "en-AU",
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://excelexperts.com.au/meet-the-team#breadcrumb",
+      "@id": "https://www.excelexperts.com.au/meet-the-team#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://excelexperts.com.au",
+          item: "https://www.excelexperts.com.au",
         },
         {
           "@type": "ListItem",

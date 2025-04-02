@@ -25,11 +25,11 @@ const schema = {
     {
       "@type": "WebPage",
       "@id":
-        "https://excelexperts.com.au/services/microsoft-access/3rd-party-product-integration",
-      url: "https://excelexperts.com.au/services/microsoft-access/3rd-party-product-integration",
+        "https://www.excelexperts.com.au/services/microsoft-access/3rd-party-product-integration",
+      url: "https://www.excelexperts.com.au/services/microsoft-access/3rd-party-product-integration",
       name: "Excel Experts: For All Your Microsoft Technology Development and Consulting Services",
       isPartOf: {
-        "@id": "https://excelexperts.com.au#website",
+        "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-27T00:00:00+00:00",
       dateModified: "2024-10-27T00:00:00+00:00",
@@ -42,7 +42,7 @@ const schema = {
             "@type": "ListItem",
             position: 1,
             item: {
-              "@id": "https://excelexperts.com.au",
+              "@id": "https://www.excelexperts.com.au",
               name: "Home",
             },
           },
@@ -50,7 +50,7 @@ const schema = {
             "@type": "ListItem",
             position: 2,
             item: {
-              "@id": "https://excelexperts.com.au/services",
+              "@id": "https://www.excelexperts.com.au/services",
               name: "Services",
             },
           },
@@ -58,7 +58,7 @@ const schema = {
             "@type": "ListItem",
             position: 3,
             item: {
-              "@id": "https://excelexperts.com.au/services/microsoft-access",
+              "@id": "https://www.excelexperts.com.au/services/microsoft-access",
               name: "Microsoft Access",
             },
           },
@@ -67,7 +67,7 @@ const schema = {
             position: 4,
             item: {
               "@id":
-                "https://excelexperts.com.au/services/microsoft-access/3rd-party-product-integration",
+                "https://www.excelexperts.com.au/services/microsoft-access/3rd-party-product-integration",
               name: "3rd Party Product Integration",
             },
           },

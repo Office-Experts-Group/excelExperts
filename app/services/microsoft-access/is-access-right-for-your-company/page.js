@@ -27,11 +27,11 @@ const schema = {
     {
       "@type": "WebPage",
       "@id":
-        "https://excelexperts.com.au/services/microsoft-access/is-access-right-for-your-company",
-      url: "https://excelexperts.com.au/services/microsoft-access/is-access-right-for-your-company",
+        "https://www.excelexperts.com.au/services/microsoft-access/is-access-right-for-your-company",
+      url: "https://www.excelexperts.com.au/services/microsoft-access/is-access-right-for-your-company",
       name: "Is Microsoft Access Right for Your Company? - Excel Experts",
       isPartOf: {
-        "@id": "https://excelexperts.com.au#website",
+        "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-27T00:00:00+00:00",
       dateModified: "2024-10-27T00:00:00+00:00",
@@ -39,38 +39,38 @@ const schema = {
         "Discover if Microsoft Access is the right database solution for your business. Expert analysis and consultation to determine the best database strategy for your needs.",
       breadcrumb: {
         "@id":
-          "https://excelexperts.com.au/services/microsoft-access/is-access-right-for-your-company#breadcrumb",
+          "https://www.excelexperts.com.au/services/microsoft-access/is-access-right-for-your-company#breadcrumb",
       },
       inLanguage: "en-AU",
     },
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://excelexperts.com.au/services/microsoft-access/is-access-right-for-your-company#breadcrumb",
+        "https://www.excelexperts.com.au/services/microsoft-access/is-access-right-for-your-company#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://excelexperts.com.au",
+          item: "https://www.excelexperts.com.au",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Services",
-          item: "https://excelexperts.com.au/services",
+          item: "https://www.excelexperts.com.au/services",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Microsoft Access",
-          item: "https://excelexperts.com.au/services/microsoft-access",
+          item: "https://www.excelexperts.com.au/services/microsoft-access",
         },
         {
           "@type": "ListItem",
           position: 4,
           name: "Is Microsoft Access Right for Your Company?",
-          item: "https://excelexperts.com.au/services/microsoft-access/is-access-right-for-your-company",
+          item: "https://www.excelexperts.com.au/services/microsoft-access/is-access-right-for-your-company",
         },
       ],
     },

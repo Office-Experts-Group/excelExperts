@@ -37,7 +37,7 @@ const Contents = () => {
           </svg>
           <h3>Quick Links</h3>
           <Link
-            href="/services/by-business-solution/dashboards"
+            href="https://www.officeexperts.com.au/services/by-business-solution/dashboards"
             onClick={handleLinkClick}
           >
             <div className={styles.contentLink}>
@@ -45,7 +45,7 @@ const Contents = () => {
             </div>
           </Link>
           <Link
-            href="/services/by-business-solution/3rd-party-application-or-office-integration"
+            href="https://www.officeexperts.com.au/services/by-business-solution/3rd-party-application-or-office-integration"
             onClick={handleLinkClick}
           >
             <div className={styles.contentLink}>
@@ -53,7 +53,7 @@ const Contents = () => {
             </div>
           </Link>
           <Link
-            href="https://excelexperts.com.au/vba-macro-development"
+            href="/vba-macro-development"
             onClick={handleLinkClick}
           >
             <div className={styles.contentLink}>
@@ -61,7 +61,7 @@ const Contents = () => {
             </div>
           </Link>
           <Link
-            href="/services/by-business-solution/3rd-party-application-or-office-integration"
+            href="https://www.officeexperts.com.au/services/by-business-solution/3rd-party-application-or-office-integration"
             onClick={handleLinkClick}
           >
             <div className={styles.contentLink}>
@@ -69,7 +69,7 @@ const Contents = () => {
             </div>
           </Link>
           <Link
-            href="https://excelexperts.com.au/data-manipulation"
+            href="/data-manipulation"
             onClick={handleLinkClick}
           >
             <div className={styles.contentLink}>
@@ -93,7 +93,7 @@ const Contents = () => {
             </div>
           </Link>
           <Link
-            href="https://excelexperts.com.au/add-in-development"
+            href="/add-in-development"
             onClick={handleLinkClick}
           >
             <div className={styles.contentLink}>

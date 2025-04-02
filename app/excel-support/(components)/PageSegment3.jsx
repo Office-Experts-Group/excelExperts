@@ -6,6 +6,7 @@ import AnimateOnScroll from "../../../components/AnimateOnScroll";
 import styles from "../../../styles/pageSegment3.module.css";
 
 import training from "../../../public/training400x300.webp";
+import Link from "next/link";
 
 const PageSegment3 = () => {
   return (
@@ -33,7 +34,7 @@ const PageSegment3 = () => {
             Our Excel Training services are designed to be task specific,
             ensuring that every session addresses the unique challenges you
             face. We provide time and cost-effective solutions tailored to your
-            requirements, whether you need help with formulas, data analysis, or
+            requirements, whether you need <Link style={{ color: "#046999", fontWeight: "700" }} href="/excel-formulas-and-custom-formulas">help with formulas</Link>, <Link style={{ color: "#046999", fontWeight: "700" }}  href={"/data-manipulation"}>data analysis</Link>, or
             complex automation tasks. Our training can be conducted onsite or
             through remote access, giving you flexibility in how you learn, and
             making expert guidance readily available no matter your location.

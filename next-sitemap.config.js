@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://excelexperts.com.au",
+  siteUrl: "https://www.excelexperts.com.au",
   generateRobotsTxt: true,
   // Optional: other configuration
   changefreq: "weekly",

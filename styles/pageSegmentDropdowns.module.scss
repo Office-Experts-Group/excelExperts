@@ -71,6 +71,9 @@
   p {
     color: $darkGrayText;
   }
+  span {
+    color: $darkGrayText !important;
+  }
   @media screen and (max-width: 1000px) {
     grid-column: span 2;
   }

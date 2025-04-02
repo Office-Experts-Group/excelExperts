@@ -7,7 +7,7 @@ const REDIRECTS = [
   },
   {
     source: "/services/microsoft-excel",
-    destination: "https://excelexperts.com.au",
+    destination: "https://www.excelexperts.com.au",
     permanent: true,
   },
   {
@@ -17,7 +17,7 @@ const REDIRECTS = [
   },
   {
     source: "/services/microsoft-dot-net",
-    destination: "https://officeexperts.com.au/services/microsoft-dot-net",
+    destination: "https://www.officeexperts.com.au/services/microsoft-dot-net",
     permanent: true,
   },
   {
@@ -30,7 +30,7 @@ const REDIRECTS = [
   {
     source: "/services/by-business-solution/custom-office-solutions",
     destination:
-      "https://officeexperts.com.au/services/by-business-solution/custom-office-solutions",
+      "https://www.officeexperts.com.au/services/by-business-solution/custom-office-solutions",
     permanent: true,
   },
   {
@@ -63,24 +63,24 @@ const REDIRECTS = [
   {
     source: "/services/by-business-solution/dashboards",
     destination:
-      "https://officeexperts.com.au/services/by-business-solution/dashboards",
+      "https://www.officeexperts.com.au/services/by-business-solution/dashboards",
     permanent: true,
   },
   {
     source: "/services/microsoft-office-365",
-    destination: "https://officeexperts.com.au/services/microsoft-office-365",
+    destination: "https://www.officeexperts.com.au/services/microsoft-office-365",
     permanent: true,
   },
   {
     source: "/services/microsoft-power-bi",
     destination:
-      "https://officeexperts.com.au/services/microsoft-power-platform/microsoft-power-bi",
+      "https://www.officeexperts.com.au/services/microsoft-power-platform/microsoft-power-bi",
     permanent: true,
   },
   {
     source: "/services/by-business-solution/online-solutions",
     destination:
-      "https://officeexperts.com.au/services/by-business-solution/online-solutions",
+      "https://www.officeexperts.com.au/services/by-business-solution/online-solutions",
     permanent: true,
   },
   {
@@ -92,7 +92,7 @@ const REDIRECTS = [
   {
     source: "/vba-macro-developmentVBA%20macros",
     destination:
-      "https://officeexperts.com.au/services/by-business-solution/vba-macro-development",
+      "https://www.officeexperts.com.au/services/by-business-solution/vba-macro-development",
     permanent: true,
   },
   {

@@ -31,7 +31,7 @@ export const metadata = {
     "Access database compatibility assessment",
   ],
   alternates: {
-    canonical: "https://accessexperts.com.au/is-access-right-for-your-company",
+    canonical: "https://www.accessexperts.com.au/is-access-right-for-your-company",
     alternate: [
       {
         url: "https://www.officeexperts.com.au/services/microsoft-access/is-access-right-for-your-company",

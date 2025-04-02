@@ -28,7 +28,7 @@ export const metadata = {
     "Microsoft Word integration training",
   ],
   alternates: {
-    canonical: "https://wordexperts.com.au/training",
+    canonical: "https://www.wordexperts.com.au/training",
     alternate: [
       {
         url: "https://www.officeexperts.com.au/services/microsoft-word/training",

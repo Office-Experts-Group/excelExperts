@@ -53,21 +53,21 @@ const ContentsCopy = () => {
             style={{ display: "flex", alignItems: "center", gap: "4px" }}
           >
             <Link
-              href="/services/microsoft-office-365"
+              href="https://www.officeexperts.com.au/services/microsoft-office-365"
               onClick={handleLinkClick}
             >
               <p>Office 365</p>
             </Link>
             <p>/</p>
             <Link
-              href="/services/by-business-solution/online-solutions"
+              href="https://www.officeexperts.com.au/services/by-business-solution/online-solutions"
               onClick={handleLinkClick}
             >
               <p>SharePoint</p>
             </Link>
           </div>
           <Link
-            href="/services/by-business-solution/cloud-based-solutions-with-azure"
+            href="https://www.officeexperts.com.au/services/by-business-solution/cloud-based-solutions-with-azure"
             onClick={handleLinkClick}
           >
             <div className={styles.contentLink}>
@@ -79,30 +79,30 @@ const ContentsCopy = () => {
               <p>Microsoft Access</p>
             </div>
           </Link>
-          <Link href="/services/microsoft-power-bi" onClick={handleLinkClick}>
+          <Link href="https://www.powerplatformexperts.com.au/services/microsoft-power-platform/microsoft-power-bi" onClick={handleLinkClick}>
             <div className={styles.contentLink}>
               <p>Power BI</p>
             </div>
           </Link>
           <Link
-            href="/services/by-business-solution/custom-office-solutions"
+            href="https://www.officeexperts.com.au/services/by-business-solution/custom-office-solutions"
             onClick={handleLinkClick}
           >
             <div className={styles.contentLink}>
               <p>Microsoft Outlook</p>
             </div>
           </Link>
-          <Link href="/services/microsoft-dot-net" onClick={handleLinkClick}>
+          <Link href="https://www.officeexperts.com.au/services/microsoft-dot-net" onClick={handleLinkClick}>
             <div className={styles.contentLink}>
               <p>VB.NET</p>
             </div>
           </Link>
-          <Link href="/services/microsoft-dot-net" onClick={handleLinkClick}>
+          <Link href="/services/microsoft-word" onClick={handleLinkClick}>
             <div className={styles.contentLink}>
               <p>Microsoft Word</p>
             </div>
           </Link>
-          <Link href="/services/microsoft-dot-net" onClick={handleLinkClick}>
+          <Link href="https://www.officeexperts.com.au/services/microsoft-dot-net" onClick={handleLinkClick}>
             <div className={styles.contentLink}>
               <p>C#.NET</p>
             </div>

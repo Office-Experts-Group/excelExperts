@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "../../../styles/pageSegment2.module.scss";
 
 import office from "../../../public/office770x430.webp";
+import Link from "next/link";
 
 const PageSegmentMain2 = () => {
   return (
@@ -90,7 +91,7 @@ const PageSegmentMain2 = () => {
           Our team specialises in streamlining complex data workflows,
           transforming manual tasks into automated solutions that save you time
           and reduce errors. From importing and exporting large datasets to
-          automating formatting and conversions, we harness the power of VBA,
+          automating formatting and conversions, we <Link href={"/vba-macro-development"}>harness the power of VBA</Link>,
           Excel, and Visual Studio to make data manipulation seamless and
           efficient. Whether it's batch processing or handling diverse
           file formats like CSV, XML, and JSON, we ensure your data operations

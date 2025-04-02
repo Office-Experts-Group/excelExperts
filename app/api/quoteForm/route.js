@@ -119,7 +119,7 @@ export async function POST(req) {
       Software Versions: ${softwareVersions || "Not provided"}.
       Website: ${website || "Not provided"}.
       Message: ${message || "Not provided"}
-    This email was sent at ${currentTimeAEST} from https://excelexperts.com.au
+    This email was sent at ${currentTimeAEST} from https://www.excelexperts.com.au
     `;
 
     const customerTextMessage = `
@@ -146,7 +146,7 @@ export async function POST(req) {
       <p><strong>Message:</strong></p>
       <p>${message || "Not provided"}</p>
       ${htmlSignature}
-            <em>This form was filled out on the website: https://excelexperts.com.au @ ${currentTimeAEST}</em>
+            <em>This form was filled out on the website: https://www.excelexperts.com.au @ ${currentTimeAEST}</em>
     `;
 
     const customerHtmlMessage = `

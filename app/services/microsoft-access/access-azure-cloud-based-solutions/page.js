@@ -50,31 +50,31 @@ const schema = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://excelexperts.com.au/services/microsoft-access/access-azure-cloud-based-solutions#breadcrumb",
+        "https://www.excelexperts.com.au/services/microsoft-access/access-azure-cloud-based-solutions#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://excelexperts.com.au",
+          item: "https://www.excelexperts.com.au",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Services",
-          item: "https://excelexperts.com.au/services",
+          item: "https://www.excelexperts.com.au/services",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Microsoft Access",
-          item: "https://excelexperts.com.au/services/microsoft-access",
+          item: "https://www.excelexperts.com.au/services/microsoft-access",
         },
         {
           "@type": "ListItem",
           position: 4,
           name: "Access azure cloud based solutions",
-          item: "https://excelexperts.com.au/services/microsoft-access/access-azure-cloud-based-solutions",
+          item: "https://www.excelexperts.com.au/services/microsoft-access/access-azure-cloud-based-solutions",
         },
       ],
     },

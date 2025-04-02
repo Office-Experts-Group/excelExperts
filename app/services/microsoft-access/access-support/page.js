@@ -27,11 +27,11 @@ const schema = {
     {
       "@type": "WebPage",
       "@id":
-        "https://excelexperts.com.au/services/microsoft-access/access-support",
-      url: "https://excelexperts.com.au/services/microsoft-access/access-support",
+        "https://www.excelexperts.com.au/services/microsoft-access/access-support",
+      url: "https://www.excelexperts.com.au/services/microsoft-access/access-support",
       name: "Microsoft Access Database Support & Maintenance Services",
       isPartOf: {
-        "@id": "https://excelexperts.com.au#website",
+        "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-27T00:00:00+00:00",
       dateModified: "2024-10-27T00:00:00+00:00",
@@ -42,31 +42,31 @@ const schema = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://excelexperts.com.au/services/microsoft-access/access-support#breadcrumb",
+        "https://www.excelexperts.com.au/services/microsoft-access/access-support#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://excelexperts.com.au",
+          item: "https://www.excelexperts.com.au",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Services",
-          item: "https://excelexperts.com.au/services",
+          item: "https://www.excelexperts.com.au/services",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Microsoft Access",
-          item: "https://excelexperts.com.au/services/microsoft-access",
+          item: "https://www.excelexperts.com.au/services/microsoft-access",
         },
         {
           "@type": "ListItem",
           position: 4,
           name: "Access Support",
-          item: "https://excelexperts.com.au/services/microsoft-access/access-support",
+          item: "https://www.excelexperts.com.au/services/microsoft-access/access-support",
         },
       ],
     },
