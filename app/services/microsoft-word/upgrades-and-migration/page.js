@@ -81,6 +81,7 @@ const schema = {
           "@type": "ListItem",
           position: 4,
           name: "Upgrades and Migration",
+          item: "https://www.excelexperts.com.au/services/microsoft-word/upgrades-and-migration",
         },
       ],
     },

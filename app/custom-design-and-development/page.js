@@ -67,6 +67,7 @@ const schema = {
           "@type": "ListItem",
           position: 2,
           name: "Custom Design and Development",
+          item: "https://www.excelexperts.com.au/custom-design-and-development",
         },
       ],
     },

@@ -81,6 +81,7 @@ const schema = {
           "@type": "ListItem",
           position: 4,
           name: "Companies and Organisations",
+          item: "https://www.excelexperts.com.au/services/microsoft-word/companies-and-organisations",
         },
       ],
     },

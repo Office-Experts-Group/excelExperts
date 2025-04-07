@@ -77,6 +77,7 @@ const schema = {
           "@type": "ListItem",
           position: 4,
           name: "Accessibility",
+          item: "https://www.excelexperts.com.au/services/microsoft-word/accessibility",
         },
       ],
     },

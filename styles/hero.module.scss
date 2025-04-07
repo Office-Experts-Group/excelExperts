@@ -54,6 +54,7 @@
   filter: brightness(0.7);
   animation: scale 15s infinite linear; // Changed from 10s
   transform-origin: center center;
+  aspect-ratio: 150/1.019;
 }
 
 .shape {

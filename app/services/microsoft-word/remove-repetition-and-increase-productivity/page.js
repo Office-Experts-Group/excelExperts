@@ -78,6 +78,7 @@ const schema = {
           "@type": "ListItem",
           position: 4,
           name: "Remove Repetition and Increase Productivity",
+          item: "https://www.excelexperts.com.au/services/microsoft-word/remove-repetition-and-increase-productivity",
         },
       ],
     },

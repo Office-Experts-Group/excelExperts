@@ -67,6 +67,7 @@ const schema = {
           "@type": "ListItem",
           position: 2,
           name: "Pivot Tables, Charts and Reporting Solutions",
+          item: "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions",
         },
       ],
     },

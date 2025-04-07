@@ -81,6 +81,7 @@ const schema = {
           "@type": "ListItem",
           position: 4,
           name: "Help and Training",
+          item: "https://www.excelexperts.com.au/services/microsoft-word/training",
         },
       ],
     },

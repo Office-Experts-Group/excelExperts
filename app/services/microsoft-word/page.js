@@ -73,6 +73,7 @@ const schema = {
           "@type": "ListItem",
           position: 3,
           name: "Our Microsoft Word Services",
+          item: "https://www.excelexperts.com.au/services/microsoft-word",
         },
       ],
     },

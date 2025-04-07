@@ -65,6 +65,7 @@ const schema = {
           "@type": "ListItem",
           position: 2,
           name: "Power Platform Consultants Darwin",
+          item: "https://www.excelexperts.com.au/excel-consultants-darwin",
         },
       ],
     },

@@ -61,6 +61,7 @@ const schema = {
           "@type": "ListItem",
           position: 2,
           name: "Microsoft Excel: Help and Training",
+          item: "https://www.excelexperts.com.au/excel-support",
         },
       ],
     },
@@ -75,7 +76,7 @@ const Page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <ServiceHero
-        title="Excel Support"
+        title="Excel Support & Training"
         desktopImage={handShake}
         mobileImage={graphTableMob}
         altDesk={"hands shaking"}

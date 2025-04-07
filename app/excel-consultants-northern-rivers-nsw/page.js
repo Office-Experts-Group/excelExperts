@@ -68,6 +68,7 @@ const schema = {
           "@type": "ListItem",
           position: 2,
           name: "Power Platform Consultants Northern Rivers, NSW",
+          item: "https://www.excelexperts.com.au/excel-consultants-northern-rivers-nsw",
         },
       ],
     },

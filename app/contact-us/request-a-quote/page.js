@@ -67,6 +67,7 @@ const schema = {
           "@type": "ListItem",
           position: 3,
           name: "Request a Quote",
+          item: "https://www.excelexperts.com.au/contact-us/request-a-quote",
         },
       ],
     },

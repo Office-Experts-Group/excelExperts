@@ -69,6 +69,7 @@ const schema = {
           "@type": "ListItem",
           position: 2,
           name: "Excel Formulas and Custom Formulas",
+          item: "https://www.excelexperts.com.au/excel-formulas-and-custom-formulas",
         },
       ],
     },

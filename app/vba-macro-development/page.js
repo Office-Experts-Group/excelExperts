@@ -63,6 +63,7 @@ const schema = {
           "@type": "ListItem",
           position: 2,
           name: "VBA Macro Development",
+          item: "https://www.excelexperts.com.au/vba-macro-development",
         },
       ],
     },

@@ -59,6 +59,7 @@ const schema = {
           "@type": "ListItem",
           position: 2,
           name: "Data Manipulation",
+          item: "https://www.excelexperts.com.au/data-manipulation",
         },
       ],
     },

@@ -41,7 +41,7 @@ const Hero = () => {
         className={`${styles.shape} ${styles.shapeLeft}`}
         width={378}
         height={371}
-        // priority
+        priority
       />
       <Image
         src={shapeRight}
@@ -49,7 +49,7 @@ const Hero = () => {
         className={`${styles.shape} ${styles.shapeRight}`}
         width={327}
         height={317.5}
-        // priority
+        priority
       />
 
       <div className={styles.content}>

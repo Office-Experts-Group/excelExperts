@@ -57,6 +57,7 @@ const schema = {
           "@type": "ListItem",
           position: 2,
           name: "Contact Us",
+          item: "https://www.excelexperts.com.au/contact-us",
         },
       ],
     },

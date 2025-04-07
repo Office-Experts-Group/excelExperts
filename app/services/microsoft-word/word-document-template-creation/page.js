@@ -78,6 +78,7 @@ const schema = {
           "@type": "ListItem",
           position: 4,
           name: "Word Document/Template Creation",
+          item: "https://www.excelexperts.com.au/services/microsoft-word/word-document-template-creation",
         },
       ],
     },

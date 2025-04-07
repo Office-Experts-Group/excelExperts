@@ -77,6 +77,7 @@ const schema = {
           "@type": "ListItem",
           position: 4,
           name: "Custom Toolbars and Ribbons",
+          item: "https://www.excelexperts.com.au/services/microsoft-word/custom-toolbars-and-ribbons",
         },
       ],
     },
