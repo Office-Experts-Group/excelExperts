@@ -5,6 +5,9 @@ import styles from "../styles/cookieConsent.module.css";
 
 // Google Analytics ID
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-J68GZ7VMRJ";
+// Google Ads Conversion ID
+const GADS_CONVERSION_ID = "AW-1062762865";
+const GADS_CONVERSION_LABEL = "NeofCNTWkWMQ8fLh-gM";
 
 const CookieConsent = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -57,6 +60,25 @@ const CookieConsent = () => {
     setIsVisible(false);
   };
 
+  // Define the conversion tracking function in global scope when analytics are enabled
+  useEffect(() => {
+    if (showAnalytics && typeof window !== 'undefined') {
+      // Define the gtag_report_conversion function as a global function
+      window.gtag_report_conversion = (url) => {
+        const callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        window.gtag('event', 'conversion', {
+          'send_to': `${GADS_CONVERSION_ID}/${GADS_CONVERSION_LABEL}`,
+          'event_callback': callback
+        });
+        return false;
+      };
+    }
+  }, [showAnalytics]);
+
   return (
     <>
       {showAnalytics && (
@@ -72,6 +94,12 @@ const CookieConsent = () => {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', '${GA_ID}');
+              gtag('config', '${GADS_CONVERSION_ID}', {
+                'send_page_view': false,
+                'linker': {
+                  'domains': ['excelexperts.com.au', 'officeexperts.com.au']
+                }
+              });
             `}
           </Script>
         </>

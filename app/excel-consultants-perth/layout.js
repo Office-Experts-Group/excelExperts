@@ -4,7 +4,7 @@ export const metadata = {
   // Basic metadata
   title: "Excel Consultants Perth",
   description:
-    "Leading Excel consultants in Perth. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+    "Excel consultants in Perth with 25+ years of experience. Custom spreadsheets, dashboards, formulas, macros, and data analysis solutions.",
 
   // OpenGraph
   openGraph: {

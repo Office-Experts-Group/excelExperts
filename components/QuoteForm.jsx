@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import dynamic from "next/dynamic";
 
 import styles from "../styles/contact.module.css";
@@ -43,6 +43,7 @@ const QuoteForm = () => {
   const [error, setError] = useState({});
   const [success, setSuccess] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [hasConversionTracking, setHasConversionTracking] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -66,6 +67,29 @@ const QuoteForm = () => {
   const emailRef = useRef(null);
   const messageRef = useRef(null);
   const termsRef = useRef(null);
+
+  // Check if conversion tracking is available
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      // Check if the conversion function exists
+      setHasConversionTracking(typeof window.gtag_report_conversion === 'function');
+      
+      // Set up a MutationObserver to detect when conversion tracking becomes available
+      if (!window.gtag_report_conversion) {
+        const observer = new MutationObserver(() => {
+          if (typeof window.gtag_report_conversion === 'function') {
+            setHasConversionTracking(true);
+            observer.disconnect();
+          }
+        });
+        
+        // Watch for changes to the body element
+        observer.observe(document.body, { childList: true, subtree: true });
+        
+        return () => observer.disconnect();
+      }
+    }
+  }, []);
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -192,6 +216,20 @@ const QuoteForm = () => {
       });
 
       if (res.ok) {
+        // Track conversion if available
+        if (hasConversionTracking && typeof window.gtag_report_conversion === 'function') {
+          window.gtag_report_conversion();
+        }
+        
+        // Send additional event to Google Analytics
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', 'quote_form_submission', {
+            'event_category': 'Forms',
+            'event_label': 'Quote Form', 
+            'value': 1  // You can assign different values to different forms
+          });
+        }
+        
         setSuccess(true);
         setFormData({
           name: "",
