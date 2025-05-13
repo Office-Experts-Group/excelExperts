@@ -13,7 +13,7 @@ const SolutionsCarousel = () => {
   const solutionsData = [
     {
       title: "Corporate Identity",
-      link: "/corporate-identity",
+      link: "/services/microsoft-word/corporate-identity",
       image: project1,
       description: [
         "Corporate identity protection",
@@ -35,7 +35,7 @@ const SolutionsCarousel = () => {
     },
     {
       title: "Government Departments",
-      link: "/government-departments",
+      link: "/services/microsoft-word/government-departments",
       image: project3,
       description: [
         "Create accessible templates and documents",
@@ -46,7 +46,7 @@ const SolutionsCarousel = () => {
     },
     {
       title: "Companies and Organisations",
-      link: "/companies-and-organisations",
+      link: "/services/microsoft-word/companies-and-organisations",
       image: project4,
       description: [
         "Protect and control Corporate Identity",
@@ -56,7 +56,7 @@ const SolutionsCarousel = () => {
     },
     {
       title: "Remove Repetition and Increase Productivity",
-      link: "/remove-repetition-and-increase-productivity",
+      link: "/services/microsoft-word/remove-repetition-and-increase-productivity",
       image: project1,
       description: [
         "Let users focus on content, not design",
@@ -66,7 +66,7 @@ const SolutionsCarousel = () => {
     },
     {
       title: "Popup Forms",
-      link: "/popup-forms",
+      link: "/services/microsoft-word/popup-forms",
       image: project2,
       description: [
         "With easy to use popup forms your staff can enter data efficiently with validated and protected document integrity.",
@@ -74,7 +74,7 @@ const SolutionsCarousel = () => {
     },
     {
       title: "Fill In Forms",
-      link: "/fill-in-forms",
+      link: "/services/microsoft-word/fill-in-forms",
       image: project3,
       description: [
         "Step-by-step fill in forms for easy data entry by your staff or clients.",
@@ -84,7 +84,7 @@ const SolutionsCarousel = () => {
     },
     {
       title: "Upgrading Word To 2016",
-      link: "/upgrades-and-migration",
+      link: "/services/microsoft-word/upgrades-and-migration",
       image: project4,
       description: [
         "Pagination issues solved.",
@@ -104,7 +104,7 @@ const SolutionsCarousel = () => {
     },
     {
       title: "Convert Adobe To Word",
-      link: "/word-template-conversions",
+      link: "/services/microsoft-word/word-template-conversions",
       image: project4,
       description: [
         "InDesign, Illustrator, PDF or other documents and layouts created in professional, easy to use Word documents and templates.",
@@ -112,7 +112,7 @@ const SolutionsCarousel = () => {
     },
     {
       title: "Custom Toolbars and Ribbons",
-      link: "/custom-toolbars-and-ribbons",
+      link: "/services/microsoft-word/custom-toolbars-and-ribbons",
       image: project4,
       description: [
         "Automate features that you use daily.",
@@ -121,7 +121,7 @@ const SolutionsCarousel = () => {
     },
     {
       title: "Help and Training",
-      link: "/training",
+      link: "/services/microsoft-word/training",
       image: project4,
       description: [
         "We can train your staff to use Word efficiently.",

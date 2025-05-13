@@ -1,6 +1,6 @@
 export const metadata = {
   title:
-    "PowerPoint Training & Expert Assistance Services | Professional Support",
+    "PowerPoint Training & Expert Assistance Services",
   description:
     "Expert PowerPoint training and assistance services. Remote or onsite support, custom training sessions, troubleshooting, and professional guidance.",
 

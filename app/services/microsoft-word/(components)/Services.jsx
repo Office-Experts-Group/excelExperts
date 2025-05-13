@@ -55,7 +55,7 @@ const Services = () => {
             li={[
               "Our advanced Corporate Word Template Solution enables users to efficiently create corporate documents in a controlled environment within your branding guidelines.",
             ]}
-            link={"/corporate-global-template-solution"}
+            link={"/services/microsoft-word/corporate-global-template-solution"}
           />
           <ServicesCard
             src={word}
@@ -64,7 +64,7 @@ const Services = () => {
             li={[
               "Let us take the stress out of your company templates. We create easy to use templates for all of your organisation's documents with your branding, a consistent look and a professional feel.",
             ]}
-            link={"/word-document-template-creation"}
+            link={"/services/microsoft-word/word-document-template-creation"}
           />
           <ServicesCard
             src={accessibility}
@@ -74,7 +74,7 @@ const Services = () => {
               "Templates created to Accessibility Guidelines.",
               "Ensure your Corporate or Government documentation adheres to Accessibility Guidelines.",
             ]}
-            link={"/accessibility"}
+            link={"/services/microsoft-word/accessibility"}
           />
           <ServicesCard
             src={quickParts}
@@ -84,7 +84,7 @@ const Services = () => {
               "Increase productivity and reduce repetition",
               "With Quick Parts and Building Blocks we can pre-design page layouts, content, image placements and more for easy insertion by users",
             ]}
-            link={"/quick-parts"}
+            link={"/services/microsoft-word/quick-parts"}
           />
         </div>
       </AnimateOnScroll>
