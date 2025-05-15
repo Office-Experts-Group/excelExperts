@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 
 const PhoneLink = ({ 
   phoneNumber = "+61-1300-102-810", 
@@ -40,7 +39,7 @@ const PhoneLink = ({
   const handlePhoneClick = (e) => {
     // Track the conversion if available
     if (hasConversionTracking && typeof window.gtag_report_conversion === 'function') {
-      window.gtag_report_conversion();
+      return window.gtag_report_conversion(`tel:${phoneNumber}`);
     }
     
     // You could also track this as a separate event for phone calls
@@ -53,7 +52,7 @@ const PhoneLink = ({
   };
 
   return (
-    <Link 
+    <a 
       href={`tel:${phoneNumber}`}
       onClick={handlePhoneClick}
       className={className}
@@ -69,7 +68,7 @@ const PhoneLink = ({
         />
       )}
       {displayText}
-    </Link>
+    </a>
   );
 };
 

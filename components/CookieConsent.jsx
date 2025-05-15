@@ -60,25 +60,43 @@ const CookieConsent = () => {
     setIsVisible(false);
   };
 
-  // Define the conversion tracking function in global scope when analytics are enabled
-  useEffect(() => {
-    if (showAnalytics && typeof window !== 'undefined') {
-      // Define the gtag_report_conversion function as a global function
-      window.gtag_report_conversion = (url) => {
+ // Inside CookieConsent.jsx, update the gtag_report_conversion definition:
+
+useEffect(() => {
+  if (showAnalytics && typeof window !== 'undefined') {
+    // Define the gtag_report_conversion function as a global function with better error handling
+    window.gtag_report_conversion = (url) => {
+      try {
         const callback = function () {
           if (typeof(url) != 'undefined') {
             window.location = url;
           }
         };
-        window.gtag('event', 'conversion', {
-          'send_to': `${GADS_CONVERSION_ID}/${GADS_CONVERSION_LABEL}`,
-          'event_callback': callback
-        });
+        
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', 'conversion', {
+            'send_to': `${GADS_CONVERSION_ID}/${GADS_CONVERSION_LABEL}`,
+            'event_callback': callback
+          });
+        } else {
+          console.log("Google Analytics not available yet, no conversion tracked");
+          // Still execute the callback if gtag isn't available
+          if (typeof callback === 'function') {
+            callback();
+          }
+        }
         return false;
-      };
-    }
-  }, [showAnalytics]);
-
+      } catch (error) {
+        console.error("Error in conversion tracking:", error);
+        // If there's an error, still handle the URL if provided
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+        return false;
+      }
+    };
+  }
+}, [showAnalytics]);
   return (
     <>
       {showAnalytics && (
@@ -100,6 +118,23 @@ const CookieConsent = () => {
                   'domains': ['excelexperts.com.au', 'officeexperts.com.au']
                 }
               });
+            `}
+          </Script>
+          {/* Add the event snippet as per Google's instructions */}
+          <Script id="google-ads-conversion" strategy="afterInteractive">
+            {`
+              function gtag_report_conversion(url) {
+                var callback = function () {
+                  if (typeof(url) != 'undefined') {
+                    window.location = url;
+                  }
+                };
+                gtag('event', 'conversion', {
+                  'send_to': '${GADS_CONVERSION_ID}/${GADS_CONVERSION_LABEL}',
+                  'event_callback': callback
+                });
+                return false;
+              }
             `}
           </Script>
         </>

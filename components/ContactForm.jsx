@@ -96,31 +96,32 @@ const ContactForm = () => {
 
       const data = await res.json();
 
-      if (res.ok) {
-        // Track conversion if available
-        if (hasConversionTracking && typeof window.gtag_report_conversion === 'function') {
-          window.gtag_report_conversion();
-        }
-        
-        // Send additional event to Google Analytics
-        if (typeof window.gtag === 'function') {
-          window.gtag('event', 'contact_form_submission', {
-            'event_category': 'Forms',
-            'event_label': 'Contact Form'
-          });
-        }
-        
-        setSurveyName(formData.name);
-        setSurveyEmail(formData.email);
-        setSuccess(true);
-        setFormData({
-          name: "",
-          email: "",
-          phone: "",
-          message: "",
-          honeypot: "",
-        });
-      } else {
+if (res.ok) {
+  // Track conversion if available - this follows Google's pattern more closely
+  if (hasConversionTracking && typeof window.gtag_report_conversion === 'function') {
+    // You can pass a URL to redirect to after conversion, or leave it empty
+    window.gtag_report_conversion();
+  }
+  
+  // Send additional event to Google Analytics
+  if (typeof window.gtag === 'function') {
+    window.gtag('event', 'contact_form_submission', {
+      'event_category': 'Forms',
+      'event_label': 'Contact Form'
+    });
+  }
+  
+  setSurveyName(formData.name);
+  setSurveyEmail(formData.email);
+  setSuccess(true);
+  setFormData({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+    honeypot: "",
+  });
+} else {
         setError({
           general: data.message || "Something went wrong. Please try again.",
         });
@@ -315,6 +316,7 @@ const ContactForm = () => {
         className={`btn ${styles.submitBtn}`}
         aria-label="Submit contact form"
         disabled={isSubmitting}
+          onClick={() => hasConversionTracking ? gtag_report_conversion() : null}
       >
         {isSubmitting ? "Sending..." : "Submit"}
       </button>

@@ -1,5 +1,8 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
+import dynamic from "next/dynamic";
+
+const SurveyForm = dynamic(() => import("./SurveyForm"));
 
 import styles from "../styles/contact.module.css";
 
@@ -16,12 +19,49 @@ const ContactLocation = ({ location }) => {
 
   const [error, setError] = useState({});
   const [success, setSuccess] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [hasConversionTracking, setHasConversionTracking] = useState(false);
+
+  // Create refs for form fields that might need focus
+  const nameRef = useRef(null);
+  const emailRef = useRef(null);
+  const messageRef = useRef(null);
+
+  // Check if conversion tracking is available
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      // Check if the conversion function exists
+      setHasConversionTracking(typeof window.gtag_report_conversion === 'function');
+      
+      // Set up a MutationObserver to detect when conversion tracking becomes available
+      if (!window.gtag_report_conversion) {
+        const observer = new MutationObserver(() => {
+          if (typeof window.gtag_report_conversion === 'function') {
+            setHasConversionTracking(true);
+            observer.disconnect();
+          }
+        });
+        
+        // Watch for changes to the body element
+        observer.observe(document.body, { childList: true, subtree: true });
+        
+        return () => observer.disconnect();
+      }
+    }
+  }, []);
 
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+  // Object to map error fields to their refs
+  const fieldRefs = {
+    name: nameRef,
+    email: emailRef,
+    message: messageRef,
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    setIsSubmitting(true);
     setError({});
     const newError = {};
 
@@ -39,19 +79,25 @@ const ContactLocation = ({ location }) => {
 
     if (Object.keys(newError).length > 0) {
       setError(newError);
-      // Focus first error field
+      setIsSubmitting(false);
+      
+      // Get the first error field
       const firstErrorField = Object.keys(newError)[0];
-      const element = document.getElementById(firstErrorField);
-      if (element) {
+      // Get the corresponding ref
+      const ref = fieldRefs[firstErrorField];
+
+      if (ref && ref.current) {
+        // Use setTimeout to ensure the DOM has updated
         setTimeout(() => {
-          element.scrollIntoView({ behavior: "smooth", block: "center" });
-          element.focus();
+          ref.current.scrollIntoView({ behavior: "smooth", block: "center" });
+          ref.current.focus();
         }, 100);
       }
       return;
     }
 
     if (formData.honeypot) {
+      setIsSubmitting(false);
       return; // Silent return for bot submissions
     }
 
@@ -63,8 +109,23 @@ const ContactLocation = ({ location }) => {
       });
 
       if (res.ok) {
+        // Track conversion if available
+        if (hasConversionTracking && typeof window.gtag_report_conversion === 'function') {
+          window.gtag_report_conversion();
+        }
+        
+        // Send additional event to Google Analytics
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', 'contact_location_submission', {
+            'event_category': 'Forms',
+            'event_label': `Location Contact: ${location}`,
+            'value': 1
+          });
+        }
+        
         setSuccess(true);
         setFormData({
+          location: location,
           service: "",
           name: "",
           email: "",
@@ -73,16 +134,16 @@ const ContactLocation = ({ location }) => {
           honeypot: "",
         });
       } else {
-        setError((prev) => ({
-          ...prev,
+        setError({
           general: "Something went wrong. Please try again.",
-        }));
+        });
       }
     } catch (err) {
-      setError((prev) => ({
-        ...prev,
+      setError({
         general: "There was an error submitting the form.",
-      }));
+      });
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -105,8 +166,7 @@ const ContactLocation = ({ location }) => {
   if (success) {
     return (
       <div className={styles.successMessage} role="alert" aria-live="polite">
-        <h2>Thank you {formData.name} for your message!</h2>
-        <p>One of our team will contact you shortly</p>
+        <SurveyForm name={surveyName} email={surveyEmail} />
       </div>
     );
   }
@@ -119,6 +179,12 @@ const ContactLocation = ({ location }) => {
       aria-label="Contact form"
       role="form"
     >
+      {error.general && (
+        <div className={styles.generalError} role="alert">
+          {error.general}
+        </div>
+      )}
+      
       <div className={styles.formField}>
         <label htmlFor="name" className={styles.requiredField}>
           Name
@@ -136,6 +202,8 @@ const ContactLocation = ({ location }) => {
           aria-invalid={!!error.name}
           aria-describedby={error.name ? "name-error" : undefined}
           required
+          ref={nameRef}
+          disabled={isSubmitting}
         />
         {error.name && (
           <p
@@ -166,6 +234,8 @@ const ContactLocation = ({ location }) => {
           aria-describedby={error.message ? "message-error" : undefined}
           placeholder="Your message..."
           required
+          ref={messageRef}
+          disabled={isSubmitting}
         />
         {error.message && (
           <p
@@ -197,6 +267,8 @@ const ContactLocation = ({ location }) => {
           aria-describedby={error.email ? "email-error" : undefined}
           placeholder="eg. john@example.com"
           required
+          ref={emailRef}
+          disabled={isSubmitting}
         />
         {error.email && (
           <p
@@ -222,10 +294,10 @@ const ContactLocation = ({ location }) => {
           onChange={handleChange}
           aria-required="false"
           placeholder="optional..."
+          disabled={isSubmitting}
         />
       </div>
 
-      {/* <div className={styles.quoteForm}> */}
       <div className={styles.radioFieldSpan}>
         <label className={styles.groupLabel}>Microsoft Service</label>
         <div className={styles.radioOptionsGrid}>
@@ -233,10 +305,11 @@ const ContactLocation = ({ location }) => {
             <input
               type="radio"
               id="Office"
-              name="operatingSystem"
+              name="service"
               value="Office"
-              checked={formData.operatingSystem === "Office"}
+              checked={formData.service === "Office"}
               onChange={handleChange}
+              disabled={isSubmitting}
             />
             <label htmlFor="Office">Office</label>
           </div>
@@ -245,10 +318,11 @@ const ContactLocation = ({ location }) => {
             <input
               type="radio"
               id="Access"
-              name="operatingSystem"
+              name="service"
               value="Access"
-              checked={formData.operatingSystem === "Access"}
+              checked={formData.service === "Access"}
               onChange={handleChange}
+              disabled={isSubmitting}
             />
             <label htmlFor="Access">Access</label>
           </div>
@@ -257,10 +331,11 @@ const ContactLocation = ({ location }) => {
             <input
               type="radio"
               id="Excel"
-              name="operatingSystem"
+              name="service"
               value="Excel"
-              checked={formData.operatingSystem === "Excel"}
+              checked={formData.service === "Excel"}
               onChange={handleChange}
+              disabled={isSubmitting}
             />
             <label htmlFor="Excel">Excel</label>
           </div>
@@ -269,10 +344,11 @@ const ContactLocation = ({ location }) => {
             <input
               type="radio"
               id="power-platform"
-              name="operatingSystem"
-              value="power-platform"
-              checked={formData.operatingSystem === "power-platform"}
+              name="service"
+              value="Power Platform"
+              checked={formData.service === "Power Platform"}
               onChange={handleChange}
+              disabled={isSubmitting}
             />
             <label htmlFor="power-platform">Power Platform</label>
           </div>
@@ -281,10 +357,11 @@ const ContactLocation = ({ location }) => {
             <input
               type="radio"
               id="Word"
-              name="operatingSystem"
+              name="service"
               value="Word"
-              checked={formData.operatingSystem === "Word"}
+              checked={formData.service === "Word"}
               onChange={handleChange}
+              disabled={isSubmitting}
             />
             <label htmlFor="Word">Word</label>
           </div>
@@ -293,16 +370,16 @@ const ContactLocation = ({ location }) => {
             <input
               type="radio"
               id="not-sure"
-              name="operatingSystem"
-              value="not-sure"
-              checked={formData.operatingSystem === "not-sure"}
+              name="service"
+              value="Not Sure"
+              checked={formData.service === "Not Sure"}
               onChange={handleChange}
+              disabled={isSubmitting}
             />
             <label htmlFor="not-sure">Not Sure</label>
           </div>
         </div>
       </div>
-      {/* </div> */}
 
       <div>
         <input
@@ -313,6 +390,7 @@ const ContactLocation = ({ location }) => {
           className={styles.honeypot}
           aria-hidden="true"
           tabIndex="-1"
+          disabled={isSubmitting}
         />
       </div>
 
@@ -320,8 +398,9 @@ const ContactLocation = ({ location }) => {
         type="submit"
         className={`btn ${styles.submitBtn}`}
         aria-label="Submit contact form"
+        disabled={isSubmitting}
       >
-        Submit
+        {isSubmitting ? "Sending..." : "Submit"}
       </button>
     </form>
   );
