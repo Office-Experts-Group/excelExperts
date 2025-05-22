@@ -30,6 +30,17 @@ export const metadata = {
     // Integration-specific long tail
     "Microsoft Access CRM integration solutions",
   ],
+
+                                          // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "3rd Party Product Integration | Access Experts",
+    description:
+      "Professional Microsoft Access integration services connecting your databases with CRMs, accounting software, and third-party applications. Competitive pricing and expert consultation.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "https://www.accessexperts.com.au/3rd-party-product-integration",
     alternate: [

@@ -27,6 +27,17 @@ export const metadata = {
 
   // Additional metadata
   keywords: ["Word upgrades and migration"],
+
+                                                                // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Word Upgrades and Migration | Excel Experts",
+    description:
+      "Professional Microsoft Word upgrade and migration services with Excel integration expertise. Specialists in cross-application compatibility and data integration.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "https://www.wordexperts.com.au/upgrades-and-migration",
     alternate: [

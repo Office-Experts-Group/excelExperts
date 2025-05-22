@@ -4,7 +4,7 @@ import Script from "next/script";
 import styles from "../styles/cookieConsent.module.css";
 
 // Google Analytics ID
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-J68GZ7VMRJ";
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-D7YLYGCEKE";
 // Google Ads Conversion ID
 const GADS_CONVERSION_ID = "AW-1062762865";
 const GADS_CONVERSION_LABEL = "NeofCNTWkWMQ8fLh-gM";

@@ -27,6 +27,17 @@ export const metadata = {
     // Core Quick Parts services
     "Word quick parts integration",
   ],
+
+                                                            // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Excel-Integrated Quick Parts Solutions | Excel Experts",
+    description:
+      "Our Excel integration experts deliver Quick Parts solutions that seamlessly pull data from your spreadsheets into Word documents, creating dynamic, data-driven content blocks that save your business time and money.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "https://www.wordexperts.com.au/quick-parts",
     alternate: [

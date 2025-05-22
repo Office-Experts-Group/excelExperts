@@ -23,6 +23,16 @@ export const metadata = {
     type: "website",
   },
 
+            // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+        title: "Data Manipulation | Excel Experts",
+    description:
+      "We are experts in Data import/export, parsing and processing Data formatting automation, automated data manipulation solutions using VBA. Call us 1300 102 810",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "/data-manipulation",
   },

@@ -28,6 +28,17 @@ export const metadata = {
     // Core VBA services
     "VBA macro development services",
   ],
+
+                      // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "VBA Macro Development & Programming Services | Excel Experts",
+    description:
+      "Expert VBA macro developers for Microsoft Office automation. Custom Excel VBA programming, Office add-in development, and macro solutions for business process automation.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "https://www.excelexperts.com.au/vba-macro-development",
   },

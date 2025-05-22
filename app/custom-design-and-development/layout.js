@@ -20,6 +20,17 @@ export const metadata = {
     type: "website",
   },
   keywords: ["custom excel workbook design"],
+
+          // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Custom Design and Development | Excel Experts",
+    description:
+      "We can build What You Need! We have extensive experience in all aspects of Excel custom design and development. Call us 1300102810",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "/custom-design-and-development",
   },

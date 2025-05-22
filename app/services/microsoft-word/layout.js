@@ -25,12 +25,22 @@ export const metadata = {
 
   keywords: ["Microsoft Word and Excel Integration"],
 
+                                                                        // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Microsoft Word Services | Excel Experts",
+    description:
+      "Our Excel Experts team has a dedicated wing of Word design professionals who can help you with all aspects of your company's Word documents, excel, access and power platform integrations.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical:
-      "https://www.wordexperts.com.au/word-document-template-conversions",
+      "https://www.wordexperts.com.au",
     alternate: [
       {
-        url: "https://www.officeexperts.com.au/services/microsoft-word/word-document-template-conversions",
+        url: "https://www.officeexperts.com.au/services/microsoft-word",
       },
     ],
   },

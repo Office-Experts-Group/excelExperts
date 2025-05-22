@@ -23,6 +23,16 @@ export const metadata = {
 
   keywords: ["excel pivot table consulting services"],
 
+                  // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Pivot Tables, Charts & Reporting Solutions | Excel Experts",
+    description:
+      "Professional Excel pivot table and chart solutions from certified experts. Custom reporting solutions, VBA programming, and expert consultation for all your Excel reporting needs.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "/pivot-tables-charts-and-reporting-solutions",
   },

@@ -23,6 +23,16 @@ export const metadata = {
 
   keywords: ["powerpoint template creation"],
 
+                            // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Custom PowerPoint Templates & Presentations | Excel Experts",
+    description:
+      "Professional PowerPoint template design and corporate presentation services. Custom master slides, brand-aligned templates, and expert design solutions.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical:
       "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",

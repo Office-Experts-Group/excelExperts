@@ -24,6 +24,17 @@ export const metadata = {
   },
 
   keywords: ["government department data solutions"],
+
+                                                        // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Government Excel-Word Integration Solutions | Excel Experts",
+    description:
+      "Expert Excel and Word integration services for government departments. specialising in data automation, spreadsheet integration, and accessible reporting solutions for state and federal agencies.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "https://www.wordexperts.com.au/government-departments",
     alternate: [

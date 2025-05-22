@@ -25,6 +25,16 @@ export const metadata = {
 
   keywords: ["corporate reporting automation"],
 
+                                              // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Excel-Integrated Word Solutions | Excel Experts",
+    description:
+      "Expert team delivering Excel-integrated Word templates for companies. Automate document generation from Excel data while maintaining corporate identity standards.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "https://www.wordexperts.com.au/companies-and-organisations",
     alternate: [

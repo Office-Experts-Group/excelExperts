@@ -27,6 +27,16 @@ export const metadata = {
     "Excel migration solutions",
   ],
 
+                    // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Excel Upgrades and Migration",
+    description:
+      "Stuck on an Old Version? Expert help with Excel workbook upgrades, VBA migration, and version compatibility issues. Professional Excel upgrade services across Australia. Call 1300 102 810",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "https://www.wordexperts.com.au/upgrades-and-migration",
   },

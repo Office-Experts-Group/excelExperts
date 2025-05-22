@@ -23,6 +23,17 @@ export const metadata = {
   },
 
   keywords: ["word fill in forms"],
+
+                                                      // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Excel-Integrated Form Solutions | Excel Experts",
+    description:
+      "Expert form design services combining Excel data management with Word forms. Specialising in creating data-driven forms with automated Excel integration, spreadsheet synchronization, and advanced VBA solutions.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "https://www.wordexperts.com.au/fill-in-forms",
     alternate: [

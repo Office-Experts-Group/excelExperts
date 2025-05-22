@@ -30,6 +30,17 @@ export const metadata = {
     // Core Excel services
     "Microsoft Excel consultant contact",
   ],
+
+        // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Contact Us | Excel Experts",
+    description:
+      "Get in touch with our Microsoft Excel specialists for custom solutions, automation, support, and consulting services across Australia.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "/contact-us",
   },

@@ -63,7 +63,7 @@ const CTAMain = () => {
               </p>
             </div>
 
-            <Link href="/training" className={styles.link}>
+            <Link href="/services/microsoft-word/training" className={styles.link}>
               Discover More
             </Link>
           </div>

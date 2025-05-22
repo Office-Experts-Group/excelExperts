@@ -9,7 +9,7 @@ export const metadata = {
       "PowerPoint Training & Expert Assistance Services | Professional Support",
     description:
       "Expert PowerPoint training and assistance services. Remote or onsite support, custom training sessions, troubleshooting, and professional guidance.",
-    url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance/",
+    url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance",
     siteName: "Excel Experts",
     images: [
       {
@@ -24,6 +24,17 @@ export const metadata = {
   },
 
   keywords: ["powerpoint training services", "powerpoint expert assistance"],
+
+                        // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title:
+      "PowerPoint Training & Expert Assistance Services | Professional Support",
+    description:
+      "Expert PowerPoint training and assistance services. Remote or onsite support, custom training sessions, troubleshooting, and professional guidance.",
+    images: ["/logo.png"],
+  },
 
   alternates: {
     canonical:

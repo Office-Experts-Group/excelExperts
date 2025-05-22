@@ -23,6 +23,16 @@ export const metadata = {
 
   keywords: ["powerpoint automation solutions"],
 
+                              // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "PowerPoint VBA Automation Services | Excel Experts",
+    description:
+      "Professional PowerPoint VBA automation services from certified experts. Automate data integration, custom programming, and streamline your presentation workflow.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical:
       "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba",

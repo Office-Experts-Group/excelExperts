@@ -3,12 +3,12 @@ import React from "react";
 export const metadata = {
   title: "Word Accessibility Solutions | Excel Experts",
   description:
-    "As Excel specialists, our Word accessibility solutions seamlessly integrate with your Excel-based workflows. Our experts ensure your documents maintain accessibility standards while working harmoniously with your Excel data exports and reporting processes.",
+    "Professional accessible Word document creation and template services. WCAG compliant documents, accessibility audits, and remediation services for government and enterprise.",
 
   openGraph: {
     title: "Word Accessibility Solutions | Excel Experts",
-    description:
-      "As Excel specialists, our Word accessibility solutions seamlessly integrate with your Excel-based workflows. Our experts ensure your documents maintain accessibility standards while working harmoniously with your Excel data exports and reporting processes.",
+  description:
+    "Professional accessible Word document creation and template services. WCAG compliant documents, accessibility audits, and remediation services for government and enterprise.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/accessibility",
     siteName: "Excel Experts",
     images: [
@@ -27,6 +27,17 @@ export const metadata = {
     // Core accessibility services with Excel focus
     "excel to word accessibility",
   ],
+
+                                            // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Word Accessibility Solutions | Excel Experts",
+  description:
+    "Professional accessible Word document creation and template services. WCAG compliant documents, accessibility audits, and remediation services for government and enterprise.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "https://www.wordexperts.com.au/accessibility",
     alternate: [

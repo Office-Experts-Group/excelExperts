@@ -27,6 +27,17 @@ export const metadata = {
     // Core training services
     "Microsoft Word integration training",
   ],
+
+                                                                  // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Excel-Word Integration Training | Excel Experts",
+    description:
+      "Our Excel integration experts provide comprehensive training on managing data flow between Excel and Word. Learn to automate data transfer, create dynamic reports, and optimise your spreadsheet-to-document workflow.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "https://www.wordexperts.com.au/training",
     alternate: [

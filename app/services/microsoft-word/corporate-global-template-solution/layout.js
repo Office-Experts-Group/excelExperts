@@ -25,6 +25,16 @@ export const metadata = {
 
   keywords: ["corporate Microsoft word templates"],
 
+                                                // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+  title: "Excel-Integrated Corporate Word Solutions | Excel Experts",
+  description:
+    "Advanced Corporate Template Solution combining Excel data automation with Word templates. Create professional documents that automatically pull from your Excel data while maintaining consistent formatting and branding.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical:
       "https://www.wordexperts.com.au/corporate-global-template-solution",

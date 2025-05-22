@@ -23,6 +23,16 @@ export const metadata = {
 
   keywords: ["powerpoint presentation redesign"],
 
+                          // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "PowerPoint Presentation Redesign Services | Excel Experts",
+    description:
+      "Professional PowerPoint presentation redesign services. Transform existing presentations into high-quality templates with master slides that meet brand guidelines.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical:
       "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign",

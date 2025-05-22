@@ -30,6 +30,17 @@ export const metadata = {
     // Core Services
     "Microsoft Excel development quote",
   ],
+
+      // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Request a Quote | Excel Experts",
+    description:
+      "Submit your Microsoft Excel project requirements, specifications, and files for a detailed quote. Our experienced Excel developers provide custom solutions, automation services, and spreadsheet consulting.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "https://www.excelexperts.com.au/contact-us/request-a-quote",
   },

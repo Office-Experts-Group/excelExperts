@@ -27,6 +27,16 @@ export const metadata = {
     type: "article",
   },
 
+                                // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+        title: "Microsoft Access Database Upgrades & Migration Services",
+    description:
+      "Expert Microsoft Access database upgrade and migration services. Our specialists ensure smooth transitions, resolve compatibility issues, and optimise database performance with minimal disruption.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical:
       "https://www.excelexperts.com.au/services/microsoft-access/upgrades-and-migration",

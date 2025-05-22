@@ -7,7 +7,6 @@ export const metadata = {
 
   openGraph: {
     title: "Custom Toolbars & Ribbon Design | Excel Experts",
-
     description:
       "Expert customisation of integrated Excel-Word toolbars and ribbons to streamline data transfer and automate report generation. Our team delivers efficient solutions for seamless spreadsheet-to-document workflow.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/custom-toolbars-and-ribbons",
@@ -25,8 +24,15 @@ export const metadata = {
   },
 
   keywords: ["data automation interfaces"],
-  alternates: {
-    canonical: "https://www.wordexperts.com.au/custom-toolbars-and-ribbons",
+
+                                                    // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Custom Toolbars & Ribbon Design | Excel Experts",
+    description:
+      "Expert customisation of integrated Excel-Word toolbars and ribbons to streamline data transfer and automate report generation. Our team delivers efficient solutions for seamless spreadsheet-to-document workflow.",
+    images: ["/logo.png"],
   },
 
   alternates: {

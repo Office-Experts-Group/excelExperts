@@ -2,16 +2,17 @@ import React from "react";
 
 export const metadata = {
   // Basic metadata
-  title: "Microsoft Access Database Upgrades and Migration - Excel Experts",
-  description:
-    "Expert Microsoft Access database upgrade and migration services. Our specialists ensure smooth transitions, resolve compatibility issues, and optimize database performance with minimal disruption.",
+    title:
+      "Microsoft Access Database Upgrades & Migration Services | Excel Experts",
+    description:
+      "Professional Microsoft Access database upgrade and migration services. Specialising in version upgrades, SQL Server migrations, cloud transitions, and performance optimisation.",
 
   // OpenGraph
   openGraph: {
     title:
       "Microsoft Access Database Upgrades & Migration Services | Excel Experts",
     description:
-      "Professional Microsoft Access database upgrade and migration services. Specialising in version upgrades, SQL Server migrations, cloud transitions, and performance optimization.",
+      "Professional Microsoft Access database upgrade and migration services. Specialising in version upgrades, SQL Server migrations, cloud transitions, and performance optimisation.",
     url: "https://www.excelexperts.com.au/services/microsoft-access/upgrades-and-migration/",
     siteName: "Excel Experts",
     images: [
@@ -32,6 +33,18 @@ export const metadata = {
     "Microsoft Access database migration services",
     "Microsoft Access upgrade solutions",
   ],
+
+                                  // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title:
+      "Microsoft Access Database Upgrades & Migration Services | Excel Experts",
+    description:
+      "Professional Microsoft Access database upgrade and migration services. Specialising in version upgrades, SQL Server migrations, cloud transitions, and performance optimisation.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "https://www.accessexperts.com.au/upgrades-and-migration",
   },

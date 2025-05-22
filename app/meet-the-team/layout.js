@@ -31,6 +31,16 @@ export const metadata = {
     "Microsoft Excel developers Australia",
   ],
 
+                // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Meet Our Team | Excel Experts Australia",
+    description:
+      "Meet our team of certified Microsoft Excel developers, consultants, and trainers. Experts in spreadsheet development, analysis, and business solutions across Australia.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "/meet-the-team",
   },

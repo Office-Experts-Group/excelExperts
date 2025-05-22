@@ -8,9 +8,9 @@ export const metadata = {
 
   // OpenGraph
   openGraph: {
-    title: "Microsoft Access Support & Training | Excel Experts",
-    description:
-      "Professional Microsoft Access database support and training services. Remote or onsite assistance for database issues, custom training, and expert consultancy.",
+  title: "Microsoft Access Support and Training | Excel Experts",
+  description:
+    "Expert Microsoft Access database consultants providing remote and onsite support, troubleshooting, training, and maintenance services. Available Australia-wide with competitive rates.",
     url: "https://www.excelexperts.com.au/services/microsoft-access/access-support",
     siteName: "Excel Experts",
     images: [
@@ -30,6 +30,17 @@ export const metadata = {
     // Core Access support services
     "Access database remote support services",
   ],
+
+                                      // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+  title: "Microsoft Access Support and Training | Excel Experts",
+  description:
+    "Expert Microsoft Access database consultants providing remote and onsite support, troubleshooting, training, and maintenance services. Available Australia-wide with competitive rates.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "https://www.accessexperts.com.au/access-support",
     alternate: [

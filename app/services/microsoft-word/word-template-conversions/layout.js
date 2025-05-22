@@ -29,6 +29,16 @@ export const metadata = {
     "Excel-Word template integration and conversions",
   ],
 
+                                                                      // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Word Template Conversions | Excel-Integrated Design Services",
+    description:
+      "Transform your documents into smart, data-driven Word templates with Excel integration. Our expert team combines Excel's analytical power with Word's document capabilities for automated, professional results.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "https://www.wordexperts.com.au/word-template-conversions",
   },

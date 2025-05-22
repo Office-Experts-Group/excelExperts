@@ -30,6 +30,17 @@ export const metadata = {
     // Core Access database services
     "Access database compatibility assessment",
   ],
+
+                                    // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Is Microsoft Access Right for Your Business? | Access Experts",
+    description:
+      "Expert guidance on whether Microsoft Access is the right database solution for your business needs. We specialise in data management, structuring, multi-user systems, and reporting solutions.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "https://www.accessexperts.com.au/is-access-right-for-your-company",
     alternate: [

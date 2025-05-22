@@ -30,6 +30,17 @@ export const metadata = {
     // Core Access Online services
     "Microsoft Access cloud database solutions",
   ],
+
+                                       // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Access Online Database Solutions | Excel Experts",
+    description:
+      "Professional Microsoft Access cloud database solutions, including Office 365 integration, SharePoint connectivity, and Azure hosting. Expert consultants for online database development and mobile access solutions.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "https://www.accessexperts.com.au/access-online",
     alternate: [

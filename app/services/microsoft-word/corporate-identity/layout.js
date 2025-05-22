@@ -28,6 +28,16 @@ export const metadata = {
     "microsoft word corporate templates",
   ],
 
+                                                  // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Excel-Integrated Corporate Identity Solutions | Excel Experts",
+    description:
+      "Professional template solutions combining Excel data integration with Word formatting protection. Automate document creation while maintaining corporate identity.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "https://www.wordexperts.com.au/corporate-identity",
     alternate: [

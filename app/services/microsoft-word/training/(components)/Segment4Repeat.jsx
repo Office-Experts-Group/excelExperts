@@ -24,7 +24,7 @@ const Segment4Repeat = () => {
     },
     {
       text: "Corporate identity",
-      link: "/corporate-identity",
+      link: "/services/microsoft-word/corporate-identity",
     },
     {
       text: "Custom coding",

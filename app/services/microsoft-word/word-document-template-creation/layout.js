@@ -27,6 +27,17 @@ export const metadata = {
 
   // Additional metadata
   keywords: ["Word document template creation"],
+
+                                                                    // Twitter Card
+  twitter: {
+    card: "summary_large_image",
+    site: "@OfficeExpertsG1",
+    title: "Word Template Creation | Excel Experts",
+    description:
+      "Excel Experts create professional Word templates with seamless Excel integration capabilities. Our templates feature automated data integration, custom formatting, and comprehensive branding across your Microsoft Office documents.",
+    images: ["/logo.png"],
+  },
+
   alternates: {
     canonical: "https://www.wordexperts.com.au/word-document-template-creation",
     alternate: [
