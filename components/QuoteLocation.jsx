@@ -221,7 +221,7 @@ import dynamic from "next/dynamic";
     if (success) {
       return (
         <div className={styles.successMessage} role="alert" aria-live="polite">
-          <SurveyForm name={surveyName} email={surveyEmail} />
+        <SurveyForm name={formData.name || ""} email={formData.email || ""} />
         </div>
       );
     }
