@@ -121,7 +121,6 @@ useEffect(() => {
           {/* Add the event snippet as per Google's instructions */}
 <Script>
   {window.addEventListener('load', function() {
-    if (window.location.href.includes('/contact-us')) {
       document.addEventListener('click', function(e) {
         if (e.target.closest('.contact_submitBtn__e1DBC')) {
           var contactTimer = setInterval(function() {
@@ -132,7 +131,6 @@ useEffect(() => {
           }, 1000);
         }
       });
-    }
   })}
 </Script>
         </>
