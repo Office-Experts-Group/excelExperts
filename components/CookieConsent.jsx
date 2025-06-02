@@ -60,8 +60,6 @@ const CookieConsent = () => {
     setIsVisible(false);
   };
 
- // Inside CookieConsent.jsx, update the gtag_report_conversion definition:
-
 useEffect(() => {
   if (showAnalytics && typeof window !== 'undefined') {
     // Define the gtag_report_conversion function as a global function with better error handling
@@ -121,22 +119,22 @@ useEffect(() => {
             `}
           </Script>
           {/* Add the event snippet as per Google's instructions */}
-          <Script id="google-ads-conversion" strategy="afterInteractive">
-            {`
-              function gtag_report_conversion(url) {
-                var callback = function () {
-                  if (typeof(url) != 'undefined') {
-                    window.location = url;
-                  }
-                };
-                gtag('event', 'conversion', {
-                  'send_to': '${GADS_CONVERSION_ID}/${GADS_CONVERSION_LABEL}',
-                  'event_callback': callback
-                });
-                return false;
-              }
-            `}
-          </Script>
+<Script>
+  {window.addEventListener('load', function() {
+    if (window.location.href.includes('/contact-us')) {
+      document.addEventListener('click', function(e) {
+        if (e.target.closest('.contact_submitBtn__e1DBC')) {
+          var contactTimer = setInterval(function() {
+            if (document.querySelectorAll('.contact_successMessage__LYjcy').length > 0) {
+                gtag('event', 'conversion', {'send_to': 'AW-1062762865/Fl3MCOfs98caEPHy4foD'});
+              clearInterval(contactTimer);
+            }
+          }, 1000);
+        }
+      });
+    }
+  })}
+</Script>
         </>
       )}
 
