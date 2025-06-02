@@ -60,41 +60,42 @@ const CookieConsent = () => {
     setIsVisible(false);
   };
 
-useEffect(() => {
-  if (showAnalytics && typeof window !== 'undefined') {
-    // Define the gtag_report_conversion function as a global function with better error handling
-    window.gtag_report_conversion = (url) => {
-      try {
-        const callback = function () {
+  useEffect(() => {
+    if (showAnalytics && typeof window !== 'undefined') {
+      // Define the gtag_report_conversion function as a global function with better error handling
+      window.gtag_report_conversion = (url) => {
+        try {
+          const callback = function () {
+            if (typeof(url) != 'undefined') {
+              window.location = url;
+            }
+          };
+          
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', 'conversion', {
+              'send_to': `${GADS_CONVERSION_ID}/${GADS_CONVERSION_LABEL}`,
+              'event_callback': callback
+            });
+          } else {
+            console.log("Google Analytics not available yet, no conversion tracked");
+            // Still execute the callback if gtag isn't available
+            if (typeof callback === 'function') {
+              callback();
+            }
+          }
+          return false;
+        } catch (error) {
+          console.error("Error in conversion tracking:", error);
+          // If there's an error, still handle the URL if provided
           if (typeof(url) != 'undefined') {
             window.location = url;
           }
-        };
-        
-        if (typeof window.gtag === 'function') {
-          window.gtag('event', 'conversion', {
-            'send_to': `${GADS_CONVERSION_ID}/${GADS_CONVERSION_LABEL}`,
-            'event_callback': callback
-          });
-        } else {
-          console.log("Google Analytics not available yet, no conversion tracked");
-          // Still execute the callback if gtag isn't available
-          if (typeof callback === 'function') {
-            callback();
-          }
+          return false;
         }
-        return false;
-      } catch (error) {
-        console.error("Error in conversion tracking:", error);
-        // If there's an error, still handle the URL if provided
-        if (typeof(url) != 'undefined') {
-          window.location = url;
-        }
-        return false;
-      }
-    };
-  }
-}, [showAnalytics]);
+      };
+    }
+  }, [showAnalytics]);
+
   return (
     <>
       {showAnalytics && (
@@ -118,21 +119,26 @@ useEffect(() => {
               });
             `}
           </Script>
-          {/* Add the event snippet as per Google's instructions */}
-<Script>
-  {window.addEventListener('load', function() {
-      document.addEventListener('click', function(e) {
-        if (e.target.closest('.contact_submitBtn__e1DBC')) {
-          var contactTimer = setInterval(function() {
-            if (document.querySelectorAll('.contact_successMessage__LYjcy').length > 0) {
-                gtag('event', 'conversion', {'send_to': 'AW-1062762865/Fl3MCOfs98caEPHy4foD'});
-              clearInterval(contactTimer);
-            }
-          }, 1000);
-        }
-      });
-  })}
-</Script>
+          
+          {/* Conversion tracking script from Google instructions */}
+          <Script id="conversion-tracking" strategy="afterInteractive">
+            {`
+              window.addEventListener('load', function() {
+                document.addEventListener('click', function(e) {
+                  if (e.target.closest('.contact_submitBtn__e1DBC')) {
+                    var contactTimer = setInterval(function() {
+                      if (document.querySelectorAll('.contact_successMessage__LYjcy').length > 0) {
+                        if (typeof gtag === 'function') {
+                          gtag('event', 'conversion', {'send_to': 'AW-1062762865/Fl3MCOfs98caEPHy4foD'});
+                        }
+                        clearInterval(contactTimer);
+                      }
+                    }, 1000);
+                  }
+                });
+              });
+            `}
+          </Script>
         </>
       )}
 
