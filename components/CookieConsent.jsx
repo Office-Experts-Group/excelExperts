@@ -111,12 +111,12 @@ const CookieConsent = () => {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', '${GA_ID}');
-              gtag('config', '${GADS_CONVERSION_ID}', {
-                'send_page_view': false,
-                'linker': {
-                  'domains': ['excelexperts.com.au', 'officeexperts.com.au']
-                }
-              });
+         gtag('config', '${GADS_CONVERSION_ID}', {
+  'send_page_view': false,
+  'linker': {
+    'domains': ['excelexperts.com.au', 'officeexperts.com.au', 'accessexperts.com.au', 'wordexperts.com.au', 'powerplatformexperts.com.au']
+  }
+});
             `}
           </Script>
           
