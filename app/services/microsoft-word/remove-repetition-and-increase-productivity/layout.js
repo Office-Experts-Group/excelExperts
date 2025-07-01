@@ -25,11 +25,11 @@ export const metadata = {
 
   keywords: ["Miocrosoft Word automation"],
 
-                                                              // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
-     title: "Data Automation Solutions | Excel Experts",
+    title: "Data Automation Solutions | Excel Experts",
     description:
       "Our Excel-Word integration solutions automate data transfer between spreadsheets and documents. We streamline your workflow by eliminating repetitive data entry and ensuring consistent data flow across platforms.",
     images: ["/logo.png"],
@@ -40,7 +40,7 @@ export const metadata = {
       "https://www.wordexperts.com.au/remove-repetition-and-increase-productivity",
     alternate: [
       {
-        url: "https://www.officeexperts.com.au/services/microsoft-word/remove-repetition-and-increase-productivity",
+        url: "https://www.excelexperts.com.au/services/microsoft-word/remove-repetition-and-increase-productivity",
       },
     ],
   },

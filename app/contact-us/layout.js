@@ -4,13 +4,13 @@ export const metadata = {
   // Basic metadata
   title: "Contact Us | Excel Experts",
   description:
-    "Contact our Microsoft Excel experts for consulting, development, and support services. Available for projects across Australia with competitive pricing and prompt service.",
+    "Australia-wide Excel consulting, development, and support from expert professionals. Prompt, affordable service tailored to your needs.",
 
   // OpenGraph
   openGraph: {
     title: "Contact Us | Excel Experts",
     description:
-      "Get in touch with our Microsoft Excel specialists for custom solutions, automation, support, and consulting services across Australia.",
+      "Australia-wide Excel consulting, development, and support from expert professionals. Prompt, affordable service tailored to your needs.",
     url: "https://www.excelexperts.com.au/contact-us",
     siteName: "Excel Experts",
     images: [
@@ -31,13 +31,13 @@ export const metadata = {
     "Microsoft Excel consultant contact",
   ],
 
-        // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
     title: "Contact Us | Excel Experts",
     description:
-      "Get in touch with our Microsoft Excel specialists for custom solutions, automation, support, and consulting services across Australia.",
+      "Australia-wide Excel consulting, development, and support from expert professionals. Prompt, affordable service tailored to your needs.",
     images: ["/logo.png"],
   },
 

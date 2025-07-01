@@ -27,7 +27,7 @@ export const metadata = {
     "Excel migration solutions",
   ],
 
-                    // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
@@ -39,6 +39,11 @@ export const metadata = {
 
   alternates: {
     canonical: "https://www.wordexperts.com.au/upgrades-and-migration",
+    alternate: [
+      {
+        url: "https://www.excelexperts.com.au/services/microsoft-word/upgrades-and-migration",
+      },
+    ],
   },
 };
 

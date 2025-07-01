@@ -25,7 +25,7 @@ export const metadata = {
 
   keywords: ["data automation interfaces"],
 
-                                                    // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
@@ -39,7 +39,7 @@ export const metadata = {
     canonical: "https://www.wordexperts.com.au/custom-toolbars-and-ribbons",
     alternate: [
       {
-        url: "https://www.officeexperts.com.au/services/microsoft-word/custom-toolbars-and-ribbons",
+        url: "https://www.excelexperts.com.au/services/microsoft-word/custom-toolbars-and-ribbons",
       },
     ],
   },

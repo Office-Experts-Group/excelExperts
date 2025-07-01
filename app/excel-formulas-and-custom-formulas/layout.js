@@ -1,12 +1,12 @@
 export const metadata = {
-  title: "Excel Formulas and Custom Formulas - Excel Experts",
+  title: "Excel Formulas and Custom Formulas",
   description:
-    "Expert help with Excel formulas and custom formula development. Our specialists optimise formula-intensive workbooks, create VBA functions, and provide professional formula troubleshooting services.",
+    "Get expert help with Excel formulas, custom functions, and VBA. We optimise complex workbooks and provide professional formula troubleshooting.",
 
   openGraph: {
-  title: "Excel Formulas and Custom Formulas - Excel Experts",
+    title: "Excel Formulas and Custom Formulas",
     description:
-      "Expert help with Excel formulas and custom formula development. Our specialists optimise formula-intensive workbooks, create VBA functions, and provide professional formula troubleshooting services.",
+      "Get expert help with Excel formulas, custom functions, and VBA. We optimise complex workbooks and provide professional formula troubleshooting.",
     url: "https://www.excelexperts.com.au/excel-formulas-and-custom-formulas",
     siteName: "Excel Experts",
     images: [
@@ -23,13 +23,13 @@ export const metadata = {
 
   keywords: ["excel custom formula development"],
 
-              // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
-  title: "Excel Formulas and Custom Formulas - Excel Experts",
+    title: "Excel Formulas and Custom Formulas",
     description:
-      "Expert help with Excel formulas and custom formula development. Our specialists optimise formula-intensive workbooks, create VBA functions, and provide professional formula troubleshooting services.",
+      "Get expert help with Excel formulas, custom functions, and VBA. We optimise complex workbooks and provide professional formula troubleshooting.",
     images: ["/logo.png"],
   },
 

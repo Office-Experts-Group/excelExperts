@@ -7,8 +7,8 @@ export const metadata = {
 
   openGraph: {
     title: "Word Accessibility Solutions | Excel Experts",
-  description:
-    "Professional accessible Word document creation and template services. WCAG compliant documents, accessibility audits, and remediation services for government and enterprise.",
+    description:
+      "Professional accessible Word document creation and template services. WCAG compliant documents, accessibility audits, and remediation services for government and enterprise.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/accessibility",
     siteName: "Excel Experts",
     images: [
@@ -28,13 +28,13 @@ export const metadata = {
     "excel to word accessibility",
   ],
 
-                                            // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
     title: "Word Accessibility Solutions | Excel Experts",
-  description:
-    "Professional accessible Word document creation and template services. WCAG compliant documents, accessibility audits, and remediation services for government and enterprise.",
+    description:
+      "Professional accessible Word document creation and template services. WCAG compliant documents, accessibility audits, and remediation services for government and enterprise.",
     images: ["/logo.png"],
   },
 
@@ -42,7 +42,7 @@ export const metadata = {
     canonical: "https://www.wordexperts.com.au/accessibility",
     alternate: [
       {
-        url: "https://www.officeexperts.com.au/services/microsoft-word/accessibility",
+        url: "https://www.excelexperts.com.au/services/microsoft-word/accessibility",
       },
     ],
   },

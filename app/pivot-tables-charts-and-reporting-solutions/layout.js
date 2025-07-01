@@ -1,12 +1,13 @@
 export const metadata = {
   title: "Pivot Tables, Charts & Reporting Solutions | Excel Experts",
   description:
-    "Professional Excel pivot table and chart solutions from certified experts. Custom reporting solutions, VBA programming, and expert consultation for all your Excel reporting needs.",
+    "Professional Excel reporting solutions. Custom pivot tables, charts, and VBA tools designed by experts to simplify and enhance your data insights.",
 
   openGraph: {
     title: "Pivot Tables, Charts & Reporting Solutions | Excel Experts",
     description:
-      "Professional Excel pivot table and chart solutions from certified experts. Custom reporting solutions, VBA programming, and expert consultation for all your Excel reporting needs.",
+      "Professional Excel reporting solutions. Custom pivot tables, charts, and VBA tools designed by experts to simplify and enhance your data insights.",
+
     url: "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions",
     siteName: "Excel Experts",
     images: [
@@ -23,13 +24,13 @@ export const metadata = {
 
   keywords: ["excel pivot table consulting services"],
 
-                  // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
     title: "Pivot Tables, Charts & Reporting Solutions | Excel Experts",
     description:
-      "Professional Excel pivot table and chart solutions from certified experts. Custom reporting solutions, VBA programming, and expert consultation for all your Excel reporting needs.",
+      "Professional Excel reporting solutions. Custom pivot tables, charts, and VBA tools designed by experts to simplify and enhance your data insights.",
     images: ["/logo.png"],
   },
 

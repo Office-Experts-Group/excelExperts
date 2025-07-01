@@ -1,12 +1,12 @@
 export const metadata = {
-    title: "Presentation Design & Development Services | Excel Experts",
+  title: "Presentation Design & Development Services | Excel Experts",
   description:
-    "Professional PowerPoint presentation design and development services from certified experts. Custom templates, VBA automation, and expert consultation for all your presentation needs. Contact us at 1300 10 28 10",
+    "Professional PowerPoint design and VBA automation by certified experts. Custom templates and consultation to elevate your presentations. Contact 1300 10 28 10.",
 
   openGraph: {
     title: "Presentation Design & Development Services | Excel Experts",
     description:
-      "Professional PowerPoint presentation design and development services from certified experts. Custom templates, VBA automation, and expert consultation for all your presentation needs.",
+      "Professional PowerPoint design and VBA automation by certified experts. Custom templates and consultation to elevate your presentations. Contact 1300 10 28 10.",
     url: "https://www.excelexperts.com.au/services/microsoft-powerpoint",
     siteName: "Excel Experts",
     images: [
@@ -23,13 +23,13 @@ export const metadata = {
 
   keywords: ["powerpoint training australia"],
 
-                      // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
     title: "Presentation Design & Development Services | Excel Experts",
     description:
-      "Professional PowerPoint presentation design and development services from certified experts. Custom templates, VBA automation, and expert consultation for all your presentation needs.",
+      "Professional PowerPoint design and VBA automation by certified experts. Custom templates and consultation to elevate your presentations. Contact 1300 10 28 10.",
     images: ["/logo.png"],
   },
 

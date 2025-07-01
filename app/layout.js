@@ -54,7 +54,7 @@ const garamond = EB_Garamond({
 });
 
 export const metadata = {
-  title: "Excel Help Australia - Expert Excel Programmer & Consultant",
+  title: "Excel Help Australia - Expert Excel Programmers & Consultants",
   description:
     "Excel Experts is the Leading Excel Help Service Provider in Australia. Highly Experienced Excel Programmers & Developers. Call 1300 102 810",
   alternates: {
@@ -62,7 +62,7 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Excel Help Australia - Expert Excel Programmer & Consultant",
+    title: "Excel Help Australia - Expert Excel Programmers & Consultants",
     description:
       "Excel Experts is the Leading Excel Help Service Provider in Australia. Highly Experienced Excel Programmers & Developers. Call 1300 102 810",
     url: "https://www.excelexperts.com.au",
@@ -95,7 +95,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@ExcelExpertsAU",
-    title: "Excel Help Australia - Expert Excel Programmer & Consultant",
+    title: "Excel Help Australia - Expert Excel Programmers & Consultants",
     description:
       "Excel Experts is the Leading Excel Help Service Provider in Australia. Highly Experienced Excel Programmers & Developers. Call 1300 102 810",
     images: ["/logo.png"],

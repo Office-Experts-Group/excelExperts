@@ -1,12 +1,12 @@
 export const metadata = {
   title: "PowerPoint VBA Automation Services | Excel Experts",
   description:
-    "Professional PowerPoint VBA automation services from certified experts. Automate data integration, custom programming, and streamline your presentation workflow.",
+    "Professional PowerPoint VBA automation to streamline workflows. Custom programming and data integration by certified experts.",
 
   openGraph: {
     title: "PowerPoint VBA Automation Services | Excel Experts",
     description:
-      "Professional PowerPoint VBA automation services from certified experts. Automate data integration, custom programming, and streamline your presentation workflow.",
+      "Professional PowerPoint VBA automation to streamline workflows. Custom programming and data integration by certified experts.",
     url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba",
     siteName: "Excel Experts",
     images: [
@@ -23,13 +23,13 @@ export const metadata = {
 
   keywords: ["powerpoint automation solutions"],
 
-                              // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
     title: "PowerPoint VBA Automation Services | Excel Experts",
     description:
-      "Professional PowerPoint VBA automation services from certified experts. Automate data integration, custom programming, and streamline your presentation workflow.",
+      "Professional PowerPoint VBA automation to streamline workflows. Custom programming and data integration by certified experts.",
     images: ["/logo.png"],
   },
 

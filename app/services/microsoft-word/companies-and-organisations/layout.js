@@ -25,7 +25,7 @@ export const metadata = {
 
   keywords: ["corporate reporting automation"],
 
-                                              // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
@@ -39,7 +39,7 @@ export const metadata = {
     canonical: "https://www.wordexperts.com.au/companies-and-organisations",
     alternate: [
       {
-        url: "https://www.officeexperts.com.au/services/microsoft-word/companies-and-organisations",
+        url: "https://www.excelexperts.com.au/services/microsoft-word/companies-and-organisations",
       },
     ],
   },

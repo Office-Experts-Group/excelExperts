@@ -4,13 +4,13 @@ export const metadata = {
   // Basic metadata
   title: "Microsoft Excel Consultants Locations",
   description:
-    "Microsoft Excel consulting services available across Australia. Remote support and on-site consultants in Sydney, Melbourne, Brisbane, Perth, Adelaide, Canberra and more locations.",
+    "Excel consulting across Australia. Remote or on-site support in Sydney, Melbourne, Brisbane, Perth, Adelaide, Canberra, and more.",
 
   // OpenGraph
   openGraph: {
     title: "Microsoft Excel Consultants Locations",
     description:
-      "Microsoft Excel consulting services available across Australia. Remote support and on-site consultants in Sydney, Melbourne, Brisbane, Perth, Adelaide, Canberra and more locations.",
+      "Excel consulting across Australia. Remote or on-site support in Sydney, Melbourne, Brisbane, Perth, Adelaide, Canberra, and more.",
     url: "https://www.excelexperts.com.au/locations",
     siteName: "Excel Experts",
     images: [
@@ -37,7 +37,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Microsoft Excel Consultants Locations",
     description:
-      "Microsoft Excel consulting services available across Australia. Remote support and on-site consultants in Sydney, Melbourne, Brisbane, Perth, Adelaide, Canberra and more locations.",
+      "Excel consulting across Australia. Remote or on-site support in Sydney, Melbourne, Brisbane, Perth, Adelaide, Canberra, and more.",
     images: ["/logo.png"],
   },
 

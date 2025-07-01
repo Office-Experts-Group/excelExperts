@@ -28,7 +28,7 @@ export const metadata = {
     "Microsoft Word integration training",
   ],
 
-                                                                  // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
@@ -42,7 +42,7 @@ export const metadata = {
     canonical: "https://www.wordexperts.com.au/training",
     alternate: [
       {
-        url: "https://www.officeexperts.com.au/services/microsoft-word/training",
+        url: "https://www.excelexperts.com.au/services/microsoft-word/training",
       },
     ],
   },

@@ -4,13 +4,13 @@ export const metadata = {
   // Basic metadata
   title: "Meet Our Team | Excel Experts Australia",
   description:
-    "Meet our team of certified Microsoft Excel developers, consultants, and trainers. Experts in spreadsheet development, analysis, and business solutions across Australia.",
+    "Meet our certified Excel developers and consultants. Experts in spreadsheet solutions, data analysis, and business tools across Australia.",
 
   // OpenGraph
   openGraph: {
     title: "Meet Our Team | Excel Experts Australia",
     description:
-      "Meet our team of certified Microsoft Excel developers, consultants, and trainers. Experts in spreadsheet development, analysis, and business solutions across Australia.",
+      "Meet our certified Excel developers and consultants. Experts in spreadsheet solutions, data analysis, and business tools across Australia.",
     url: "https://www.excelexperts.com.au/meet-the-team",
     siteName: "Excel Experts",
     images: [
@@ -26,18 +26,15 @@ export const metadata = {
   },
 
   // Additional metadata
-  keywords: [
-    // Team expertise
-    "Microsoft Excel developers Australia",
-  ],
+  keywords: ["Microsoft Excel developers Australia"],
 
-                // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
     title: "Meet Our Team | Excel Experts Australia",
     description:
-      "Meet our team of certified Microsoft Excel developers, consultants, and trainers. Experts in spreadsheet development, analysis, and business solutions across Australia.",
+      "Meet our certified Excel developers and consultants. Experts in spreadsheet solutions, data analysis, and business tools across Australia.",
     images: ["/logo.png"],
   },
 

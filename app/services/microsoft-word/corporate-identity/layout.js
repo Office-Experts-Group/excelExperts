@@ -28,7 +28,7 @@ export const metadata = {
     "microsoft word corporate templates",
   ],
 
-                                                  // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
@@ -42,7 +42,7 @@ export const metadata = {
     canonical: "https://www.wordexperts.com.au/corporate-identity",
     alternate: [
       {
-        url: "https://www.officeexperts.com.au/services/microsoft-word/corporate-identity",
+        url: "https://www.excelexperts.com.au/services/microsoft-word/corporate-identity",
       },
     ],
   },

@@ -4,13 +4,13 @@ export const metadata = {
   // Basic metadata
   title: "Request a Quote | Excel Experts",
   description:
-    "Submit your Microsoft Excel project requirements, specifications, and files for a detailed quote. Our experienced Excel developers provide custom solutions, automation services, and spreadsheet consulting.",
+    "Request a detailed quote for your Excel project. Custom solutions, automation, and expert consulting from experienced developers.",
 
   // OpenGraph
   openGraph: {
     title: "Request a Quote | Excel Experts",
     description:
-      "Submit your Microsoft Excel project requirements, specifications, and files for a detailed quote. Our experienced Excel developers provide custom solutions, automation services, and spreadsheet consulting.",
+      "Request a detailed quote for your Excel project. Custom solutions, automation, and expert consulting from experienced developers.",
     url: "https://www.excelexperts.com.au/contact-us/request-a-quote",
     siteName: "Excel Experts",
     images: [
@@ -31,13 +31,13 @@ export const metadata = {
     "Microsoft Excel development quote",
   ],
 
-      // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
     title: "Request a Quote | Excel Experts",
     description:
-      "Submit your Microsoft Excel project requirements, specifications, and files for a detailed quote. Our experienced Excel developers provide custom solutions, automation services, and spreadsheet consulting.",
+      "Request a detailed quote for your Excel project. Custom solutions, automation, and expert consulting from experienced developers.",
     images: ["/logo.png"],
   },
 

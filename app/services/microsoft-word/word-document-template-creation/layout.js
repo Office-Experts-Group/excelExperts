@@ -28,7 +28,7 @@ export const metadata = {
   // Additional metadata
   keywords: ["Word document template creation"],
 
-                                                                    // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
@@ -42,7 +42,7 @@ export const metadata = {
     canonical: "https://www.wordexperts.com.au/word-document-template-creation",
     alternate: [
       {
-        url: "https://www.officeexperts.com.au/services/microsoft-word/word-document-template-creation",
+        url: "https://www.excelexperts.com.au/services/microsoft-word/word-document-template-creation",
       },
     ],
   },

@@ -24,7 +24,7 @@ export const metadata = {
 
   keywords: ["microsoft word popup forms"],
 
-                                                          // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
@@ -38,7 +38,7 @@ export const metadata = {
     canonical: "https://www.wordexperts.com.au/popup-forms",
     alternate: [
       {
-        url: "https://www.officeexperts.com.au/services/microsoft-word/popup-forms",
+        url: "https://www.excelexperts.com.au/services/microsoft-word/popup-forms",
       },
     ],
   },

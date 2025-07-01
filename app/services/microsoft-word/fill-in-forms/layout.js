@@ -24,7 +24,7 @@ export const metadata = {
 
   keywords: ["word fill in forms"],
 
-                                                      // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
@@ -38,7 +38,7 @@ export const metadata = {
     canonical: "https://www.wordexperts.com.au/fill-in-forms",
     alternate: [
       {
-        url: "https://www.officeexperts.com.au/services/microsoft-word/fill-in-forms",
+        url: "https://www.excelexperts.com.au/services/microsoft-word/fill-in-forms",
       },
     ],
   },

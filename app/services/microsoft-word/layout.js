@@ -25,7 +25,7 @@ export const metadata = {
 
   keywords: ["Microsoft Word and Excel Integration"],
 
-                                                                        // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
@@ -36,11 +36,10 @@ export const metadata = {
   },
 
   alternates: {
-    canonical:
-      "https://www.wordexperts.com.au",
+    canonical: "https://www.wordexperts.com.au",
     alternate: [
       {
-        url: "https://www.officeexperts.com.au/services/microsoft-word",
+        url: "https://www.excelexperts.com.au/services/microsoft-word",
       },
     ],
   },

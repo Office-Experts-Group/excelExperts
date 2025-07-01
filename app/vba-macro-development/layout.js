@@ -2,13 +2,13 @@ export const metadata = {
   // Basic metadata
   title: "VBA Macro Developers | Excel VBA Programming Experts",
   description:
-    "Expert VBA macro developers for Microsoft Office automation. Custom Excel VBA programming, Office add-in development, and macro solutions for business process automation.",
+    "Expert VBA developers for custom Excel macros, Office automation, and add-in development. Streamline your business with tailored VBA solutions.",
 
   // OpenGraph
   openGraph: {
     title: "VBA Macro Development & Programming Services | Excel Experts",
     description:
-      "Expert VBA macro developers for Microsoft Office automation. Custom Excel VBA programming, Office add-in development, and macro solutions for business process automation.",
+      "Expert VBA developers for custom Excel macros, Office automation, and add-in development. Streamline your business with tailored VBA solutions.",
     url: "https://www.excelexperts.com.au/vba-macro-development",
     siteName: "Excel Experts",
     images: [
@@ -29,19 +29,24 @@ export const metadata = {
     "VBA macro development services",
   ],
 
-                      // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
     title: "VBA Macro Development & Programming Services | Excel Experts",
     description:
-      "Expert VBA macro developers for Microsoft Office automation. Custom Excel VBA programming, Office add-in development, and macro solutions for business process automation.",
+      "Expert VBA developers for custom Excel macros, Office automation, and add-in development. Streamline your business with tailored VBA solutions.",
     images: ["/logo.png"],
   },
 
   alternates: {
-    canonical: "https://www.excelexperts.com.au/vba-macro-development",
+    canonical: "https://www.wordexperts.com.au/vba-macro-development",
   },
+  alternate: [
+    {
+      url: "https://www.excelexperts.com.au/services/microsoft-word/vba-macro-development",
+    },
+  ],
 };
 
 export default function VbaMacroDevelopmentLayout({ children }) {

@@ -28,7 +28,7 @@ export const metadata = {
   // Additional metadata
   keywords: ["Word upgrades and migration"],
 
-                                                                // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
@@ -42,7 +42,7 @@ export const metadata = {
     canonical: "https://www.wordexperts.com.au/upgrades-and-migration",
     alternate: [
       {
-        url: "https://www.officeexperts.com.au/services/microsoft-word/upgrades-and-migration",
+        url: "https://www.excelexperts.com.au/services/microsoft-word/upgrades-and-migration",
       },
     ],
   },

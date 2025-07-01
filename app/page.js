@@ -43,7 +43,7 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
-      dateModified: "2024-10-26T00:00:00+00:00",
+      dateModified: "2025-06-27T00:00:00+00:00",
       description:
         "Excel Experts is the Leading Excel Help Service Provider in Australia. Highly Experienced Excel Programmers & Developers. Call 1300 102 810",
       breadcrumb: {

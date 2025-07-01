@@ -1,12 +1,12 @@
 export const metadata = {
-    title: "Excel Support & Training Services - Excel Experts",
+  title: "Excel Support & Training Services",
   description:
-    "Professional Excel support and training services via remote access or phone. Our expert consultants provide instant guidance, troubleshooting, and dedicated support for individuals and teams.",
+    "Expert Excel support and training for individuals and teams. Remote or onsite help with troubleshooting, guidance, and skill development.",
 
   openGraph: {
-    title: "Excel Support & Training Services - Excel Experts",
+    title: "Excel Support & Training Services",
     description:
-      "Professional Excel support and training services via remote access or phone. Our expert consultants provide instant guidance, troubleshooting, and dedicated support for individuals and teams.",
+      "Expert Excel support and training for individuals and teams. Remote or onsite help with troubleshooting, guidance, and skill development.",
     url: "https://www.excelexperts.com.au/excel-support",
     siteName: "Excel Experts",
     images: [
@@ -23,13 +23,13 @@ export const metadata = {
 
   keywords: ["remote excel support and training"],
 
-              // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
-    title: "Excel Support & Training Services - Excel Experts",
+    title: "Excel Support & Training Services",
     description:
-      "Professional Excel support and training services via remote access or phone. Our expert consultants provide instant guidance, troubleshooting, and dedicated support for individuals and teams.",
+      "Expert Excel support and training for individuals and teams. Remote or onsite help with troubleshooting, guidance, and skill development.",
     images: ["/logo.png"],
   },
 

@@ -1,12 +1,12 @@
 export const metadata = {
   title: "PowerPoint Presentation Redesign Services | Excel Experts",
   description:
-    "Professional PowerPoint presentation redesign services. Transform existing presentations into high-quality templates with master slides that meet brand guidelines.",
+    "Transform your PowerPoint decks with expert redesign services. Get branded templates, polished slides, and presentation-ready visuals.",
 
   openGraph: {
     title: "PowerPoint Presentation Redesign Services | Excel Experts",
     description:
-      "Professional PowerPoint presentation redesign services. Transform existing presentations into high-quality templates with master slides that meet brand guidelines.",
+      "Transform your PowerPoint decks with expert redesign services. Get branded templates, polished slides, and presentation-ready visuals.",
     url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign",
     siteName: "Excel Experts",
     images: [
@@ -23,13 +23,13 @@ export const metadata = {
 
   keywords: ["powerpoint presentation redesign"],
 
-                          // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
     title: "PowerPoint Presentation Redesign Services | Excel Experts",
     description:
-      "Professional PowerPoint presentation redesign services. Transform existing presentations into high-quality templates with master slides that meet brand guidelines.",
+      "Transform your PowerPoint decks with expert redesign services. Get branded templates, polished slides, and presentation-ready visuals.",
     images: ["/logo.png"],
   },
 

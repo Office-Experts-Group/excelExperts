@@ -5,6 +5,7 @@ import AnimateOnScroll from "../../../../../components/AnimateOnScroll";
 
 import styles from "../../../../../styles/pageSegment3.module.css";
 import cloud from "../../../../../public/Cloud400x267.webp";
+import Link from "next/link";
 
 const PageSegment3 = () => {
   return (
@@ -30,6 +31,16 @@ const PageSegment3 = () => {
             code to point your front end database to Azure. Everything will
             remain the same except your data will become accessible from any
             location by being stored in the cloud for everyone to access.
+          </p>
+          <p>
+            Our team of certified professionals also provide{" "}
+            <Link
+              style={{ fontWeight: "bold", color: "#046999" }}
+              href="/services/microsoft-access/access-support"
+            >
+              remote access and onsite support
+            </Link>{" "}
+            for troubleshooting and support for all your database needs.
           </p>
         </AnimateOnScroll>
       </div>

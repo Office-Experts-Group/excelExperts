@@ -28,7 +28,7 @@ export const metadata = {
     "Word quick parts integration",
   ],
 
-                                                            // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
@@ -42,7 +42,7 @@ export const metadata = {
     canonical: "https://www.wordexperts.com.au/quick-parts",
     alternate: [
       {
-        url: "https://www.officeexperts.com.au/services/microsoft-word/quick-parts",
+        url: "https://www.excelexperts.com.au/services/microsoft-word/quick-parts",
       },
     ],
   },

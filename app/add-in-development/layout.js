@@ -1,11 +1,11 @@
 export const metadata = {
   title: "Add-in Development - Microsoft Excel",
   description:
-    "Professional Excel Add-in Development services by certified experts. Custom add-ins to extend Excel functionality, automate tasks, and enhance productivity for your business. Get tailored solutions with our Excel Add-in Development team.",
+    "Custom Excel Add-in development by certified experts. Automate tasks, boost productivity, and extend Excel’s functionality for your business.",
   openGraph: {
-  title: "Add-in Development - Microsoft Excel",
+    title: "Add-in Development - Microsoft Excel",
     description:
-      "Professional Excel Add-in Development services by certified experts. Custom add-ins to extend Excel functionality, automate tasks, and enhance productivity for your business. Get tailored solutions with our Excel Add-in Development team.",
+      "Custom Excel Add-in development by certified experts. Automate tasks, boost productivity, and extend Excel’s functionality for your business.",
     url: "https://www.excelexperts.com.au/add-in-development",
     siteName: "Excel Experts",
     images: [
@@ -22,13 +22,13 @@ export const metadata = {
 
   keywords: ["Excel add-in development"],
 
-    // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
     title: "Office Experts Group Client Testimonials",
     description:
-      "Professional Excel Add-in Development services by certified experts. Custom add-ins to extend Excel functionality, automate tasks, and enhance productivity for your business. Get tailored solutions with our Excel Add-in Development team.",
+      "Custom Excel Add-in development by certified experts. Automate tasks, boost productivity, and extend Excel’s functionality for your business.",
     images: ["/logo.png"],
   },
 
