@@ -41,8 +41,9 @@ const PageSegmentMain = () => {
           <p>
             Whichever Office products you are working with, our highly
             experienced VBA macro programmers are ready to advise you for all
-            kinds of <Link href="/">help in excel</Link> and provide you with
-            the best solution to take your business to the next level.
+            kinds of <Link href="/excel-support">help in excel</Link> and
+            provide you with the best solution to take your business to the next
+            level.
           </p>
         </div>
       </div>
