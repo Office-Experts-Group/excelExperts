@@ -79,19 +79,6 @@ export const metadata = {
     type: "website",
   },
 
-  // keywords: [
-  //   "excel consultant",
-  //   "excel consulting",
-  //   "excel contractor",
-  //   "excel developer",
-  //   "excel expert",
-  //   "excel professional",
-  //   "excel programmer",
-  //   "excel specialist",
-  //   "excel support",
-  //   "excel expert near me",
-  // ],
-
   twitter: {
     card: "summary_large_image",
     site: "@ExcelExpertsAU",
