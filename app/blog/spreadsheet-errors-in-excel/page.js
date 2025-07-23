@@ -15,29 +15,139 @@ const SpreadsheetErrorBlogPost = () => {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    "@id": "https://www.excelexperts.com.au/blog/spreadsheet-errors-in-excel",
+
+    // Basic article info
     headline:
-      "The Hidden Risk of Spreadsheet Errors in Your Business - and How to Prevent Them",
-    image: { why },
+      "The Hidden Risk of Spreadsheet Errors in Your Business—and How to Prevent Them",
+    alternativeHeadline: "88% of Spreadsheets Contain Errors: Prevention Guide",
+    description:
+      "Research shows that 88% of spreadsheets contain errors. Learn why spreadsheet errors are so common, how to identify warning signs, and practical strategies to prevent costly mistakes in your business.",
+
+    // Author information (enhanced)
     author: {
       "@type": "Person",
       name: "Daniel Thomas",
     },
+
+    // Publisher information (enhanced)
     publisher: {
       "@type": "Organization",
-      name: "Office Experts Group",
+      name: "Excel Experts",
+      url: "https://www.excelexperts.com.au",
       logo: {
         "@type": "ImageObject",
         url: "https://www.excelexperts.com.au/logo.png",
+        width: 400,
+        height: 400,
       },
     },
+
+    // Dates
     datePublished: "2025-07-23T09:00:00+10:00",
     dateModified: "2025-07-23T09:00:00+10:00",
-    description:
-      "Research shows that 88% of spreadsheets contain errors. Learn why spreadsheet errors are so common, how to identify warning signs, and practical strategies to prevent costly mistakes in your business.",
+
+    // Article structure
+    articleSection: "Excel Tips",
+    articleBody:
+      "Spreadsheets are the backbone of decision-making in countless organisations—from calculating financial projections to tracking customer orders, inventory, payroll, and everything in between...", // First paragraph
+
+    // Content metrics
+    wordCount: 2100, // Approximate word count
+    timeRequired: "PT8M", // 8 minutes reading time in ISO 8601 duration format
+
+    // Keywords and topics
+    keywords: ["spreadsheet errors"],
+
+    // Main entity
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id":
-        "https://www.excelexperts.com.au/blog/spreadsheet-errors-prevention",
+      "@id": "https://www.excelexperts.com.au/blog/spreadsheet-errors-in-excel",
+      url: "https://www.excelexperts.com.au/blog/spreadsheet-errors-in-excel",
+      name: "The Hidden Risk of Spreadsheet Errors in Your Business—and How to Prevent Them",
+      description:
+        "Expert guide on preventing costly spreadsheet errors in business",
+      inLanguage: "en-AU",
+      isPartOf: {
+        "@type": "WebSite",
+        "@id": "https://www.excelexperts.com.au",
+        name: "Excel Experts",
+        url: "https://www.excelexperts.com.au",
+      },
+    },
+
+    // Breadcrumb
+    breadcrumb: {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.excelexperts.com.au",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Blog",
+          item: "https://www.excelexperts.com.au/blog",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Spreadsheet Error Prevention",
+          item: "https://www.excelexperts.com.au/blog/spreadsheet-errors-in-excel",
+        },
+      ],
+    },
+
+    // About information
+    about: [
+      {
+        "@type": "Thing",
+        name: "Spreadsheet Management",
+        sameAs: "https://en.wikipedia.org/wiki/Spreadsheet",
+      },
+      {
+        "@type": "Thing",
+        name: "Microsoft Excel",
+        sameAs: "https://en.wikipedia.org/wiki/Microsoft_Excel",
+      },
+      {
+        "@type": "Thing",
+        name: "Data Validation",
+        sameAs: "https://en.wikipedia.org/wiki/Data_validation",
+      },
+    ],
+
+    // Mentions (companies/cases mentioned in article)
+    mentions: [
+      {
+        "@type": "Organization",
+        name: "JP Morgan",
+        sameAs: "https://en.wikipedia.org/wiki/JPMorgan_Chase",
+      },
+      {
+        "@type": "Organization",
+        name: "Kodak",
+        sameAs: "https://en.wikipedia.org/wiki/Eastman_Kodak",
+      },
+    ],
+
+    // Language and region
+    inLanguage: "en-AU",
+
+    // Content rating
+    contentRating: "General",
+
+    // Audience
+    audience: {
+      "@type": "Audience",
+      audienceType: "Business Professionals",
+      geographicArea: {
+        "@type": "Country",
+        name: "Australia",
+      },
     },
   };
 

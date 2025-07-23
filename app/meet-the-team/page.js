@@ -70,7 +70,7 @@ const Page = () => {
         altMob={"handshake"}
         isMeetTeam={true}
       />
-      <Services />
+      {/* <Services /> */}
       <MeetTheTeam />
       <Contact />
     </>
