@@ -119,9 +119,9 @@ const SpreadsheetErrorBlogPost = () => {
           <p>
             Spreadsheets are incredibly powerful tools, but they're also
             incredibly easy to get wrong. One reason they're so prone to error,
-            to put it bluntly, is that the barrier to entry is extremelylow...
-            Anyone with a computer can start building formulas, pivot tables,
-            and dashboards. But without proper training, most people rely on
+            to put it bluntly, is that the barrier to entry is low... Anyone
+            with a computer can start building formulas, pivot tables, and
+            dashboards. But without proper training, most people rely on
             guesswork, trial and error, or copying formulas from other
             spreadsheets without fully understanding them.
           </p>
@@ -137,8 +137,7 @@ const SpreadsheetErrorBlogPost = () => {
           <p>
             Unlike software development, spreadsheets rarely use version control
             or audit trails. There's no way to see who changed what, when, or
-            why. Mistakes can be made and overwritten without anyone
-            noticing—until the results are disastrously wrong.
+            why. Mistakes can be made and overwritten without anyone noticing.
           </p>
           <p>
             Most commonly, many businesses rely on a single "Excel champion"—a

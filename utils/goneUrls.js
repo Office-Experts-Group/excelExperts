@@ -42,7 +42,6 @@ export const moreGoneUrls = [
   "/government-departments",
   "/companies-and-organisations",
   "/popup-forms",
-  "/blog",
   "/upgrades-and-migration/attachment/cloud-migration-2",
   "/training",
   "/author/ppexperts",
@@ -70,7 +69,6 @@ export const moreGoneUrls = [
   "/faq",
   "/testimonials/essential-property-solutions",
   "/corporate-global-template-solution",
-  "/services",
   "/services/microsoft-excel",
 ].map((url) => url.toLowerCase());
 
