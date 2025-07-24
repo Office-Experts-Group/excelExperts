@@ -44,6 +44,21 @@ const BlogPage = () => {
       youtubeId: null,
       imagePath: "/blogs/shortcut.webp",
     },
+    {
+      id: 3,
+      title:
+        "10 Custom Excel Shortcuts Using Macros (With Practical Use Cases)",
+      description:
+        "Learn how to create your own Excel shortcuts using macros to automate repetitive tasks. Discover 10 practical custom shortcuts that will supercharge your productivity and save you hours of work.",
+      slug: "custom-excel-shortcuts-with-macros",
+      date: "July 24, 2025",
+      author: "Daniel Thomas",
+      readingTime: "7 min",
+      category: "Shortcuts",
+      featured: false,
+      youtubeId: null,
+      imagePath: "/blogs/custom.webp",
+    },
   ];
 
   // Extract unique categories

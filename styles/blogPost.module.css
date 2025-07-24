@@ -232,6 +232,7 @@
 }
 .authorImage img {
   border-radius: 50%;
+  filter: grayscale(100%);
 }
 
 .quote {
@@ -371,5 +372,23 @@
   .plus {
     font-size: 1rem;
     margin: 0 0.1rem;
+  }
+}
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 0.5rem;
+}
+.flex .shortcutKeys {
+  min-width: 30%;
+}
+@media screen and (max-width: 700px) {
+  .flex {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .flex .shortcutKeys {
+    min-width: 80%;
   }
 }/*# sourceMappingURL=blogPost.module.css.map */
