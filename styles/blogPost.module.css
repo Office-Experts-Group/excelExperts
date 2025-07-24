@@ -269,4 +269,107 @@
   margin: 0 auto;
   max-width: 90vw;
   height: auto;
+}
+
+/* Shortcuts Table Styles */
+.shortcutsTable {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.shortcutRow {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  align-items: center;
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.shortcutKeys {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.keyCombo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.keyImage {
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 2px;
+}
+
+.plus {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #6b7280;
+  margin: 0 0.25rem;
+}
+
+.pcVersion {
+  font-size: 0.75rem;
+  color: #6b7280;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.shortcutContent h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.shortcutContent p {
+  margin: 0;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+/* Mobile responsive - stack vertically */
+@media (max-width: 768px) {
+  .shortcutRow {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    text-align: center;
+  }
+  .shortcutKeys {
+    order: -1; /* Put keys above content on mobile */
+  }
+  .keyCombo {
+    justify-content: center;
+  }
+  .shortcutContent {
+    text-align: left;
+  }
+}
+/* Even smaller screens */
+@media (max-width: 480px) {
+  .shortcutRow {
+    padding: 1rem;
+  }
+  .keyImage {
+    width: 35px;
+    height: 35px;
+  }
+  .keyCombo {
+    gap: 0.25rem;
+  }
+  .plus {
+    font-size: 1rem;
+    margin: 0 0.1rem;
+  }
 }/*# sourceMappingURL=blogPost.module.css.map */

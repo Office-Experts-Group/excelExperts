@@ -30,6 +30,20 @@ const BlogPage = () => {
       youtubeId: null,
       imagePath: "/blogs/mistake.webp",
     },
+    {
+      id: 2,
+      title: "20 Advanced Excel Shortcuts That Will Supercharge Your Workflow",
+      description:
+        "Master 20 advanced Excel shortcuts for Mac that will transform your productivity. From data analysis to formatting, these keyboard shortcuts will save you hours and impress your team.",
+      slug: "20-advanced-excel-shortcuts",
+      date: "July 24, 2025",
+      author: "Daniel Thomas",
+      readingTime: "6 min",
+      category: "Shortcuts",
+      featured: false,
+      youtubeId: null,
+      imagePath: "/blogs/shortcut.webp",
+    },
   ];
 
   // Extract unique categories
@@ -59,7 +73,7 @@ const BlogPage = () => {
       return post.imagePath;
     }
     // Fallback image if neither youtubeId nor imagePath is available
-    return "/default-blog-image.webp";
+    return "/blog/shortcut.webp";
   };
 
   // Function to render a card (used for both featured and regular posts)
