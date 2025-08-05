@@ -7,13 +7,13 @@ import Contact from "../../../components/Contact";
 
 import styles from "../../../styles/blogPost.module.scss";
 
-import dan from "../../../public/blogs/dan.webp";
+import dan from "../../../public/blog/dan.webp";
 
 const CustomExcelShortcutsBlogPost = () => {
   const renderKeyImage = (keyName) => {
     return (
       <Image
-        src={`/blogs/keys/${keyName}.webp`}
+        src={`/blog/keys/${keyName}.webp`}
         alt={keyName}
         width={findWidth(keyName)}
         height={60}

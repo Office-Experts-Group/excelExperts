@@ -1,14 +1,15 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import Contact from "../../../components/Contact";
 
 import styles from "../../../styles/blogPost.module.scss";
 
 import why from "../../../public/why600x400.webp";
-import mistake from "../../../public/blogs/mistake.webp";
-import dan from "../../../public/blogs/dan.webp";
-import warning from "../../../public/blogs/warning.webp";
+import mistake from "../../../public/blog/mistake.webp";
+import dan from "../../../public/blog/dan.webp";
+import warning from "../../../public/blog/warning.webp";
 
 const SpreadsheetErrorBlogPost = () => {
   const articleSchema = {
@@ -229,10 +230,23 @@ const SpreadsheetErrorBlogPost = () => {
             Spreadsheets are incredibly powerful tools, but they're also
             incredibly easy to get wrong. One reason they're so prone to error,
             to put it bluntly, is that the barrier to entry is low... Anyone
-            with a computer can start building formulas, pivot tables, and
-            dashboards. But without proper training, most people rely on
-            guesswork, trial and error, or copying formulas from other
-            spreadsheets without fully understanding them.
+            with a computer can start building{" "}
+            <Link href="/excel-formulas-and-custom-formulas">formulas</Link>,{" "}
+            <Link href="/pivot-tables-charts-and-reporting-solutions">
+              pivot tables
+            </Link>
+            , and
+            <Link
+              href={
+                "https://www.officeexperts.com.au/services/by-business-solution/dashboards"
+              }
+            >
+              {" "}
+              dashboards
+            </Link>
+            . But without proper training, most people rely on guesswork, trial
+            and error, or copying formulas from other spreadsheets without fully
+            understanding them.
           </p>
           <p>
             Over time, as the spreadsheets evolve, what started as a simple

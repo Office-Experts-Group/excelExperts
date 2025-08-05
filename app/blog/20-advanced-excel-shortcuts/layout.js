@@ -4,13 +4,12 @@ export const metadata = {
   // Basic metadata
   title: "20 Advanced Excel Shortcuts That Will Supercharge Your Workflow",
   description:
-    "Master 20 advanced Excel shortcuts for Mac that will transform your productivity. From data analysis to formatting, these keyboard shortcuts will save you hours and impress your team.",
-
+    "Master 20 advanced Excel shortcuts that will transform your productivity. These keyboard shortcuts will save you hours and impress your team.",
   // OpenGraph
   openGraph: {
     title: "20 Advanced Excel Shortcuts That Will Supercharge Your Workflow",
     description:
-      "Master 20 advanced Excel shortcuts for Mac that will transform your productivity. From data analysis to formatting, these keyboard shortcuts will save you hours and impress your team.",
+      "Master 20 advanced Excel shortcuts that will transform your productivity. These keyboard shortcuts will save you hours and impress your team.",
     url: "https://www.excelexperts.com.au/blog/20-advanced-excel-shortcuts",
     siteName: "Excel Experts",
     images: [
@@ -34,7 +33,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "20 Advanced Excel Shortcuts That Will Supercharge Your Workflow",
     description:
-      "Master 20 advanced Excel shortcuts for Mac that will transform your productivity. From data analysis to formatting, these keyboard shortcuts will save you hours and impress your team.",
+      "Master 20 advanced Excel shortcuts that will transform your productivity. These keyboard shortcuts will save you hours and impress your team.",
     images: ["/logo.png"],
   },
 

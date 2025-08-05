@@ -9,57 +9,91 @@ import CTAMain from "../(components)/CTAMain";
 
 import styles from "../../styles/blog.module.scss";
 
+import { blogPosts } from "./blogPosts";
+
+import {
+  generateProfessionalServiceSchema,
+  generateOrganizationSchema,
+} from "../../utils/schemaGenerators";
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    generateOrganizationSchema(),
+    generateProfessionalServiceSchema(),
+    {
+      "@type": "WebPage",
+      "@id": "https://www.excelexperts.com.au/blog",
+      url: "https://www.excelexperts.com.au/blog",
+      name: "Excel Experts Australia Blog",
+      isPartOf: {
+        "@id": "https://www.excelexperts.com.au#website",
+      },
+      datePublished: "2024-10-26T00:00:00+00:00",
+      dateModified: "2025-07-30T00:00:00+00:00",
+      description:
+        "Our blog offers expert guidance on improving accuracy, automating workflows, and building spreadsheets that drive better business decisions.",
+      breadcrumb: {
+        "@id": "https://www.excelexperts.com.au/blog#breadcrumb",
+      },
+      inLanguage: "en-AU",
+      potentialAction: [
+        {
+          "@type": "ReadAction",
+          target: ["https://www.excelexperts.com.au/blog"],
+        },
+      ],
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.excelexperts.com.au/blog#breadcrumb",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.excelexperts.com.au",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Blog",
+        },
+      ],
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://www.excelexperts.com.au/blog#blog",
+      url: "https://www.excelexperts.com.au/blog",
+      name: "Excel Experts Australia Blog",
+      description:
+        "Expert tutorials, tips, and best practices for Microsoft Excel",
+      inLanguage: "en-AU",
+      publisher: {
+        "@type": "Organization",
+        name: "Excel Experts Australia",
+        url: "https://www.excelexperts.com.au",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://www.excelexperts.com.au/logo.png",
+        },
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.excelexperts.com.au#website",
+      url: "https://www.excelexperts.com.au",
+      name: "Excel Experts Australia",
+      description:
+        "Our blog offers expert guidance on improving accuracy, automating workflows, and building spreadsheets that drive better business decisions.",
+      inLanguage: "en-AU",
+    },
+  ],
+};
+
 const BlogPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");
-
-  // Blog post data
-  const blogPosts = [
-    {
-      id: 1,
-      title:
-        "The Hidden Risk of Spreadsheet Errors in Your Business—and How to Prevent Them",
-      description:
-        "Research shows that 88% of spreadsheets contain errors. Learn why spreadsheet errors are so common, how to identify warning signs, and practical strategies to prevent costly mistakes in your business.",
-      slug: "spreadsheet-errors-in-excel",
-      date: "July 23, 2025",
-      author: "Daniel Thomas",
-      readingTime: "8 min",
-      category: "Spreadsheets",
-      featured: true,
-      youtubeId: null,
-      imagePath: "/blogs/mistake.webp",
-    },
-    {
-      id: 2,
-      title: "20 Advanced Excel Shortcuts That Will Supercharge Your Workflow",
-      description:
-        "Master 20 advanced Excel shortcuts for Mac that will transform your productivity. From data analysis to formatting, these keyboard shortcuts will save you hours and impress your team.",
-      slug: "20-advanced-excel-shortcuts",
-      date: "July 24, 2025",
-      author: "Daniel Thomas",
-      readingTime: "6 min",
-      category: "Shortcuts",
-      featured: false,
-      youtubeId: null,
-      imagePath: "/blogs/shortcut.webp",
-    },
-    {
-      id: 3,
-      title:
-        "10 Custom Excel Shortcuts Using Macros (With Practical Use Cases)",
-      description:
-        "Learn how to create your own Excel shortcuts using macros to automate repetitive tasks. Discover 10 practical custom shortcuts that will supercharge your productivity and save you hours of work.",
-      slug: "custom-excel-shortcuts-with-macros",
-      date: "July 24, 2025",
-      author: "Daniel Thomas",
-      readingTime: "7 min",
-      category: "Shortcuts",
-      featured: false,
-      youtubeId: null,
-      imagePath: "/blogs/custom.webp",
-    },
-  ];
 
   // Extract unique categories
   const categories = [
@@ -122,6 +156,10 @@ const BlogPage = () => {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <div className={styles.headFiller}></div>
       <div className={styles.blogHeader}>
         <div className={styles.headerContent}>

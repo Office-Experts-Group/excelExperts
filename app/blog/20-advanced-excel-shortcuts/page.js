@@ -6,7 +6,7 @@ import Contact from "../../../components/Contact";
 
 import styles from "../../../styles/blogPost.module.scss";
 
-import dan from "../../../public/blogs/dan.webp";
+import dan from "../../../public/blog/dan.webp";
 
 const ExcelShortcutsBlogPost = () => {
   const articleSchema = {
@@ -19,7 +19,7 @@ const ExcelShortcutsBlogPost = () => {
     alternativeHeadline:
       "Master These Mac Excel Shortcuts for Maximum Productivity",
     description:
-      "Master 20 advanced Excel shortcuts for Mac that will transform your productivity. From data analysis to formatting, these keyboard shortcuts will save you hours and impress your team.",
+      "Master 20 advanced Excel shortcuts that will transform your productivity. These keyboard shortcuts will save you hours and impress your team.",
 
     // Author information
     author: {
@@ -42,7 +42,7 @@ const ExcelShortcutsBlogPost = () => {
 
     // Dates
     datePublished: "2025-07-24T09:00:00+10:00",
-    dateModified: "2025-07-24T09:00:00+10:00",
+    dateModified: "2025-07-29T09:00:00+10:00",
 
     // Article structure
     articleSection: "Excel Tips",
@@ -63,7 +63,7 @@ const ExcelShortcutsBlogPost = () => {
       url: "https://www.excelexperts.com.au/blog/20-advanced-excel-shortcuts",
       name: "20 Advanced Excel Shortcuts That Will Supercharge Your Workflow",
       description:
-        "Master advanced Excel shortcuts for Mac to boost productivity",
+        "Master 20 advanced Excel shortcuts that will transform your productivity. These keyboard shortcuts will save you hours and impress your team.",
       inLanguage: "en-AU",
       isPartOf: {
         "@type": "WebSite",
@@ -252,7 +252,7 @@ const ExcelShortcutsBlogPost = () => {
   const renderKeyImage = (keyName) => {
     return (
       <Image
-        src={`/blogs/keys/${keyName}.webp`}
+        src={`/blog/keys/${keyName}.webp`}
         alt={keyName}
         width={findWidth(keyName)}
         height={60}

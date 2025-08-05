@@ -4,13 +4,13 @@ export const metadata = {
   // Basic metadata
   title: "Excel Experts Blog",
   description:
-    "Unlock the full potential of Excel with insights from seasoned consultants. Our blog offers expert guidance on improving accuracy, automating workflows, and building spreadsheets that drive better business decisions.",
+    "Our blog offers expert guidance on improving accuracy, automating workflows, and building spreadsheets that drive better business decisions.",
 
   // OpenGraph
   openGraph: {
     title: "Excel Experts Blog",
     description:
-      "Unlock the full potential of Excel with insights from seasoned consultants. Our blog offers expert guidance on improving accuracy, automating workflows, and building spreadsheets that drive better business decisions.",
+      "Our blog offers expert guidance on improving accuracy, automating workflows, and building spreadsheets that drive better business decisions.",
     url: "https://www.excelexperts.com.au/blog",
     siteName: "Excel Experts",
     images: [
@@ -34,7 +34,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Experts Blog",
     description:
-      "Unlock the full potential of Excel with insights from seasoned consultants. Our blog offers expert guidance on improving accuracy, automating workflows, and building spreadsheets that drive better business decisions.",
+      "Our blog offers expert guidance on improving accuracy, automating workflows, and building spreadsheets that drive better business decisions.",
     images: ["/logo.png"],
   },
 
