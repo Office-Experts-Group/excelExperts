@@ -27,7 +27,7 @@ const schema = {
       "@type": "WebPage",
       "@id": "https://www.excelexperts.com.au/client-testimonials",
       url: "https://www.excelexperts.com.au/client-testimonials",
-      name: "Testimonials | Excel Experts",
+      name: "Client Testimonials | Excel Experts",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
@@ -35,9 +35,9 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2019-08-06T08:12:54+00:00",
-      dateModified: "2025-03-31T00:24:40+00:00",
+      dateModified: "2025-09-02T00:24:40+00:00",
       description:
-        "Are you struggling with some of the features in Excel? Do you need some guidance from time to time? Call us on 1300102810",
+        "Read client testimonials about Excel Experts. Discover how we've helped Australian businesses streamline workflows and boost productivity with Excel.",
       breadcrumb: {
         "@id": "https://www.excelexperts.com.au/client-testimonials#breadcrumb",
       },
