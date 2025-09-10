@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 
 import TestimonialCard from "../../../components/TestimonialCard";
 import AnimateOnScroll from "../../../components/AnimateOnScroll";
@@ -7,9 +8,11 @@ import styles from "../../../styles/testimonialPage.module.scss";
 
 const TestimonialPage = ({ testimonials }) => {
   // Filter out testimonials without valid images first
-  const validTestimonials = testimonials.filter(
-    (testimonial) => testimonial.image && testimonial.image !== ""
-  );
+  const validTestimonials = testimonials;
+
+  useEffect(() => {
+    console.log(validTestimonials.length);
+  }, []);
 
   return (
     <section className={styles.testimonialPage}>
@@ -21,10 +24,7 @@ const TestimonialPage = ({ testimonials }) => {
       <div className={styles.testimonialGrid}>
         {validTestimonials.map((testimonial, index) => {
           // Create a unique key using multiple properties
-          const uniqueKey = `testimonial-${index}-${testimonial.name.replace(
-            /\s+/g,
-            ""
-          )}-${testimonial.contact.replace(/[^a-zA-Z0-9]/g, "")}`;
+          const uniqueKey = `testimonial-${index}`;
 
           // Show first 3 testimonials without animation
           if (index < 3) {
