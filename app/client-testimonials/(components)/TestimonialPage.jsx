@@ -1,18 +1,14 @@
-"use client";
-import React, { useEffect } from "react";
+import React from "react";
 
 import TestimonialCard from "../../../components/TestimonialCard";
 import AnimateOnScroll from "../../../components/AnimateOnScroll";
 
+import { filterAndSortTestimonials } from "../../../utils/filterTestimonials";
+
 import styles from "../../../styles/testimonialPage.module.scss";
 
 const TestimonialPage = ({ testimonials }) => {
-  // Filter out testimonials without valid images first
-  const validTestimonials = testimonials;
-
-  useEffect(() => {
-    console.log(validTestimonials.length);
-  }, []);
+  const validTestimonials = filterAndSortTestimonials(testimonials, "excel");
 
   return (
     <section className={styles.testimonialPage}>
