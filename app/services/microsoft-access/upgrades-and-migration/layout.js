@@ -2,10 +2,10 @@ import React from "react";
 
 export const metadata = {
   // Basic metadata
-    title:
-      "Microsoft Access Database Upgrades & Migration Services | Excel Experts",
-    description:
-      "Professional Microsoft Access database upgrade and migration services. Specialising in version upgrades, SQL Server migrations, cloud transitions, and performance optimisation.",
+  title:
+    "Microsoft Access Database Upgrades & Migration Services | Excel Experts",
+  description:
+    "Professional Microsoft Access database upgrade and migration services. Specialising in version upgrades, SQL Server migrations, cloud transitions, and performance optimisation.",
 
   // OpenGraph
   openGraph: {
@@ -34,7 +34,7 @@ export const metadata = {
     "Microsoft Access upgrade solutions",
   ],
 
-                                  // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
@@ -47,6 +47,11 @@ export const metadata = {
 
   alternates: {
     canonical: "https://www.accessexperts.com.au/upgrades-and-migration",
+    alternate: [
+      {
+        url: "https://www.excelexperts.com.au/services/microsoft-access/upgrades-and-migration",
+      },
+    ],
   },
 };
 

@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
             , Microsoft{" "}
             <Link
               href={
-                "/services/by-business-solution/3rd-party-application-or-office-integration"
+                "https://www.officeexperts.com.au/services/by-business-solution/3rd-party-application-or-office-integration"
               }
             >
               technologies and integration

@@ -40,13 +40,8 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.wordexperts.com.au/vba-macro-development",
+    canonical: "https://www.excelexperts.com.au/vba-macro-development",
   },
-  alternate: [
-    {
-      url: "https://www.excelexperts.com.au/services/microsoft-word/vba-macro-development",
-    },
-  ],
 };
 
 export default function VbaMacroDevelopmentLayout({ children }) {

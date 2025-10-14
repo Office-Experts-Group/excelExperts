@@ -3,12 +3,12 @@ import React from "react";
 export const metadata = {
   title: "About Us | Excel Experts",
   description:
-    "Excel Experts is Australia's trusted team of Microsoft Excel consultants, offering custom solutions, automation, and training for both PC and Mac users nationwide.",
+    "Excel Experts is Australia's trusted team of Microsoft Excel consultants, offering custom solutions, automation, and training nationwide.",
 
   openGraph: {
     title: "About Us | Excel Experts",
     description:
-      "Excel Experts is Australia's trusted team of Microsoft Excel consultants, offering custom solutions, automation, and training for both PC and Mac users nationwide.",
+      "Excel Experts is Australia's trusted team of Microsoft Excel consultants, offering custom solutions, automation, and training nationwide.",
     url: "https://www.excelexperts.com.au/about-us",
     siteName: "Excel Experts",
     images: [

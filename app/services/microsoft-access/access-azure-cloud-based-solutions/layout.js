@@ -31,7 +31,7 @@ export const metadata = {
     "Microsoft Access Azure integration",
   ],
 
-                                        // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
@@ -46,7 +46,7 @@ export const metadata = {
       "https://www.accessexperts.com.au/access-azure-cloud-based-solutions",
     alternate: [
       {
-        url: "https://www.officeexperts.com.au/services/microsoft-access/access-azure-cloud-based-solutions",
+        url: "https://www.excelexperts.com.au/services/microsoft-access/access-azure-cloud-based-solutions",
       },
     ],
   },

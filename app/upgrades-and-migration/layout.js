@@ -1,12 +1,12 @@
 export const metadata = {
   title: "Excel Upgrades and Migration",
   description:
-    "Stuck on an Old Version? Expert help with Excel workbook upgrades, VBA migration, and version compatibility issues. Professional Excel upgrade services across Australia. Call 1300 102 810",
+    "Stuck on an Old Version? Expert help with Excel workbook upgrades, VBA migration, and version compatibility issues. Professional Excel upgrade services across Australia.",
 
   openGraph: {
     title: "Excel Upgrades and Migration",
     description:
-      "Stuck on an Old Version? Expert help with Excel workbook upgrades, VBA migration, and version compatibility issues. Professional Excel upgrade services across Australia. Call 1300 102 810",
+      "Stuck on an Old Version? Expert help with Excel workbook upgrades, VBA migration, and version compatibility issues. Professional Excel upgrade services across Australia.",
     url: "https://www.excelexperts.com.au/upgrades-and-migration",
     siteName: "Excel Experts",
     images: [
@@ -33,17 +33,12 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Upgrades and Migration",
     description:
-      "Stuck on an Old Version? Expert help with Excel workbook upgrades, VBA migration, and version compatibility issues. Professional Excel upgrade services across Australia. Call 1300 102 810",
+      "Stuck on an Old Version? Expert help with Excel workbook upgrades, VBA migration, and version compatibility issues. Professional Excel upgrade services across Australia.",
     images: ["/logo.png"],
   },
 
   alternates: {
-    canonical: "https://www.wordexperts.com.au/upgrades-and-migration",
-    alternate: [
-      {
-        url: "https://www.excelexperts.com.au/services/microsoft-word/upgrades-and-migration",
-      },
-    ],
+    canonical: "https://www.excelexperts.com.au/upgrades-and-migration",
   },
 };
 

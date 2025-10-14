@@ -37,7 +37,7 @@ const schema = {
       datePublished: "2024-10-27T00:00:00+00:00",
       dateModified: "2024-10-27T00:00:00+00:00",
       description:
-        "Professional Microsoft Access Azure cloud integration services. Our experts deliver seamless database migration, cloud optimization, and Azure integration solutions.",
+        "Professional Microsoft Access Azure cloud integration services. Our experts deliver seamless database migration, cloud optimisation, and Azure integration solutions.",
       potentialAction: [
         {
           "@type": "ReadAction",
