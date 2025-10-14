@@ -3,12 +3,12 @@ import React from "react";
 export const metadata = {
   title: "Data Automation Solutions | Excel Experts",
   description:
-    "Our Excel-Word integration solutions automate data transfer between spreadsheets and documents. We streamline your workflow by eliminating repetitive data entry and ensuring consistent data flow across platforms.",
+    "Our Excel-Word integration solutions automate data transfer between spreadsheets and documents. We streamline your workflow by eliminating repetitive data entry.",
 
   openGraph: {
     title: "Data Automation Solutions | Excel Experts",
     description:
-      "Our Excel-Word integration solutions automate data transfer between spreadsheets and documents. We streamline your workflow by eliminating repetitive data entry and ensuring consistent data flow across platforms.",
+      "Our Excel-Word integration solutions automate data transfer between spreadsheets and documents. We streamline your workflow by eliminating repetitive data entry.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/remove-repetition-and-increase-productivity",
     siteName: "Excel Experts",
     images: [

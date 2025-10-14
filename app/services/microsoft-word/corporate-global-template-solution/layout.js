@@ -3,12 +3,12 @@ import React from "react";
 export const metadata = {
   title: "Excel-Integrated Corporate Word Solutions | Excel Experts",
   description:
-    "Advanced Corporate Template Solution combining Excel data automation with Word templates. Create professional documents that automatically pull from your Excel data while maintaining consistent formatting and branding.",
+    "In partnership with Word Experts, we create professional documents that automatically pull from your Excel data while maintaining consistent formatting and branding.",
 
   openGraph: {
     title: "Excel-Integrated Corporate Word Solutions | Excel Experts",
     description:
-      "Advanced Corporate Template Solution combining Excel data automation with Word templates. Create professional documents that automatically pull from your Excel data while maintaining consistent formatting and branding.",
+      "In partnership with Word Experts, we create professional documents that automatically pull from your Excel data while maintaining consistent formatting and branding.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/corporate-global-template-solution",
     siteName: "Excel Experts",
     images: [
@@ -31,7 +31,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel-Integrated Corporate Word Solutions | Excel Experts",
     description:
-      "Advanced Corporate Template Solution combining Excel data automation with Word templates. Create professional documents that automatically pull from your Excel data while maintaining consistent formatting and branding.",
+      "In partnership with Word Experts, we create professional documents that automatically pull from your Excel data while maintaining consistent formatting and branding.",
     images: ["/logo.png"],
   },
 

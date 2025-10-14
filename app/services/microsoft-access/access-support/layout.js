@@ -4,13 +4,13 @@ export const metadata = {
   // Basic metadata
   title: "Microsoft Access Support and Training | Excel Experts",
   description:
-    "Expert Microsoft Access database consultants providing remote and onsite support, troubleshooting, training, and maintenance services. Available Australia-wide with competitive rates.",
+    "Expert Microsoft Access database consultants providing remote and onsite support, troubleshooting, training, and maintenance services. Available Australia-wide.",
 
   // OpenGraph
   openGraph: {
-  title: "Microsoft Access Support and Training | Excel Experts",
-  description:
-    "Expert Microsoft Access database consultants providing remote and onsite support, troubleshooting, training, and maintenance services. Available Australia-wide with competitive rates.",
+    title: "Microsoft Access Support and Training | Excel Experts",
+    description:
+      "Expert Microsoft Access database consultants providing remote and onsite support, troubleshooting, training, and maintenance services. Available Australia-wide.",
     url: "https://www.excelexperts.com.au/services/microsoft-access/access-support",
     siteName: "Excel Experts",
     images: [
@@ -31,13 +31,13 @@ export const metadata = {
     "Access database remote support services",
   ],
 
-                                      // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
-  title: "Microsoft Access Support and Training | Excel Experts",
-  description:
-    "Expert Microsoft Access database consultants providing remote and onsite support, troubleshooting, training, and maintenance services. Available Australia-wide with competitive rates.",
+    title: "Microsoft Access Support and Training | Excel Experts",
+    description:
+      "Expert Microsoft Access database consultants providing remote and onsite support, troubleshooting, training, and maintenance services. Available Australia-wide with competitive rates.",
     images: ["/logo.png"],
   },
 

@@ -3,11 +3,11 @@ import React from "react";
 export const metadata = {
   title: "Excel-Integrated Popup Forms | Excel Experts",
   description:
-    "Our Excel integration experts deliver popup forms that seamlessly connect with your spreadsheet data, enhancing data entry processes, improving accuracy, and streamlining Excel-to-Word workflows while saving your business money.",
+    "Our Excel integration experts deliver popup forms that seamlessly connect with your spreadsheet data, enhancing data entry processes, improving accuracy, and streamlining Excel-to-Word workflows.",
   openGraph: {
     title: "Excel-Integrated Popup Forms | Excel Experts",
     description:
-      "Our Excel integration experts deliver popup forms that seamlessly connect with your spreadsheet data, enhancing data entry processes, improving accuracy, and streamlining Excel-to-Word workflows while saving your business money.",
+      "Our Excel integration experts deliver popup forms that seamlessly connect with your spreadsheet data, enhancing data entry processes, improving accuracy, and streamlining Excel-to-Word workflows.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/popup-forms",
     siteName: "Excel Experts",
     images: [

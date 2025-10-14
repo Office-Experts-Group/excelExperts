@@ -4,13 +4,13 @@ export const metadata = {
   // Basic metadata
   title: "Word Template Creation | Excel Experts",
   description:
-    "Excel Experts create professional Word templates with seamless Excel integration capabilities. Our templates feature automated data integration, custom formatting, and comprehensive branding across your Microsoft Office documents.",
+    "Excel Experts partners with Word Experts to create professional Word templates with seamless Excel integration capabilities.",
 
   // OpenGraph
   openGraph: {
     title: "Word Template Creation | Excel Experts",
     description:
-      "Excel Experts create professional Word templates with seamless Excel integration capabilities. Our templates feature automated data integration, custom formatting, and comprehensive branding across your Microsoft Office documents.",
+      "Excel Experts partners with Word Experts to create professional Word templates with seamless Excel integration capabilities.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/word-document-template-creation",
     siteName: "Excel Experts",
     images: [

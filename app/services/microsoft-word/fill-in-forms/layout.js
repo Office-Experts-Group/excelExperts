@@ -3,11 +3,11 @@ import React from "react";
 export const metadata = {
   title: "Excel-Integrated Form Solutions | Excel Experts",
   description:
-    "Expert form design services combining Excel data management with Word forms. Specialising in creating data-driven forms with automated Excel integration, spreadsheet synchronization, and advanced VBA solutions.",
+    "Expert form design services combining Excel data management with Word forms. Specialising in creating data-driven forms with automated Excel integration.",
   openGraph: {
     title: "Excel-Integrated Form Solutions | Excel Experts",
     description:
-      "Expert form design services combining Excel data management with Word forms. Specialising in creating data-driven forms with automated Excel integration, spreadsheet synchronization, and advanced VBA solutions.",
+      "Expert form design services combining Excel data management with Word forms. Specialising in creating data-driven forms with automated Excel integration.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/fill-in-forms",
     siteName: "Excel Experts",
     images: [

@@ -3,12 +3,12 @@ import React from "react";
 export const metadata = {
   title: "Microsoft Word Services | Excel Experts",
   description:
-    "Our Excel Experts team has a dedicated wing of Word design professionals who can help you with all aspects of your company's Word documents, excel, access and power platform integrations.",
+    "Our Excel Experts team has a dedicated wing of Word design professionals who can help you with all aspects of your company's Word documents",
 
   openGraph: {
     title: "Microsoft Word Services | Excel Experts",
     description:
-      "Our Excel Experts team has a dedicated wing of Word design professionals who can help you with all aspects of your company's Word documents, excel, access and power platform integrations.",
+      "Our Excel Experts team has a dedicated wing of Word design professionals who can help you with all aspects of your company's Word documents.",
     url: "https://www.excelexperts.com.au/services/microsoft-word",
     siteName: "Excel Experts",
     images: [

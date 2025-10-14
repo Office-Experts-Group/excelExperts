@@ -4,12 +4,12 @@ export const metadata = {
   title:
     "Word Design Services | Excel-Integrated Templates | Data-Driven Design Solutions",
   description:
-    "Excel Experts specialise in converting your existing documents into smart, data-integrated Word templates. Our solutions combine Excel's powerful data handling with Word's document capabilities for automated, professional results.",
+    "We specialise in converting your existing documents into smart, data-integrated Word templates. Our solutions combined with Word Experts provide Excel's powerful data handling with Word's document capabilities.",
 
   openGraph: {
     title: "Word Template Conversions | Excel-Integrated Design Services",
     description:
-      "Transform your documents into smart, data-driven Word templates with Excel integration. Our expert team combines Excel's analytical power with Word's document capabilities for automated, professional results.",
+      "We specialise in converting your existing documents into smart, data-integrated Word templates. Our solutions combined with Word Experts provide Excel's powerful data handling with Word's document capabilities.",
     url: "https://www.excelexperts.com.au/services/microsoft-word/word-template-conversions/",
     siteName: "Excel Experts",
     images: [
@@ -29,13 +29,13 @@ export const metadata = {
     "Excel-Word template integration and conversions",
   ],
 
-                                                                      // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
     title: "Word Template Conversions | Excel-Integrated Design Services",
     description:
-      "Transform your documents into smart, data-driven Word templates with Excel integration. Our expert team combines Excel's analytical power with Word's document capabilities for automated, professional results.",
+      "Excel Experts specialise in converting your existing documents into smart, data-integrated Word templates. Our solutions combined with Word Experts provide Excel's powerful data handling with Word's document capabilities.",
     images: ["/logo.png"],
   },
 
