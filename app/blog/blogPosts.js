@@ -42,4 +42,18 @@ export const blogPosts = [
     youtubeId: null,
     imagePath: "/blog/custom.webp",
   },
+  {
+    id: 4,
+    title: "10 Common Excel Problems on Mac and How to Fix Them",
+    description:
+      "Experiencing issues with Excel on your Mac? Discover solutions to the 10 most common Excel problems Mac users face, from crashes and freezing to compatibility issues and keyboard shortcuts not working.",
+    slug: "excel-problems-on-mac",
+    date: "December 26, 2025",
+    author: "Daniel Thomas",
+    readingTime: "8 min",
+    category: "Troubleshooting",
+    featured: true,
+    youtubeId: null,
+    imagePath: "/blog/mac/excel-mac-problems.webp",
+  },
 ];
