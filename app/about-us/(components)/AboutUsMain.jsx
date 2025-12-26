@@ -29,8 +29,8 @@ const AboutUsMain = () => {
               specific needs.
             </p>
           </div>
-          <Link href="/meet-the-team" className={`btn ${styles.btn}`}>
-            Meet Our Team
+          <Link href="/services" className={`btn ${styles.btn}`}>
+            Our Services
           </Link>
         </div>
       </AnimateOnScroll>
