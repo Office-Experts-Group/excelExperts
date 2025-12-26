@@ -76,6 +76,9 @@
 .content p {
   color: #777a7e;
 }
+.content span {
+  color: #777a7e !important;
+}
 @media screen and (max-width: 1000px) {
   .content {
     grid-column: span 2;

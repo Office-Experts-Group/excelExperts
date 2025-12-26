@@ -237,7 +237,7 @@
   color: #777a7e;
 }
 .categoryButton:hover {
-  background-color: #6b6d71;
+  background-color: rgb(106.6142857143, 109.3020408163, 112.8857142857);
 }
 .categoryButton.active {
   background-color: #046999;

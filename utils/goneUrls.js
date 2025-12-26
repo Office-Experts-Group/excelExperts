@@ -69,7 +69,6 @@ export const moreGoneUrls = [
   "/faq",
   "/testimonials/essential-property-solutions",
   "/corporate-global-template-solution",
-  "/services/microsoft-excel",
 ].map((url) => url.toLowerCase());
 
 // Combined array for easier use

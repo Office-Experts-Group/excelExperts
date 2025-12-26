@@ -50,6 +50,7 @@
   filter: brightness(0.7);
   animation: scale 15s infinite linear;
   transform-origin: center center;
+  aspect-ratio: 150/1.019;
 }
 
 .shape {
@@ -137,6 +138,7 @@
   justify-content: center;
   width: 225px;
   height: 70px;
+  z-index: 5;
 }
 @media (max-width: 449px) {
   .content a {

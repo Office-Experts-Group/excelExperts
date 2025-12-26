@@ -35,7 +35,7 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
-      dateModified: "2025-07-04T00:00:00+00:00",
+      dateModified: "2025-12-26T00:00:00+00:00",
       description:
         "Excel Experts is Australia's trusted team of Microsoft Excel consultants, offering custom solutions, automation, and training for both PC and Mac users nationwide.",
       breadcrumb: {

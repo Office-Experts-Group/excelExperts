@@ -1,11 +1,6 @@
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const REDIRECTS = [
   {
-    source: "/services",
-    destination: "/",
-    permanent: true,
-  },
-  {
     source: "/services/microsoft-excel",
     destination: "https://www.excelexperts.com.au",
     permanent: true,
@@ -68,7 +63,8 @@ const REDIRECTS = [
   },
   {
     source: "/services/microsoft-office-365",
-    destination: "https://www.officeexperts.com.au/services/microsoft-office-365",
+    destination:
+      "https://www.officeexperts.com.au/services/microsoft-office-365",
     permanent: true,
   },
   {
@@ -117,16 +113,6 @@ const nextConfig = {
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
     imageSizes: [16, 32, 48, 64, 96, 128, 256],
   },
-
-  async rewrites() {
-    return [
-      {
-        source: "/about-us",
-        destination: "https://www.officeexperts.com.au/about-us",
-      },
-    ];
-  },
-
   async redirects() {
     return REDIRECTS.map((redirect) => ({
       ...redirect,

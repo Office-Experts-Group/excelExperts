@@ -71,7 +71,7 @@ export const metadata = {
       {
         url: "/logo.png",
         width: 1200,
-        height: 620,
+        height: 630,
         alt: "Excel Experts Group Logo",
       },
     ],
