@@ -8,7 +8,7 @@
 @media (max-width: 449px) {
   .pageSegment {
     flex-direction: column;
-    margin: 6rem 1rem;
+    margin: 3rem 1rem 6rem 1rem;
   }
 }
 @media (min-width: 450px) and (max-width: 766px) {

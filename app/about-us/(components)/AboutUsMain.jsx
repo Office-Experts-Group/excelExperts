@@ -24,7 +24,7 @@ const AboutUsMain = () => {
           <div className={styles.text}>
             <p>
               What sets us apart is our unique combination of technical
-              development knowledge and real-world business insight—allowing us
+              development knowledge and real-world business insight, allowing us
               to craft efficient, scalable Excel solutions tailored to your
               specific needs.
             </p>

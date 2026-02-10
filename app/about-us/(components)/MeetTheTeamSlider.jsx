@@ -4,7 +4,7 @@ import styles from "../../../styles/testimonialsSection.module.css";
 import { teamMembers } from "../../../meetTheTeam";
 import TeamCard from "./TeamCard";
 
-const MeetTheTeamSlider = () => {
+const MeetTheTeamSlider = ({ location }) => {
   const trackRef = useRef(null);
 
   useEffect(() => {
@@ -51,9 +51,11 @@ const MeetTheTeamSlider = () => {
   return (
     <section className={styles.testimonials}>
       <div className={styles.box}>
-        <h2>Office Experts</h2>
+        <h2>Excel Experts</h2>
       </div>
-      <h3 className={styles.teamHeading}>Meet The Team</h3>
+      <h3 className={styles.teamHeading}>
+        Meet Our {location ? location : ""} Team
+      </h3>
 
       <div
         className={styles.testimonialsWrapper}

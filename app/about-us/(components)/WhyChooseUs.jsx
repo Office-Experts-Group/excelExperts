@@ -57,7 +57,7 @@ const WhyChooseUs = () => {
           <p>
             We provide high-quality Excel solutions and offer personalised
             customer service. We aim to exceed expectations and become your
-            trusted Microsoft Experts, The excel department of developers,
+            trusted Microsoft Experts, The Excel department of developers,
             programmers and consultants work closely alongside the entire{" "}
             <Link href="https://www.officeexperts.com.au">
               Office Experts Group

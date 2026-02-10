@@ -13,7 +13,7 @@ const LocationSummary = ({ location, service }) => {
       </div>
 
       <p>
-        Our Excel experts provide {location} businesses with professional
+        Our Excel experts provide businesses in {location} with professional
         spreadsheet solutions, custom formula development, and support services
         tailored to your specific needs. Our local team of Microsoft-certified
         Excel specialists offer expertise in add-in development, data analysis,
