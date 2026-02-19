@@ -133,7 +133,7 @@ export const teamMembers = [
     name: "Damien",
     role: "SENIOR WORD/POWERPOINT DESIGNER",
     location: "centralCoast",
-    skills: ["Word", "PowerPoint"],
+    skills: ["Word", "PowerPoint", "Excel"],
     image: damien,
   },
   {
@@ -208,6 +208,7 @@ export const teamMembers = [
       "Office 365",
       "SharePoint",
       "Azure",
+      "Excel",
     ],
     image: paulD,
   },
@@ -215,7 +216,7 @@ export const teamMembers = [
     name: "Aleisha",
     role: "SENIOR WORD/POWERPOINT DESIGNER",
     location: "northernRivers",
-    skills: ["Word", "PowerPoint", "InDesign"],
+    skills: ["Word", "PowerPoint", "InDesign", "Excel"],
     image: aleisha,
   },
   {
@@ -289,7 +290,7 @@ export const teamMembers = [
     name: "Renee",
     role: "SENIOR WORD/POWERPOINT DESIGNER",
     location: "northernRivers",
-    skills: ["Word", "PowerPoint"],
+    skills: ["Word", "PowerPoint", "Excel"],
     image: renee,
   },
   {
