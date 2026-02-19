@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import AnimateOnScroll from "../../../components/AnimateOnScroll";
+import Link from "next/link";
 
 import styles from "../../../styles/pageSegment.module.scss";
 
@@ -38,10 +39,13 @@ const PageSegmentMain = () => {
               Queensland.
             </p>
             <p>
-              As valued members of the Office Experts Group's Australia-wide
-              network, our team brings over 25 years of experience engineering
-              sophisticated Excel applications that fundamentally change how
-              businesses manage and analyse their data.
+              As valued members of the{" "}
+              <Link href="https://www.officeexperts.com.au">
+                Office Experts Group's
+              </Link>{" "}
+              Australia-wide network, our team brings over 25 years of
+              experience engineering sophisticated Excel applications that
+              fundamentally change how businesses manage and analyse their data.
             </p>
           </div>
         </AnimateOnScroll>

@@ -1,14 +1,14 @@
 import React from "react";
 
 export const metadata = {
-  title: "Excel Programmers Sydney | VBA & Macro Development Experts",
+  title: "Excel Programmers Sydney",
   description:
-    "Expert Excel programmers in Sydney with 25+ years of experience. Specialising in VBA macro development, custom automation, spreadsheet solutions and formula development.",
+    "Expert Excel programmers in Sydney with 25+ years of experience. Get a free consultation today from Australia's leading Excel experts.",
 
   openGraph: {
-    title: "Excel Programmers Sydney | VBA & Macro Development Experts",
+    title: "Excel Programmers Sydney",
     description:
-      "Expert Excel programmers in Sydney with 25+ years of experience. Specialising in VBA macro development, custom automation, spreadsheet solutions and formula development.",
+      "Expert Excel programmers in Sydney with 25+ years of experience. Get a free consultation today from Australia's leading Excel experts.",
     url: "https://www.excelexperts.com.au/excel-programmers-sydney",
     siteName: "Excel Experts",
     images: [
@@ -28,10 +28,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
-    title:
-      "Excel Programmers Sydney | VBA & Macro Development Experts | Excel Experts",
+    title: "Excel Programmers Sydney | Excel Experts",
     description:
-      "Expert Excel programmers in Sydney with 25+ years of experience. Specialising in VBA macro development, custom automation, spreadsheet solutions and formula development.",
+      "Expert Excel programmers in Sydney with 25+ years of experience. Get a free consultation today from Australia's leading Excel experts.",
     images: ["/logo.png"],
   },
 

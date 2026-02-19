@@ -17,9 +17,17 @@ const LocationTeamGrid = ({ location, title, showLocation = true }) => {
   const teamMembers = getTeamByLocation(location);
   const locationName = getLocationDisplayName(location);
 
-  // Generate title
-  const displayTitle =
-    title || `Our Team ${showLocation ? `in ${locationName}` : ""}`;
+  // Generate title based on team size
+  const getDisplayTitle = () => {
+    if (title) return title;
+
+    const locationSuffix = showLocation ? ` in ${locationName}` : "";
+    const prefix = teamMembers.length === 1 ? "Our Expert" : "Our Team";
+
+    return `${prefix}${locationSuffix}`;
+  };
+
+  const displayTitle = getDisplayTitle();
 
   return (
     <section className={styles.locationTeam}>

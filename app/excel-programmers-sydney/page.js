@@ -102,14 +102,14 @@ const schema = {
       "@type": "WebPage",
       "@id": "https://www.excelexperts.com.au/excel-programmers-sydney",
       url: "https://www.excelexperts.com.au/excel-programmers-sydney",
-      name: "Excel Programmers Sydney | VBA & Macro Development Experts",
+      name: "Excel Programmers Sydney",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2026-02-10T00:00:00+00:00",
-      dateModified: "2026-02-10T00:00:00+00:00",
+      dateModified: "2026-02-19T00:00:00+00:00",
       description:
-        "Expert Excel programmers in Sydney with 25+ years of experience. Specialising in VBA macro development, custom automation, spreadsheet solutions and formula development.",
+        "Expert Excel programmers in Sydney with 25+ years of experience. Get a free consultation today from Australia's leading Excel experts.",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-programmers-sydney#breadcrumb",
@@ -155,7 +155,6 @@ const schema = {
         "@type": "City",
         name: "Sydney",
       },
-      priceRange: "$$",
     },
   ],
 };

@@ -16,8 +16,8 @@ import { filterAndSortTestimonials } from "../../utils/filterTestimonials";
 
 const filteredTestimonials = filterAndSortTestimonials(testimonials, "excel");
 
-import melbourneCode from "../../public/pageHeros/melbourneCode.webp";
-import melbourneCodeMob from "../../public/pageHeros/mob/melbourneCodeMob.webp";
+import northernRiversCode from "../../public/pageHeros/northernRiversCode.webp";
+import northernRiversCodeMob from "../../public/pageHeros/mob/northernRiversCodeMob.webp";
 
 const schema = {
   "@context": "https://schema.org",
@@ -25,36 +25,31 @@ const schema = {
     {
       "@type": "LocalBusiness",
       "@id":
-        "https://www.excelexperts.com.au/excel-programmers-melbourne#business",
-      name: "Excel Programmers Melbourne - Excel Experts",
+        "https://www.excelexperts.com.au/excel-programmers-northern-rivers-nsw#business",
+      name: "Excel Programmers Northern Rivers NSW - Excel Experts",
       image: "https://www.excelexperts.com.au/logo.png",
-      "@id": "https://www.excelexperts.com.au/excel-programmers-melbourne",
-      url: "https://www.excelexperts.com.au/excel-programmers-melbourne",
+      "@id":
+        "https://www.excelexperts.com.au/excel-programmers-northern-rivers-nsw",
+      url: "https://www.excelexperts.com.au/excel-programmers-northern-rivers-nsw",
       telephone: "1300 10 28 10",
-      openingHoursSpecification: {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        opens: "09:00",
-        closes: "17:00",
-      },
       areaServed: {
-        "@type": "City",
-        name: "Melbourne",
-        "@id": "https://en.wikipedia.org/wiki/Melbourne",
+        "@type": "AdministrativeArea",
+        name: "Northern Rivers NSW",
+        "@id": "https://en.wikipedia.org/wiki/Northern_Rivers_NSW",
       },
     },
     {
       "@type": "Service",
       "@id":
-        "https://www.excelexperts.com.au/excel-programmers-melbourne#service",
+        "https://www.excelexperts.com.au/excel-programmers-northern-rivers-nsw#service",
       serviceType: "Excel Programming and VBA Development",
       provider: {
         "@id":
-          "https://www.excelexperts.com.au/excel-programmers-melbourne#business",
+          "https://www.excelexperts.com.au/excel-programmers-northern-rivers-nsw#business",
       },
       areaServed: {
-        "@type": "City",
-        name: "Melbourne",
+        "@type": "AdministrativeArea",
+        name: "Northern Rivers NSW",
       },
       hasOfferCatalog: {
         "@type": "OfferCatalog",
@@ -64,34 +59,34 @@ const schema = {
             "@type": "Offer",
             itemOffered: {
               "@type": "Service",
-              name: "Custom VBA Development",
+              name: "VBA Macro Solutions",
               description:
-                "Tailored VBA programming and macro solutions for Excel automation",
+                "Tailored VBA programming and macro automation for Excel workbooks",
             },
           },
           {
             "@type": "Offer",
             itemOffered: {
               "@type": "Service",
-              name: "Spreadsheet Automation",
+              name: "Workflow Automation",
               description:
-                "Automated workflows and efficient processes for Excel workbooks",
+                "Automated business processes and streamlined workflows for Excel",
             },
           },
           {
             "@type": "Offer",
             itemOffered: {
               "@type": "Service",
-              name: "Bespoke Excel Development",
+              name: "Custom Spreadsheet Development",
               description:
-                "Custom spreadsheet design and development for specific business requirements",
+                "Bespoke Excel applications designed for specific business requirements",
             },
           },
           {
             "@type": "Offer",
             itemOffered: {
               "@type": "Service",
-              name: "Advanced Formula Solutions",
+              name: "Advanced Formula Engineering",
               description:
                 "Complex formula development and custom function creation for Excel",
             },
@@ -101,26 +96,27 @@ const schema = {
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.excelexperts.com.au/excel-programmers-melbourne",
-      url: "https://www.excelexperts.com.au/excel-programmers-melbourne",
-      name: "Excel Programmers Melbourne",
+      "@id":
+        "https://www.excelexperts.com.au/excel-programmers-northern-rivers-nsw",
+      url: "https://www.excelexperts.com.au/excel-programmers-northern-rivers-nsw",
+      name: "Excel Programmers Northern Rivers NSW",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
-      datePublished: "2026-02-10T00:00:00+00:00",
+      datePublished: "2026-02-19T00:00:00+00:00",
       dateModified: "2026-02-19T00:00:00+00:00",
       description:
-        "Professional Excel programmers in Melbourne offering 25+ years expertise. Custom VBA solutions, spreadsheet development, macro automation and advanced formula creation.",
+        "Established in the Northern Rivers in 2000, Excel Experts has grown to become a nationwide leader in developing Excel solutions for businesses of all sizes.",
       breadcrumb: {
         "@id":
-          "https://www.excelexperts.com.au/excel-programmers-melbourne#breadcrumb",
+          "https://www.excelexperts.com.au/excel-programmers-northern-rivers-nsw#breadcrumb",
       },
       inLanguage: "en-AU",
       potentialAction: [
         {
           "@type": "ReadAction",
           target: [
-            "https://www.excelexperts.com.au/excel-programmers-melbourne",
+            "https://www.excelexperts.com.au/excel-programmers-northern-rivers-nsw",
           ],
         },
       ],
@@ -128,7 +124,7 @@ const schema = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.excelexperts.com.au/excel-programmers-melbourne#breadcrumb",
+        "https://www.excelexperts.com.au/excel-programmers-northern-rivers-nsw#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
@@ -139,24 +135,24 @@ const schema = {
         {
           "@type": "ListItem",
           position: 2,
-          name: "Excel Programmers Melbourne",
+          name: "Excel Programmers Northern Rivers NSW",
         },
       ],
     },
     {
       "@type": "ProfessionalService",
       "@id":
-        "https://www.excelexperts.com.au/excel-programmers-melbourne#professional",
-      name: "Excel Programmers Melbourne",
+        "https://www.excelexperts.com.au/excel-programmers-northern-rivers-nsw#professional",
+      name: "Excel Programmers Northern Rivers NSW",
       description:
-        "Expert Excel programming and custom VBA development services in Melbourne",
+        "Specialist Excel programming and VBA automation services for the Northern Rivers region of NSW",
       provider: {
         "@id":
-          "https://www.excelexperts.com.au/excel-programmers-melbourne#business",
+          "https://www.excelexperts.com.au/excel-programmers-northern-rivers-nsw#business",
       },
       areaServed: {
-        "@type": "City",
-        name: "Melbourne",
+        "@type": "AdministrativeArea",
+        name: "Northern Rivers NSW",
       },
     },
   ],
@@ -170,15 +166,15 @@ const Page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <ServiceHero
-        title="Melbourne-based Excel Programming Specialists"
-        desktopImage={melbourneCode}
-        mobileImage={melbourneCodeMob}
-        altDesk="Programming code overlaying Melbourne cityscape"
-        altMob="Programming code overlaying Melbourne cityscape"
+        title="Excel Programming Specialists for Northern Rivers NSW"
+        desktopImage={northernRiversCode}
+        mobileImage={northernRiversCodeMob}
+        altDesk="Programming code with Northern Rivers landscape"
+        altMob="Programming code with Northern Rivers landscape"
       />
       <PageSegmentMain />
       <ServicesSection />
-      <TeamCardGrid location="melbourne" />
+      <TeamCardGrid location="northernRivers" />
       <Quote />
       <GoodToKnow altText={true} />
       <TickSegment />

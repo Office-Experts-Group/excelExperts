@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import AnimateOnScroll from "../../../components/AnimateOnScroll";
-import Link from "next/link";
 
 import styles from "../../../styles/pageSegment.module.scss";
 
 import expert from "../../../public/expert.webp";
+import Link from "next/link";
 
 const PageSegmentMain = () => {
   return (
@@ -26,24 +26,23 @@ const PageSegmentMain = () => {
         <AnimateOnScroll animation="slide-right" duration={1} delay={0}>
           <div className={styles.content}>
             <div className={styles.underline}>
-              <h2>Professional Excel Programming</h2>
+              <h2>Western Australia's Excel Specialists</h2>
             </div>
             <p></p>
             <p>
-              Our senior Excel programmers in Melbourne specialise in turning
-              complex spreadsheets into powerful, automated business tools. From
-              VBA development and workflow automation to database connectivity
-              and tailored formulas, we help organisations across Melbourne
-              operate faster, smarter, and with greater accuracy.
+              Our Perth-based Excel programmers offer on-site or remote services
+              to deliver expert VBA solutions, intelligent automation systems,
+              advanced formula development, and robust database connectivity for
+              businesses across Western Australia.
             </p>
             <p>
-              Operating as part of{" "}
+              As a key component of the{" "}
               <Link href="https://www.officeexperts.com.au">
                 Office Experts Group's
               </Link>{" "}
-              nationwide network, we draw on more than 25 years of collective
-              expertise developing Excel applications that revolutionise data
-              workflows for Australian enterprises.
+              Australia-wide presence, our team contributes over 25 years of
+              hands-on experience helping businesses to modernise their data
+              management.
             </p>
           </div>
         </AnimateOnScroll>

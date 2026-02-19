@@ -152,7 +152,6 @@ const schema = {
         "@type": "City",
         name: "Brisbane",
       },
-      priceRange: "$$",
     },
   ],
 };

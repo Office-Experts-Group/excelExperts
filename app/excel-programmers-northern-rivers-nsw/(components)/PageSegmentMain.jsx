@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import AnimateOnScroll from "../../../components/AnimateOnScroll";
-import Link from "next/link";
 
 import styles from "../../../styles/pageSegment.module.scss";
 
 import expert from "../../../public/expert.webp";
+import Link from "next/link";
 
 const PageSegmentMain = () => {
   return (
@@ -26,24 +26,25 @@ const PageSegmentMain = () => {
         <AnimateOnScroll animation="slide-right" duration={1} delay={0}>
           <div className={styles.content}>
             <div className={styles.underline}>
-              <h2>Professional Excel Programming</h2>
+              <h2>Your Local Excel Experts</h2>
             </div>
             <p></p>
             <p>
-              Our senior Excel programmers in Melbourne specialise in turning
-              complex spreadsheets into powerful, automated business tools. From
-              VBA development and workflow automation to database connectivity
-              and tailored formulas, we help organisations across Melbourne
-              operate faster, smarter, and with greater accuracy.
+              Established and still headquartered in the Northern Rivers for the
+              last 25 years, Scott and Rochelle have built a team of senior
+              programmers who now spread Australia wide. The business has grown
+              to become a trusted source of support, upgrades and maintenance
+              not only for Excel, but{" "}
+              <Link href="https://www.officeexperts.com.au">
+                across the entire Microsoft Suite
+              </Link>
+              .
             </p>
             <p>
-              Operating as part of{" "}
-              <Link href="https://www.officeexperts.com.au">
-                Office Experts Group's
-              </Link>{" "}
-              nationwide network, we draw on more than 25 years of collective
-              expertise developing Excel applications that revolutionise data
-              workflows for Australian enterprises.
+              The Excel team delivers on-site or remote services to businesses
+              of all sizes. We create VBA solutions, intelligent automation
+              systems, advanced formula development and robust database
+              connectivity.
             </p>
           </div>
         </AnimateOnScroll>

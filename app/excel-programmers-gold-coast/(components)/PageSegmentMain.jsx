@@ -26,24 +26,25 @@ const PageSegmentMain = () => {
         <AnimateOnScroll animation="slide-right" duration={1} delay={0}>
           <div className={styles.content}>
             <div className={styles.underline}>
-              <h2>Professional Excel Programming</h2>
+              <h2>Custom Excel Development</h2>
             </div>
             <p></p>
             <p>
-              Our senior Excel programmers in Melbourne specialise in turning
-              complex spreadsheets into powerful, automated business tools. From
-              VBA development and workflow automation to database connectivity
-              and tailored formulas, we help organisations across Melbourne
-              operate faster, smarter, and with greater accuracy.
+              Our Gold Coast programming team delivers professional VBA
+              solutions, workflow automation systems, sophisticated formula
+              development, and seamless database integration. We offer a{" "}
+              <Link href="#contact">free consultation</Link> to understand your
+              specific requirements, and then suggest the most efficient
+              solution that aligns with your budget and future goals.
             </p>
             <p>
-              Operating as part of{" "}
+              As an integral part of{" "}
               <Link href="https://www.officeexperts.com.au">
                 Office Experts Group's
               </Link>{" "}
-              nationwide network, we draw on more than 25 years of collective
-              expertise developing Excel applications that revolutionise data
-              workflows for Australian enterprises.
+              nationwide network, our programmers leverage more than 25 years of
+              combined experience building Excel applications that transform how
+              businesses process and analyse their critical data.
             </p>
           </div>
         </AnimateOnScroll>

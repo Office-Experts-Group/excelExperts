@@ -16,8 +16,8 @@ import { filterAndSortTestimonials } from "../../utils/filterTestimonials";
 
 const filteredTestimonials = filterAndSortTestimonials(testimonials, "excel");
 
-import melbourneCode from "../../public/pageHeros/melbourneCode.webp";
-import melbourneCodeMob from "../../public/pageHeros/mob/melbourneCodeMob.webp";
+import goldCoastCode from "../../public/pageHeros/goldCoastCode.webp";
+import goldCoastCodeMob from "../../public/pageHeros/mob/goldCoastCodeMob.webp";
 
 const schema = {
   "@context": "https://schema.org",
@@ -25,36 +25,30 @@ const schema = {
     {
       "@type": "LocalBusiness",
       "@id":
-        "https://www.excelexperts.com.au/excel-programmers-melbourne#business",
-      name: "Excel Programmers Melbourne - Excel Experts",
+        "https://www.excelexperts.com.au/excel-programmers-gold-coast#business",
+      name: "Excel Programmers Gold Coast - Excel Experts",
       image: "https://www.excelexperts.com.au/logo.png",
-      "@id": "https://www.excelexperts.com.au/excel-programmers-melbourne",
-      url: "https://www.excelexperts.com.au/excel-programmers-melbourne",
+      "@id": "https://www.excelexperts.com.au/excel-programmers-gold-coast",
+      url: "https://www.excelexperts.com.au/excel-programmers-gold-coast",
       telephone: "1300 10 28 10",
-      openingHoursSpecification: {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        opens: "09:00",
-        closes: "17:00",
-      },
       areaServed: {
         "@type": "City",
-        name: "Melbourne",
-        "@id": "https://en.wikipedia.org/wiki/Melbourne",
+        name: "Gold Coast",
+        "@id": "https://en.wikipedia.org/wiki/Gold_Coast,_Queensland",
       },
     },
     {
       "@type": "Service",
       "@id":
-        "https://www.excelexperts.com.au/excel-programmers-melbourne#service",
+        "https://www.excelexperts.com.au/excel-programmers-gold-coast#service",
       serviceType: "Excel Programming and VBA Development",
       provider: {
         "@id":
-          "https://www.excelexperts.com.au/excel-programmers-melbourne#business",
+          "https://www.excelexperts.com.au/excel-programmers-gold-coast#business",
       },
       areaServed: {
         "@type": "City",
-        name: "Melbourne",
+        name: "Gold Coast",
       },
       hasOfferCatalog: {
         "@type": "OfferCatalog",
@@ -64,9 +58,9 @@ const schema = {
             "@type": "Offer",
             itemOffered: {
               "@type": "Service",
-              name: "Custom VBA Development",
+              name: "VBA Macro Development",
               description:
-                "Tailored VBA programming and macro solutions for Excel automation",
+                "Custom VBA programming and macro automation solutions for Excel workbooks",
             },
           },
           {
@@ -75,25 +69,25 @@ const schema = {
               "@type": "Service",
               name: "Spreadsheet Automation",
               description:
-                "Automated workflows and efficient processes for Excel workbooks",
+                "Automated business processes and streamlined workflows for Excel applications",
             },
           },
           {
             "@type": "Offer",
             itemOffered: {
               "@type": "Service",
-              name: "Bespoke Excel Development",
+              name: "Custom Excel Solutions",
               description:
-                "Custom spreadsheet design and development for specific business requirements",
+                "Bespoke spreadsheet applications designed for specific business requirements",
             },
           },
           {
             "@type": "Offer",
             itemOffered: {
               "@type": "Service",
-              name: "Advanced Formula Solutions",
+              name: "Advanced Formula Development",
               description:
-                "Complex formula development and custom function creation for Excel",
+                "Complex formula engineering and custom calculation solutions for Excel",
             },
           },
         ],
@@ -101,26 +95,26 @@ const schema = {
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.excelexperts.com.au/excel-programmers-melbourne",
-      url: "https://www.excelexperts.com.au/excel-programmers-melbourne",
-      name: "Excel Programmers Melbourne",
+      "@id": "https://www.excelexperts.com.au/excel-programmers-gold-coast",
+      url: "https://www.excelexperts.com.au/excel-programmers-gold-coast",
+      name: "Excel Programmers Gold Coast | VBA Macro Automation & Custom Development",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
-      datePublished: "2026-02-10T00:00:00+00:00",
+      datePublished: "2026-02-19T00:00:00+00:00",
       dateModified: "2026-02-19T00:00:00+00:00",
       description:
-        "Professional Excel programmers in Melbourne offering 25+ years expertise. Custom VBA solutions, spreadsheet development, macro automation and advanced formula creation.",
+        "Gold Coast's experienced Excel programmers with 25+ years expertise. Backed with a nationwide team of Microsoft experts. Contact us now for a free consultation.",
       breadcrumb: {
         "@id":
-          "https://www.excelexperts.com.au/excel-programmers-melbourne#breadcrumb",
+          "https://www.excelexperts.com.au/excel-programmers-gold-coast#breadcrumb",
       },
       inLanguage: "en-AU",
       potentialAction: [
         {
           "@type": "ReadAction",
           target: [
-            "https://www.excelexperts.com.au/excel-programmers-melbourne",
+            "https://www.excelexperts.com.au/excel-programmers-gold-coast",
           ],
         },
       ],
@@ -128,7 +122,7 @@ const schema = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.excelexperts.com.au/excel-programmers-melbourne#breadcrumb",
+        "https://www.excelexperts.com.au/excel-programmers-gold-coast#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
@@ -139,24 +133,24 @@ const schema = {
         {
           "@type": "ListItem",
           position: 2,
-          name: "Excel Programmers Melbourne",
+          name: "Excel Programmers Gold Coast",
         },
       ],
     },
     {
       "@type": "ProfessionalService",
       "@id":
-        "https://www.excelexperts.com.au/excel-programmers-melbourne#professional",
-      name: "Excel Programmers Melbourne",
+        "https://www.excelexperts.com.au/excel-programmers-gold-coast#professional",
+      name: "Excel Programmers Gold Coast",
       description:
-        "Expert Excel programming and custom VBA development services in Melbourne",
+        "Expert Excel programming and VBA automation services for the Gold Coast region",
       provider: {
         "@id":
-          "https://www.excelexperts.com.au/excel-programmers-melbourne#business",
+          "https://www.excelexperts.com.au/excel-programmers-gold-coast#business",
       },
       areaServed: {
         "@type": "City",
-        name: "Melbourne",
+        name: "Gold Coast",
       },
     },
   ],
@@ -170,15 +164,15 @@ const Page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <ServiceHero
-        title="Melbourne-based Excel Programming Specialists"
-        desktopImage={melbourneCode}
-        mobileImage={melbourneCodeMob}
-        altDesk="Programming code overlaying Melbourne cityscape"
-        altMob="Programming code overlaying Melbourne cityscape"
+        title="Gold Coast Excel Programming Professionals"
+        desktopImage={goldCoastCode}
+        mobileImage={goldCoastCodeMob}
+        altDesk="Programming code with Gold Coast skyline"
+        altMob="Programming code with Gold Coast skyline"
       />
       <PageSegmentMain />
       <ServicesSection />
-      <TeamCardGrid location="melbourne" />
+      <TeamCardGrid location="goldCoast" />
       <Quote />
       <GoodToKnow altText={true} />
       <TickSegment />

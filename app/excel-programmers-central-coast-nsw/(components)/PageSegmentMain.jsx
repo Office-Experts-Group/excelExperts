@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import AnimateOnScroll from "../../../components/AnimateOnScroll";
 import Link from "next/link";
+import AnimateOnScroll from "../../../components/AnimateOnScroll";
 
 import styles from "../../../styles/pageSegment.module.scss";
 
@@ -26,24 +26,26 @@ const PageSegmentMain = () => {
         <AnimateOnScroll animation="slide-right" duration={1} delay={0}>
           <div className={styles.content}>
             <div className={styles.underline}>
-              <h2>Professional Excel Programming</h2>
+              <h2>Excel Expertise for the Central Coast</h2>
             </div>
             <p></p>
             <p>
-              Our senior Excel programmers in Melbourne specialise in turning
-              complex spreadsheets into powerful, automated business tools. From
-              VBA development and workflow automation to database connectivity
-              and tailored formulas, we help organisations across Melbourne
-              operate faster, smarter, and with greater accuracy.
+              Our Central Coast programmers provide comprehensive Excel services
+              for businesses throughout the region, with our 20+ strong team of
+              programmers across the country we offer on-site support or cost
+              effective remote solutions. We offer a{" "}
+              <Link href="#contact">free consultation</Link> to help you
+              determine the best course of action for your business data.
             </p>
             <p>
-              Operating as part of{" "}
+              As part of the{" "}
               <Link href="https://www.officeexperts.com.au">
                 Office Experts Group's
               </Link>{" "}
-              nationwide network, we draw on more than 25 years of collective
-              expertise developing Excel applications that revolutionise data
-              workflows for Australian enterprises.
+              nationwide network, established in 2000, our programmers bring
+              over 25 years of expertise developing Excel applications,
+              upgrading and maintaining databases, along with the ability to
+              integrate your existing systems across the Microsoft ecosystem.
             </p>
           </div>
         </AnimateOnScroll>
