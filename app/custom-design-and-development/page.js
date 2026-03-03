@@ -1,12 +1,16 @@
 import React from "react";
+import dynamic from "next/dynamic";
 
-import Contact from "../../components/Contact";
 import ServiceHero from "../../components/ServiceHero";
 import PageSegmentMain2 from "./(components)/PageSegmentMain2";
-import PageSegmentCenter from "./(components)/PageSegmentCenter";
-import SegmentMainCopy from "./(components)/SegmentMainCopy";
-import ExpertsAwait from "../../components/ExpertsAwait";
-import Promo from "../../components/Promo";
+
+const Contact = dynamic(() => import("../../components/Contact"));
+const PageSegmentCenter = dynamic(
+  () => import("./(components)/PageSegmentCenter"),
+);
+const SegmentMainCopy = dynamic(() => import("./(components)/SegmentMainCopy"));
+const ExpertsAwait = dynamic(() => import("../../components/ExpertsAwait"));
+const Promo = dynamic(() => import("../../components/Promo"));
 import ContentsCopy from "./(components)/ContentsCopy";
 import Contents from "./(components)/Contents";
 
@@ -16,6 +20,7 @@ import codeMob from "../../public/pageHeros/mob/codeMob.webp";
 import {
   generateProfessionalServiceSchema,
   generateOrganizationSchema,
+  generateWebSiteSchema,
 } from "../../utils/schemaGenerators";
 
 const schema = {
@@ -23,6 +28,11 @@ const schema = {
   "@graph": [
     generateOrganizationSchema(),
     generateProfessionalServiceSchema(),
+    generateWebSiteSchema(
+      "https://www.excelsexperts.com.au",
+      "Excel Experts",
+      "Australia-wide Microsoft Excel Programming, Development and Consulting Experts",
+    ),
     {
       "@type": "WebPage",
       "@id": "https://www.excelexperts.com.au/custom-design-and-development",

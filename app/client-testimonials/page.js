@@ -1,20 +1,23 @@
 import React from "react";
+import dynamic from "next/dynamic";
 
-import Contact from "../../components/Contact";
-import TestimonialPage from "./(components)/TestimonialPage";
 import ServiceHero from "../../components/ServiceHero";
+const Contact = dynamic(() => import("../../components/Contact"));
+const TestimonialPage = dynamic(() => import("./(components)/TestimonialPage"));
 
 import { getTestimonialsPageSchema } from "../../utils/testimonialSchemaGenerator";
 import { testimonials } from "../../testimonials";
 import { filterAndSortTestimonials } from "../../utils/filterTestimonials";
 const serviceTestimonials =
   filterAndSortTestimonials(testimonials, "excel") || testimonials;
+
 import testimonialsPic from "../../public/pageHeros/testimonials.webp";
 import testimonialsMob from "../../public/pageHeros/mob/testimonialsMob.webp";
 
 import {
   generateProfessionalServiceSchema,
   generateOrganizationSchema,
+  generateWebSiteSchema,
 } from "../../utils/schemaGenerators";
 
 const schema = {
@@ -22,8 +25,13 @@ const schema = {
   "@graph": [
     generateOrganizationSchema(),
     generateProfessionalServiceSchema(),
+    ...getTestimonialsPageSchema(serviceTestimonials, "excel")["@graph"],
+    generateWebSiteSchema(
+      "https://www.excelsexperts.com.au",
+      "Excel Experts",
+      "Australia-wide Microsoft Excel Programming, Development and Consulting Experts",
+    ),
     {
-      ...getTestimonialsPageSchema(serviceTestimonials, "excel")["@graph"],
       "@type": "WebPage",
       "@id": "https://www.excelexperts.com.au/client-testimonials",
       url: "https://www.excelexperts.com.au/client-testimonials",
@@ -35,7 +43,7 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2019-08-06T08:12:54+00:00",
-      dateModified: "2025-09-02T00:24:40+00:00",
+      dateModified: "2026-03-02T00:24:40+00:00",
       description:
         "Read client testimonials about Excel Experts. Discover how we've helped Australian businesses streamline workflows and boost productivity with Excel.",
       breadcrumb: {

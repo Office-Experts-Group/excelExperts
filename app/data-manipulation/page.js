@@ -1,10 +1,12 @@
 import React from "react";
+import dynamic from "next/dynamic";
 
 import ServiceHero from "../../components/ServiceHero";
-import ExpertsAwait from "../../components/ExpertsAwait";
-import Promo from "../../components/Promo";
-import Contact from "../../components/Contact";
 import PageSegmentMain2 from "./(components)/PageSegmentMain2";
+
+const ExpertsAwait = dynamic(() => import("../../components/ExpertsAwait"));
+const Promo = dynamic(() => import("../../components/Promo"));
+const Contact = dynamic(() => import("../../components/Contact"));
 
 import graphic from "../../public/pageHeros/graphic.webp";
 import graph from "../../public/pageHeros/mob/graph.webp";
@@ -12,6 +14,7 @@ import graph from "../../public/pageHeros/mob/graph.webp";
 import {
   generateProfessionalServiceSchema,
   generateOrganizationSchema,
+  generateWebSiteSchema,
 } from "../../utils/schemaGenerators";
 
 const schema = {
@@ -19,6 +22,11 @@ const schema = {
   "@graph": [
     generateOrganizationSchema(),
     generateProfessionalServiceSchema(),
+    generateWebSiteSchema(
+      "https://www.excelsexperts.com.au",
+      "Excel Experts",
+      "Australia-wide Microsoft Excel Programming, Development and Consulting Experts",
+    ),
     {
       "@type": "WebPage",
       "@id": "https://www.excelexperts.com.au/data-manipulation",

@@ -1,8 +1,9 @@
 import React from "react";
+import dynamic from "next/dynamic";
 
 import ServiceHero from "../../components/ServiceHero";
 import MeetTheTeam from "../../components/MeetTheTeam";
-import Contact from "../../components/Contact";
+const Contact = dynamic(() => import("../../components/Contact"));
 
 import handShake from "../../public/pageHeros/handShake.webp";
 import handShakeMob from "../../public/pageHeros/mob/handShakeMob.webp";
@@ -10,14 +11,19 @@ import handShakeMob from "../../public/pageHeros/mob/handShakeMob.webp";
 import {
   generateProfessionalServiceSchema,
   generateOrganizationSchema,
+  generateWebSiteSchema,
 } from "../../utils/schemaGenerators";
-import Services from "./(components)/Services";
 
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
     generateOrganizationSchema(),
     generateProfessionalServiceSchema(),
+    generateWebSiteSchema(
+      "https://www.excelsexperts.com.au",
+      "Excel Experts",
+      "Australia-wide Microsoft Excel Programming, Development and Consulting Experts",
+    ),
     {
       "@type": "WebPage",
       "@id": "https://www.excelexperts.com.au/meet-the-team",
@@ -70,7 +76,6 @@ const Page = () => {
         altMob={"handshake"}
         isMeetTeam={true}
       />
-      {/* <Services /> */}
       <MeetTheTeam />
       <Contact />
     </>

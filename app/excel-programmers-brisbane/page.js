@@ -1,15 +1,17 @@
 import React from "react";
+import dynamic from "next/dynamic";
 
 import ServiceHero from "../../components/ServiceHero";
 import PageSegmentMain from "./(components)/PageSegmentMain";
-import ServicesSection from "./(components)/ServicesSection";
-import TeamCardGrid from "../../components/TeamCardGrid";
-import Quote from "./(components)/Quote";
-import GoodToKnow from "../../components/GoodToKnow";
-import TickSegment from "./(components)/TickSegment";
-import Testimonials from "../(components)/Testimonials";
-import ExpertsAwait from "../../components/ExpertsAwait";
-import Contact from "../../components/Contact";
+
+const ServicesSection = dynamic(() => import("./(components)/ServicesSection"));
+const TeamCardGrid = dynamic(() => import("../../components/TeamCardGrid"));
+const Quote = dynamic(() => import("./(components)/Quote"));
+const GoodToKnow = dynamic(() => import("../../components/GoodToKnow"));
+const TickSegment = dynamic(() => import("./(components)/TickSegment"));
+const Testimonials = dynamic(() => import("../(components)/Testimonials"));
+const ExpertsAwait = dynamic(() => import("../../components/ExpertsAwait"));
+const Contact = dynamic(() => import("../../components/Contact"));
 
 import { testimonials } from "../../testimonials";
 import { filterAndSortTestimonials } from "../../utils/filterTestimonials";

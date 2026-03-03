@@ -1,589 +1,266 @@
 // utils/schemaGenerators.js
+// Generates reusable Organization, LocalBusiness, and WebSite schemas for Excel Experts
+// Part of the Office Experts Group network — excelexperts.com.au
+
+// Shared service area used by both Organization and ProfessionalService schemas
+const SERVICE_AREAS = [
+  { "@type": "Country", name: "Australia" },
+  { "@type": "AdministrativeArea", name: "New South Wales" },
+  { "@type": "AdministrativeArea", name: "Victoria" },
+  { "@type": "AdministrativeArea", name: "Queensland" },
+  { "@type": "AdministrativeArea", name: "Western Australia" },
+  { "@type": "AdministrativeArea", name: "South Australia" },
+  { "@type": "AdministrativeArea", name: "Tasmania" },
+  { "@type": "AdministrativeArea", name: "Australian Capital Territory" },
+  { "@type": "AdministrativeArea", name: "Northern Territory" },
+];
+
+// Physical/operational locations for the business
+const LOCATIONS = [
+  {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "AU",
+      addressRegion: "NSW",
+      addressLocality: "Sydney",
+      postalCode: "2000",
+    },
+  },
+  {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "AU",
+      addressRegion: "NSW",
+      addressLocality: "Grafton",
+      postalCode: "2460",
+    },
+  },
+  {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "AU",
+      addressRegion: "NSW",
+      addressLocality: "Newcastle",
+      postalCode: "2300",
+    },
+  },
+  {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "AU",
+      addressRegion: "NSW",
+      addressLocality: "Wollongong",
+      postalCode: "2500",
+    },
+  },
+  {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "AU",
+      addressRegion: "VIC",
+      addressLocality: "Melbourne",
+      postalCode: "3000",
+    },
+  },
+  {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "AU",
+      addressRegion: "VIC",
+      addressLocality: "Richmond",
+      postalCode: "3121",
+    },
+  },
+  {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "AU",
+      addressRegion: "VIC",
+      addressLocality: "Geelong",
+      postalCode: "3220",
+    },
+  },
+  {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "AU",
+      addressRegion: "QLD",
+      addressLocality: "Brisbane",
+      postalCode: "4000",
+    },
+  },
+  {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "AU",
+      addressRegion: "QLD",
+      addressLocality: "Gold Coast",
+      postalCode: "4217",
+    },
+  },
+  {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "AU",
+      addressRegion: "WA",
+      addressLocality: "Perth",
+      postalCode: "6000",
+    },
+  },
+  {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "AU",
+      addressRegion: "SA",
+      addressLocality: "Adelaide",
+      postalCode: "5000",
+    },
+  },
+  {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "AU",
+      addressRegion: "NT",
+      addressLocality: "Darwin",
+      postalCode: "0800",
+    },
+  },
+  {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "AU",
+      addressRegion: "ACT",
+      addressLocality: "Canberra",
+      postalCode: "2600",
+    },
+  },
+];
+
+// Excel-specific services — using valid schema.org Service type with serviceType string
+const SERVICES = [
+  // Dashboards & Reporting
+  { name: "Excel Dashboard Creation", serviceType: "Excel Consulting" },
+  { name: "Pivot Tables & Reporting", serviceType: "Excel Consulting" },
+  { name: "KPI Reporting Solutions", serviceType: "Excel Consulting" },
+  // Data & Analysis
+  { name: "Data Manipulation & Cleaning", serviceType: "Excel Consulting" },
+  { name: "Data Analysis & Visualisation", serviceType: "Excel Consulting" },
+  {
+    name: "Financial Modelling and Forecasting",
+    serviceType: "Excel Consulting",
+  },
+  // Power Tools
+  { name: "Power Pivot & Power Query", serviceType: "Excel Consulting" },
+  { name: "Power BI Integration", serviceType: "Excel Consulting" },
+  // Formulas & Development
+  { name: "Formula Development", serviceType: "Excel Consulting" },
+  { name: "VBA Macro Development", serviceType: "Excel Consulting" },
+  { name: "Add-in Development", serviceType: "Excel Consulting" },
+  { name: "Custom Excel Development", serviceType: "Excel Consulting" },
+  // Integration
+  {
+    name: "SharePoint & OneDrive Integration",
+    serviceType: "Excel Consulting",
+  },
+  {
+    name: "Third-party Application Integration",
+    serviceType: "Excel Consulting",
+  },
+  {
+    name: "SQL Server & Database Integration",
+    serviceType: "Excel Consulting",
+  },
+  // Support & Migration
+  { name: "Excel Support & Troubleshooting", serviceType: "Excel Consulting" },
+  { name: "Upgrades & Migration", serviceType: "Excel Consulting" },
+  { name: "Remote Consulting", serviceType: "Australia-wide Excel services" },
+  {
+    name: "On-site Consulting",
+    serviceType: "In-house Microsoft Excel consultation",
+  },
+];
+
+// Builds an Offer node for each service in the SERVICES array
+const buildOffers = () =>
+  SERVICES.map((s) => ({
+    "@type": "Offer",
+    itemOffered: {
+      "@type": "Service",
+      name: s.name,
+      serviceType: s.serviceType,
+    },
+  }));
+
+// ProfessionalService schema for excelexperts.com.au
+// areaServed and location are valid on LocalBusiness (ProfessionalService extends LocalBusiness)
 export const generateProfessionalServiceSchema = () => ({
   "@type": "ProfessionalService",
-  "@id": `https://www.excelexperts.com.au/#business`,
+  "@id": "https://www.excelexperts.com.au#business",
   name: "Microsoft Excel Consulting Services",
-  url: "https://www.excelexperts.com.au/",
-  description: "Professional Microsoft Excel consulting and support services",
+  url: "https://www.excelexperts.com.au",
+  description:
+    "Professional Microsoft Excel consulting, development, and support services across Australia",
   priceRange: "$$",
-  serviceType: "Microsoft Excel Consulting",
-  availableService: [
-    {
-      "@type": "Service",
-      name: "Remote Consulting",
-      description: "Australia-wide remote Microsoft Excel consulting services",
-    },
-    {
-      "@type": "Service",
-      name: "On-site Consulting",
-      description:
-        "In-house Microsoft Excel consulting services available in major metropolitan areas",
-    },
-  ],
-  areaServed: [
-    {
-      "@type": "Country",
-      name: "Australia",
-    },
-    {
-      "@type": "AdministrativeArea",
-      name: "New South Wales",
-    },
-    {
-      "@type": "AdministrativeArea",
-      name: "Victoria",
-    },
-    {
-      "@type": "AdministrativeArea",
-      name: "Queensland",
-    },
-    {
-      "@type": "AdministrativeArea",
-      name: "Western Australia",
-    },
-    {
-      "@type": "AdministrativeArea",
-      name: "South Australia",
-    },
-    {
-      "@type": "AdministrativeArea",
-      name: "Tasmania",
-    },
-    {
-      "@type": "AdministrativeArea",
-      name: "Australian Capital Territory",
-    },
-    {
-      "@type": "AdministrativeArea",
-      name: "Northern Territory",
-    },
-  ],
-  location: [
-    // New South Wales
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "NSW",
-        addressLocality: "Sydney",
-        postalCode: "2000",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Sydney Metropolitan Area",
-      },
-    },
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "NSW",
-        addressLocality: "Grafton",
-        postalCode: "2460",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Grafton Region",
-      },
-    },
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "NSW",
-        addressLocality: "Newcastle",
-        postalCode: "2300",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Newcastle Metropolitan Area",
-      },
-    },
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "NSW",
-        addressLocality: "Wollongong",
-        postalCode: "2500",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Wollongong Metropolitan Area",
-      },
-    },
-    // Victoria
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "VIC",
-        addressLocality: "Melbourne",
-        postalCode: "3000",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Melbourne Metropolitan Area",
-      },
-    },
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "VIC",
-        addressLocality: "Richmond",
-        postalCode: "3121",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Richmond Area",
-      },
-    },
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "VIC",
-        addressLocality: "Geelong",
-        postalCode: "3220",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Geelong Metropolitan Area",
-      },
-    },
-    // Queensland
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "QLD",
-        addressLocality: "Brisbane",
-        postalCode: "4000",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Brisbane Metropolitan Area",
-      },
-    },
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "QLD",
-        addressLocality: "Gold Coast",
-        postalCode: "4217",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Gold Coast Metropolitan Area",
-      },
-    },
-    // Western Australia
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "WA",
-        addressLocality: "Perth",
-        postalCode: "6000",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Perth Metropolitan Area",
-      },
-    },
-    // South Australia
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "SA",
-        addressLocality: "Adelaide",
-        postalCode: "5000",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Adelaide Metropolitan Area",
-      },
-    },
-    // Northern Territory
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "NT",
-        addressLocality: "Darwin",
-        postalCode: "0800",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Darwin Metropolitan Area",
-      },
-    },
-    // ACT
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "ACT",
-        addressLocality: "Canberra",
-        postalCode: "2600",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Canberra Metropolitan Area",
-      },
-    },
-  ],
-  provider: {
-    "@type": "Organization",
-    "@id": `https://www.excelexperts.com.au#organization`,
-  },
   telephone: "1300 102 810",
   email: "consult@excelexperts.com.au",
+  areaServed: SERVICE_AREAS,
+  location: LOCATIONS,
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Microsoft Excel Consulting Services",
+    itemListElement: buildOffers(),
+  },
 });
 
+// Organization schema for excelexperts.com.au — clean, no invalid nested properties
 export const generateOrganizationSchema = () => ({
   "@type": "Organization",
   "@id": "https://www.excelexperts.com.au#organization",
   name: "Office Experts Group",
-  url: "https://www.excelexperts.com.au/",
+  url: "https://www.excelexperts.com.au",
   telephone: "1300 102 810",
   email: "consult@excelexperts.com.au",
-  // Enhanced contact point information
+  foundingDate: "2000",
   contactPoint: [
     {
       "@type": "ContactPoint",
       contactType: "customer service",
       telephone: "1300 102 810",
       email: "consult@excelexperts.com.au",
-      availableLanguage: ["en", "en-AU"],
+      availableLanguage: "en-AU",
       contactOption: "TollFree",
-      hoursAvailable: "Mo,Tu,We,Th,Fr 09:00-17:00",
-    },
-  ],
-  // Remote service availability
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "Excel Consulting Services",
-    itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Excel Dashboard Creation",
-          description:
-            "Creation of interactive and appealing Excel dashboards to provide real-time insights in your business.",
-        },
-        businessFunction: "http://purl.org/goodrelations/v1#ProvideService",
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Financial Modeling and Forecasting",
-          description:
-            "Creation of tools for financial models and forecasting using Excel for planning and strategy.",
-        },
-        businessFunction: "http://purl.org/goodrelations/v1#ProvideService",
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Power Pivot & Power Query",
-          description:
-            "Development of advanced data modelling, analytics, transformations and reporting using Power Pivot & Power Query.",
-        },
-        businessFunction: "http://purl.org/goodrelations/v1#ProvideService",
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Add-in Development",
-          description:
-            "Custom Excel add-in development for enhanced spreadsheet functionality",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Data Manipulation",
-          description:
-            "Professional data cleaning, transformation, and analysis services",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Pivot Tables & Reporting",
-          description:
-            "Advanced pivot table creation and custom reporting solutions",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Excel Support",
-          description:
-            "Ongoing technical support and maintenance for Excel solutions",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Custom Development",
-          description: "Tailored Excel solution design and implementation",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Formula Development",
-          description: "Complex Excel formula creation and optimisation",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Upgrades & Migration",
-          description: "Excel version upgrades and workbook migration services",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "VBA Macro Development",
-          description: "Custom VBA macro programming for Excel automation",
-        },
-      },
-    ],
-  },
-  location: [
-    // New South Wales
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "NSW",
-        addressLocality: "Sydney",
-        postalCode: "2000",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Sydney Metropolitan Area",
-      },
-    },
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "NSW",
-        addressLocality: "Grafton",
-        postalCode: "2460",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Grafton Region",
-      },
-    },
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "NSW",
-        addressLocality: "Newcastle",
-        postalCode: "2300",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Newcastle Metropolitan Area",
-      },
-    },
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "NSW",
-        addressLocality: "Wollongong",
-        postalCode: "2500",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Wollongong Metropolitan Area",
-      },
-    },
-    // Victoria
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "VIC",
-        addressLocality: "Melbourne",
-        postalCode: "3000",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Melbourne Metropolitan Area",
-      },
-    },
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "VIC",
-        addressLocality: "Richmond",
-        postalCode: "3121",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Richmond Area",
-      },
-    },
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "VIC",
-        addressLocality: "Geelong",
-        postalCode: "3220",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Geelong Metropolitan Area",
-      },
-    },
-    // Queensland
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "QLD",
-        addressLocality: "Brisbane",
-        postalCode: "4000",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Brisbane Metropolitan Area",
-      },
-    },
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "QLD",
-        addressLocality: "Gold Coast",
-        postalCode: "4217",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Gold Coast Metropolitan Area",
-      },
-    },
-    // Western Australia
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "WA",
-        addressLocality: "Perth",
-        postalCode: "6000",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Perth Metropolitan Area",
-      },
-    },
-    // South Australia
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "SA",
-        addressLocality: "Adelaide",
-        postalCode: "5000",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Adelaide Metropolitan Area",
-      },
-    },
-    // Northern Territory
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "NT",
-        addressLocality: "Darwin",
-        postalCode: "0800",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Darwin Metropolitan Area",
-      },
-    },
-    // ACT
-    {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressCountry: "AU",
-        addressRegion: "ACT",
-        addressLocality: "Canberra",
-        postalCode: "2600",
-      },
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: "Canberra Metropolitan Area",
+      hoursAvailable: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "09:00",
+        closes: "17:00",
       },
     },
   ],
   logo: {
     "@type": "ImageObject",
-    inLanguage: "en-AU",
-    "@id": "/logo.png",
-    url: "/logo.png",
-    contentUrl: "/logo.png",
+    "@id": "https://www.excelexperts.com.au/logo.png",
+    url: "https://www.excelexperts.com.au/logo.png",
+    contentUrl: "https://www.excelexperts.com.au/logo.png",
     width: 1200,
     height: 630,
     caption: "Office Experts Group",
   },
   image: {
-    "@id": "/logo.png",
+    "@id": "https://www.excelexperts.com.au/logo.png",
   },
   sameAs: [
     "https://www.facebook.com/MSOfficeExperts",
@@ -592,4 +269,34 @@ export const generateOrganizationSchema = () => ({
     "https://www.linkedin.com/company/office-experts-group",
     "https://www.youtube.com/channel/UCw2Xf02ukEwvM6fQ2lVZxuw",
   ],
+});
+
+// WebSite schema for excelexperts.com.au
+// Parameterised to match the officeexperts template pattern
+export const generateWebSiteSchema = (
+  domain = "https://www.excelexperts.com.au",
+  name = "Excel Experts",
+  description = "Your Microsoft Excel Design, Development and Consulting Experts",
+) => ({
+  "@type": "WebSite",
+  "@id": `${domain}#website`,
+  url: domain,
+  name,
+  description,
+  publisher: {
+    // References the Organization node in the same @graph — no need to repeat org data
+    "@id": `${domain}#organization`,
+  },
+  potentialAction: [
+    {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${domain}?s={search_term_string}`,
+      },
+      // Must be a plain string — object format (PropertyValueSpecification) causes validation errors
+      "query-input": "required name=search_term_string",
+    },
+  ],
+  inLanguage: "en-AU",
 });

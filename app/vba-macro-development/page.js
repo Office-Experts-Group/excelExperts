@@ -1,13 +1,17 @@
 import React from "react";
+import dynamic from "next/dynamic";
 
 import ServiceHero from "../../components/ServiceHero";
-import ExpertsAwait from "../../components/ExpertsAwait";
-import Contact from "../../components/Contact";
 import PageSegmentMain from "./(components)/PageSegmentMain";
-import PageSegmentCenter from "./(components)/PageSegmentCenter";
-import PageSegment3 from "./(components)/PageSegment3";
-import Segment3Copy from "./(components)/Segment3Copy";
-import Promo from "./(components)/Promo";
+
+const ExpertsAwait = dynamic(() => import("../../components/ExpertsAwait"));
+const Contact = dynamic(() => import("../../components/Contact"));
+const PageSegmentCenter = dynamic(
+  () => import("./(components)/PageSegmentCenter"),
+);
+const PageSegment3 = dynamic(() => import("./(components)/PageSegment3"));
+const Segment3Copy = dynamic(() => import("./(components)/Segment3Copy"));
+const Promo = dynamic(() => import("./(components)/Promo"));
 
 import graphic from "../../public/pageHeros/graphic.webp";
 import graph from "../../public/pageHeros/mob/graph.webp";
@@ -15,6 +19,7 @@ import graph from "../../public/pageHeros/mob/graph.webp";
 import {
   generateProfessionalServiceSchema,
   generateOrganizationSchema,
+  generateWebSiteSchema,
 } from "../../utils/schemaGenerators";
 
 const schema = {
@@ -22,6 +27,11 @@ const schema = {
   "@graph": [
     generateProfessionalServiceSchema(),
     generateOrganizationSchema(),
+    generateWebSiteSchema(
+      "https://www.excelsexperts.com.au",
+      "Excel Experts",
+      "Australia-wide Microsoft Excel Programming, Development and Consulting Experts",
+    ),
     {
       "@type": "WebPage",
       "@id": "https://www.excelexperts.com.au/vba-macro-development",

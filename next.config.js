@@ -2,12 +2,13 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const REDIRECTS = [
   {
     source: "/services/microsoft-excel",
-    destination: "https://www.excelexperts.com.au",
+    destination: "https://www.excelexperts.com.au/services",
     permanent: true,
   },
   {
     source: "/is-access-right-for-your-company",
-    destination: "/services/microsoft-access/is-access-right-for-your-company",
+    destination:
+      "https://www.accessexperts.com.au/is-access-right-for-your-company",
     permanent: true,
   },
   {
@@ -31,28 +32,29 @@ const REDIRECTS = [
   {
     source: "/access-azure-cloudbased-services",
     destination:
-      "/services/microsoft-access/access-azure-cloud-based-solutions",
+      "https://www.accessexperts.com.au/access-azure-cloud-based-solutions",
     permanent: true,
   },
   {
     source: "/access-azure-cloud-based-solutions",
     destination:
-      "/services/microsoft-access/access-azure-cloud-based-solutions",
+      "https://www.accessexperts.com.au/access-azure-cloud-based-solutions",
     permanent: true,
   },
   {
     source: "/3rd-party-product-integration",
-    destination: "/services/microsoft-access/3rd-party-product-integration",
+    destination:
+      "https://www.accessexperts.com.au/3rd-party-product-integration",
     permanent: true,
   },
   {
     source: "/access-support",
-    destination: "/services/microsoft-access/access-support",
+    destination: "https://www.accessexperts.com.au/access-support",
     permanent: true,
   },
   {
     source: "/access-online",
-    destination: "/services/microsoft-access/access-online",
+    destination: "https://www.accessexperts.com.au/access-online",
     permanent: true,
   },
   {
@@ -82,7 +84,7 @@ const REDIRECTS = [
   {
     source: "/services/by-business-solution/cloud-based-solutions-with-azure",
     destination:
-      "/services/microsoft-access/access-azure-cloud-based-solutions",
+      "https://www.accessexperts.com.au/access-azure-cloud-based-solutions",
     permanent: true,
   },
   {
@@ -94,6 +96,160 @@ const REDIRECTS = [
   {
     source: "/testimonials/the-money-institute/",
     destination: "/client-testimonials",
+    permanent: true,
+  },
+  // Microsoft Access → accessexperts.com.au
+  {
+    source: "/services/microsoft-access",
+    destination: "https://www.accessexperts.com.au",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-access/access-azure-cloud-based-solutions",
+    destination:
+      "https://www.accessexperts.com.au/access-azure-cloud-based-solutions",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-access/access-online",
+    destination: "https://www.accessexperts.com.au/access-online",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-access/3rd-party-product-integration",
+    destination:
+      "https://www.accessexperts.com.au/3rd-party-product-integration",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-access/is-access-right-for-your-company",
+    destination:
+      "https://www.accessexperts.com.au/is-access-right-for-your-company",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-access/upgrades-and-migration",
+    destination: "https://www.accessexperts.com.au/upgrades-and-migration",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-access/access-support",
+    destination: "https://www.accessexperts.com.au/access-support",
+    permanent: true,
+  },
+
+  // Microsoft Word → wordexperts.com.au
+  {
+    source: "/services/microsoft-word",
+    destination: "https://www.wordexperts.com.au",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-word/companies-and-organisations",
+    destination: "https://www.wordexperts.com.au/companies-and-organisations",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-word/corporate-global-template-solution",
+    destination:
+      "https://www.wordexperts.com.au/corporate-global-template-solution",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-word/custom-toolbars-and-ribbons",
+    destination: "https://www.wordexperts.com.au/custom-toolbars-and-ribbons",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-word/fill-in-forms",
+    destination: "https://www.wordexperts.com.au/fill-in-forms",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-word/government-departments",
+    destination: "https://www.wordexperts.com.au/government-departments",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-word/popup-forms",
+    destination: "https://www.wordexperts.com.au/popup-forms",
+    permanent: true,
+  },
+  {
+    source:
+      "/services/microsoft-word/remove-repetition-and-increase-productivity",
+    destination:
+      "https://www.wordexperts.com.au/remove-repetition-and-increase-productivity",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-word/corporate-identity",
+    destination: "https://www.wordexperts.com.au/corporate-identity",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-word/accessibility",
+    destination: "https://www.wordexperts.com.au/accessibility",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-word/word-template-conversions",
+    destination: "https://www.wordexperts.com.au/word-template-conversions",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-word/training",
+    destination: "https://www.wordexperts.com.au/training",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-word/upgrades-and-migration",
+    destination: "https://www.wordexperts.com.au/upgrades-and-migration",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-word/quick-parts",
+    destination: "https://www.wordexperts.com.au/quick-parts",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-word/word-document-template-creation",
+    destination:
+      "https://www.wordexperts.com.au/word-document-template-creation",
+    permanent: true,
+  },
+
+  // Microsoft PowerPoint → officeexperts.com.au (assumed pattern)
+  {
+    source: "/services/microsoft-powerpoint",
+    destination:
+      "https://www.officeexperts.com.au/services/microsoft-powerpoint",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-powerpoint/existing-presentation-redesign",
+    destination:
+      "https://www.officeexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign",
+    permanent: true,
+  },
+  {
+    source:
+      "/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
+    destination:
+      "https://www.officeexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
+    permanent: true,
+  },
+  {
+    source:
+      "/services/microsoft-powerpoint/powerpoint-user-training-and-assistance",
+    destination:
+      "https://www.officeexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance",
+    permanent: true,
+  },
+  {
+    source: "/services/microsoft-powerpoint/automate-presentations-with-vba",
+    destination:
+      "https://www.officeexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba",
     permanent: true,
   },
 ];
