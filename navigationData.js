@@ -6,29 +6,99 @@ const POWER_PLATFORM_EXPERTS_URL = "https://www.powerplatformexperts.com.au";
 const ACCESS_EXPERTS_URL = "https://www.accessexperts.com.au";
 
 export const navigationData = {
-  home: {
-    label: "Home",
-    href: "/",
+  locations: {
+    label: "Locations",
+    href: "/locations",
     items: [
       {
-        label: "Office Experts",
-        href: OFFICE_EXPERTS_URL,
+        label: "New South Wales",
+        href: "/locations",
+        items: [
+          {
+            label: "Sydney",
+            href: "/excel-programmers-sydney",
+          },
+          {
+            label: "Wollongong",
+            href: "/excel-consultants-wollongong",
+          },
+          {
+            label: "Central Coast",
+            href: "/excel-consultants-central-coast-nsw",
+          },
+          {
+            label: "Northern Rivers",
+            href: "/excel-programmers-northern-rivers-nsw",
+          },
+        ],
       },
       {
-        label: "Excel Experts",
-        href: "/",
+        label: "Victoria",
+        href: "/locations",
+        items: [
+          {
+            label: "Melbourne",
+            href: "/excel-programmers-melbourne",
+          },
+          {
+            label: "Richmond",
+            href: "/excel-consultants-richmond",
+          },
+        ],
       },
       {
-        label: "Power Platform Experts",
-        href: POWER_PLATFORM_EXPERTS_URL,
+        label: "Queensland",
+        href: "/locations",
+        items: [
+          {
+            label: "Brisbane",
+            href: "/excel-programmers-brisbane",
+          },
+          {
+            label: "Gold Coast",
+            href: "/excel-programmers-gold-coast",
+          },
+        ],
       },
       {
-        label: "Access Experts",
-        href: ACCESS_EXPERTS_URL,
+        label: "Western Australia",
+        href: "/locations",
+        items: [
+          {
+            label: "Perth",
+            href: "/excel-programmers-perth",
+          },
+        ],
       },
       {
-        label: "Word Experts",
-        href: WORD_EXPERTS_URL,
+        label: "ACT",
+        href: "/locations",
+        items: [
+          {
+            label: "Canberra",
+            href: "/excel-consultants-canberra",
+          },
+        ],
+      },
+      {
+        label: "Northern Territory",
+        href: "/locations",
+        items: [
+          {
+            label: "Darwin",
+            href: "/excel-consultants-darwin",
+          },
+        ],
+      },
+      {
+        label: "South Australia",
+        href: "/locations",
+        items: [
+          {
+            label: "Adelaide",
+            href: "/excel-consultants-adelaide",
+          },
+        ],
       },
     ],
   },
@@ -373,12 +443,12 @@ export const navigationData = {
   },
   staticLinks: [
     {
-      label: "Testimonials",
-      href: "/client-testimonials",
-    },
-    {
       label: "About Us",
       href: `/about-us`,
+    },
+    {
+      label: "Testimonials",
+      href: "/client-testimonials",
     },
     {
       label: "Meet Our Team",
