@@ -78,7 +78,7 @@ export const teamMembers = [
   {
     name: "David",
     role: "SENIOR ANALYST PROGRAMMER",
-    location: null,
+    location: "sydney",
     skills: [
       "Excel",
       "Word",
@@ -157,7 +157,7 @@ export const teamMembers = [
   {
     name: "Grant",
     role: "SENIOR ANALYST PROGRAMMER",
-    location: null,
+    location: "goldCoast",
     skills: [
       "Excel",
       "VBA",
@@ -290,48 +290,14 @@ export const teamMembers = [
   {
     name: "Renee",
     role: "SENIOR WORD/POWERPOINT DESIGNER",
-    location: "northernRivers",
+    location: "goldCoast",
     skills: ["Word", "PowerPoint", "Excel"],
     image: renee,
   },
   {
-    name: "Linda",
-    role: "SENIOR ANALYST PROGRAMMER",
-    location: null,
-    skills: ["Excel", "VBA", "Power BI"],
-    image: linda,
-  },
-  {
-    name: "Ganesh",
-    role: "SENIOR ANALYST PROGRAMMER",
-    location: null,
-    skills: [
-      "SharePoint",
-      ".NET",
-      "SQL Server",
-      "Microsoft Dynamics 365",
-      "Excel",
-    ],
-    image: ganesh,
-  },
-  {
-    name: "Penny",
-    role: "SENIOR ANALYST PROGRAMMER",
-    location: "canberra",
-    skills: ["Excel", "Word", "Access", "PowerPoint", "VBA", "VSTO"],
-    image: penny,
-  },
-  {
-    name: "Lani",
-    role: "SENIOR WORD/POWERPOINT DESIGNER",
-    location: null,
-    skills: ["Word", "PowerPoint"],
-    image: lani,
-  },
-  {
     name: "Emma",
     role: "WORD/POWERPOINT DESIGNER",
-    location: null,
+    location: "centralCoast",
     skills: ["Word", "PowerPoint"],
     image: emma,
   },
@@ -365,16 +331,50 @@ export const teamMembers = [
   {
     name: "Dylan",
     role: "SENIOR ANALYST PROGRAMMER",
-    location: null,
+    location: "melbourne",
     skills: ["Access", "SQL Server", "VBA", "Power BI"],
     image: dylan,
   },
   {
     name: "Jamie",
     role: "ADMINISTRATION",
-    location: null,
-    skills: [],
+    location: "northernRivers",
+    skills: ["Word", "Excel"],
     image: jamie,
+  },
+  {
+    name: "Linda",
+    role: "SENIOR ANALYST PROGRAMMER",
+    location: "perth",
+    skills: ["Excel", "VBA", "Power BI"],
+    image: linda,
+  },
+  {
+    name: "Ganesh",
+    role: "SENIOR ANALYST PROGRAMMER",
+    location: null,
+    skills: [
+      "SharePoint",
+      ".NET",
+      "SQL Server",
+      "Microsoft Dynamics 365",
+      "Excel",
+    ],
+    image: ganesh,
+  },
+  {
+    name: "Penny",
+    role: "SENIOR ANALYST PROGRAMMER",
+    location: "canberra",
+    skills: ["Excel", "Word", "Access", "PowerPoint", "VBA", "VSTO"],
+    image: penny,
+  },
+  {
+    name: "Lani",
+    role: "SENIOR WORD/POWERPOINT DESIGNER",
+    location: null,
+    skills: ["Word", "PowerPoint"],
+    image: lani,
   },
 ];
 

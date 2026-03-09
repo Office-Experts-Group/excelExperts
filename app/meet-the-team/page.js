@@ -33,7 +33,7 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-27T00:00:00+00:00",
-      dateModified: "2025-04-16T00:00:00+00:00",
+      dateModified: "2026-03-09T00:00:00+00:00",
       description:
         "Meet our team of experienced Microsoft Excel consultants. Expert developers and consultants dedicated to delivering quality spreadsheet solutions.",
       breadcrumb: {
