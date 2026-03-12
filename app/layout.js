@@ -91,11 +91,11 @@ export const metadata = {
   metadataBase: new URL(
     process.env.NODE_ENV === "production"
       ? "https://www.excelexperts.com.au"
-      : "http://localhost:3000"
+      : "http://localhost:3000",
   ),
 
   verification: {
-    google: "y1M45syrvP16wsyt53gqQOxdgwLE2djYyAsEdfR0U8Y",
+    google: "59tt5IfQhdgFDdtkNUf25dPzy9g_JXiVI91HDRz3LRM",
   },
 
   robots: {
