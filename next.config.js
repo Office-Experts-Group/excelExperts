@@ -89,8 +89,7 @@ const REDIRECTS = [
   },
   {
     source: "/vba-macro-developmentVBA%20macros",
-    destination:
-      "https://www.officeexperts.com.au/services/by-business-solution/vba-macro-development",
+    destination: "/vba-macro-development",
     permanent: true,
   },
   {
