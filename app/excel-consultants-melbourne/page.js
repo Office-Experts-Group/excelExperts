@@ -24,17 +24,23 @@ import {
   generateProfessionalServiceSchema,
   generateOrganizationSchema,
   generateWebSiteSchema,
+  generateLocalBusinessSchema,
 } from "../../utils/schemaGenerators";
 import { testimonials } from "../../testimonials";
+import { locationIntros } from "../../utils/locationContent";
 
 import melbourne from "../../public/pageHeros/melbourne.webp";
 import melbourneMob from "../../public/pageHeros/mob/melbourneMob.webp";
+import melbourneMain from "../../public/locations/melbourne.webp";
+
+const location = "Melbourne";
 
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
     generateOrganizationSchema(),
     generateProfessionalServiceSchema(),
+    generateLocalBusinessSchema(location),
     ...getHomePageSchema(testimonials, "excel")["@graph"],
     generateWebSiteSchema(
       "https://www.excelsexperts.com.au",
@@ -50,7 +56,7 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
-      dateModified: "2025-03-26T00:00:00+00:00",
+      dateModified: "2026-04-02T00:00:00+00:00",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-consultants-melbourne#breadcrumb",
@@ -79,7 +85,7 @@ const schema = {
         {
           "@type": "ListItem",
           position: 2,
-          name: "Power Platform Consultants Melbourne",
+          name: "Excel Consultants Melbourne",
           item: "https://www.excelexperts.com.au/excel-consultants-melbourne",
         },
       ],
@@ -88,8 +94,6 @@ const schema = {
 };
 
 const Page = () => {
-  const location = "Melbourne";
-
   return (
     <>
       <script
@@ -103,14 +107,19 @@ const Page = () => {
         altDesk="Melbourne"
         altMob="Melbourne"
       />
-      <LocationSummary location={location} service="Excel" />
-      <LocationPages location={location} />
+      <LocationPages location={location} img={melbourneMain} />
       <CTAMainProps location={location} />
       <ServicesLocation location={location} />
       <MeetTheTeamSlider />
       <GoodToKnow />
+      <LocationSummary
+        location={location}
+        service="Excel"
+        intro={locationIntros[location]}
+      />
       <Testimonials testimonials={testimonials} />
       <Promo
+        margin={true}
         h2={"Let's transform your data management!"}
         p={
           "Unlock the full potential of Microsoft Excel with our expert consultant solutions, designed to enhance data analysis, create powerful reporting dashboards, and optimise your spreadsheet functionality."

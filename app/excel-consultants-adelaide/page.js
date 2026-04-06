@@ -25,10 +25,14 @@ import {
   generateOrganizationSchema,
   generateWebSiteSchema,
 } from "../../utils/schemaGenerators";
+import { locationIntros } from "../../utils/locationContent";
 import { testimonials } from "../../testimonials";
 
 import adelaide from "../../public/pageHeros/adelaide.webp";
 import adelaideMob from "../../public/pageHeros/mob/adelaideMob.webp";
+import adelaideMain from "../../public/locations/adelaide.webp";
+
+const location = "Adelaide";
 
 const schema = {
   "@context": "https://schema.org",
@@ -50,7 +54,7 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
-      dateModified: "2025-03-26T00:00:00+00:00",
+      dateModified: "2026-04-02T00:00:00+00:00",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-consultants-adelaide#breadcrumb",
@@ -79,7 +83,7 @@ const schema = {
         {
           "@type": "ListItem",
           position: 2,
-          name: "Power Platform Consultants Adelaide",
+          name: "Excel Consultants Adelaide",
           item: "https://www.excelexperts.com.au/excel-consultants-adelaide",
         },
       ],
@@ -88,8 +92,6 @@ const schema = {
 };
 
 const Page = () => {
-  const location = "Adelaide";
-
   return (
     <>
       <script
@@ -103,14 +105,19 @@ const Page = () => {
         altDesk="Adelaide"
         altMob="Adelaide"
       />
-      <LocationSummary location={location} service="Excel" />
-      <LocationPages location={location} />
+      <LocationPages location={location} img={adelaideMain} />
       <CTAMainProps location={location} />
       <ServicesLocation location={location} />
       <MeetTheTeamSlider />
       <GoodToKnow />
       <Testimonials testimonials={testimonials} />
+      <LocationSummary
+        location={location}
+        service="Excel"
+        intro={locationIntros[location]}
+      />
       <Promo
+        margin={true}
         h2={"Let's transform your data management!"}
         p={
           "Unlock the full potential of Microsoft Excel with our expert consultant solutions, designed to enhance data analysis, create powerful reporting dashboards, and optimise your spreadsheet functionality."

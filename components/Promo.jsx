@@ -7,9 +7,12 @@ import styles from "../styles/promo.module.css";
 
 import computer from "../public/icons/computer.webp";
 
-const Promo = ({ h2, p }) => {
+const Promo = ({ h2, p, margin }) => {
   return (
-    <section className={styles.promoCenter}>
+    <section
+      className={styles.promoCenter}
+      style={{ margin: margin ? "8rem 10vw" : "0" }}
+    >
       <AnimateOnScroll animation="scale-up" duration={1}>
         <div className={styles.content}>
           <div className={styles.circle}>

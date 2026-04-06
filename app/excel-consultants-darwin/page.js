@@ -24,17 +24,23 @@ import {
   generateProfessionalServiceSchema,
   generateOrganizationSchema,
   generateWebSiteSchema,
+  generateLocalBusinessSchema,
 } from "../../utils/schemaGenerators";
 import { testimonials } from "../../testimonials";
+import { locationIntros } from "../../utils/locationContent";
 
 import darwin from "../../public/pageHeros/darwin.webp";
 import darwinMob from "../../public/pageHeros/mob/darwinMob.webp";
+import darwinMain from "../../public/locations/darwin.webp";
+
+const location = "Darwin";
 
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
     generateOrganizationSchema(),
     generateProfessionalServiceSchema(),
+    generateLocalBusinessSchema(location),
     ...getHomePageSchema(testimonials, "excel")["@graph"],
     generateWebSiteSchema(
       "https://www.excelsexperts.com.au",
@@ -77,7 +83,7 @@ const schema = {
         {
           "@type": "ListItem",
           position: 2,
-          name: "Power Platform Consultants Darwin",
+          name: "Excel Consultants Darwin",
           item: "https://www.excelexperts.com.au/excel-consultants-darwin",
         },
       ],
@@ -86,8 +92,6 @@ const schema = {
 };
 
 const Page = () => {
-  const location = "Darwin";
-
   return (
     <>
       <script
@@ -101,14 +105,19 @@ const Page = () => {
         altDesk="Darwin"
         altMob="Darwin"
       />
-      <LocationSummary location={location} service="Excel" />
-      <LocationPages location={location} />
+      <LocationPages location={location} img={darwinMain} />
       <CTAMainProps location={location} />
       <ServicesLocation location={location} />
       <MeetTheTeamSlider />
       <GoodToKnow />
+      <LocationSummary
+        location={location}
+        service="Excel"
+        intro={locationIntros[location]}
+      />
       <Testimonials testimonials={testimonials} />
       <Promo
+        margin={true}
         h2={"Let's transform your data management!"}
         p={
           "Unlock the full potential of Microsoft Excel with our expert consultant solutions, designed to enhance data analysis, create powerful reporting dashboards, and optimise your spreadsheet functionality."

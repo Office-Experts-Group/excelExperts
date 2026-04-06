@@ -29,7 +29,7 @@ const ContactLocation = ({ location }) => {
     if (typeof window !== "undefined") {
       // Check if the conversion function exists
       setHasConversionTracking(
-        typeof window.gtag_report_conversion === "function"
+        typeof window.gtag_report_conversion === "function",
       );
 
       // Set up a MutationObserver to detect when conversion tracking becomes available
@@ -204,6 +204,7 @@ const ContactLocation = ({ location }) => {
           id="name"
           name="name"
           value={formData.name}
+          autoComplete="name"
           onChange={handleChange}
           aria-required="true"
           aria-invalid={!!error.name}
@@ -273,6 +274,7 @@ const ContactLocation = ({ location }) => {
           aria-invalid={!!error.email}
           aria-describedby={error.email ? "email-error" : undefined}
           placeholder="eg. john@example.com"
+          autoComplete="email"
           required
           ref={emailRef}
           disabled={isSubmitting}
@@ -297,6 +299,7 @@ const ContactLocation = ({ location }) => {
           type="tel"
           id="phone"
           name="phone"
+          autoComplete="tel"
           value={formData.phone}
           onChange={handleChange}
           aria-required="false"

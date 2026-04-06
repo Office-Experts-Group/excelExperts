@@ -24,17 +24,23 @@ import {
   generateProfessionalServiceSchema,
   generateOrganizationSchema,
   generateWebSiteSchema,
+  generateLocalBusinessSchema,
 } from "../../utils/schemaGenerators";
 import { testimonials } from "../../testimonials";
+import { locationIntros } from "../../utils/locationContent";
 
 import canberra from "../../public/pageHeros/canberra.webp";
 import canberraMob from "../../public/pageHeros/mob/canberraMob.webp";
+import canberraMain from "../../public/locations/canberra.webp";
+
+const location = "Canberra";
 
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
     generateOrganizationSchema(),
     generateProfessionalServiceSchema(),
+    generateLocalBusinessSchema(location),
     ...getHomePageSchema(testimonials, "excel")["@graph"],
     generateWebSiteSchema(
       "https://www.excelsexperts.com.au",
@@ -88,8 +94,6 @@ const schema = {
 };
 
 const Page = () => {
-  const location = "Canberra";
-
   return (
     <>
       <script
@@ -103,14 +107,19 @@ const Page = () => {
         altDesk="Canberra"
         altMob="Canberra"
       />
-      <LocationSummary location={location} service="Excel" />
-      <LocationPages location={location} />
+      <LocationPages location={location} img={canberraMain} />
       <CTAMainProps location={location} />
       <ServicesLocation location={location} />
       <MeetTheTeamSlider />
       <GoodToKnow />
+      <LocationSummary
+        location={location}
+        service="Excel"
+        intro={locationIntros[location]}
+      />
       <Testimonials testimonials={testimonials} />
       <Promo
+        margin={true}
         h2={"Let's transform your data management!"}
         p={
           "Unlock the full potential of Microsoft Excel with our expert consultant solutions, designed to enhance data analysis, create powerful reporting dashboards, and optimise your spreadsheet functionality."

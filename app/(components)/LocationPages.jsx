@@ -5,16 +5,14 @@ import AnimateOnScroll from "../../components/AnimateOnScroll";
 
 import styles from "../../styles/pageSegment.module.css";
 
-import migrate from "../../public/migrate600x400.webp";
-
-const LocationPages = ({ location }) => {
+const LocationPages = ({ location, img }) => {
   return (
     <section className={styles.pageSegment}>
       <div className={styles.imgWrapper} style={{ height: "fit-content" }}>
         <AnimateOnScroll animation="slide-left" duration={1} delay={0}>
           <Image
-            src={migrate}
-            alt="Image of a files leaving a computer"
+            src={img}
+            alt={`Excel team in ${location}`}
             width={600}
             height={400}
           />
@@ -25,7 +23,7 @@ const LocationPages = ({ location }) => {
         <AnimateOnScroll animation="fade-up" duration={1} delay={0.3}>
           <div className={styles.content}>
             <p>Microsoft Excel Team</p>
-            <h2>{location}</h2>
+            <h2 style={{ marginTop: ".8rem" }}>Our {location} Experts</h2>
             <p>
               Our Microsoft Excel consultants at Excel Experts {location}{" "}
               specialise in advanced spreadsheet development and data analysis

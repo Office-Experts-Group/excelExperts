@@ -26,24 +26,28 @@ const Services = ({ location }) => {
           <h2>Microsoft Excel Services - {location}</h2>
           <p>
             Our reputation is built on delivering sophisticated spreadsheet
-            solutions, <Link href="/excel-formulas-and-custom-formulas"> custom formula development </Link>, and comprehensive <Link href="/excel-support"> Excel
-            support</Link>. With a growing list of satisfied clients, we take pride in
-            offering expert implementation, tailored data analysis, and
-            strategic guidance to meet diverse financial and operational
-            challenges. Whether it's complex calculations, automated reports,
-            interactive dashboards, or VBA macros you need, our 25+ years of
-            Microsoft expertise ensures optimised, effective solutions that
-            elevate your organisation's data capabilities.
+            solutions,{" "}
+            <Link href="/excel-formulas-and-custom-formulas">
+              {" "}
+              custom formula development{" "}
+            </Link>
+            , and comprehensive{" "}
+            <Link href="/excel-support"> Excel support</Link>. With a growing
+            list of satisfied clients, we take pride in offering expert
+            implementation, tailored data analysis, and strategic guidance to
+            meet diverse financial and operational challenges. Whether it's
+            complex calculations, automated reports, interactive dashboards, or
+            VBA macros you need, our 25+ years of Microsoft expertise ensures
+            optimised, effective solutions that elevate your organisation's data
+            capabilities.
           </p>
-          <p>
+          <p style={{ marginTop: ".8rem" }}>
             Working with a local Excel consultant brings the added advantage of
             understanding regional business requirements, faster response times
-            and direct, face-to-face collaboration when needed. Based in{" "}
-            {location}, we are well-positioned to provide both remote and onsite
-            services, ensuring organisations receive timely, professional
-            spreadsheet and reporting solutions from specialists who understand
-            their unique data management challenges and industry-specific
-            analytical needs.
+            and direct, face-to-face collaboration when needed. With a
+            nation-wide team, we are well-positioned to provide both remote and
+            onsite services, ensuring organisations receive timely and
+            professional support.
           </p>
         </div>
       </AnimateOnScroll>
