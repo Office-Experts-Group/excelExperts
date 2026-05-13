@@ -24,6 +24,7 @@ import {
   generateProfessionalServiceSchema,
   generateOrganizationSchema,
   generateWebSiteSchema,
+  generateLocalBusinessSchema,
 } from "../../utils/schemaGenerators";
 import { locationIntros } from "../../utils/locationContent";
 import { testimonials } from "../../testimonials";
@@ -39,6 +40,7 @@ const schema = {
   "@graph": [
     generateOrganizationSchema(),
     generateProfessionalServiceSchema(),
+    generateLocalBusinessSchema(location),
     ...getHomePageSchema(testimonials, "excel")["@graph"],
     generateWebSiteSchema(
       "https://www.excelsexperts.com.au",
@@ -50,11 +52,13 @@ const schema = {
       "@id": "https://www.excelexperts.com.au/excel-consultants-adelaide",
       url: "https://www.excelexperts.com.au/excel-consultants-adelaide",
       name: "Excel Consultants Adelaide",
+      description:
+        "Australia-wide Excel consultancy with consultants available in Adelaide. Over 25 years of experience delivering custom spreadsheets, dashboards, formulas, macros, and data analysis solutions for businesses across Australia.",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
-      dateModified: "2026-04-02T00:00:00+00:00",
+      dateModified: "2026-05-13T00:00:00+00:00",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-consultants-adelaide#breadcrumb",

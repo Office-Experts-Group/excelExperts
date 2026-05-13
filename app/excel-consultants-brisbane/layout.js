@@ -4,13 +4,13 @@ export const metadata = {
   // Basic metadata
   title: "Excel Consultants Brisbane - Excel Experts",
   description:
-    "Excel consultants in Brisbane with 25+ years of experience. Custom spreadsheets, dashboards, formulas, macros, and data analysis solutions.",
+    "Excel Experts Group is an Australia-wide team with consultants available in Brisbane. For over 25 years we've delivered advanced spreadsheets, dashboards, formulas, macros, and data analysis solutions to businesses nationwide.",
 
   // OpenGraph
   openGraph: {
     title: "Excel Consultants Brisbane - Excel Experts",
     description:
-      "Leading Excel consultants in Brisbane. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Excel Experts Group is an Australia-wide team with consultants available in Brisbane. For over 25 years we've delivered advanced spreadsheets, dashboards, formulas, macros, and data analysis solutions to businesses nationwide.",
     url: "https://www.excelexperts.com.au/excel-consultants-brisbane",
     siteName: "Excel Experts",
     images: [
@@ -37,7 +37,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Consultants Brisbane - Excel Experts",
     description:
-      "Leading Excel consultants in Brisbane. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Excel Experts Group is an Australia-wide team with consultants available in Brisbane. For over 25 years we've delivered advanced spreadsheets, dashboards, formulas, macros, and data analysis solutions to businesses nationwide.",
     images: ["/logo.png"],
   },
 

@@ -4,13 +4,12 @@ export const metadata = {
   // Basic metadata
   title: "Excel Consultants Perth",
   description:
-    "Excel consultants in Perth with 25+ years of experience. Custom spreadsheets, dashboards, formulas, macros, and data analysis solutions.",
-
+    "Perth businesses can access our Australia-wide Excel consultants with 25+ years of experience, our local developers are available for reporting, dashboards, automation and spreadsheet systems.",
   // OpenGraph
   openGraph: {
     title: "Excel Consultants Perth",
     description:
-      "Leading Excel consultants in Perth. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Perth businesses can access our Australia-wide Excel consultants with 25+ years of experience, our local developers are available for reporting, dashboards, automation and spreadsheet systems.",
     url: "https://www.excelexperts.com.au/excel-consultants-perth",
     siteName: "Excel Experts",
     images: [
@@ -37,7 +36,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Consultants Perth",
     description:
-      "Leading Excel consultants in Perth. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Perth businesses can access our Australia-wide Excel consultants with 25+ years of experience, our local developers are available for reporting, dashboards, automation and spreadsheet systems.",
     images: ["/logo.png"],
   },
 

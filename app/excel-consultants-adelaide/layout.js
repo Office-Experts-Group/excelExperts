@@ -4,13 +4,13 @@ export const metadata = {
   // Basic metadata
   title: "Excel Consultants Adelaide",
   description:
-    "Excel consultants in Adelaide with 25+ years of experience. Custom spreadsheets, dashboards, formulas, macros, and data analysis solutions.",
+    "Australia-wide Excel consultancy with consultants available in Adelaide. Over 25 years of experience delivering custom spreadsheets, dashboards, formulas, macros, and data analysis solutions for businesses across Australia.",
 
   // OpenGraph
   openGraph: {
     title: "Excel Consultants Adelaide",
     description:
-      "Leading Excel consultants in Adelaide. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Australia-wide Excel consultancy with consultants available in Adelaide. Over 25 years of experience delivering custom spreadsheets, dashboards, formulas, macros, and data analysis solutions for businesses across Australia.",
     url: "https://www.excelexperts.com.au/excel-consultants-adelaide",
     siteName: "Excel Experts",
     images: [
@@ -37,7 +37,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Consultants Adelaide",
     description:
-      "Leading Excel consultants in Adelaide. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Australia-wide Excel consultancy with consultants available in Adelaide. Over 25 years of experience delivering custom spreadsheets, dashboards, formulas, macros, and data analysis solutions for businesses across Australia.",
     images: ["/logo.png"],
   },
 

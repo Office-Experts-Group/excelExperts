@@ -4,13 +4,13 @@ export const metadata = {
   // Basic metadata
   title: "Excel Consultants Wollongong",
   description:
-    "Excel consultants in Wollongong with 25+ years of experience. Custom spreadsheets, dashboards, formulas, macros, and data analysis solutions.",
+    "Excel Experts support Wollongong organisations through an Australia-wide team, our local developers have 25+ years building spreadsheets, macros and crafting data analysis solutions integrated in the Microsoft ecosystem.",
 
   // OpenGraph
   openGraph: {
     title: "Excel Consultants Wollongong",
     description:
-      "Leading Excel consultants in Wollongong. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Excel Experts support Wollongong organisations through an Australia-wide team, our local developers have 25+ years building spreadsheets, macros and crafting data analysis solutions integrated in the Microsoft ecosystem.",
     url: "https://www.excelexperts.com.au/excel-consultants-wollongong",
     siteName: "Excel Experts",
     images: [
@@ -37,7 +37,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Consultants Wollongong",
     description:
-      "Leading Excel consultants in Wollongong. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Excel Experts support Wollongong organisations through an Australia-wide team, our local developers have 25+ years building spreadsheets, macros and crafting data analysis solutions integrated in the Microsoft ecosystem.",
     images: ["/logo.png"],
   },
 

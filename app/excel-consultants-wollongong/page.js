@@ -52,11 +52,13 @@ const schema = {
       "@id": "https://www.excelexperts.com.au/excel-consultants-wollongong",
       url: "https://www.excelexperts.com.au/excel-consultants-wollongong",
       name: "Excel Consultants Wollongong",
+      description:
+        "Excel Experts support Wollongong organisations through an Australia-wide team, our local developers have 25+ years building spreadsheets, macros and crafting data analysis solutions integrated in the Microsoft ecosystem.",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
-      dateModified: "2026-04-02T00:00:00+00:00",
+      dateModified: "2026-05-13T00:00:00+00:00",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-consultants-wollongong#breadcrumb",

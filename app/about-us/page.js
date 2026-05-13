@@ -20,6 +20,7 @@ import {
   generateProfessionalServiceSchema,
   generateOrganizationSchema,
   generateWebSiteSchema,
+  generateLocalBusinessSchema,
 } from "../../utils/schemaGenerators";
 
 import aboutUs from "../../public/pageHeros/aboutUs.webp";
@@ -30,6 +31,7 @@ const schema = {
   "@graph": [
     ...getAboutPageSchema(testimonials, "excel")["@graph"],
     generateOrganizationSchema(),
+    generateLocalBusinessSchema(),
     generateProfessionalServiceSchema(),
     generateWebSiteSchema(
       "https://www.excelsexperts.com.au",
@@ -45,7 +47,7 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
-      dateModified: "2025-12-26T00:00:00+00:00",
+      dateModified: "2026-12-26T00:00:00+00:00",
       description:
         "Excel Experts is Australia's trusted team of Microsoft Excel consultants, offering custom solutions, automation, and training for both PC and Mac users nationwide.",
       breadcrumb: {

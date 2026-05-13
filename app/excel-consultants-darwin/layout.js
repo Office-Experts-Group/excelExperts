@@ -4,13 +4,13 @@ export const metadata = {
   // Basic metadata
   title: "Excel Consultants Darwin",
   description:
-    "Excel consultants in Darwin with 25+ years of experience. Custom spreadsheets, dashboards, formulas, macros, and data analysis solutions.",
+    "Excel Experts work with Darwin organisations as part of an Australia-wide consultancy, delivering spreadsheets, dashboards, formulas and reporting solutions for 25+ years.",
 
   // OpenGraph
   openGraph: {
     title: "Excel Consultants Darwin",
     description:
-      "Leading Excel consultants in Darwin. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Excel Experts work with Darwin organisations as part of an Australia-wide consultancy, delivering spreadsheets, dashboards, formulas and reporting solutions for 25+ years.",
     url: "https://www.excelexperts.com.au/excel-consultants-darwin",
     siteName: "Excel Experts",
     images: [
@@ -37,7 +37,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Consultants Darwin",
     description:
-      "Leading Excel consultants in Darwin. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Excel Experts work with Darwin organisations as part of an Australia-wide consultancy, delivering spreadsheets, dashboards, formulas and reporting solutions for 25+ years.",
     images: ["/logo.png"],
   },
 

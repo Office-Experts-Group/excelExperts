@@ -53,11 +53,13 @@ const schema = {
         "https://www.excelexperts.com.au/excel-consultants-central-coast-nsw",
       url: "https://www.excelexperts.com.au/excel-consultants-central-coast-nsw",
       name: "Excel Consultants Central Coast, NSW",
+      description:
+        "Excel consultants serving Central Coast NSW as part of an Australia-wide team. 25+ years building spreadsheets, dashboards, macros and reporting systems.",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
-      dateModified: "2026-04-06T00:00:00+00:00",
+      dateModified: "2026-05-13T00:00:00+00:00",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-consultants-central-coast-nsw#breadcrumb",

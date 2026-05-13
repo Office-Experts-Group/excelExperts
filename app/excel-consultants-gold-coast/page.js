@@ -52,11 +52,13 @@ const schema = {
       "@id": "https://www.excelexperts.com.au/excel-consultants-gold-coast",
       url: "https://www.excelexperts.com.au/excel-consultants-gold-coast",
       name: "Excel Consultants Gold Coast",
+      description:
+        "Australia-wide Excel team with Gold Coast-based developers available. Over 25 years’ experience in spreadsheets, automation, dashboards and data solutions.",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
-      dateModified: "2026-04-06T00:00:00+00:00",
+      dateModified: "2026-05-13T00:00:00+00:00",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-consultants-gold-coast#breadcrumb",

@@ -4,13 +4,13 @@ export const metadata = {
   // Basic metadata
   title: "Excel Consultants Central Coast, NSW",
   description:
-    "Excel consultants in Central Coast, NSW with 25+ years of experience. Custom spreadsheets, dashboards, formulas, macros, and data analysis solutions.",
+    "Excel consultants serving Central Coast NSW as part of an Australia-wide team. 25+ years building spreadsheets, dashboards, macros and reporting systems.",
 
   // OpenGraph
   openGraph: {
     title: "Excel Consultants Central Coast, NSW",
     description:
-      "Leading Excel consultants in Central Coast, NSW. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Excel consultants serving Central Coast NSW as part of an Australia-wide team. 25+ years building spreadsheets, dashboards, macros and reporting systems.",
     url: "https://www.excelexperts.com.au/excel-consultants-central-coast-nsw",
     siteName: "Excel Experts",
     images: [
@@ -37,7 +37,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Consultants Central Coast, NSW",
     description:
-      "Leading Excel consultants in Central Coast, NSW. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Excel consultants serving Central Coast NSW as part of an Australia-wide team. 25+ years building spreadsheets, dashboards, macros and reporting systems.",
     images: ["/logo.png"],
   },
 

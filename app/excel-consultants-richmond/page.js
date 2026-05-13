@@ -52,11 +52,13 @@ const schema = {
       "@id": "https://www.excelexperts.com.au/excel-consultants-richmond",
       url: "https://www.excelexperts.com.au/excel-consultants-richmond",
       name: "Excel Consultants Richmond",
+      description:
+        "Excel Experts operates across Australia with local Richmond-based developers available, helping businesses streamline reporting, dashboards and automation since 2000.",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
-      dateModified: "2026-04-02T00:00:00+00:00",
+      dateModified: "2026-05-13T00:00:00+00:00",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-consultants-richmond#breadcrumb",

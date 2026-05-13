@@ -54,11 +54,13 @@ const schema = {
       "@id": "https://www.excelexperts.com.au/excel-consultants-perth",
       url: "https://www.excelexperts.com.au/excel-consultants-perth",
       name: "Excel Consultants Perth",
+      description:
+        "Perth businesses can access our Australia-wide Excel consultants with 25+ years of experience, our local developers are available for reporting, dashboards, automation and spreadsheet systems.",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
-      dateModified: "2026-04-02T00:00:00+00:00",
+      dateModified: "2026-05-13T00:00:00+00:00",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-consultants-perth#breadcrumb",

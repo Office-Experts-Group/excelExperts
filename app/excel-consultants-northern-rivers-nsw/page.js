@@ -53,11 +53,13 @@ const schema = {
         "https://www.excelexperts.com.au/excel-consultants-northern-rivers-nsw",
       url: "https://www.excelexperts.com.au/excel-consultants-northern-rivers-nsw",
       name: "Excel Consultants Northern Rivers, NSW",
+      description:
+        "With our headquarters in Northern Rivers, NSW. For over 25yrs Excel Experts now our Australia-wide team have created custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
-      dateModified: "2026-04-02T00:00:00+00:00",
+      dateModified: "2026-05-13T00:00:00+00:00",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-consultants-northern-rivers-nsw#breadcrumb",

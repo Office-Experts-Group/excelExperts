@@ -3,12 +3,12 @@ import React from "react";
 export const metadata = {
   title: "Excel Programmers Melbourne",
   description:
-    "Professional Excel programmers in Melbourne offering 25+ years expertise. Custom VBA solutions, spreadsheet development, macro automation and advanced formula creation.",
+    "Professional Excel programmers in Melbourne offering 25+ years expertise from a nation-wide team. Custom VBA solutions, spreadsheet development, macro automation and advanced formula creation.",
 
   openGraph: {
     title: "Excel Programmers Melbourne",
     description:
-      "Professional Excel programmers in Melbourne offering 25+ years expertise. Custom VBA solutions, spreadsheet development, macro automation and advanced formula creation.",
+      "Professional Excel programmers in Melbourne offering 25+ years expertise from a nation-wide team. Custom VBA solutions, spreadsheet development, macro automation and advanced formula creation.",
     url: "https://www.excelexperts.com.au/excel-programmers-melbourne",
     siteName: "Excel Experts",
     images: [
@@ -30,7 +30,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Programmers Melbourne",
     description:
-      "Professional Excel programmers in Melbourne offering 25+ years expertise. Custom VBA solutions, spreadsheet development, macro automation and advanced formula creation.",
+      "Professional Excel programmers in Melbourne offering 25+ years expertise from a nation-wide team. Custom VBA solutions, spreadsheet development, macro automation and advanced formula creation.",
     images: ["/logo.png"],
   },
 

@@ -177,7 +177,7 @@ const Page = () => {
             powerplatform:
               "https://www.powerplatformexperts.com.au/power-platform-consultants-melbourne",
             office:
-              "https://www.officeexperts.com.au/office-and-office-365-experts-melbourne",
+              "https://www.officeexperts.com.au/microsoft-consultants-melbourne",
           },
         },
         {
@@ -185,7 +185,7 @@ const Page = () => {
           image: richmond,
           alt: "Richmond area",
           description:
-            "Located in the heart of Richmond, our Excel experts deliver tailored spreadsheet and data analysis solutions for local enterprises. We specialise in developing automated reporting systems and calculation frameworks that significantly enhance productivity and analytical capabilities.",
+            "Our Richmond team deliver tailored spreadsheet and data analysis solutions for local enterprises. We specialise in developing automated reporting systems and calculation frameworks that significantly enhance productivity and analytical capabilities.",
           serviceLinks: {
             excel: "/excel-consultants-richmond",
             word: "https://www.wordexperts.com.au/word-consultants-richmond",

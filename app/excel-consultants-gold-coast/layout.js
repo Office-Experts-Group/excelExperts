@@ -4,13 +4,13 @@ export const metadata = {
   // Basic metadata
   title: "Excel Consultants Gold Coast",
   description:
-    "Excel consultants in Gold Coast with 25+ years of experience. Custom spreadsheets, dashboards, formulas, macros, and data analysis solutions.",
+    "Australia-wide Excel team with Gold Coast-based developers available. Over 25 years’ experience in spreadsheets, automation, dashboards and data solutions.",
 
   // OpenGraph
   openGraph: {
     title: "Excel Consultants Gold Coast",
     description:
-      "Leading Excel consultants in Gold Coast. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Australia-wide Excel team with Gold Coast-based developers available. Over 25 years’ experience in spreadsheets, automation, dashboards and data solutions.",
     url: "https://www.excelexperts.com.au/excel-consultants-gold-coast",
     siteName: "Excel Experts",
     images: [
@@ -37,7 +37,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Consultants Gold Coast",
     description:
-      "Leading Excel consultants in Gold Coast. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Australia-wide Excel team with Gold Coast-based developers available. Over 25 years’ experience in spreadsheets, automation, dashboards and data solutions.",
     images: ["/logo.png"],
   },
 

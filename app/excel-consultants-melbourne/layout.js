@@ -4,13 +4,13 @@ export const metadata = {
   // Basic metadata
   title: "Excel Consultants Melbourne",
   description:
-    "Excel consultants in Melbourne with 25+ years of experience. Custom spreadsheets, dashboards, formulas, macros, and data analysis solutions.",
+    "Australia-wide Excel consultants with local developers available in Melbourne. 25+ years improving reporting, spreadsheets, dashboards and automation systems.",
 
   // OpenGraph
   openGraph: {
     title: "Excel Consultants Melbourne",
     description:
-      "Leading Excel consultants in Melbourne. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Australia-wide Excel consultants with local developers available in Melbourne. 25+ years improving reporting, spreadsheets, dashboards and automation systems.",
     url: "https://www.excelexperts.com.au/excel-consultants-melbourne",
     siteName: "Excel Experts",
     images: [
@@ -37,7 +37,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Consultants Melbourne",
     description:
-      "Leading Excel consultants in Melbourne. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Australia-wide Excel consultants with local developers available in Melbourne. 25+ years improving reporting, spreadsheets, dashboards and automation systems.",
     images: ["/logo.png"],
   },
 

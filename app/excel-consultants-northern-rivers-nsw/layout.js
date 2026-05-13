@@ -4,13 +4,13 @@ export const metadata = {
   // Basic metadata
   title: "Excel Consultants Northern Rivers, NSW",
   description:
-    "Excel consultants in Northern Rivers, NSW with 25+ years of experience. Custom spreadsheets, dashboards, formulas, macros, and data analysis solutions.",
+    "With our headquarters in Northern Rivers, NSW. For over 25yrs Excel Experts now our Australia-wide team have created custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
 
   // OpenGraph
   openGraph: {
     title: "Excel Consultants Northern Rivers, NSW",
     description:
-      "Leading Excel consultants in Northern Rivers, NSW. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "With our headquarters in Northern Rivers, NSW. For over 25yrs Excel Experts now our Australia-wide team have created custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
     url: "https://www.excelexperts.com.au/excel-consultants-northern-rivers-nsw",
     siteName: "Excel Experts",
     images: [
@@ -37,7 +37,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Consultants Northern Rivers, NSW",
     description:
-      "Leading Excel consultants in Northern Rivers, NSW. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "With our headquarters in Northern Rivers, NSW. For over 25yrs Excel Experts now our Australia-wide team have created custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
     images: ["/logo.png"],
   },
 

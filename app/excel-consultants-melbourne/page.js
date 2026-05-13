@@ -52,11 +52,13 @@ const schema = {
       "@id": "https://www.excelexperts.com.au/excel-consultants-melbourne",
       url: "https://www.excelexperts.com.au/excel-consultants-melbourne",
       name: "Excel Consultants Melbourne",
+      description:
+        "Australia-wide Excel consultants with local developers available in Melbourne. 25+ years improving reporting, spreadsheets, dashboards and automation systems.",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
-      dateModified: "2026-04-02T00:00:00+00:00",
+      dateModified: "2026-05-13T00:00:00+00:00",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-consultants-melbourne#breadcrumb",

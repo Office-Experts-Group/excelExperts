@@ -106,7 +106,7 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2026-02-19T00:00:00+00:00",
-      dateModified: "2026-02-19T00:00:00+00:00",
+      dateModified: "2026-05-13T00:00:00+00:00",
       description:
         "Perth's trusted Excel programmers with 25+ years experience. Get in touch for a free consultation and find out how we can help fix spreadsheet errors and automate your business processes.",
       breadcrumb: {

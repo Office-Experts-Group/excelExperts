@@ -52,11 +52,13 @@ const schema = {
       "@id": "https://www.excelexperts.com.au/excel-consultants-darwin",
       url: "https://www.excelexperts.com.au/excel-consultants-darwin",
       name: "Excel Consultants Darwin",
+      description:
+        "Excel Experts work with Darwin organisations as part of an Australia-wide consultancy, delivering spreadsheets, dashboards, formulas and reporting solutions for 25+ years.",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
-      dateModified: "2025-03-26T00:00:00+00:00",
+      dateModified: "2026-05-13T00:00:00+00:00",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-consultants-darwin#breadcrumb",

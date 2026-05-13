@@ -4,13 +4,13 @@ export const metadata = {
   // Basic metadata
   title: "Excel Consultants Sydney",
   description:
-    "Excel consultants in Sydney with 25+ years of experience. Custom spreadsheets, dashboards, formulas, macros, and data analysis solutions.",
+    "For Sydney businesses, our Australia-wide Excel team provides local developers for spreadsheets, dashboards, automation and reporting built over 25+ years of experience. Our team of experts has a trusted reputation.",
 
   // OpenGraph
   openGraph: {
     title: "Excel Consultants Sydney",
     description:
-      "Leading Excel consultants in Sydney. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "For Sydney businesses, our Australia-wide Excel team provides local developers for spreadsheets, dashboards, automation and reporting built over 25+ years of experience. Our team of experts has a trusted reputation.",
     url: "https://www.excelexperts.com.au/excel-consultants-sydney",
     siteName: "Excel Experts",
     images: [
@@ -37,7 +37,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Consultants Sydney",
     description:
-      "Leading Excel consultants in Sydney. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "For Sydney businesses, our Australia-wide Excel team provides local developers for spreadsheets, dashboards, automation and reporting built over 25+ years of experience. Our team of experts has a trusted reputation.",
     images: ["/logo.png"],
   },
 

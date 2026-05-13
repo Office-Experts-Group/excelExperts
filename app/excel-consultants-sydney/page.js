@@ -52,11 +52,13 @@ const schema = {
       "@id": "https://www.excelexperts.com.au/excel-consultants-sydney",
       url: "https://www.excelexperts.com.au/excel-consultants-sydney",
       name: "Excel Consultants Sydney",
+      description:
+        "For Sydney businesses, our Australia-wide Excel team provides local developers for spreadsheets, dashboards, automation and reporting built over 25+ years of experience. Our team of experts has a trusted reputation.",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
-      dateModified: "2026-04-02T00:00:00+00:00",
+      dateModified: "2026-05-13T00:00:00+00:00",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-consultants-sydney#breadcrumb",

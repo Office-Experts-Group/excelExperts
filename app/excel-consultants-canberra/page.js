@@ -52,11 +52,13 @@ const schema = {
       "@id": "https://www.excelexperts.com.au/excel-consultants-canberra",
       url: "https://www.excelexperts.com.au/excel-consultants-canberra",
       name: "Excel Consultants Canberra",
+      description:
+        "Australia-wide Excel consultants with support in Canberra. 25+ years delivering custom spreadsheets, formulas, macros, dashboards & data analysis solutions.",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
-      dateModified: "2025-03-26T00:00:00+00:00",
+      dateModified: "2025-05-13T00:00:00+00:00",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-consultants-canberra#breadcrumb",

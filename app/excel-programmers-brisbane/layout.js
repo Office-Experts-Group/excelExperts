@@ -3,12 +3,12 @@ import React from "react";
 export const metadata = {
   title: "Excel Programmers Brisbane",
   description:
-    "Brisbane's leading Excel programmers with 25+ years expertise. Streamline your business workflows with our local VBA experts. Contact us now for a free consultation.",
+    "Brisbane's leading Excel programmers with 25+ years expertise. Streamline your business workflows with our local VBA experts backed with an Australia-wide team. Contact us now for a free consultation.",
 
   openGraph: {
     title: "Excel Programmers Brisbane",
     description:
-      "Brisbane's leading Excel programmers with 25+ years expertise. Streamline your business workflows with our local VBA experts. Contact us now for a free consultation.",
+      "Brisbane's leading Excel programmers with 25+ years expertise. Streamline your business workflows with our local VBA experts backed with an Australia-wide team. Contact us now for a free consultation.",
     url: "https://www.excelexperts.com.au/excel-programmers-brisbane",
     siteName: "Excel Experts",
     images: [
@@ -30,7 +30,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Programmers Brisbane",
     description:
-      "Brisbane's leading Excel programmers with 25+ years expertise. Streamline your business workflows with our local VBA experts. Contact us now for a free consultation.",
+      "Brisbane's leading Excel programmers with 25+ years expertise. Streamline your business workflows with our local VBA experts backed with an Australia-wide team. Contact us now for a free consultation.",
     images: ["/logo.png"],
   },
 

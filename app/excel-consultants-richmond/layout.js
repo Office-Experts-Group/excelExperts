@@ -4,13 +4,13 @@ export const metadata = {
   // Basic metadata
   title: "Excel Consultants Richmond",
   description:
-    "Excel consultants in Richmond with 25+ years of experience. Custom spreadsheets, dashboards, formulas, macros, and data analysis solutions.",
+    "Excel Experts operates across Australia with local Richmond-based developers available, helping businesses streamline reporting, dashboards and automation since 2000.",
 
   // OpenGraph
   openGraph: {
     title: "Excel Consultants Richmond",
     description:
-      "Leading Excel consultants in Richmond. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Excel Experts operates across Australia with local Richmond-based developers available, helping businesses streamline reporting, dashboards and automation since 2000.",
     url: "https://www.excelexperts.com.au/excel-consultants-richmond",
     siteName: "Excel Experts",
     images: [
@@ -37,7 +37,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Consultants Richmond",
     description:
-      "Leading Excel consultants in Richmond. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Excel Experts operates across Australia with local Richmond-based developers available, helping businesses streamline reporting, dashboards and automation since 2000.",
     images: ["/logo.png"],
   },
 

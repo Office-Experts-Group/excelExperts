@@ -4,13 +4,13 @@ export const metadata = {
   // Basic metadata
   title: "Excel Consultants Canberra",
   description:
-    "Excel consultants in Canberra with 25+ years of experience. Custom spreadsheets, dashboards, formulas, macros, and data analysis solutions..",
+    "Australia-wide Excel consultants with local support in Canberra. 25+ years delivering custom spreadsheets, formulas, macros, dashboards & data analysis solutions.",
 
   // OpenGraph
   openGraph: {
     title: "Excel Consultants Canberra",
     description:
-      "Leading Excel consultants in Canberra. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Australia-wide Excel consultants with local support in Canberra. 25+ years delivering custom spreadsheets, formulas, macros, dashboards & data analysis solutions.",
     url: "https://www.excelexperts.com.au/excel-consultants-canberra",
     siteName: "Excel Experts",
     images: [
@@ -37,7 +37,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Consultants Canberra",
     description:
-      "Leading Excel consultants in Canberra. For over 25yrs Excel Experts have supercharged business efficiency with custom spreadsheets, advanced formulas, macros, dashboards and comprehensive data analysis solutions.",
+      "Australia-wide Excel consultants with local support in Canberra. 25+ years delivering custom spreadsheets, formulas, macros, dashboards & data analysis solutions.",
     images: ["/logo.png"],
   },
 

@@ -52,11 +52,13 @@ const schema = {
       "@id": "https://www.excelexperts.com.au/excel-consultants-brisbane",
       url: "https://www.excelexperts.com.au/excel-consultants-brisbane",
       name: "Excel Consultants Brisbane",
+      decription:
+        "Excel Experts Group is an Australia-wide team with consultants available in Brisbane. For over 25 years we've delivered advanced spreadsheets, dashboards, formulas, macros, and data analysis solutions to businesses nationwide.",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
-      dateModified: "2026-04-06T00:00:00+00:00",
+      dateModified: "2026-05-13T00:00:00+00:00",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-consultants-brisbane#breadcrumb",
