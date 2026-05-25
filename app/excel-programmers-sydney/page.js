@@ -111,7 +111,7 @@ const schema = {
       datePublished: "2026-02-10T00:00:00+00:00",
       dateModified: "2026-02-19T00:00:00+00:00",
       description:
-        "Expert Excel programmers in Sydney with 25+ years of experience. Get a free consultation today from Australia's leading Excel experts.",
+        "Sydney Excel programmers with 25+ years of experience delivering custom spreadsheets, automation and business reporting solutions.",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-programmers-sydney#breadcrumb",

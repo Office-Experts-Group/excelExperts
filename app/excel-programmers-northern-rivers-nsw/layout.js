@@ -3,12 +3,12 @@ import React from "react";
 export const metadata = {
   title: "Excel Programmers Northern Rivers NSW",
   description:
-    "Established in the Northern Rivers in 2000, Excel Experts has grown to become a nationwide leader in developing Excel solutions for businesses of all sizes.",
+    "Northern Rivers Excel programming services for businesses needing custom spreadsheets, VBA automation and efficient reporting systems.",
 
   openGraph: {
     title: "Excel Programmers Northern Rivers NSW",
     description:
-      "Established in the Northern Rivers in 2000, Excel Experts has grown to become a nationwide leader in developing Excel solutions for businesses of all sizes.",
+      "Northern Rivers Excel programming services for businesses needing custom spreadsheets, VBA automation and efficient reporting systems.",
     url: "https://www.excelexperts.com.au/excel-programmers-northern-rivers-nsw",
     siteName: "Excel Experts",
     images: [
@@ -30,7 +30,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Programmers Northern Rivers NSW",
     description:
-      "Established in the Northern Rivers in 2000, Excel Experts has grown to become a nationwide leader in developing Excel solutions for businesses of all sizes.",
+      "Northern Rivers Excel programming services for businesses needing custom spreadsheets, VBA automation and efficient reporting systems.",
     images: ["/logo.png"],
   },
 

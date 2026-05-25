@@ -112,7 +112,7 @@ const schema = {
       datePublished: "2026-02-10T00:00:00+00:00",
       dateModified: "2026-05-13T00:00:00+00:00",
       description:
-        "Professional Excel programmers in Melbourne offering 25+ years expertise  from a nation-wide team. Custom VBA solutions, spreadsheet development, macro automation and advanced formula creation.",
+        "Melbourne Excel programmers trusted for advanced spreadsheet development, automation and data reporting solutions for growing businesses.",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-programmers-melbourne#breadcrumb",

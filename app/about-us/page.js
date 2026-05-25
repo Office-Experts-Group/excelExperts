@@ -20,7 +20,6 @@ import {
   generateProfessionalServiceSchema,
   generateOrganizationSchema,
   generateWebSiteSchema,
-  generateLocalBusinessSchema,
 } from "../../utils/schemaGenerators";
 
 import aboutUs from "../../public/pageHeros/aboutUs.webp";
@@ -31,7 +30,6 @@ const schema = {
   "@graph": [
     ...getAboutPageSchema(testimonials, "excel")["@graph"],
     generateOrganizationSchema(),
-    generateLocalBusinessSchema(),
     generateProfessionalServiceSchema(),
     generateWebSiteSchema(
       "https://www.excelsexperts.com.au",

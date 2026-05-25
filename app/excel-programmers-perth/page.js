@@ -108,7 +108,7 @@ const schema = {
       datePublished: "2026-02-19T00:00:00+00:00",
       dateModified: "2026-05-13T00:00:00+00:00",
       description:
-        "Perth's trusted Excel programmers with 25+ years experience. Get in touch for a free consultation and find out how we can help fix spreadsheet errors and automate your business processes.",
+        "Perth Excel programmers helping businesses streamline operations with custom spreadsheets, VBA development and reporting solutions.",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-programmers-perth#breadcrumb",

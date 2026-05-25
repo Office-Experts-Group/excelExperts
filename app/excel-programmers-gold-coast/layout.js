@@ -3,12 +3,12 @@ import React from "react";
 export const metadata = {
   title: "Excel Programmers Gold Coast",
   description:
-    "Gold Coast's experienced Excel programmers with 25+ years expertise. Backed with a nationwide team of Microsoft experts. Contact us now for a free consultation.",
+    "Gold Coast Excel programmers delivering custom spreadsheets, VBA automation and reporting tools backed by 25+ years of expertise.",
 
   openGraph: {
     title: "Excel Programmers Gold Coast",
     description:
-      "Gold Coast's experienced Excel programmers with 25+ years expertise. Backed with a nationwide team of Microsoft experts. Contact us now for a free consultation.",
+      "Gold Coast Excel programmers delivering custom spreadsheets, VBA automation and reporting tools backed by 25+ years of expertise.",
     url: "https://www.excelexperts.com.au/excel-programmers-gold-coast",
     siteName: "Excel Experts",
     images: [
@@ -30,7 +30,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Programmers Gold Coast",
     description:
-      "Gold Coast's experienced Excel programmers with 25+ years expertise. Backed with a nationwide team of Microsoft experts. Contact us now for a free consultation.",
+      "Gold Coast Excel programmers delivering custom spreadsheets, VBA automation and reporting tools backed by 25+ years of expertise.",
     images: ["/logo.png"],
   },
 

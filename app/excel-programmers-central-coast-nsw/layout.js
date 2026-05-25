@@ -3,12 +3,12 @@ import React from "react";
 export const metadata = {
   title: "Excel Programmers Central Coast NSW",
   description:
-    "Central Coast's dedicated Excel programmers with 25+ years experience and an Australia-wide team. Get a free consultation today and learn how we can help fix spreadsheet errors and automate your business processes.",
+    "Central Coast Excel experts providing custom spreadsheet development, VBA programming and business automation tailored to your workflow.",
 
   openGraph: {
     title: "Excel Programmers Central Coast NSW",
     description:
-      "Central Coast's dedicated Excel programmers with 25+ years experience and an Australia-wide team. Get a free consultation today and learn how we can help fix spreadsheet errors and automate your business processes.",
+      "Central Coast Excel experts providing custom spreadsheet development, VBA programming and business automation tailored to your workflow.",
     url: "https://www.excelexperts.com.au/excel-programmers-central-coast-nsw",
     siteName: "Excel Experts",
     images: [
@@ -30,7 +30,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Programmers Central Coast NSW",
     description:
-      "Central Coast's dedicated Excel programmers with 25+ years experience and an Australia-wide team. Get a free consultation today and learn how we can help fix spreadsheet errors and automate your business processes.",
+      "Central Coast Excel experts providing custom spreadsheet development, VBA programming and business automation tailored to your workflow.",
     images: ["/logo.png"],
   },
 

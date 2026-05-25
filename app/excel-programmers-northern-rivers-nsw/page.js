@@ -108,7 +108,7 @@ const schema = {
       datePublished: "2026-02-19T00:00:00+00:00",
       dateModified: "2026-02-19T00:00:00+00:00",
       description:
-        "Established in the Northern Rivers in 2000, Excel Experts has grown to become a nationwide leader in developing Excel solutions for businesses of all sizes.",
+        "Northern Rivers Excel programming services for businesses needing custom spreadsheets, VBA automation and efficient reporting systems.",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-programmers-northern-rivers-nsw#breadcrumb",

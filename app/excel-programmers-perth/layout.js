@@ -3,12 +3,12 @@ import React from "react";
 export const metadata = {
   title: "Excel Programmers Perth",
   description:
-    "Perth's trusted Excel programmers with 25+ years experience with a growing national team. Get in touch for a free consultation and find out how we can help fix spreadsheet errors and automate your business processes.",
+    "Perth Excel programmers helping businesses streamline operations with custom spreadsheets, VBA development and reporting solutions.",
 
   openGraph: {
     title: "Excel Programmers Perth",
     description:
-      "Perth's trusted Excel programmers with 25+ years experience with a growing national team. Get in touch for a free consultation and find out how we can help fix spreadsheet errors and automate your business processes.",
+      "Perth Excel programmers helping businesses streamline operations with custom spreadsheets, VBA development and reporting solutions.",
     url: "https://www.excelexperts.com.au/excel-programmers-perth",
     siteName: "Excel Experts",
     images: [
@@ -30,7 +30,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Programmers Perth",
     description:
-      "Perth's trusted Excel programmers with 25+ years experience with a growing national team. Get in touch for a free consultation and find out how we can help fix spreadsheet errors and automate your business processes.",
+      "Perth Excel programmers helping businesses streamline operations with custom spreadsheets, VBA development and reporting solutions.",
     images: ["/logo.png"],
   },
 

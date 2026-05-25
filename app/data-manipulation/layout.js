@@ -1,14 +1,14 @@
 export const metadata = {
   title: "Data Manipulation | Excel Experts",
   description:
-    "We are experts in Data import/export, parsing and processing Data formatting automation, automated data manipulation solutions using VBA. Call us 1300 102 810",
+    "Excel data automation specialists helping businesses simplify imports, exports, formatting and complex data manipulation using VBA. Free initial assessment",
 
   keywords: ["Excel data manipulation experts"],
 
   openGraph: {
     title: "Data Manipulation | Excel Experts",
     description:
-      "We are experts in Data import/export, parsing and processing Data formatting automation, automated data manipulation solutions using VBA. Call us 1300 102 810",
+      "Excel data automation specialists helping businesses simplify imports, exports, formatting and complex data manipulation using VBA. Free initial assessment",
     url: "https://www.excelexperts.com.au/data-manipulation",
     siteName: "Excel Experts",
     images: [
@@ -23,13 +23,12 @@ export const metadata = {
     type: "website",
   },
 
-            // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
-        title: "Data Manipulation | Excel Experts",
+    title: "Data Manipulation | Excel Experts",
     description:
-      "We are experts in Data import/export, parsing and processing Data formatting automation, automated data manipulation solutions using VBA. Call us 1300 102 810",
+      "Excel data automation specialists helping businesses simplify imports, exports, formatting and complex data manipulation using VBA. Free initial assessment",
     images: ["/logo.png"],
   },
 

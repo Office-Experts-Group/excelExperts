@@ -1,0 +1,203 @@
+// styles/dataManipulationServices.module.scss
+@import "./globals.scss";
+
+// ── Section shell ──────────────────────────────────────────
+.section {
+  background: $light-bg;
+  padding: 8rem;
+
+  @include tablet {
+    padding: 6rem 4rem;
+  }
+
+  @include phoneLandscape {
+    padding: 5rem 1.5rem;
+  }
+
+  @include phone {
+    padding: 4.5rem 1.25rem;
+  }
+}
+
+// ── Asymmetric two-column layout ───────────────────────────
+.inner {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  gap: 6rem;
+  align-items: start;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  @include phone {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+// ── Left: sticky heading block ─────────────────────────────
+.leftCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $accent;
+  margin-bottom: 1.1rem;
+}
+
+.heading {
+  font-size: clamp(1.9rem, 3.2vw, 2.75rem);
+  font-weight: 800;
+  color: $text-primary;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  margin: 0 0 1.25rem;
+}
+
+.intro {
+  font-size: 1rem;
+  color: $text-secondary;
+  line-height: 1.85;
+  margin: 0;
+}
+
+// SVG sits below the intro text, filling remaining vertical space
+.svgWrap {
+  margin-top: auto;
+  overflow: visible;
+  display: flex;
+  svg {
+    margin: 25vh auto 0 auto;
+    width: 100%;
+  }
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
+}
+
+// ── Right: service list ────────────────────────────────────
+.servicesList {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+// ── Individual service ─────────────────────────────────────
+.service {
+  padding: 2.25rem 0;
+  border-bottom: 1px solid $border;
+  position: relative;
+
+  // Left accent bar draws in on hover
+  &::before {
+    content: "";
+    position: absolute;
+    left: -1.5rem;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: $accent;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.3s ease;
+  }
+
+  &:first-child {
+    border-top: 1px solid $border;
+    padding-top: 2.25rem;
+  }
+
+  &:hover::before {
+    transform: scaleY(1);
+  }
+
+  @include phone {
+    padding: 2rem 0;
+
+    &::before {
+      display: none;
+    }
+  }
+}
+
+// ── Service heading row ────────────────────────────────────
+.serviceTop {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.serviceHeading {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: $text-primary;
+  margin: 0;
+  line-height: 1.25;
+  transition: color 0.2s ease;
+
+  .service:hover & {
+    color: $accent;
+  }
+}
+
+.serviceTag {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: $text-muted;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+// ── Description ────────────────────────────────────────────
+.serviceDescription {
+  font-size: 0.95rem;
+  color: $text-secondary;
+  line-height: 1.8;
+  margin: 0 0 1.1rem;
+  max-width: 60ch;
+}
+
+// ── Capability list ────────────────────────────────────────
+.capabilities {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  border-top: 1px solid $border;
+  padding-top: 1rem;
+
+  li {
+    font-size: 0.85rem;
+    color: $text-secondary;
+    line-height: 1.55;
+    padding-left: 1rem;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.55em;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: $accent;
+      opacity: 0.55;
+    }
+  }
+}

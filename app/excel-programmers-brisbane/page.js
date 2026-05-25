@@ -106,7 +106,7 @@ const schema = {
       datePublished: "2026-02-10T00:00:00+00:00",
       dateModified: "2026-05-13T00:00:00+00:00",
       description:
-        "Brisbane's leading Excel programmers with 25+ years expertise. Specialising in VBA development, spreadsheet automation, custom solutions and advanced formula engineering.",
+        "Brisbane Excel programming specialists creating powerful business spreadsheets, dashboards and automation solutions for Australian companies.",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-programmers-brisbane#breadcrumb",

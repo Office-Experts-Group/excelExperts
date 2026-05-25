@@ -1,0 +1,145 @@
+// styles/dataManipulationComparison.module.scss
+@import "./globals.scss";
+
+// ── Section shell ──────────────────────────────────────────
+.section {
+  background: $light-bg;
+  padding: 7rem 8rem;
+
+  @include tablet {
+    padding: 6rem 4rem;
+  }
+
+  @include phoneLandscape {
+    padding: 5rem 1.5rem;
+  }
+
+  @include phone {
+    padding: 4.5rem 1.25rem;
+  }
+}
+
+.inner {
+  max-width: 900px;
+}
+
+// ── Header ─────────────────────────────────────────────────
+.header {
+  margin-bottom: 3.5rem;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $accent;
+  margin-bottom: 1rem;
+}
+
+.heading {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 700;
+  color: $text-primary;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0 0 1rem;
+
+  .accentSpan {
+    color: $accent;
+  }
+}
+
+.intro {
+  font-size: 1rem;
+  color: $text-secondary;
+  line-height: 1.8;
+  margin: 0;
+  max-width: 65ch;
+}
+
+// ── Table wrapper — horizontal scroll on mobile ────────────
+.tableWrapper {
+  overflow-x: auto;
+  border-radius: 6px;
+  border: 1px solid $border;
+  margin-bottom: 2.5rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: $white;
+  min-width: 560px;
+}
+
+// ── Header row ─────────────────────────────────────────────
+// thead tr {
+//   border-bottom: 2px solid $border;
+// }
+
+.thLabel {
+  width: 18%;
+  padding: 1.1rem 1.5rem;
+}
+
+.thPQ,
+.thVBA {
+  width: 41%;
+  padding: 1.1rem 1.5rem;
+  text-align: left;
+}
+
+.thBadge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: $accent;
+  background: $accent-light;
+  border: 1px solid rgba(4, 105, 153, 0.25);
+  border-radius: 3px;
+  padding: 0.25rem 0.65rem;
+}
+
+// ── Body rows ──────────────────────────────────────────────
+.row {
+  border-bottom: 1px solid $border;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover {
+    background: rgba(4, 105, 153, 0.02);
+  }
+}
+
+.tdLabel {
+  padding: 1rem 1.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: $text-muted;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+.tdPQ,
+.tdVBA {
+  padding: 1rem 1.5rem;
+  font-size: 0.92rem;
+  color: $text-secondary;
+  line-height: 1.65;
+  vertical-align: top;
+}
+
+.tdPQ {
+  border-left: 1px solid $border;
+}
+
+.tdVBA {
+  border-left: 1px solid $border;
+}

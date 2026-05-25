@@ -106,7 +106,7 @@ const schema = {
       datePublished: "2026-02-19T00:00:00+00:00",
       dateModified: "2026-02-19T00:00:00+00:00",
       description:
-        "Gold Coast's experienced Excel programmers with 25+ years expertise. Backed with a nationwide team of Microsoft experts. Contact us now for a free consultation.",
+        "Gold Coast Excel programmers delivering custom spreadsheets, VBA automation and reporting tools backed by 25+ years of expertise.",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-programmers-gold-coast#breadcrumb",

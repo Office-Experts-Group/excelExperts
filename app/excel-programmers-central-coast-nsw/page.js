@@ -108,7 +108,7 @@ const schema = {
       datePublished: "2026-02-19T00:00:00+00:00",
       dateModified: "2026-02-19T00:00:00+00:00",
       description:
-        "Central Coast's dedicated Excel programmers with 25+ years experience. Get a free consultation today and learn how we can help fix spreadsheet errors and automate your business processes.",
+        "Central Coast Excel experts providing custom spreadsheet development, VBA programming and business automation tailored to your workflow.",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-programmers-central-coast-nsw#breadcrumb",

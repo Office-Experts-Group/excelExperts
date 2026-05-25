@@ -103,7 +103,7 @@ const Page = () => {
             powerplatform:
               "https://www.powerplatformexperts.com.au/power-platform-consultants-sydney",
             office:
-              "https://www.officeexperts.com.au/office-and-office-365-experts-sydney",
+              "https://www.officeexperts.com.au/microsoft-consultants-sydney",
           },
         },
         {
@@ -217,7 +217,7 @@ const Page = () => {
             powerplatform:
               "https://www.powerplatformexperts.com.au/power-platform-consultants-brisbane",
             office:
-              "https://www.officeexperts.com.au/office-excel-access-and-365-experts-brisbane",
+              "https://www.officeexperts.com.au/microsoft-consultants-brisbane",
           },
         },
         {
@@ -256,7 +256,7 @@ const Page = () => {
             powerplatform:
               "https://www.powerplatformexperts.com.au/power-platform-consultants-perth",
             office:
-              "https://www.officeexperts.com.au/office-excel-access-and-365-experts-perth",
+              "https://www.officeexperts.com.au/microsoft-consultants-perth",
           },
         },
       ],

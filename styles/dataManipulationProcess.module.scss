@@ -1,0 +1,159 @@
+// styles/dataManipulationProcess.module.scss
+@import "./globals.scss";
+
+// ── Section shell ──────────────────────────────────────────
+.section {
+  background: $dark-bg;
+  padding: 7rem 8rem;
+
+  @include tablet {
+    padding: 6rem 4rem;
+  }
+
+  @include phoneLandscape {
+    padding: 5rem 1.5rem;
+  }
+
+  @include phone {
+    padding: 4.5rem 1.25rem;
+  }
+}
+
+// ── Two-column inner layout ───────────────────────────────
+.inner {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  gap: 6rem;
+  align-items: start;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  @include phone {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+// ── Left column ────────────────────────────────────────────
+.leftCol {
+  position: sticky;
+  top: 130px;
+
+  @include tablet {
+    position: static;
+  }
+
+  @include phone {
+    position: static;
+  }
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $accent;
+  margin-bottom: 1.25rem;
+}
+
+.heading {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 700;
+  color: $white;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin: 0 0 1.25rem;
+}
+
+.body {
+  font-size: 0.97rem;
+  color: $white-65;
+  line-height: 1.85;
+  margin: 0 0 2rem;
+}
+
+.cta {
+  display: inline-block;
+  background: $accent;
+  color: $white;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  padding: 0.85rem 1.75rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition:
+    background 0.2s ease,
+    transform 0.15s ease;
+
+  &:hover {
+    background: darken(#046999, 6%);
+    transform: translateY(-1px);
+  }
+}
+
+// ── Steps list ─────────────────────────────────────────────
+.steps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.step {
+  display: flex;
+  gap: 1.75rem;
+  padding: 2.25rem 0;
+  border-bottom: 1px solid $white-08;
+  align-items: flex-start;
+  transition: background 0.2s ease;
+
+  &:first-child {
+    border-top: 1px solid $white-08;
+  }
+
+  &:hover {
+    background: rgba(4, 105, 153, 0.04);
+  }
+
+  @include phone {
+    gap: 1.25rem;
+    padding: 1.75rem 0;
+  }
+}
+
+.stepNum {
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: $accent;
+  flex-shrink: 0;
+  min-width: 26px;
+  padding-top: 4px;
+}
+
+.stepContent {
+  flex: 1;
+}
+
+.stepHeading {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: $white-90;
+  margin: 0 0 0.6rem;
+  line-height: 1.3;
+}
+
+.stepBody {
+  font-size: 0.92rem;
+  color: $white-55;
+  line-height: 1.8;
+  margin: 0;
+}

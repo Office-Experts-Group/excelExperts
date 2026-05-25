@@ -3,12 +3,12 @@ import React from "react";
 export const metadata = {
   title: "Excel Programmers Sydney",
   description:
-    "Expert Excel programmers in Sydney with 25+ years of experience. Get a free consultation today from Australia's leading Excel experts.",
+    "Sydney Excel programmers with 25+ years of experience delivering custom spreadsheets, automation and business reporting solutions.",
 
   openGraph: {
     title: "Excel Programmers Sydney",
     description:
-      "Expert Excel programmers in Sydney with 25+ years of experience. Get a free consultation today from Australia's leading Excel experts.",
+      "Sydney Excel programmers with 25+ years of experience delivering custom spreadsheets, automation and business reporting solutions.",
     url: "https://www.excelexperts.com.au/excel-programmers-sydney",
     siteName: "Excel Experts",
     images: [
@@ -30,7 +30,7 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Programmers Sydney | Excel Experts",
     description:
-      "Expert Excel programmers in Sydney with 25+ years of experience. Get a free consultation today from Australia's leading Excel experts.",
+      "Sydney Excel programmers with 25+ years of experience delivering custom spreadsheets, automation and business reporting solutions.",
     images: ["/logo.png"],
   },
 

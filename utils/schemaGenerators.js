@@ -337,7 +337,6 @@ export const generateOrganizationSchema = () => ({
 });
 
 // WebSite schema for excelexperts.com.au
-// Parameterised to match the officeexperts template pattern
 export const generateWebSiteSchema = (
   domain = "https://www.excelexperts.com.au",
   name = "Excel Experts",

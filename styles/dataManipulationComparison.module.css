@@ -1,0 +1,133 @@
+.section {
+  background: #f7f8f9;
+  padding: 7rem 8rem;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .section {
+    padding: 6rem 4rem;
+  }
+}
+@media (min-width: 450px) and (max-width: 766px) {
+  .section {
+    padding: 5rem 1.5rem;
+  }
+}
+@media (max-width: 449px) {
+  .section {
+    padding: 4.5rem 1.25rem;
+  }
+}
+
+.inner {
+  max-width: 900px;
+}
+
+.header {
+  margin-bottom: 3.5rem;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #046999;
+  margin-bottom: 1rem;
+}
+
+.heading {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 700;
+  color: #0d1b2a;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0 0 1rem;
+}
+.heading .accentSpan {
+  color: #046999;
+}
+
+.intro {
+  font-size: 1rem;
+  color: #4a5568;
+  line-height: 1.8;
+  margin: 0;
+  max-width: 65ch;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  margin-bottom: 2.5rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  min-width: 560px;
+}
+
+.thLabel {
+  width: 18%;
+  padding: 1.1rem 1.5rem;
+}
+
+.thPQ,
+.thVBA {
+  width: 41%;
+  padding: 1.1rem 1.5rem;
+  text-align: left;
+}
+
+.thBadge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #046999;
+  background: #e8f4fa;
+  border: 1px solid rgba(4, 105, 153, 0.25);
+  border-radius: 3px;
+  padding: 0.25rem 0.65rem;
+}
+
+.row {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+.row:last-child {
+  border-bottom: none;
+}
+.row:hover {
+  background: rgba(4, 105, 153, 0.02);
+}
+
+.tdLabel {
+  padding: 1rem 1.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #9a9da1;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+.tdPQ,
+.tdVBA {
+  padding: 1rem 1.5rem;
+  font-size: 0.92rem;
+  color: #4a5568;
+  line-height: 1.65;
+  vertical-align: top;
+}
+
+.tdPQ {
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.tdVBA {
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+}/*# sourceMappingURL=dataManipulationComparison.module.css.map */
