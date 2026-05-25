@@ -29,7 +29,7 @@ const DataManipulationProcess = () => {
         <div className={styles.leftCol}>
           <span className={styles.eyebrow}>How We Work</span>
           <h2 className={styles.heading}>
-            What it's like to work with Office Experts.
+            What it's like to work with Excel Experts.
           </h2>
           <p className={styles.body}>
             The best outcomes are achieved by at first working together to
@@ -37,9 +37,29 @@ const DataManipulationProcess = () => {
             most cost effective yet scalable solution.
           </p>
           <p className={styles.body}>
-            Projects only fail when scope isn't clear, or when the solution is
-            built in isolation from the rest of your day to day operations. Our
-            process is designed to prevent both.
+            As part of the nationwide organisation{" "}
+            <Link
+              style={{ color: "#046999", fontWeight: "700" }}
+              href="https://www.officeexperts.com.au"
+            >
+              Office Experts Group
+            </Link>
+            , we have a large team with years of experience across the entire
+            Microsoft Office suite, sometimes the best solution may involve{" "}
+            <Link
+              style={{ color: "#046999", fontWeight: "700" }}
+              href="https://www.powerplatformexperts.com.au"
+            >
+              Power Platform
+            </Link>
+            ,{" "}
+            <Link
+              style={{ color: "#046999", fontWeight: "700" }}
+              href="https://www.officeexperts.com.au/microsoft-365"
+            >
+              365
+            </Link>{" "}
+            or even a completely custom application.
           </p>
           <Link href="/contact-us/request-a-quote" className={styles.cta}>
             Start a conversation
