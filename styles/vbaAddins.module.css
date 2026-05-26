@@ -1,0 +1,236 @@
+.section {
+  background: #f7f8f9;
+  padding: 8rem;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .section {
+    padding: 6rem 4rem;
+  }
+}
+@media (min-width: 450px) and (max-width: 766px) {
+  .section {
+    padding: 5rem 1.5rem;
+  }
+}
+@media (max-width: 449px) {
+  .section {
+    padding: 5rem 1.25rem;
+  }
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #046999;
+  margin-bottom: 1.1rem;
+}
+
+.heading {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 900;
+  color: #0d1b2a;
+  line-height: 1.16;
+  letter-spacing: -0.025em;
+  margin: 0 0 1.25rem;
+}
+
+.accent {
+  color: #046999;
+}
+
+.body {
+  font-size: 0.97rem;
+  color: #4a5568;
+  line-height: 1.85;
+  margin: 0 0 1rem;
+  max-width: 54ch;
+}
+.body:last-of-type {
+  margin-bottom: 1.75rem;
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #046999;
+  text-decoration: none;
+  border-bottom: 1.5px solid rgba(4, 105, 153, 0.3);
+  padding-bottom: 2px;
+  transition: gap 0.2s ease, border-color 0.2s ease;
+}
+.cta:hover {
+  gap: 0.75rem;
+  border-color: #046999;
+}
+
+.divider {
+  height: 1px;
+  background: rgba(0, 0, 0, 0.08);
+  margin: 6rem 0;
+}
+@media (max-width: 449px) {
+  .divider {
+    margin: 4rem 0;
+  }
+}
+
+.addinsBlock {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .addinsBlock {
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
+  }
+}
+@media (min-width: 450px) and (max-width: 766px) {
+  .addinsBlock {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+@media (max-width: 449px) {
+  .addinsBlock {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+.addinsRight {
+  display: flex;
+  justify-content: center;
+  overflow: visible;
+}
+.addinsRight svg {
+  margin: 0 auto;
+}
+
+.productBadges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.productBadge {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: #ffffff;
+  border: 1px solid rgba(4, 105, 153, 0.3);
+  border-radius: 2rem;
+  padding: 0.3rem 0.75rem 0.3rem 0.4rem;
+}
+
+.productLetter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  background: #046999;
+  color: #ffffff;
+  font-size: 0.6rem;
+  font-weight: 900;
+  border-radius: 50%;
+  letter-spacing: -0.02em;
+}
+
+.productLabel {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #0d1b2a;
+}
+
+.upgradeBlock {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  align-items: center;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .upgradeBlock {
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
+  }
+}
+@media (min-width: 450px) and (max-width: 766px) {
+  .upgradeBlock {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+@media (max-width: 449px) {
+  .upgradeBlock {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+.upgradeLeft {
+  display: flex;
+  justify-content: center;
+}
+.upgradeLeft svg {
+  width: 520px;
+  margin: 0 auto;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .upgradeLeft {
+    order: 2;
+  }
+}
+@media (min-width: 450px) and (max-width: 766px) {
+  .upgradeLeft {
+    order: 2;
+  }
+}
+@media (max-width: 449px) {
+  .upgradeLeft {
+    order: 2;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .upgradeRight {
+    order: 1;
+  }
+}
+@media (min-width: 450px) and (max-width: 766px) {
+  .upgradeRight {
+    order: 1;
+  }
+}
+@media (max-width: 449px) {
+  .upgradeRight {
+    order: 1;
+  }
+}
+
+.upgradePoints {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  margin-bottom: 2rem;
+}
+
+.upgradePoint {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-size: 0.9rem;
+  color: #4a5568;
+  font-weight: 500;
+}
+.upgradePoint svg {
+  flex-shrink: 0;
+}/*# sourceMappingURL=vbaAddins.module.css.map */

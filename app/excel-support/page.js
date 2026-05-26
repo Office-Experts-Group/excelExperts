@@ -99,6 +99,7 @@ const Page = () => {
       <Promo
         h2="Master Excel with Expert Training"
         p="Gain the skills you need with task-specific, cost-effective training. Whether remote or onsite, our experienced trainers are here to help you succeed."
+        margin="true"
       />
       <Contact />
     </>

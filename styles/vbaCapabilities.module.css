@@ -1,0 +1,143 @@
+.section {
+  background: #111820;
+  padding: 8rem;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .section {
+    padding: 6rem 4rem;
+  }
+}
+@media (min-width: 450px) and (max-width: 766px) {
+  .section {
+    padding: 5rem 1.5rem;
+  }
+}
+@media (max-width: 449px) {
+  .section {
+    padding: 5rem 1.25rem;
+  }
+}
+
+.header {
+  max-width: 680px;
+  margin-bottom: 5rem;
+}
+@media (max-width: 449px) {
+  .header {
+    margin-bottom: 3rem;
+  }
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(4, 105, 153, 0.9);
+  border: 1px solid rgba(4, 105, 153, 0.3);
+  border-radius: 2rem;
+  padding: 0.3rem 0.9rem;
+  margin-bottom: 1.4rem;
+}
+
+.heading {
+  font-size: clamp(2rem, 3.4vw, 2.9rem);
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.88);
+  line-height: 1.14;
+  letter-spacing: -0.028em;
+  margin: 0 0 1.25rem;
+}
+
+.accent {
+  color: #046999;
+}
+
+.intro {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.55);
+  line-height: 1.85;
+  max-width: 60ch;
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 450px) and (max-width: 766px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 449px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  background: #18232e;
+  padding: 2.25rem 1.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  height: 100%;
+  transition: background 0.25s ease;
+}
+.card:hover {
+  background: #1a2a3a;
+}
+.card:hover .cardIcon {
+  color: #046999;
+  transform: scale(1.1);
+}
+.card:hover .cardAccentLine {
+  transform: scaleX(1);
+}
+
+.cardIcon {
+  width: 44px;
+  height: 44px;
+  color: rgba(4, 105, 153, 0.7);
+  margin-bottom: 1.25rem;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+.cardIcon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.cardHeading {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.88);
+  line-height: 1.3;
+  margin: 0 0 0.75rem;
+  letter-spacing: -0.01em;
+}
+
+.cardBody {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.55);
+  line-height: 1.8;
+  margin: 0;
+}
+
+.cardAccentLine {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #046999;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}/*# sourceMappingURL=vbaCapabilities.module.css.map */

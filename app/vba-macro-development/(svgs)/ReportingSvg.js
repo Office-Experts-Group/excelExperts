@@ -1,0 +1,50 @@
+export const ReportingSvg = () => {
+  return (
+    <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+      <rect
+        x="6"
+        y="6"
+        width="36"
+        height="36"
+        rx="4"
+        stroke="currentColor"
+        strokeWidth="1.8"
+      />
+      <rect
+        x="12"
+        y="28"
+        width="5"
+        height="10"
+        rx="1.5"
+        fill="currentColor"
+        opacity="0.5"
+      />
+      <rect
+        x="21"
+        y="22"
+        width="5"
+        height="16"
+        rx="1.5"
+        fill="currentColor"
+        opacity="0.7"
+      />
+      <rect
+        x="30"
+        y="16"
+        width="5"
+        height="22"
+        rx="1.5"
+        fill="currentColor"
+        opacity="0.9"
+      />
+      <path
+        d="M12 20l9-7 9 4 6-6"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        opacity="0.6"
+      />
+    </svg>
+  );
+};

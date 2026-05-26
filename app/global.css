@@ -142,6 +142,7 @@ button {
 
   &:hover {
     color: #046999;
+    border: 1px solid #046999;
 
     &::before {
       left: 0;

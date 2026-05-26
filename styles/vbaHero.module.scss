@@ -1,0 +1,333 @@
+// styles/vbaHero.module.scss
+@import "./globals.scss";
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// ── Section shell ──────────────────────────────────────────
+.section {
+  background: $white;
+  padding: 8rem 8rem 6rem;
+
+  @include tablet {
+    padding: 6rem 4rem;
+  }
+  @include phoneLandscape {
+    padding: 5rem 1.5rem;
+  }
+  @include phone {
+    padding: 5rem 1.25rem;
+  }
+}
+
+// ── Two-column grid ────────────────────────────────────────
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  align-items: start;
+  opacity: 1;
+  transition: opacity 0.1s;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
+  }
+  @include phoneLandscape {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  @include phone {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+// ── Left column ────────────────────────────────────────────
+.leftCol {
+  position: sticky;
+  top: 130px;
+  padding-bottom: 2rem;
+
+  @include tablet {
+    position: static;
+  }
+  @include phone {
+    position: static;
+  }
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $accent;
+  background: $accent-light;
+  padding: 0.3rem 0.85rem;
+  border-radius: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.heading {
+  font-size: clamp(2.2rem, 3.8vw, 3.4rem);
+  font-weight: 900;
+  color: $text-primary;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin: 0 0 1.5rem;
+}
+
+.accentWord {
+  color: $accent;
+}
+
+.body {
+  p {
+    font-size: 1rem;
+    color: $text-secondary;
+    line-height: 1.85;
+    margin: 0 0 1rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  margin-bottom: 2.25rem;
+}
+
+.ctaRow {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.ctaSecondary {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: $accent;
+  text-decoration: none;
+  border-bottom: 1px solid $accent-border;
+  padding-bottom: 1px;
+  transition: border-color 0.2s ease;
+
+  &:hover {
+    border-color: $accent;
+  }
+}
+
+// Desktop SVG shown as a bottom-of-section accent
+.svgDesktop {
+  display: block;
+  max-width: 480px;
+  margin: 5rem auto 0rem auto;
+
+  @include tablet {
+    display: none;
+  }
+  @include phoneLandscape {
+    display: none;
+  }
+  @include phone {
+    display: none;
+  }
+}
+
+// Mobile/tablet SVG inside left column
+.svgMobile {
+  display: none;
+  margin-top: 2.5rem;
+
+  @include tablet {
+    display: block;
+  }
+  @include phoneLandscape {
+    display: block;
+  }
+  @include phone {
+    display: block;
+  }
+}
+
+// ── Right column ────────────────────────────────────────────
+.rightCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.capLabel {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $text-muted;
+  margin: 0 0 1rem;
+}
+
+// ── Capability list ─────────────────────────────────────────
+.capList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  border-top: 1px solid $border;
+}
+
+// Animated blue track line
+.trackLine {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  background: $accent;
+  transition: height 0.35s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+
+// ── Individual capability item ──────────────────────────────
+.capItem {
+  border-bottom: 1px solid $border;
+  cursor: default;
+  outline: none;
+
+  &:focus-visible {
+    outline: 2px solid rgba(4, 105, 153, 0.4);
+    outline-offset: -2px;
+  }
+}
+
+.capItemInner {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 1.25rem 0.5rem;
+  transition: background 0.2s ease;
+
+  .capItem:hover & {
+    background: $accent-light;
+  }
+}
+
+// Number + dot column
+.capLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  padding-top: 2px;
+}
+
+.capNum {
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: $text-muted;
+  transition: color 0.2s ease;
+
+  .capItemActive & {
+    color: $accent;
+  }
+}
+
+.capDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: $border;
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+
+  .capItemActive & {
+    background: $accent;
+    transform: scale(1.4);
+  }
+}
+
+// Text area
+.capContent {
+  flex: 1;
+  min-width: 0;
+}
+
+.capHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+
+.capTitle {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: $text-primary;
+  line-height: 1.3;
+  transition: color 0.2s ease;
+
+  .capItemActive & {
+    color: $accent;
+  }
+}
+
+.capTag {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: $accent;
+  background: $accent-light;
+  padding: 0.18rem 0.55rem;
+  border-radius: 2rem;
+  white-space: nowrap;
+}
+
+// Expanded description
+.capDesc {
+  overflow: hidden;
+  max-height: 0;
+  transition:
+    max-height 0.32s ease,
+    opacity 0.28s ease,
+    margin-top 0.28s ease;
+  opacity: 0;
+
+  p {
+    font-size: 0.87rem;
+    color: $text-secondary;
+    line-height: 1.75;
+  }
+
+  .capItemActive & {
+    max-height: 120px;
+    opacity: 1;
+    margin-top: 0.6rem;
+  }
+}
+
+// Arrow icon
+.capArrow {
+  flex-shrink: 0;
+  color: $text-muted;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+  padding-top: 2px;
+
+  .capItemActive & {
+    color: $accent;
+    transform: translateX(3px);
+  }
+}

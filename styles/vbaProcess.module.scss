@@ -1,0 +1,242 @@
+// styles/vbaProcess.module.scss
+@import "./globals.scss";
+
+// ── Section shell — dark ──────────────────────────────────
+.section {
+  background: $dark-bg;
+  padding: 8rem;
+
+  @include tablet {
+    padding: 6rem 4rem;
+  }
+  @include phoneLandscape {
+    padding: 5rem 1.5rem;
+  }
+  @include phone {
+    padding: 5rem 1.25rem;
+  }
+}
+
+// ── Two-column layout ─────────────────────────────────────
+.inner {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  gap: 7rem;
+  align-items: start;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
+  }
+  @include phoneLandscape {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  @include phone {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+// ── Left column ───────────────────────────────────────────
+.leftCol {
+  position: sticky;
+  top: 130px;
+
+  @include tablet {
+    position: static;
+  }
+  @include phone {
+    position: static;
+  }
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba($accent, 0.9);
+  margin-bottom: 1.1rem;
+}
+
+.heading {
+  font-size: clamp(1.85rem, 3.2vw, 2.65rem);
+  font-weight: 900;
+  color: $white-88;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  margin: 0 0 1.25rem;
+}
+
+.accent {
+  color: $accent;
+}
+
+.intro {
+  font-size: 0.97rem;
+  color: $white-55;
+  line-height: 1.85;
+  margin: 0 0 2rem;
+}
+
+// ── Stats ─────────────────────────────────────────────────
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 3rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid $white-08;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.statValue {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: $accent;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.statLabel {
+  font-size: 0.8rem;
+  color: $white-35;
+  letter-spacing: 0.3px;
+}
+
+// ── Right column — accordion ──────────────────────────────
+.rightCol {
+  display: flex;
+  flex-direction: column;
+}
+
+// ── Individual step ───────────────────────────────────────
+.step {
+  border-bottom: 1px solid $white-08;
+
+  &:first-child {
+    border-top: 1px solid $white-08;
+  }
+}
+
+// Step trigger button
+.stepBtn {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.75rem;
+  padding: 1.75rem 0;
+  cursor: pointer;
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+  outline: none;
+
+  &:focus-visible {
+    outline: 2px solid rgba(4, 105, 153, 0.5);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  &:hover .stepPhase {
+    color: $white-88;
+  }
+  &:hover .stepNum {
+    color: $accent;
+  }
+
+  @include phone {
+    gap: 1rem;
+    padding: 1.4rem 0;
+  }
+}
+
+.stepNum {
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+  color: rgba(255, 255, 255, 0.22);
+  padding-top: 3px;
+  flex-shrink: 0;
+  min-width: 24px;
+  transition: color 0.18s ease;
+
+  .stepOpen & {
+    color: $accent;
+  }
+}
+
+.stepMeta {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.stepPhase {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: $white-65;
+  line-height: 1.2;
+  transition: color 0.18s ease;
+
+  .stepOpen & {
+    color: $white-88;
+  }
+}
+
+.stepSummary {
+  font-size: 0.87rem;
+  color: $white-35;
+  line-height: 1.5;
+
+  @include phone {
+    display: none;
+  }
+}
+
+.stepToggle {
+  color: rgba(255, 255, 255, 0.28);
+  flex-shrink: 0;
+  padding-top: 3px;
+  transition: color 0.18s ease;
+
+  .stepOpen & {
+    color: $accent;
+  }
+  .stepBtn:hover & {
+    color: $accent;
+  }
+}
+
+// Expandable body
+.stepBody {
+  overflow: hidden;
+  transition:
+    max-height 0.35s ease,
+    opacity 0.3s ease;
+  opacity: 0;
+
+  .stepOpen & {
+    opacity: 1;
+  }
+
+  p {
+    font-size: 0.92rem;
+    color: $white-55;
+    line-height: 1.85;
+    padding: 0 0 1.75rem 3.5rem;
+    margin: 0;
+
+    @include phone {
+      padding-left: 0;
+    }
+  }
+}

@@ -1,20 +1,17 @@
+// app/services/vba-macro-development/page.js
 import React from "react";
 import dynamic from "next/dynamic";
 
 import ServiceHero from "../../components/ServiceHero";
-import PageSegmentMain from "./(components)/PageSegmentMain";
+import VbaHero from "./(components)/VbaHero";
 
-const ExpertsAwait = dynamic(() => import("../../components/ExpertsAwait"));
+const VbaCapabilities = dynamic(() => import("./(components)/VbaCapabilities"));
+const VbaAddins = dynamic(() => import("./(components)/VbaAddins"));
+const VbaProcess = dynamic(() => import("./(components)/VbaProcess"));
 const Contact = dynamic(() => import("../../components/Contact"));
-const PageSegmentCenter = dynamic(
-  () => import("./(components)/PageSegmentCenter"),
-);
-const PageSegment3 = dynamic(() => import("./(components)/PageSegment3"));
-const Segment3Copy = dynamic(() => import("./(components)/Segment3Copy"));
-const Promo = dynamic(() => import("./(components)/Promo"));
 
-import graphic from "../../public/pageHeros/graphic.webp";
-import graph from "../../public/pageHeros/mob/graph.webp";
+import vba from "../../public/pageHeros/vba.webp";
+import vbaMob from "../../public/pageHeros/mob/vbaMob.webp";
 
 import {
   generateProfessionalServiceSchema,
@@ -28,7 +25,7 @@ const schema = {
     generateProfessionalServiceSchema(),
     generateOrganizationSchema(),
     generateWebSiteSchema(
-      "https://www.excelsexperts.com.au",
+      "https://www.excelexperts.com.au",
       "Excel Experts",
       "Australia-wide Microsoft Excel Programming, Development and Consulting Experts",
     ),
@@ -44,9 +41,9 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2018-12-10T04:46:06+00:00",
-      dateModified: "2025-03-04T23:31:33+00:00",
+      dateModified: "2026-05-26T23:31:33+00:00",
       description:
-        "Expert VBA and macro development services for all Microsoft Office applications. Our experienced programmers create custom automated solutions including form creation, data manipulation, and task automation. ",
+        "Expert VBA and macro development services for all Microsoft Office applications. Our experienced programmers create custom automated solutions including form creation, data manipulation, and task automation.",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/vba-macro-development#breadcrumb",
@@ -88,18 +85,16 @@ const Page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <ServiceHero
-        title="VBA and Macro Development"
-        desktopImage={graphic}
-        mobileImage={graph}
-        altDesk={"graphic design"}
-        altMob={"graphs on a table"}
+        title={"VBA and Macro Development"}
+        desktopImage={vba}
+        mobileImage={vbaMob}
+        altDesk={"vba development on a computer"}
+        altMob={"vba development on a computer"}
       />
-      <PageSegmentMain />
-      <PageSegment3 />
-      <PageSegmentCenter />
-      <Segment3Copy />
-      <Promo />
-      <ExpertsAwait />
+      <VbaHero />
+      <VbaCapabilities />
+      <VbaAddins />
+      <VbaProcess />
       <Contact />
     </>
   );

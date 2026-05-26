@@ -1,0 +1,237 @@
+.section {
+  background: #111820;
+  padding: 8rem;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .section {
+    padding: 6rem 4rem;
+  }
+}
+@media (min-width: 450px) and (max-width: 766px) {
+  .section {
+    padding: 5rem 1.5rem;
+  }
+}
+@media (max-width: 449px) {
+  .section {
+    padding: 5rem 1.25rem;
+  }
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  gap: 7rem;
+  align-items: start;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
+  }
+}
+@media (min-width: 450px) and (max-width: 766px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+@media (max-width: 449px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+.leftCol {
+  position: sticky;
+  top: 130px;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .leftCol {
+    position: static;
+  }
+}
+@media (max-width: 449px) {
+  .leftCol {
+    position: static;
+  }
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(4, 105, 153, 0.9);
+  margin-bottom: 1.1rem;
+}
+
+.heading {
+  font-size: clamp(1.85rem, 3.2vw, 2.65rem);
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.88);
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  margin: 0 0 1.25rem;
+}
+
+.accent {
+  color: #046999;
+}
+
+.intro {
+  font-size: 0.97rem;
+  color: rgba(255, 255, 255, 0.55);
+  line-height: 1.85;
+  margin: 0 0 2rem;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 3rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.statValue {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #046999;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.statLabel {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.35);
+  letter-spacing: 0.3px;
+}
+
+.rightCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.step {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.step:first-child {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.stepBtn {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.75rem;
+  padding: 1.75rem 0;
+  cursor: pointer;
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+.stepBtn:focus-visible {
+  outline: 2px solid rgba(4, 105, 153, 0.5);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+.stepBtn:hover .stepPhase {
+  color: rgba(255, 255, 255, 0.88);
+}
+.stepBtn:hover .stepNum {
+  color: #046999;
+}
+@media (max-width: 449px) {
+  .stepBtn {
+    gap: 1rem;
+    padding: 1.4rem 0;
+  }
+}
+
+.stepNum {
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+  color: rgba(255, 255, 255, 0.22);
+  padding-top: 3px;
+  flex-shrink: 0;
+  min-width: 24px;
+  transition: color 0.18s ease;
+}
+.stepOpen .stepNum {
+  color: #046999;
+}
+
+.stepMeta {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.stepPhase {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.2;
+  transition: color 0.18s ease;
+}
+.stepOpen .stepPhase {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.stepSummary {
+  font-size: 0.87rem;
+  color: rgba(255, 255, 255, 0.35);
+  line-height: 1.5;
+}
+@media (max-width: 449px) {
+  .stepSummary {
+    display: none;
+  }
+}
+
+.stepToggle {
+  color: rgba(255, 255, 255, 0.28);
+  flex-shrink: 0;
+  padding-top: 3px;
+  transition: color 0.18s ease;
+}
+.stepOpen .stepToggle {
+  color: #046999;
+}
+.stepBtn:hover .stepToggle {
+  color: #046999;
+}
+
+.stepBody {
+  overflow: hidden;
+  transition: max-height 0.35s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+.stepOpen .stepBody {
+  opacity: 1;
+}
+.stepBody p {
+  font-size: 0.92rem;
+  color: rgba(255, 255, 255, 0.55);
+  line-height: 1.85;
+  padding: 0 0 1.75rem 3.5rem;
+  margin: 0;
+}
+@media (max-width: 449px) {
+  .stepBody p {
+    padding-left: 0;
+  }
+}/*# sourceMappingURL=vbaProcess.module.css.map */

@@ -1,0 +1,49 @@
+export const ProcessingSvg = () => {
+  return (
+    <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+      <rect
+        x="6"
+        y="10"
+        width="36"
+        height="6"
+        rx="2"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        opacity="0.5"
+      />
+      <rect
+        x="6"
+        y="21"
+        width="36"
+        height="6"
+        rx="2"
+        stroke="currentColor"
+        strokeWidth="1.8"
+      />
+      <rect
+        x="6"
+        y="32"
+        width="36"
+        height="6"
+        rx="2"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        opacity="0.5"
+      />
+      <circle
+        cx="38"
+        cy="13"
+        r="3.5"
+        fill="#111820"
+        stroke="currentColor"
+        strokeWidth="1.5"
+      />
+      <path
+        d="M36.5 13h3M38 11.5v3"
+        stroke="currentColor"
+        strokeWidth="1.3"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+};
