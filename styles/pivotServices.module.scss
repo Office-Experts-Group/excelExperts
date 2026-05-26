@@ -1,0 +1,270 @@
+// styles/pivotServices.module.scss
+@import "./globals.scss";
+
+.section {
+  background: $dark-bg;
+  padding: 8rem;
+
+  @include tablet {
+    padding: 6rem 4rem;
+  }
+
+  @include phoneLandscape {
+    padding: 5rem 1.5rem;
+  }
+
+  @include phone {
+    padding: 4.5rem 1.25rem;
+  }
+}
+
+// ── Two-column layout: sticky left + scrolling right ──
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 6rem;
+  align-items: start;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  @include phoneLandscape {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  @include phone {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+// ── Left column — sticky header ──────────────
+.leftCol {
+  position: sticky;
+  top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  height: fit-content;
+
+  @include tablet {
+    position: static;
+    animation: none;
+  }
+
+  @include phoneLandscape {
+    position: static;
+    animation: none;
+  }
+
+  @include phone {
+    position: static;
+    animation: none;
+  }
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba($accent, 0.9);
+  border: 1px solid $accent-border;
+  border-radius: 2rem;
+  padding: 0.32rem 0.9rem;
+  width: fit-content;
+
+  @include phone {
+    display: none;
+  }
+}
+
+.heading {
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  font-weight: 900;
+  color: $white-90;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+}
+
+.accent {
+  color: $accent;
+}
+
+.intro {
+  font-size: 0.95rem;
+  color: $white-55;
+  line-height: 1.85;
+  max-width: 36ch;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  background: $accent;
+  color: $white;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-radius: 4px;
+  text-decoration: none;
+  width: fit-content;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 0.88;
+  }
+}
+
+// ── Right column — service list ───────────────
+// Continuous left spine line via ::before on the wrapper
+.serviceList {
+  position: relative;
+  border-top: 1px solid $white-08;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      $accent 6%,
+      $accent 94%,
+      transparent 100%
+    );
+    opacity: 0.4;
+    pointer-events: none;
+  }
+}
+
+// ── Individual service row ────────────────────
+.row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 3.5rem 1fr;
+  gap: 1.5rem;
+  padding: 2.25rem 0 2.25rem 1.75rem;
+  border-bottom: 1px solid $white-08;
+  overflow: hidden;
+  transition: background 0.25s ease;
+
+  // Hover: left-to-right gradient wash
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba($accent, 0.07) 0%, transparent 55%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.02);
+
+    &::after {
+      opacity: 1;
+    }
+
+    .num {
+      color: rgba($accent, 0.55);
+    }
+
+    .rowHeading {
+      color: $white;
+    }
+  }
+
+  @include phone {
+    grid-template-columns: 2.5rem 1fr;
+    gap: 1rem;
+    padding: 2rem 0 2rem 1.25rem;
+  }
+}
+
+// Ghost step number
+.num {
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: $white-18;
+  padding-top: 0.2rem;
+  transition: color 0.25s ease;
+  user-select: none;
+}
+
+// Service content
+.rowBody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.rowHeading {
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  font-weight: 800;
+  color: $white-88;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  transition: color 0.2s ease;
+}
+
+.rowDesc {
+  font-size: 0.9rem;
+  color: $white-55;
+  line-height: 1.8;
+  // max-width: 58ch;
+}
+
+// ── Chips row ─────────────────────────────────
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 0.25rem;
+}
+
+.chip {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: $white-55;
+  background: $white-08;
+  border: 1px solid $white-12;
+  border-radius: 3px;
+  padding: 0.22rem 0.6rem;
+  white-space: nowrap;
+}
+
+.learnMore {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: rgba($accent, 0.8);
+  text-decoration: none;
+  margin-left: auto;
+  transition: color 0.18s ease;
+
+  svg {
+    transition: transform 0.2s ease;
+  }
+
+  &:hover {
+    color: $accent;
+
+    svg {
+      transform: translate(2px, -2px);
+    }
+  }
+}

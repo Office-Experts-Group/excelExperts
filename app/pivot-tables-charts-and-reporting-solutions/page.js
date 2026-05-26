@@ -1,18 +1,18 @@
+// app/pivot-tables-charts-and-reporting-solutions/page.js
 import React from "react";
 import dynamic from "next/dynamic";
 
 import ServiceHero from "../../components/ServiceHero";
-import PageSegmentMain from "./(components)/PageSegmentMain";
+// Section components — loaded statically above the fold, dynamically below
+import PivotIntro from "./(components)/PivotIntro";
 
-const ExpertsAwait = dynamic(() => import("../../components/ExpertsAwait"));
+const PivotServices = dynamic(() => import("./(components)/PivotServices"));
+const PivotCopilot = dynamic(() => import("./(components)/PivotCopilot"));
+const PivotIndustries = dynamic(() => import("./(components)/PivotIndustries"));
 const Contact = dynamic(() => import("../../components/Contact"));
-const PageSegment4 = dynamic(() => import("./(components)/PageSegment4"));
-const FAQ = dynamic(() => import("../../components/FAQSection"));
 
-import { faqs } from "../../faqs/pivot-tables.js";
-
-import graphTable from "../../public/pageHeros/graphTable.webp";
-import graphTableMob from "../../public/pageHeros/mob/graphTableMob.webp";
+import reports from "../../public/pageHeros/reports.webp";
+import reportsMob from "../../public/pageHeros/mob/reportsMob.webp";
 
 import {
   generateProfessionalServiceSchema,
@@ -20,50 +20,37 @@ import {
   generateWebSiteSchema,
 } from "../../utils/schemaGenerators";
 
-const schema = {
+const PAGE_URL =
+  "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions";
+
+const schemaData = {
   "@context": "https://schema.org",
   "@graph": [
     generateOrganizationSchema(),
     generateProfessionalServiceSchema(),
     generateWebSiteSchema(
-      "https://www.excelsexperts.com.au",
+      "https://www.excelexperts.com.au",
       "Excel Experts",
       "Australia-wide Microsoft Excel Programming, Development and Consulting Experts",
     ),
     {
       "@type": "WebPage",
-      "@id":
-        "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions",
-      url: "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions",
-      name: "Pivot Tables, Charts & Reporting Solutions | Excel Experts",
-      isPartOf: {
-        "@id": "https://www.excelexperts.com.au#website",
-      },
-      about: {
-        "@id": "https://www.excelexperts.com.au#organization",
-      },
+      "@id": PAGE_URL,
+      url: PAGE_URL,
+      name: "Excel Pivot Tables, Charts & Reporting Solutions | Excel Experts Australia",
+      isPartOf: { "@id": "https://www.excelexperts.com.au#website" },
+      about: { "@id": "https://www.excelexperts.com.au#organization" },
       datePublished: "2018-01-02T16:19:12+00:00",
-      dateModified: "2025-03-31T00:28:14+00:00",
+      dateModified: "2026-05-25T00:00:00+10:00",
       description:
-        "We are Reporting Solution Experts! If you need help with charting, pivot charts, pivot tables or any other Excel features then our experts can help.",
-      breadcrumb: {
-        "@id":
-          "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions#breadcrumb",
-      },
+        "Australia's leading Excel experts build custom pivot tables, pivot charts, Power Query pipelines and Power BI dashboards. Remote & onsite support nationwide.",
+      breadcrumb: { "@id": `${PAGE_URL}#breadcrumb` },
       inLanguage: "en-AU",
-      potentialAction: [
-        {
-          "@type": "ReadAction",
-          target: [
-            "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions",
-          ],
-        },
-      ],
+      potentialAction: [{ "@type": "ReadAction", target: [PAGE_URL] }],
     },
     {
       "@type": "BreadcrumbList",
-      "@id":
-        "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions#breadcrumb",
+      "@id": `${PAGE_URL}#breadcrumb`,
       itemListElement: [
         {
           "@type": "ListItem",
@@ -74,8 +61,8 @@ const schema = {
         {
           "@type": "ListItem",
           position: 2,
-          name: "Pivot Tables, Charts and Reporting Solutions",
-          item: "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions",
+          name: "Pivot Tables, Charts & Reporting Solutions",
+          item: PAGE_URL,
         },
       ],
     },
@@ -87,22 +74,23 @@ const Page = () => {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <ServiceHero
-        title="Pivot Tables, Charts and Reporting"
-        desktopImage={graphTable}
-        mobileImage={graphTableMob}
-        altDesk={"graphs on a table"}
-        altMob={"graphs on a table"}
-      />
-      <PageSegmentMain />
-      <PageSegment4 />
-      <ExpertsAwait />
-      <div style={{ marginTop: "6em" }}>
-        <FAQ faqs={faqs} />
-      </div>
-      <Contact />
+
+      <main>
+        <ServiceHero
+          title="Excel Pivot Tables, Charts & Custom Reporting Solutions"
+          desktopImage={reports}
+          mobileImage={reportsMob}
+          altDesk="Excel charts and pivot table data on a screen"
+          altMob="Excel charts and pivot table data on a screen"
+        />
+        <PivotIntro />
+        <PivotServices />
+        <PivotCopilot />
+        <PivotIndustries />
+        <Contact />
+      </main>
     </>
   );
 };

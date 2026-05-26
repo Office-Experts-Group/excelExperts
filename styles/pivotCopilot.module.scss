@@ -1,0 +1,188 @@
+// styles/pivotCopilot.module.scss
+@import "./globals.scss";
+
+.section {
+  background: $white;
+  padding: 8rem;
+
+  @include tablet {
+    padding: 6rem 4rem;
+  }
+
+  @include phoneLandscape {
+    padding: 5rem 1.5rem;
+  }
+
+  @include phone {
+    padding: 4.5rem 1.25rem;
+  }
+}
+
+// ══ Why Excel Experts — split layout ══════════
+.whySplit {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 6rem;
+  align-items: start;
+  margin-bottom: 5rem;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
+    margin-bottom: 4rem;
+  }
+
+  @include phoneLandscape {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    margin-bottom: 3.5rem;
+  }
+
+  @include phone {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    margin-bottom: 3rem;
+  }
+}
+
+// ── Left column ───────────────────────────────
+.whyLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  position: sticky;
+  top: 120px;
+
+  @include tablet {
+    position: static;
+  }
+
+  @include phoneLandscape {
+    position: static;
+  }
+
+  @include phone {
+    position: static;
+  }
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba($accent, 0.9);
+  border: 1px solid $accent-border;
+  border-radius: 2rem;
+  padding: 0.32rem 0.9rem;
+  width: fit-content;
+
+  @include phone {
+    display: none;
+  }
+}
+
+.whyHeading {
+  font-size: clamp(1.9rem, 3vw, 2.6rem);
+  font-weight: 900;
+  color: $text-primary;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+}
+
+.accent {
+  color: $accent;
+}
+
+.whyBody {
+  font-size: 0.95rem;
+  color: $text-secondary;
+  line-height: 1.85;
+  max-width: 40ch;
+}
+
+.whyCtas {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.linkUnderline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: $accent;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 1px;
+  width: fit-content;
+  transition: border-color 0.18s ease;
+
+  svg {
+    transition: transform 0.18s ease;
+    flex-shrink: 0;
+  }
+
+  &:hover {
+    border-bottom-color: $accent;
+
+    svg {
+      transform: translate(2px, -2px);
+    }
+  }
+}
+
+// ── Credential grid ────────────────────────────
+// Six tiles in a 2×3 grid, separated by 1px borders
+.credGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+
+  @include phone {
+    grid-template-columns: 1fr;
+  }
+}
+
+.credTile {
+  background: $white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  border: 1px solid $border;
+  border-radius: 2px;
+  transition: background 0.2s ease;
+
+  &:hover {
+    background: $light-bg;
+  }
+}
+
+.credNum {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: $accent;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.credLabel {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: $text-primary;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 0;
+}
+
+.credBody {
+  font-size: 0.85rem;
+  color: $text-secondary;
+  line-height: 1.65;
+  margin-top: 0.35rem;
+}

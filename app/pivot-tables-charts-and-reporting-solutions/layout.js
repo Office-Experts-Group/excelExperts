@@ -1,13 +1,17 @@
+// app/pivot-tables-charts-and-reporting-solutions/layout.js
+import React from "react";
+
 export const metadata = {
-  title: "Pivot Tables, Charts & Reporting Solutions | Excel Experts",
+  title:
+    "Excel Pivot Tables, Charts & Reporting Solutions | Excel Experts Australia",
   description:
-    "Professional Excel reporting solutions. Custom pivot tables, charts, and VBA tools designed by experts to simplify and enhance your data insights.",
+    "Australia's leading Excel experts build custom pivot tables, pivot charts, Power Query pipelines and Power BI dashboards. Remote & onsite support nationwide. Call 1300 102 810.",
 
   openGraph: {
-    title: "Pivot Tables, Charts & Reporting Solutions | Excel Experts",
+    title:
+      "Excel Pivot Tables, Charts & Reporting Solutions | Excel Experts Australia",
     description:
-      "Professional Excel reporting solutions. Custom pivot tables, charts, and VBA tools designed by experts to simplify and enhance your data insights.",
-
+      "Australia's leading Excel experts build custom pivot tables, pivot charts, Power Query pipelines and Power BI dashboards. Remote & onsite support nationwide. Call 1300 102 810.",
     url: "https://www.excelexperts.com.au/pivot-tables-charts-and-reporting-solutions",
     siteName: "Excel Experts",
     images: [
@@ -15,22 +19,22 @@ export const metadata = {
         url: "/logo.png",
         width: 1200,
         height: 630,
-        alt: "Office Experts Group Logo",
+        alt: "Excel Experts Logo",
       },
     ],
     locale: "en-AU",
     type: "website",
   },
 
-  keywords: ["excel pivot table consulting services"],
+  keywords: ["Excel pivot tables", "Excel reporting solutions"],
 
-  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
-    title: "Pivot Tables, Charts & Reporting Solutions | Excel Experts",
+    title:
+      "Excel Pivot Tables, Charts & Reporting Solutions | Excel Experts Australia",
     description:
-      "Professional Excel reporting solutions. Custom pivot tables, charts, and VBA tools designed by experts to simplify and enhance your data insights.",
+      "Australia's leading Excel experts build custom pivot tables, pivot charts, Power Query pipelines and Power BI dashboards. Remote & onsite support nationwide. Call 1300 102 810.",
     images: ["/logo.png"],
   },
 
@@ -40,5 +44,5 @@ export const metadata = {
 };
 
 export default function PivotTablesChartsReportingLayout({ children }) {
-  return <main>{children}</main>;
+  return <>{children}</>;
 }
