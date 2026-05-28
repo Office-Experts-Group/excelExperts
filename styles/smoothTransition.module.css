@@ -1,0 +1,141 @@
+.section {
+  padding: 7rem 8rem;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .section {
+    padding: 6rem 4rem;
+  }
+}
+@media (min-width: 450px) and (max-width: 766px) {
+  .section {
+    padding: 5rem 2rem;
+  }
+}
+@media (max-width: 449px) {
+  .section {
+    padding: 5rem 1.25rem;
+  }
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.topRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .topRow {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+@media (min-width: 450px) and (max-width: 766px) {
+  .topRow {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+@media (max-width: 449px) {
+  .topRow {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.topLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+@media screen and (max-width: 770px) {
+  .topRight {
+    display: none;
+  }
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #046999;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.heading {
+  font-size: clamp(1.9rem, 3vw, 2.6rem);
+  font-weight: 800;
+  color: #0d1b2a;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+
+.accent {
+  color: #046999;
+}
+
+.lead {
+  font-size: 1rem;
+  color: #4a5568;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.body {
+  font-size: 0.95rem;
+  color: #4a5568;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.diffGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .diffGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 449px) {
+  .diffGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.diffCard {
+  padding: 2rem 1.75rem;
+}
+
+.diffLetter {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #046999;
+  opacity: 0.7;
+}
+
+.diffHeading {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0d1b2a;
+  margin-bottom: 0.5rem;
+}
+
+.diffBody {
+  font-size: 0.85rem;
+  color: #4a5568;
+  line-height: 1.75;
+}/*# sourceMappingURL=smoothTransition.module.css.map */

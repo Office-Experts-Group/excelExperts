@@ -1,25 +1,22 @@
+// app/services/excel/upgrades-and-migration/page.js
+
 import React from "react";
 import dynamic from "next/dynamic";
 
-import PageSegmentMain from "./(components)/PageSegmentMain";
 import ServiceHero from "../../components/ServiceHero";
+import UpgradeProblem from "./(components)/UpgradeProblem";
 
 const Contact = dynamic(() => import("../../components/Contact"));
 const ExpertsAwait = dynamic(() => import("../../components/ExpertsAwait"));
-const ServicePageCards = dynamic(
-  () => import("./(components)/ServicePageCards"),
-);
-const PageSegment4 = dynamic(() => import("./(components)/PageSegment4"));
-const PageSegment3 = dynamic(() => import("./(components)/PageSegment3"));
-const PageSegment3copy = dynamic(
-  () => import("./(components)/PageSegment3copy"),
-);
-const PageSegmentDropdowns = dynamic(
-  () => import("./(components)/PageSegmentDropdowns"),
+const UpgradePathways = dynamic(() => import("./(components)/UpgradePathways"));
+const UpgradeIssues = dynamic(() => import("./(components)/UpgradeIssues"));
+const MigrateAway = dynamic(() => import("./(components)/MigrateAway"));
+const SmoothTransition = dynamic(
+  () => import("./(components)/SmoothTransition"),
 );
 
-import marker from "../../public/pageHeros/marker.webp";
-import coffeeMob from "../../public/pageHeros/mob/coffeeMob.webp";
+import upgrade from "../../public/pageHeros/upgrade.webp";
+import upgradeMob from "../../public/pageHeros/mob/upgradeMob.webp";
 
 import {
   generateProfessionalServiceSchema,
@@ -33,7 +30,7 @@ const schema = {
     generateProfessionalServiceSchema(),
     generateOrganizationSchema(),
     generateWebSiteSchema(
-      "https://www.excelsexperts.com.au",
+      "https://www.excelexperts.com.au",
       "Excel Experts",
       "Australia-wide Microsoft Excel Programming, Development and Consulting Experts",
     ),
@@ -42,16 +39,12 @@ const schema = {
       "@id": "https://www.excelexperts.com.au/upgrades-and-migration",
       url: "https://www.excelexperts.com.au/upgrades-and-migration",
       name: "Excel Upgrades and Migration | Excel Experts",
-      isPartOf: {
-        "@id": "https://www.excelexperts.com.au#website",
-      },
-      about: {
-        "@id": "https://www.excelexperts.com.au#organization",
-      },
+      isPartOf: { "@id": "https://www.excelexperts.com.au#website" },
+      about: { "@id": "https://www.excelexperts.com.au#organization" },
       datePublished: "2017-11-26T03:05:43+00:00",
-      dateModified: "2025-03-09T01:38:27+00:00",
+      dateModified: "2026-05-28T01:38:27+00:00",
       description:
-        "Stuck on an Old Version? Are you experiencing the cold reality or unsettling concerns that your Microsoft Office workbooks, documents. Call us 1300102810",
+        "Stop working around broken spreadsheets. We upgrade, migrate and modernise Excel workbooks and legacy systems for Australian businesses. Free Consultation.",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/upgrades-and-migration#breadcrumb",
@@ -95,18 +88,17 @@ const Page = () => {
       />
       <ServiceHero
         title={"Upgrades and Migration"}
-        desktopImage={marker}
-        mobileImage={coffeeMob}
-        altDesk={"marker"}
-        altMob={"coffee on a desk"}
+        desktopImage={upgrade}
+        mobileImage={upgradeMob}
+        altDesk={"Broken excel spreadsheet being fixed"}
+        altMob={"Broken excel spreadsheet being fixed"}
       />
-      <ServicePageCards />
-      <PageSegmentMain />
-      <PageSegment4 />
-      <PageSegment3 />
+      <UpgradeProblem />
+      <UpgradePathways />
+      <UpgradeIssues />
+      <MigrateAway />
       <ExpertsAwait />
-      <PageSegmentDropdowns />
-      <PageSegment3copy />
+      <SmoothTransition />
       <Contact />
     </>
   );

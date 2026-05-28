@@ -1,0 +1,132 @@
+// styles/smoothTransition.module.scss
+@import "./globals.scss";
+
+.section {
+  padding: 7rem 8rem;
+
+  @include tablet {
+    padding: 6rem 4rem;
+  }
+  @include phoneLandscape {
+    padding: 5rem 2rem;
+  }
+  @include phone {
+    padding: 5rem 1.25rem;
+  }
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+// ── Top row ──────────────────────────────────
+.topRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  @include phoneLandscape {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  @include phone {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.topLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.topRight {
+  @media screen and (max-width: 770px) {
+    display: none;
+  }
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $accent;
+  width: fit-content;
+}
+
+.heading {
+  font-size: clamp(1.9rem, 3vw, 2.6rem);
+  font-weight: 800;
+  color: $text-primary;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+
+.accent {
+  color: $accent;
+}
+
+.lead {
+  font-size: 1rem;
+  color: $text-secondary;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.body {
+  font-size: 0.95rem;
+  color: $text-secondary;
+  line-height: 1.8;
+  margin: 0;
+}
+
+// ── Differentiator grid ───────────────────────
+.diffGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+
+  @include tablet {
+    grid-template-columns: 1fr 1fr;
+  }
+  @include phone {
+    grid-template-columns: 1fr;
+  }
+}
+
+.diffCard {
+  padding: 2rem 1.75rem;
+}
+
+.diffLetter {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: $accent;
+  opacity: 0.7;
+}
+
+.diffHeading {
+  font-size: 1rem;
+  font-weight: 700;
+  color: $text-primary;
+  margin-bottom: 0.5rem;
+}
+
+.diffBody {
+  font-size: 0.85rem;
+  color: $text-secondary;
+  line-height: 1.75;
+}

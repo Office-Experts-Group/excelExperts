@@ -1,12 +1,12 @@
 export const metadata = {
   title: "Excel Upgrades and Migration",
   description:
-    "Stuck on an Old Version? Expert help with Excel workbook upgrades, VBA migration, and version compatibility issues. Professional Excel upgrade services across Australia.",
+    "Stop working around broken spreadsheets. We upgrade, migrate and modernise Excel workbooks and legacy systems for Australian businesses. Free Consultation.",
 
   openGraph: {
     title: "Excel Upgrades and Migration",
     description:
-      "Stuck on an Old Version? Expert help with Excel workbook upgrades, VBA migration, and version compatibility issues. Professional Excel upgrade services across Australia.",
+      "Stop working around broken spreadsheets. We upgrade, migrate and modernise Excel workbooks and legacy systems for Australian businesses. Free Consultation.",
     url: "https://www.excelexperts.com.au/upgrades-and-migration",
     siteName: "Excel Experts",
     images: [
@@ -21,11 +21,7 @@ export const metadata = {
     type: "website",
   },
 
-  keywords: [
-    // Core upgrade services
-    "Excel upgrade consultants",
-    "Excel migration solutions",
-  ],
+  keywords: ["Excel upgrade consultants", "Excel migration solutions"],
 
   // Twitter Card
   twitter: {
@@ -33,12 +29,12 @@ export const metadata = {
     site: "@OfficeExpertsG1",
     title: "Excel Upgrades and Migration",
     description:
-      "Stuck on an Old Version? Expert help with Excel workbook upgrades, VBA migration, and version compatibility issues. Professional Excel upgrade services across Australia.",
+      "Stop working around broken spreadsheets. We upgrade, migrate and modernise Excel workbooks and legacy systems for Australian businesses. Free Consultation.",
     images: ["/logo.png"],
   },
 
   alternates: {
-    canonical: "https://www.excelexperts.com.au/upgrades-and-migration",
+    canonical: "/upgrades-and-migration",
   },
 };
 
