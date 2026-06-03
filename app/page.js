@@ -8,8 +8,8 @@ import Hero from "./(components)/Hero";
 const Services = dynamic(() => import("./(components)/Services"));
 const CTAMain = dynamic(() => import("./(components)/CTAMain"));
 const IsRight = dynamic(() => import("./(components)/IsRight"));
-const SolutionsCarousel = dynamic(() =>
-  import("./(components)/SolutionsCarousel")
+const SolutionsCarousel = dynamic(
+  () => import("./(components)/SolutionsCarousel"),
 );
 const CTAFull = dynamic(() => import("./(components)/CTAFull"));
 const Testimonials = dynamic(() => import("./(components)/Testimonials"));
@@ -117,6 +117,7 @@ const Page = () => {
       <Promo
         h2="We Deliver the Best Quality"
         p="We are a team of highly skilled and experienced professionals who are passionate about what we do. We are committed to providing our clients with the best possible service and results."
+        margin={true}
       />
       <Contact />
     </>

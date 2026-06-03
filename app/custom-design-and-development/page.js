@@ -1,21 +1,25 @@
+// app/custom-design-and-development/page.js
 import React from "react";
 import dynamic from "next/dynamic";
 
 import ServiceHero from "../../components/ServiceHero";
-import PageSegmentMain2 from "./(components)/PageSegmentMain2";
 
-const Contact = dynamic(() => import("../../components/Contact"));
-const PageSegmentCenter = dynamic(
-  () => import("./(components)/PageSegmentCenter"),
+import CustomDesignHero from "./(components)/CustomDesignHero";
+
+const CustomDesignIntegrations = dynamic(
+  () => import("./(components)/CustomDesignIntegrations"),
 );
-const SegmentMainCopy = dynamic(() => import("./(components)/SegmentMainCopy"));
+const CustomDesignIndustries = dynamic(
+  () => import("./(components)/CustomDesignIndustries"),
+);
+const CustomDesignServices = dynamic(
+  () => import("./(components)/CustomDesignServices"),
+);
 const ExpertsAwait = dynamic(() => import("../../components/ExpertsAwait"));
-const Promo = dynamic(() => import("../../components/Promo"));
-import ContentsCopy from "./(components)/ContentsCopy";
-import Contents from "./(components)/Contents";
+const Contact = dynamic(() => import("../../components/Contact"));
 
-import graphic from "../../public/pageHeros/graphic.webp";
-import codeMob from "../../public/pageHeros/mob/codeMob.webp";
+import custom from "../../public/pageHeros/custom.webp";
+import customMob from "../../public/pageHeros/mob/customMob.webp";
 
 import {
   generateProfessionalServiceSchema,
@@ -29,7 +33,7 @@ const schema = {
     generateOrganizationSchema(),
     generateProfessionalServiceSchema(),
     generateWebSiteSchema(
-      "https://www.excelsexperts.com.au",
+      "https://www.excelexperts.com.au",
       "Excel Experts",
       "Australia-wide Microsoft Excel Programming, Development and Consulting Experts",
     ),
@@ -38,16 +42,12 @@ const schema = {
       "@id": "https://www.excelexperts.com.au/custom-design-and-development",
       url: "https://www.excelexperts.com.au/custom-design-and-development",
       name: "Custom Design and Development | Excel Experts",
-      isPartOf: {
-        "@id": "https://www.excelexperts.com.au#website",
-      },
-      about: {
-        "@id": "https://www.excelexperts.com.au#organization",
-      },
+      isPartOf: { "@id": "https://www.excelexperts.com.au#website" },
+      about: { "@id": "https://www.excelexperts.com.au#organization" },
       datePublished: "2018-01-02T13:09:44+00:00",
-      dateModified: "2025-03-31T00:30:41+00:00",
+      dateModified: "2026-05-28T00:30:41+00:00",
       description:
-        "We can build What You Need! We have extensive experience in all aspects of Excel custom design and development including. Call us 1300102810",
+        "Custom coding solutions when off-the-shelf tools just don't cut it. Excel Experts is a nationwide team of senior developers",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/custom-design-and-development#breadcrumb",
@@ -91,24 +91,18 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <Contents />
-      <ContentsCopy />
       <ServiceHero
         title="Custom Design and Development"
-        desktopImage={graphic}
-        mobileImage={codeMob}
-        altDesk={"graphic of a computer"}
-        altMob={"code on a computer"}
+        desktopImage={custom}
+        mobileImage={customMob}
+        altDesk={"futuristic graphic"}
+        altMob={"futuristic graphic"}
       />
-      <PageSegmentMain2 />
-      <PageSegmentCenter />
-      <SegmentMainCopy />
+      <CustomDesignHero />
+      <CustomDesignServices />
+      <CustomDesignIntegrations />
+      <CustomDesignIndustries />
       <ExpertsAwait />
-      <Promo
-        h2="Custom Excel Solutions"
-        p="Looking for bespoke Excel solutions? Our experts can automate, integrate, and transform your data processes for greater efficiency and performance."
-        margin="true"
-      />
       <Contact />
     </>
   );

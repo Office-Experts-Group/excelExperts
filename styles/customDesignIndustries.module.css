@@ -1,0 +1,240 @@
+.section {
+  padding: 5rem 1.5rem;
+  background: #f7f8f9;
+}
+@media (min-width: 1200px) {
+  .section {
+    padding: 6rem 4rem;
+  }
+}
+
+.header {
+  max-width: 1200px;
+  margin: 0 auto 3.5rem;
+  display: grid;
+  gap: 2rem;
+}
+@media (min-width: 1025px) and (max-width: 1199px) {
+  .header {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: end;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: end;
+  }
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.eyebrow {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #046999;
+}
+
+.heading {
+  font-size: clamp(1.65rem, 3vw, 2.4rem);
+  font-weight: 700;
+  line-height: 1.2;
+  color: #0d1b2a;
+}
+
+.accent {
+  color: #046999;
+}
+
+.headerRight {
+  padding-bottom: 0.25rem;
+}
+
+.headerBody {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #4a5568;
+}
+
+.grid {
+  max-width: 1200px;
+  margin-inline: auto;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1025px) and (max-width: 1199px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  height: 100%;
+  transition: box-shadow 0.25s, border-color 0.25s;
+}
+.card:hover {
+  box-shadow: 0 6px 28px rgba(4, 105, 153, 0.09);
+  border-color: rgba(4, 105, 153, 0.3);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.cardIcon {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  color: #046999;
+  margin-top: 0.1rem;
+}
+.cardIcon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.cardMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.cardTag {
+  font-size: 0.67rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #046999;
+  background: #e8f4fa;
+  border: 1px solid rgba(4, 105, 153, 0.3);
+  border-radius: 20px;
+  padding: 0.15em 0.65em;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.cardIndustry {
+  font-size: 0.97rem;
+  font-weight: 700;
+  color: #0d1b2a;
+  line-height: 1.25;
+}
+
+.divider {
+  height: 1px;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  flex: 1;
+}
+
+.blockSolution {
+  padding-left: 0.85rem;
+  border-left: 2px solid #046999;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.blockLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #9a9da1;
+}
+
+.labelDot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.11);
+  flex-shrink: 0;
+}
+
+.labelDotAccent {
+  background: #046999;
+}
+
+.blockText {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: #4a5568;
+}
+
+.footer {
+  max-width: 1200px;
+  margin: 3rem auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 1.75rem 2rem;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+.footerText {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #4a5568;
+  flex: 1;
+  min-width: 240px;
+}
+.footerText strong {
+  color: #0d1b2a;
+  font-weight: 700;
+}
+
+.footerLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #046999;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: gap 0.2s;
+}
+.footerLink:hover {
+  gap: 0.65rem;
+}/*# sourceMappingURL=customDesignIndustries.module.css.map */

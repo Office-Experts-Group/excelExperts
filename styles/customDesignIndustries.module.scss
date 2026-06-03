@@ -1,0 +1,251 @@
+// styles/customDesignIndustries.module.scss
+@use "../styles/globals.scss" as *;
+
+.section {
+  padding: 5rem 1.5rem;
+  background: #f7f8f9;
+
+  @include deskL {
+    padding: 6rem 4rem;
+  }
+}
+
+// ── Header ────────────────────────────────────────────────────────────────────
+.header {
+  max-width: 1200px;
+  margin: 0 auto 3.5rem;
+  display: grid;
+  gap: 2rem;
+
+  @include desktop {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: end;
+  }
+
+  @include deskL {
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: end;
+  }
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.eyebrow {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: $accent;
+}
+
+.heading {
+  font-size: clamp(1.65rem, 3vw, 2.4rem);
+  font-weight: 700;
+  line-height: 1.2;
+  color: $text-primary;
+}
+
+.accent {
+  color: $accent;
+}
+
+.headerRight {
+  padding-bottom: 0.25rem;
+}
+
+.headerBody {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: $text-secondary;
+}
+
+// ── Scenario grid ─────────────────────────────────────────────────────────────
+.grid {
+  max-width: 1200px;
+  margin-inline: auto;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 1fr;
+
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include desktop {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include deskL {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+// ── Card ──────────────────────────────────────────────────────────────────────
+.card {
+  background: $white;
+  border: 1px solid $border;
+  border-radius: 12px;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  height: 100%;
+  transition:
+    box-shadow 0.25s,
+    border-color 0.25s;
+
+  &:hover {
+    box-shadow: 0 6px 28px rgba(4, 105, 153, 0.09);
+    border-color: $accent-border;
+  }
+}
+
+// ── Card header ───────────────────────────────────────────────────────────────
+.cardHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.cardIcon {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  color: $accent;
+  margin-top: 0.1rem;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.cardMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.cardTag {
+  font-size: 0.67rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: $accent;
+  background: $accent-light;
+  border: 1px solid $accent-border;
+  border-radius: 20px;
+  padding: 0.15em 0.65em;
+  width: fit-content;
+}
+
+.cardIndustry {
+  font-size: 0.97rem;
+  font-weight: 700;
+  color: $text-primary;
+
+  line-height: 1.25;
+}
+
+// ── Divider ───────────────────────────────────────────────────────────────────
+.divider {
+  height: 1px;
+  background: $border;
+}
+
+// ── Content blocks ────────────────────────────────────────────────────────────
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  flex: 1;
+}
+
+// Solution block gets a faint left accent
+.blockSolution {
+  padding-left: 0.85rem;
+  border-left: 2px solid $accent;
+  height: fit-content;
+}
+
+.blockLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: $text-muted;
+}
+
+.labelDot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: $border-strong;
+  flex-shrink: 0;
+}
+
+.labelDotAccent {
+  background: $accent;
+}
+
+.blockText {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: $text-secondary;
+}
+
+// ── Footer CTA strip ──────────────────────────────────────────────────────────
+.footer {
+  max-width: 1200px;
+  margin: 3rem auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 1.75rem 2rem;
+  background: $white;
+  border: 1px solid $border;
+  border-radius: 12px;
+}
+
+.footerText {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: $text-secondary;
+
+  flex: 1;
+  min-width: 240px;
+
+  strong {
+    color: $text-primary;
+    font-weight: 700;
+  }
+}
+
+.footerLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: $accent;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: gap 0.2s;
+
+  &:hover {
+    gap: 0.65rem;
+  }
+}
