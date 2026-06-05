@@ -1,11 +1,11 @@
 export const metadata = {
   title: "Custom Design and Development | Excel Experts",
   description:
-    "We can build What You Need! We have extensive experience in all aspects of Excel custom design and development. Call us 1300102810",
+    "Struggling with manual Excel processes or complex spreadsheets? We design and develop custom Excel solutions that automate work, improve accuracy, and streamline reporting.",
   openGraph: {
     title: "Custom Design and Development | Excel Experts",
     description:
-      "We can build What You Need! We have extensive experience in all aspects of Excel custom design and development. Call us 1300102810",
+      "Struggling with manual Excel processes or complex spreadsheets? We design and develop custom Excel solutions that automate work, improve accuracy, and streamline reporting.",
     url: "https://www.excelexperts.com.au/custom-design-and-development",
     siteName: "Excel Experts",
     images: [
@@ -21,13 +21,13 @@ export const metadata = {
   },
   keywords: ["custom excel workbook design"],
 
-          // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
     title: "Custom Design and Development | Excel Experts",
     description:
-      "We can build What You Need! We have extensive experience in all aspects of Excel custom design and development. Call us 1300102810",
+      "Struggling with manual Excel processes or complex spreadsheets? We design and develop custom Excel solutions that automate work, improve accuracy, and streamline reporting.",
     images: ["/logo.png"],
   },
 

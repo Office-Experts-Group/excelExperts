@@ -45,9 +45,9 @@ const schema = {
       isPartOf: { "@id": "https://www.excelexperts.com.au#website" },
       about: { "@id": "https://www.excelexperts.com.au#organization" },
       datePublished: "2018-01-02T13:09:44+00:00",
-      dateModified: "2026-05-28T00:30:41+00:00",
+      dateModified: "2026-06-03T00:30:41+00:00",
       description:
-        "Custom coding solutions when off-the-shelf tools just don't cut it. Excel Experts is a nationwide team of senior developers",
+        "Struggling with manual Excel processes or complex spreadsheets? We design and develop custom Excel solutions that automate work, improve accuracy, and streamline reporting.",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/custom-design-and-development#breadcrumb",

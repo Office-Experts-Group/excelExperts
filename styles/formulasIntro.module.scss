@@ -1,0 +1,96 @@
+// styles/formulasIntro.module.scss
+@import "./globals.scss";
+
+// ── Section shell — light ──────────────────────────────────
+.section {
+  background: $white;
+  padding: 8rem;
+
+  @include tablet {
+    padding: 6rem 4rem;
+  }
+
+  @include phoneLandscape {
+    padding: 5rem 1.5rem;
+  }
+
+  @include phone {
+    padding: 5rem 1.25rem;
+  }
+}
+
+// ── Two-column grid ────────────────────────────────────────
+.inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  align-items: center;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
+  }
+
+  @include phone {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+// ── Left: content ──────────────────────────────────────────
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $accent;
+  margin-bottom: 1.25rem;
+}
+
+.heading {
+  font-size: clamp(1.9rem, 3.2vw, 2.75rem);
+  font-weight: 800;
+  color: $text-primary;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  margin: 0 0 1.75rem;
+}
+
+.headingAccent {
+  color: $accent;
+}
+
+.content p {
+  font-size: 1rem;
+  color: $text-secondary;
+  line-height: 1.85;
+  margin: 0 0 1rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// ── Right: SVG wrapper ─────────────────────────────────────
+.svgWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include phone {
+    display: none;
+  }
+}
+
+.svg {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+}

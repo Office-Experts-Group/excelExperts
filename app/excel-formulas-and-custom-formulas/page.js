@@ -1,22 +1,23 @@
+// app/services/excel/excel-formulas-and-custom-formulas/page.js
+
 import React from "react";
 import dynamic from "next/dynamic";
 
+// ServiceHero and first component are above the fold — import directly
 import ServiceHero from "../../components/ServiceHero";
-import PageSegmentMain from "./(components)/PageSegmentMain";
+import FormulasIntro from "./(components)/FormulasIntro";
 
-const Contact = dynamic(() => import("../../components/Contact"));
-const PageSegment4 = dynamic(() => import("./(components)/PageSegment4"));
+// Below-the-fold components loaded dynamically
+const FormulasDark = dynamic(() => import("./(components)/FormulasDark"));
 const VideoSegment = dynamic(() => import("./(components)/VideoSegment"));
-const ExpertsAwait = dynamic(() => import("../../components/ExpertsAwait"));
-const FAQ = dynamic(() => import("../../components/FAQSection"));
-const PageSegmentCenter = dynamic(
-  () => import("./(components)/PageSegmentCenter"),
+const FormulasWhyChoose = dynamic(
+  () => import("./(components)/FormulasWhyChoose"),
 );
+const ExpertsAwait = dynamic(() => import("../../components/ExpertsAwait"));
+const Contact = dynamic(() => import("../../components/Contact"));
 
-import faqs from "../../faqs/custom-formulas";
-
-import notes from "../../public/pageHeros/notes.webp";
-import codeMob from "../../public/pageHeros/mob/codeMob.webp";
+import formulas from "../../public/pageHeros/formulas.webp";
+import formulasMob from "../../public/pageHeros/mob/formulasMob.webp";
 
 import {
   generateProfessionalServiceSchema,
@@ -24,13 +25,14 @@ import {
   generateWebSiteSchema,
 } from "../../utils/schemaGenerators";
 
+/* ─── Schema ─────────────────────────────────────────────────────────────── */
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
     generateOrganizationSchema(),
     generateProfessionalServiceSchema(),
     generateWebSiteSchema(
-      "https://www.excelsexperts.com.au",
+      "https://www.excelexperts.com.au",
       "Excel Experts",
       "Australia-wide Microsoft Excel Programming, Development and Consulting Experts",
     ),
@@ -39,7 +41,7 @@ const schema = {
       "@id":
         "https://www.excelexperts.com.au/excel-formulas-and-custom-formulas",
       url: "https://www.excelexperts.com.au/excel-formulas-and-custom-formulas",
-      name: "Excel Formulas and Custom Formulas",
+      name: "Excel Formulas and Custom Formulas | Excel Experts",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
       },
@@ -47,14 +49,14 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#organization",
       },
       datePublished: "2018-08-31T22:15:28+00:00",
-      dateModified: "2025-03-09T01:37:16+00:00",
+      dateModified: "2025-06-06T00:00:00+00:00",
       description:
         "Get expert help with complex Excel formulas and custom formula solutions. Our specialists simplify calculations, improve workbook performance, and implement unique business logic. Remote or onsite support available across Australia.",
+      inLanguage: "en-AU",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-formulas-and-custom-formulas#breadcrumb",
       },
-      inLanguage: "en-AU",
       potentialAction: [
         {
           "@type": "ReadAction",
@@ -83,9 +85,32 @@ const schema = {
         },
       ],
     },
+    {
+      // Describes the specific service offered on this page
+      "@type": "Service",
+      "@id":
+        "https://www.excelexperts.com.au/excel-formulas-and-custom-formulas#service",
+      name: "Excel Formulas and Custom Formula Development",
+      description:
+        "Professional Excel formula writing, troubleshooting, and custom formula development. Services include VLOOKUP/XLOOKUP, INDEX/MATCH, SUMIF/SUMPRODUCT, array formulas, and fully bespoke UDF development to extend Excel's native functionality.",
+      provider: {
+        "@id": "https://www.excelexperts.com.au#organization",
+      },
+      serviceType: "Excel Consulting",
+      areaServed: {
+        "@type": "Country",
+        name: "Australia",
+      },
+      availableChannel: {
+        "@type": "ServiceChannel",
+        serviceType: "Remote and On-site",
+        availableLanguage: "English",
+      },
+    },
   ],
 };
 
+/* ─── Page ───────────────────────────────────────────────────────────────── */
 const Page = () => {
   return (
     <>
@@ -94,20 +119,17 @@ const Page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <ServiceHero
-        title={"Excel Formulas and Custom Formulas"}
-        desktopImage={notes}
-        mobileImage={codeMob}
-        altDesk={"notes on a table"}
-        altMob={"code on a laptop"}
+        title={"Excel Custom Formulas"}
+        desktopImage={formulas}
+        mobileImage={formulasMob}
+        altDesk={"excel formulas digital design"}
+        altMob={"excel formulas digital design"}
       />
-      <PageSegmentMain />
-      <PageSegment4 />
+      <FormulasIntro />
+      <FormulasDark />
       <VideoSegment />
+      <FormulasWhyChoose />
       <ExpertsAwait />
-      <PageSegmentCenter />
-      <div style={{ marginTop: "6rem" }}>
-        <FAQ faqs={faqs} />
-      </div>
       <Contact />
     </>
   );

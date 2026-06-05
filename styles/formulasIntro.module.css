@@ -1,0 +1,94 @@
+.section {
+  background: #ffffff;
+  padding: 8rem;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .section {
+    padding: 6rem 4rem;
+  }
+}
+@media (min-width: 450px) and (max-width: 766px) {
+  .section {
+    padding: 5rem 1.5rem;
+  }
+}
+@media (max-width: 449px) {
+  .section {
+    padding: 5rem 1.25rem;
+  }
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  align-items: center;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
+  }
+}
+@media (max-width: 449px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #046999;
+  margin-bottom: 1.25rem;
+}
+
+.heading {
+  font-size: clamp(1.9rem, 3.2vw, 2.75rem);
+  font-weight: 800;
+  color: #0d1b2a;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  margin: 0 0 1.75rem;
+}
+
+.headingAccent {
+  color: #046999;
+}
+
+.content p {
+  font-size: 1rem;
+  color: #4a5568;
+  line-height: 1.85;
+  margin: 0 0 1rem;
+}
+.content p:last-child {
+  margin-bottom: 0;
+}
+
+.svgWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 449px) {
+  .svgWrap {
+    display: none;
+  }
+}
+
+.svg {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+}/*# sourceMappingURL=formulasIntro.module.css.map */

@@ -13,7 +13,7 @@ const VideoSegment = () => {
       <div className={styles.content}>
         <div className={styles.header}>
           <p className={styles.subtitle}>Watch a Demo</p>
-          <h2 className={styles.title}>Excel Custom Formulas</h2>
+          <h2 className={styles.title}>Formulas built with VBA</h2>
         </div>
 
         <AnimateOnScroll animation="scale-up" duration={1}>

@@ -1,0 +1,186 @@
+// styles/formulasDark.module.scss
+@import "./globals.scss";
+
+// ── Section shell — dark ───────────────────────────────────
+.section {
+  background: $dark-bg;
+  padding: 8rem;
+  position: relative;
+  overflow: hidden;
+
+  @include tablet {
+    padding: 6rem 4rem;
+  }
+
+  @include phoneLandscape {
+    padding: 5rem 1.5rem;
+  }
+
+  @include phone {
+    padding: 4.5rem 1.25rem;
+  }
+}
+
+// ── Dot-grid texture ───────────────────────────────────────
+.dotGrid {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(
+    circle,
+    rgba(4, 105, 153, 0.09) 1px,
+    transparent 1px
+  );
+  background-size: 36px 36px;
+  pointer-events: none;
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.4) 15%,
+    rgba(0, 0, 0, 0.4) 85%,
+    transparent 100%
+  );
+}
+
+// ── Inner content — single column with max width ───────────
+.inner {
+  position: relative;
+  max-width: 860px;
+}
+
+// ── Eyebrow ────────────────────────────────────────────────
+.eyebrow {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(4, 105, 153, 0.9);
+  border: 1px solid $accent-border;
+  border-radius: 2rem;
+  padding: 0.32rem 0.9rem;
+  margin-bottom: 1.5rem;
+
+  @include phone {
+    display: none;
+  }
+}
+
+// ── Heading ────────────────────────────────────────────────
+.heading {
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: 900;
+  color: $white-88;
+  line-height: 1.12;
+  letter-spacing: -0.03em;
+  margin: 0 0 2.5rem;
+}
+
+.headingMuted {
+  color: $white-35;
+}
+
+// ── Body paragraphs ────────────────────────────────────────
+.body {
+  // Left spine accent line
+  border-left: 2px solid rgba(4, 105, 153, 0.4);
+  padding-left: 2rem;
+  margin-bottom: 4.5rem;
+
+  p {
+    font-size: 1.05rem;
+    color: $white-55;
+    line-height: 1.85;
+    margin: 0 0 1rem;
+
+    &:last-child {
+      margin-bottom: 0;
+      color: $white-65;
+      font-weight: 500;
+    }
+  }
+
+  @include phone {
+    padding-left: 1.25rem;
+    margin-bottom: 3rem;
+  }
+}
+
+// ── Three-pillar strip ─────────────────────────────────────
+.pillars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  border-top: 1px solid $white-12;
+
+  @include phone {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Individual pillar
+.pillar {
+  padding: 2.5rem 2rem 2.5rem 0;
+  border-right: 1px solid $white-12;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+
+  &:last-child {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  &:not(:first-child) {
+    padding-left: 2rem;
+  }
+
+  @include tablet {
+    padding: 2rem 1.5rem 2rem 0;
+
+    &:not(:first-child) {
+      padding-left: 1.5rem;
+    }
+  }
+
+  @include phone {
+    border-right: none;
+    border-bottom: 1px solid $white-12;
+    padding: 2rem 0;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &:not(:first-child) {
+      padding-left: 0;
+    }
+  }
+}
+
+// SVG container — fixed square so all icons align
+.iconWrap {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 1.25rem;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.pillarLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $accent;
+  margin: 0 0 0.6rem;
+}
+
+.pillarNote {
+  font-size: 0.88rem;
+  color: $white-35;
+  line-height: 1.7;
+  margin: 0;
+}
