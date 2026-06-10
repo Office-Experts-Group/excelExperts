@@ -1,0 +1,116 @@
+// styles/excelSupportServices.module.scss
+
+@use "./globals.scss" as *;
+
+.section {
+  padding: 5rem 10vw;
+  background: $offWhite;
+}
+
+/* ── Header ── */
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: $accent;
+  margin-bottom: 0.75rem;
+}
+
+.heading {
+  font-size: clamp(1.6rem, 2.6vw, 2.2rem);
+  font-weight: 700;
+  color: $text-primary;
+  line-height: 1.2;
+}
+
+.accent {
+  color: $accent;
+}
+
+/* ── Card grid ── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  @include desktop {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include phoneLandscape {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include phone {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Card ── */
+.card {
+  background: $white;
+  border: 1px solid $border;
+  border-radius: 10px;
+  padding: 1.6rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+
+  &:hover {
+    border-color: $accent-border;
+    box-shadow: 0 4px 20px rgba(4, 105, 153, 0.08);
+  }
+}
+
+.iconWrap {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  background: $accent-light;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* cardTitle is used for both h3 and Link — keep styles consistent */
+.cardTitle {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: $text-primary;
+  line-height: 1.35;
+  text-decoration: none;
+
+  &:is(a):hover {
+    color: $accent;
+  }
+}
+
+.cardText {
+  font-size: 0.845rem;
+  line-height: 1.65;
+  color: $text-secondary;
+}

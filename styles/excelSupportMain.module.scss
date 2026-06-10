@@ -1,0 +1,125 @@
+// styles/excelSupportMain.module.scss
+
+@use "./globals.scss" as *;
+
+.section {
+  background-color: $dark-bg;
+  padding: 5rem 10vw;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  @include phone {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  @include phoneLandscape {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+/* ── Text panel ── */
+.textPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: $accent;
+  padding: 0.3rem 0.8rem;
+  border: 1px solid $accent-border;
+  border-radius: 20px;
+  background: $accent-dim;
+  width: fit-content;
+}
+
+.heading {
+  font-size: clamp(1.7rem, 2.8vw, 2.4rem);
+  font-weight: 700;
+  color: $white-90;
+  line-height: 1.25;
+}
+
+.body {
+  font-size: 0.975rem;
+  line-height: 1.75;
+  color: $white-65;
+}
+
+/* ── Trust row ── */
+.trustRow {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.4rem 0 0;
+  flex-wrap: wrap;
+}
+
+.trustItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.trustNumber {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: $accent;
+}
+
+.trustLabel {
+  font-size: 0.72rem;
+  color: $white-55;
+  letter-spacing: 0.04em;
+}
+
+.trustDivider {
+  width: 1px;
+  height: 2.2rem;
+  background: $white-18;
+}
+
+/* ── SVG panel ── */
+.svgPanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    filter: drop-shadow(0 16px 40px rgba(4, 105, 153, 0.15));
+  }
+
+  @include tablet {
+    svg {
+      max-width: 380px;
+    }
+  }
+
+  @include phone {
+    svg {
+      max-width: 320px;
+    }
+  }
+}

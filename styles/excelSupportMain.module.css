@@ -1,0 +1,123 @@
+@charset "UTF-8";
+.section {
+  background-color: #111820;
+  padding: 5rem 10vw;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+@media (max-width: 449px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+@media (min-width: 450px) and (max-width: 766px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+/* ── Text panel ── */
+.textPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #046999;
+  padding: 0.3rem 0.8rem;
+  border: 1px solid rgba(4, 105, 153, 0.3);
+  border-radius: 20px;
+  background: rgba(4, 105, 153, 0.15);
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.heading {
+  font-size: clamp(1.7rem, 2.8vw, 2.4rem);
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.25;
+}
+
+.body {
+  font-size: 0.975rem;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+/* ── Trust row ── */
+.trustRow {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.4rem 0 0;
+  flex-wrap: wrap;
+}
+
+.trustItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.trustNumber {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #046999;
+}
+
+.trustLabel {
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.55);
+  letter-spacing: 0.04em;
+}
+
+.trustDivider {
+  width: 1px;
+  height: 2.2rem;
+  background: rgba(255, 255, 255, 0.18);
+}
+
+/* ── SVG panel ── */
+.svgPanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.svgPanel svg {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  filter: drop-shadow(0 16px 40px rgba(4, 105, 153, 0.15));
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .svgPanel svg {
+    max-width: 380px;
+  }
+}
+@media (max-width: 449px) {
+  .svgPanel svg {
+    max-width: 320px;
+  }
+}/*# sourceMappingURL=excelSupportMain.module.css.map */

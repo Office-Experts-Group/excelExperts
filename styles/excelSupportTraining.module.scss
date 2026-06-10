@@ -1,0 +1,114 @@
+// styles/excelSupportTraining.module.scss
+
+@use "./globals.scss" as *;
+
+.section {
+  padding: 5rem 10vw;
+  background: $grayBGC;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  @include phone {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  @include phoneLandscape {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* ── SVG panel ── */
+.svgPanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  @include phone {
+    svg {
+      max-width: 300px;
+    }
+  }
+}
+
+/* ── Text panel ── */
+.textPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: $accent;
+  width: fit-content;
+}
+
+.heading {
+  font-size: clamp(1.6rem, 2.6vw, 2.2rem);
+  font-weight: 700;
+  color: $text-primary;
+  line-height: 1.25;
+}
+
+.accent {
+  color: $accent;
+}
+
+.body {
+  font-size: 0.975rem;
+  line-height: 1.75;
+  color: $text-secondary;
+}
+
+.inlineLink {
+  color: $accent;
+  font-weight: 700;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* ── Delivery mode pills ── */
+.pillRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.pill {
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: $accent;
+  background: $accent-light;
+  border: 1px solid $accent-border;
+  border-radius: 20px;
+  padding: 0.3rem 0.9rem;
+  letter-spacing: 0.02em;
+}
