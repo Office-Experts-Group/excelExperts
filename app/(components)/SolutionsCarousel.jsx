@@ -146,7 +146,7 @@ const SolutionsCarousel = () => {
                   </div>
                   <div className={styles.popIn}>
                     <h3>
-                      <span>Word Experts</span>
+                      <span>Excel Experts</span>
                       <br />
                       {solution.title}
                     </h3>
