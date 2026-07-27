@@ -59,7 +59,7 @@ const schema = {
         "@id": "https://www.excelexperts.com.au#website",
       },
       datePublished: "2024-10-26T00:00:00+00:00",
-      dateModified: "2026-05-13T00:00:00+00:00",
+      dateModified: "2026-07-02T00:00:00+00:00",
       breadcrumb: {
         "@id":
           "https://www.excelexperts.com.au/excel-consultants-central-coast-nsw#breadcrumb",

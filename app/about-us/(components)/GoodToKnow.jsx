@@ -21,17 +21,18 @@ const GoodToKnow = () => {
         <div className={styles.contentPanel}>
           {/* Paragraphs — text unchanged from original */}
           <p className={styles.para}>
-            Our Head Office is situated in northern New South Wales with
-            consultants in Sydney, Melbourne, Canberra, Brisbane and Perth. We
-            service the whole of Australia and New Zealand, with our clients
-            ranging from multi-national corporations to small businesses.
+            Beginning in 2000 from a small office in Northern New South Wales,
+            Office Experts Group has grown into a team of over 25 consultants
+            located in nearly every major city across Australia. From humble
+            beginnings, we now work with clients ranging from small rural
+            businesses to government organisations and multinational
+            corporations.
           </p>
 
           <p className={styles.para}>
-            Through a combination of remote access and on-site service, we give
-            our clients dedicated attention and support across the Australasia
-            region. Location is not an obstacle as remote access allows us to
-            hold meetings and offer quick and cost effective support.
+            The nature of our industry allows us to provide support and
+            solutions remotely, enabling us to service clients anywhere in
+            Australia and New Zealand.
           </p>
 
           {/* Remote-service callout strip */}
@@ -39,8 +40,8 @@ const GoodToKnow = () => {
             <div className={styles.remoteIcon} aria-hidden="true">
               {/* Simple signal/broadcast icon */}
               <svg
-                width="22"
-                height="22"
+                width="26"
+                height="26"
                 viewBox="0 0 24 24"
                 fill="none"
                 strokeWidth="1.6"
@@ -48,14 +49,15 @@ const GoodToKnow = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
               >
-                <path d="M5 12.5a9.5 9.5 0 0 1 14 0" />
-                <path d="M8.5 16a5.5 5.5 0 0 1 7 0" />
-                <circle cx="12" cy="19.5" r="1" fill="currentColor" />
+                <path d="M12 21c-4-4.3-7-8.1-7-11.5A7 7 0 0 1 12 2a7 7 0 0 1 7 7.5c0 3.4-3 7.2-7 11.5z" />
+                <circle cx="12" cy="8.5" r="1.4" />
+                <path d="M9 13c0-1.7 1.3-3 3-3s3 1.3 3 3" />
               </svg>
             </div>
             <p className={styles.remoteText}>
-              Remote access means <strong>no travel delays</strong>. We can join
-              your team anywhere in Australia or New Zealand within minutes.
+              On-site support is also available when required, bringing our
+              experience directly into your office for personalised training and
+              development.
             </p>
           </div>
         </div>
