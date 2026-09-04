@@ -29,7 +29,7 @@ const schemaData = {
     generateOrganizationSchema(),
     generateProfessionalServiceSchema(),
     generateWebSiteSchema(
-      "https://www.excelsexperts.com.au",
+      "https://www.excelexperts.com.au",
       "Excel Experts",
       "Australia-wide Microsoft Excel Programming, Development and Consulting Experts",
     ),
