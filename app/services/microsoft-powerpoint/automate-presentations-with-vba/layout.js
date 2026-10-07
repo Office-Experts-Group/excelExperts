@@ -7,8 +7,8 @@ export const metadata = {
     title: "PowerPoint VBA Automation Services | Excel Experts",
     description:
       "Professional PowerPoint VBA automation to streamline workflows. Custom programming and data integration by certified experts.",
-    url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba",
-    siteName: "Excel Experts",
+    url: "https://www.powerplatformexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba",
+    siteName: "Power Platform Experts",
     images: [
       {
         url: "/logo.png",
@@ -35,7 +35,10 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.excelexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba",
+      "https://www.officeexperts.com.au/services/automate-presentations-with-vba",
+    alternate: {
+      url: "https://www.https://www.excelexperts.com.au/services/automate-presentations-with-vba",
+    },
   },
 };
 

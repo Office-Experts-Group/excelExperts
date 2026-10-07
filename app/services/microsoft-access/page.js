@@ -16,6 +16,7 @@ import { testimonials } from "../../../testimonials";
 import {
   generateProfessionalServiceSchema,
   generateOrganizationSchema,
+  generateWebSiteSchema,
 } from "../../../utils/schemaGenerators";
 
 const schema = {
@@ -24,6 +25,11 @@ const schema = {
     ...getHomePageSchema(testimonials)["@graph"],
     generateProfessionalServiceSchema(),
     generateOrganizationSchema(),
+    generateWebSiteSchema(
+      "https://www.excelexperts.com.au",
+      "Excel Experts",
+      "Your Microsoft Excel Design, Development and Consulting Experts",
+    ),
     {
       "@type": "WebPage",
       "@id": "https://www.excelexperts.com.au/services/microsoft-access",

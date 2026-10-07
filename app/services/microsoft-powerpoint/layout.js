@@ -7,7 +7,7 @@ export const metadata = {
     title: "Presentation Design & Development Services | Excel Experts",
     description:
       "Professional PowerPoint design and VBA automation by certified experts. Custom templates and consultation to elevate your presentations. Contact 1300 10 28 10.",
-    url: "https://www.excelexperts.com.au/services/microsoft-powerpoint",
+    url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance",
     siteName: "Excel Experts",
     images: [
       {
@@ -34,7 +34,11 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.excelexperts.com.au/services/microsoft-powerpoint",
+    canonical:
+      "https://www.officeexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance",
+    alternate: {
+      url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance",
+    },
   },
 };
 

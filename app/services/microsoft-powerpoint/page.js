@@ -16,6 +16,7 @@ import meetingMob from "../../../public/pageHeros/mob/meetingMob.webp";
 import {
   generateProfessionalServiceSchema,
   generateOrganizationSchema,
+  generateWebSiteSchema,
 } from "../../../utils/schemaGenerators";
 
 const schema = {
@@ -24,10 +25,16 @@ const schema = {
     ...getHomePageSchema(testimonials)["@graph"],
     generateProfessionalServiceSchema(),
     generateOrganizationSchema(),
+    generateWebSiteSchema(
+      "https://www.excelexperts.com.au",
+      "Excel Experts",
+      "Your Microsoft Excel Design, Development and Consulting Experts",
+    ),
     {
       "@type": "WebPage",
-      "@id": "https://www.excelexperts.com.au/services/microsoft-powerpoint",
-      url: "https://www.excelexperts.com.au/services/microsoft-powerpoint",
+      "@id":
+        "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance",
+      url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance",
       name: "PowerPoint Experts | Presentation Design & Development Services",
       isPartOf: {
         "@id": "https://www.excelexperts.com.au#website",
@@ -48,7 +55,7 @@ const schema = {
         {
           "@type": "ReadAction",
           target: [
-            "https://www.excelexperts.com.au/services/microsoft-powerpoint",
+            "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance",
           ],
         },
       ],
@@ -56,7 +63,7 @@ const schema = {
     {
       "@type": "BreadcrumbList",
       "@id":
-        "https://www.excelexperts.com.au/services/microsoft-powerpoint#breadcrumb",
+        "https://www.excelexperts.com.au/services/microsoft-powerpoin/powerpoint-user-training-and-assistancet#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
@@ -80,7 +87,7 @@ const schema = {
     {
       "@type": "Service",
       "@id":
-        "https://www.excelexperts.com.au/services/microsoft-powerpoint#service",
+        "https://www.excelexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance#service",
       name: "PowerPoint Consulting Services",
       description:
         "Professional PowerPoint presentation design and development services including custom templates, VBA automation, and expert training.",

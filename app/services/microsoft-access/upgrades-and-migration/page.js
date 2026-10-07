@@ -17,6 +17,7 @@ import graph from "../../../../public/pageHeros/mob/graph.webp";
 import {
   generateProfessionalServiceSchema,
   generateOrganizationSchema,
+  generateWebSiteSchema,
 } from "../../../../utils/schemaGenerators";
 
 const schema = {
@@ -24,6 +25,11 @@ const schema = {
   "@graph": [
     generateOrganizationSchema(),
     generateProfessionalServiceSchema(),
+    generateWebSiteSchema(
+      "https://www.excelexperts.com.au",
+      "Excel Experts",
+      "Your Microsoft Excel Design, Development and Consulting Experts",
+    ),
     {
       "@type": "WebPage",
       "@id":

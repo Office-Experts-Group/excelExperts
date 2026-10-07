@@ -12,6 +12,7 @@ import calcMob from "../../../../public/pageHeros/mob/calcMob.webp";
 import {
   generateProfessionalServiceSchema,
   generateOrganizationSchema,
+  generateWebSiteSchema,
 } from "../../../../utils/schemaGenerators";
 
 const schema = {
@@ -19,6 +20,11 @@ const schema = {
   "@graph": [
     generateProfessionalServiceSchema(),
     generateOrganizationSchema(),
+    generateWebSiteSchema(
+      "https://www.excelexperts.com.au",
+      "Excel Experts",
+      "Your Microsoft Excel Design, Development and Consulting Experts",
+    ),
     {
       "@type": "WebPage",
       "@id":

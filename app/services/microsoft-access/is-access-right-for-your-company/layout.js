@@ -11,8 +11,8 @@ export const metadata = {
     title: "Is Microsoft Access Right for Your Business? | Access Experts",
     description:
       "Expert guidance on whether Microsoft Access is the right database solution for your business needs. We specialise in data management, structuring, multi-user systems, and reporting solutions.",
-    url: "https://www.excelexperts.com.au/services/microsoft-access/is-access-right-for-your-company",
-    siteName: "Excel Experts",
+    url: "https://www.accessexperts.com.au/is-access-right-for-your-company",
+    siteName: "Access Experts",
     images: [
       {
         url: "/logo.png",
@@ -46,7 +46,8 @@ export const metadata = {
       "https://www.accessexperts.com.au/is-access-right-for-your-company",
     alternate: [
       {
-        url: "https://www.excelxperts.com.au/services/microsoft-access/is-access-right-for-your-company",
+        url: "https://www.excelexperts.com.au/services/microsoft-access/is-access-right-for-your-company",
+        url: "https://www.officexperts.com.au/services/microsoft-access/is-access-right-for-your-company",
       },
     ],
   },

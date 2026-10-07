@@ -8,6 +8,7 @@ import VbaHero from "./(components)/VbaHero";
 const VbaCapabilities = dynamic(() => import("./(components)/VbaCapabilities"));
 const VbaAddins = dynamic(() => import("./(components)/VbaAddins"));
 const VbaProcess = dynamic(() => import("./(components)/VbaProcess"));
+const RelatedLinks = dynamic(() => import("../../components/RelatedLinks"));
 const Contact = dynamic(() => import("../../components/Contact"));
 
 import vba from "../../public/pageHeros/vba.webp";
@@ -95,6 +96,25 @@ const Page = () => {
       <VbaCapabilities />
       <VbaAddins />
       <VbaProcess />
+      <RelatedLinks
+        theme="light"
+        eyebrow="Case Studies"
+        heading="Custom Excel workbook projects"
+        links={[
+          {
+            href: "https://www.officeexperts.com.au/case-studies/food-manufacturer-excel-costing-workbook",
+            linkText: "See the forms and Admin view",
+            title:
+              "Merging an array of clunky Excel workbooks into one automated costing system",
+            description:
+              "The client manufactures packaged food products for sale in supermarkets and grocery stores, but built and costed every product using an array of disconnected, in-house Excel workbooks. Data didn't flow between them and key costing components were missing. We rebuilt it as a single Excel Costing Workbook with a forms interface, automatic cost updates, and a restricted Admin view of the core costing data.",
+            image:
+              "https://www.officeexperts.com.au/case-studies/food-manufacturer-excel-costing-workbookLg.png",
+            imageAlt:
+              "Single Excel Costing Workbook replacing disconnected costing files",
+          },
+        ]}
+      />
       <Contact />
     </>
   );

@@ -23,7 +23,7 @@ export const metadata = {
 
   keywords: ["powerpoint template creation"],
 
-                            // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
@@ -35,7 +35,12 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
+      "https://www.officeexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
+    alternate: [
+      {
+        url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
+      },
+    ],
   },
 };
 

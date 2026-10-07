@@ -35,7 +35,10 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign",
+      "https://www.officeexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign",
+    alternate: {
+      url: "https://www.excelexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign",
+    },
   },
 };
 

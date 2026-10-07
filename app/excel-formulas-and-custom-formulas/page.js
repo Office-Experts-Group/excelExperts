@@ -13,7 +13,7 @@ const VideoSegment = dynamic(() => import("./(components)/VideoSegment"));
 const FormulasWhyChoose = dynamic(
   () => import("./(components)/FormulasWhyChoose"),
 );
-const ExpertsAwait = dynamic(() => import("../../components/ExpertsAwait"));
+const RelatedLinks = dynamic(() => import("../../components/RelatedLinks"));
 const Contact = dynamic(() => import("../../components/Contact"));
 
 import formulas from "../../public/pageHeros/formulas.webp";
@@ -129,7 +129,37 @@ const Page = () => {
       <FormulasDark />
       <VideoSegment />
       <FormulasWhyChoose />
-      <ExpertsAwait />
+      <RelatedLinks
+        theme="dark"
+        eyebrow="Case Studies"
+        heading="Costing and forecasting models we have built"
+        links={[
+          {
+            href: "https://www.officeexperts.com.au/case-studies/private-client-cashflow-forecasting-tool",
+            linkText: "See the break-even income model",
+            title:
+              "Turning uneven investment income into one clear monthly figure to plan against",
+            description:
+              "A private client's investment and business income arrived in seasonal, periodic lumps, while monthly commitments fell steadily regardless, and distribution and tax decisions were being made without a full forward view of cash flow. We built a private planning tool that forecasts cash flow across personal, investment and business, smooths uneven income against steady commitments, and solves for the exact income needed each month.",
+            image:
+              "https://www.officeexperts.com.au/case-studies/private-client-cashflow-plannerLg.png",
+            imageAlt:
+              "Private cash flow planning tool forecasting personal, investment and business income",
+          },
+          {
+            href: "https://www.officeexperts.com.au/case-studies/food-manufacturer-excel-costing-workbook",
+            linkText: "Read how costs flow through the workbook",
+            title:
+              "Merging an array of clunky Excel workbooks into one automated costing system",
+            description:
+              "The client manufactures packaged food products for sale in supermarkets and grocery stores, but built and costed every product using an array of disconnected, in-house Excel workbooks. Data didn't flow between them and key costing components were missing. We rebuilt it as a single Excel Costing Workbook with a forms interface, automatic cost updates, and a restricted Admin view of the core costing data.",
+            image:
+              "https://www.officeexperts.com.au/case-studies/food-manufacturer-excel-costing-workbookLg.png",
+            imageAlt:
+              "Single Excel Costing Workbook replacing disconnected costing files",
+          },
+        ]}
+      />
       <Contact />
     </>
   );

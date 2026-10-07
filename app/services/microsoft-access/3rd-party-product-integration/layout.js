@@ -31,7 +31,7 @@ export const metadata = {
     "Microsoft Access CRM integration solutions",
   ],
 
-                                          // Twitter Card
+  // Twitter Card
   twitter: {
     card: "summary_large_image",
     site: "@OfficeExpertsG1",
@@ -45,6 +45,7 @@ export const metadata = {
     canonical: "https://www.accessexperts.com.au/3rd-party-product-integration",
     alternate: [
       {
+        url: "https://www.excelexperts.com.au/services/microsoft-access/3rd-party-product-integration",
         url: "https://www.officeexperts.com.au/services/microsoft-access/3rd-party-product-integration",
       },
     ],

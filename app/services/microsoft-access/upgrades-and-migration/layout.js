@@ -50,6 +50,7 @@ export const metadata = {
     alternate: [
       {
         url: "https://www.excelexperts.com.au/services/microsoft-access/upgrades-and-migration",
+        url: "https://www.officeexperts.com.au/services/microsoft-access/upgrades-and-migration",
       },
     ],
   },

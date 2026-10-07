@@ -11,8 +11,8 @@ export const metadata = {
     title: "Microsoft Access Support and Training | Excel Experts",
     description:
       "Expert Microsoft Access database consultants providing remote and onsite support, troubleshooting, training, and maintenance services. Available Australia-wide.",
-    url: "https://www.excelexperts.com.au/services/microsoft-access/access-support",
-    siteName: "Excel Experts",
+    url: "https://www.accessexperts.com.au/access-support",
+    siteName: "Access Experts",
     images: [
       {
         url: "/logo.png",

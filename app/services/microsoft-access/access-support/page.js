@@ -17,6 +17,7 @@ import glassesMob from "../../../../public/pageHeros/mob/glassesMob.webp";
 import {
   generateProfessionalServiceSchema,
   generateOrganizationSchema,
+  generateWebSiteSchema,
 } from "../../../../utils/schemaGenerators";
 
 const schema = {
@@ -24,6 +25,11 @@ const schema = {
   "@graph": [
     generateOrganizationSchema(),
     generateProfessionalServiceSchema(),
+    generateWebSiteSchema(
+      "https://www.excelexperts.com.au",
+      "Excel Experts",
+      "Your Microsoft Excel Design, Development and Consulting Experts",
+    ),
     {
       "@type": "WebPage",
       "@id":

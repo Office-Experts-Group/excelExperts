@@ -11,8 +11,8 @@ export const metadata = {
     title: "Access & Azure Cloud Based Database Solutions | Access Experts",
     description:
       "Expert Microsoft Access and Azure integration services for cloud-based database solutions.",
-    url: "https://www.excelexperts.com.au/services/microsoft-access/access-azure-cloud-based-solutions",
-    siteName: "Excel Experts",
+    url: "https://www.accessexperts.com.au/access-azure-cloud-based-solutions",
+    siteName: "Access Experts",
     images: [
       {
         url: "/logo.png",
@@ -47,6 +47,7 @@ export const metadata = {
     alternate: [
       {
         url: "https://www.excelexperts.com.au/services/microsoft-access/access-azure-cloud-based-solutions",
+        url: "https://www.officeexperts.com.au/services/microsoft-access/access-azure-cloud-based-solutions",
       },
     ],
   },

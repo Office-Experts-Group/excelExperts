@@ -18,6 +18,7 @@ const Testimonials = dynamic(() => import("../(components)/Testimonials"));
 const MeetTheTeamSlider = dynamic(
   () => import("../../components/MeetTheTeamSlider"),
 );
+const RelatedLinks = dynamic(() => import("../../components/RelatedLinks"));
 
 import { getHomePageSchema } from "../../utils/testimonialSchemaGenerator";
 import {
@@ -113,6 +114,49 @@ const Page = () => {
       <CTAMainProps location={location} />
       <ServicesLocation location={location} />
       <MeetTheTeamSlider />
+      <RelatedLinks
+        theme="light"
+        eyebrow="Case Studies"
+        heading="Recent Excel solutions for our clients"
+        links={[
+          {
+            href: "https://www.officeexperts.com.au/case-studies/food-manufacturer-excel-costing-workbook",
+            linkText: "See the automated cost updates",
+            title:
+              "Merging an array of clunky Excel workbooks into one automated costing system",
+            description:
+              "The client manufactures packaged food products for sale in supermarkets and grocery stores, but built and costed every product using an array of disconnected, in-house Excel workbooks. Data didn't flow between them and key costing components were missing. We rebuilt it as a single Excel Costing Workbook with a forms interface, automatic cost updates, and a restricted Admin view of the core costing data.",
+            image:
+              "https://www.officeexperts.com.au/case-studies/food-manufacturer-excel-costing-workbookLg.png",
+            imageAlt:
+              "Single Excel Costing Workbook replacing disconnected costing files",
+          },
+          {
+            href: "https://www.officeexperts.com.au/case-studies/private-client-cashflow-forecasting-tool",
+            linkText: "See the what-if scenario modelling",
+            title:
+              "Turning uneven investment income into one clear monthly figure to plan against",
+            description:
+              "A private client's investment and business income arrived in seasonal, periodic lumps, while monthly commitments fell steadily regardless, and distribution and tax decisions were being made without a full forward view of cash flow. We built a private planning tool that forecasts cash flow across personal, investment and business, smooths uneven income against steady commitments, and solves for the exact income needed each month.",
+            image:
+              "https://www.officeexperts.com.au/case-studies/private-client-cashflow-plannerLg.png",
+            imageAlt:
+              "Private cash flow planning tool forecasting personal, investment and business income",
+          },
+          {
+            href: "https://www.officeexperts.com.au/case-studies/community-services-excel-consolidation-rebuild",
+            linkText: "See the row-based rebuild",
+            title:
+              "Replacing an oversized linked spreadsheet with a one-click Power Query refresh",
+            description:
+              "A four-location community services provider had each site keying records into its own workbook, with a central file pulling them together through direct workbook links, and every new reporting breakdown meant hours of manual rework. We rebuilt it as a row-based entry template consolidated with Power Query, migrated all existing data into the new structure, and trained the team to build new reporting breakdowns with pivot tables.",
+            image:
+              "https://www.officeexperts.com.au/case-studies/community-services-excelLg.png",
+            imageAlt:
+              "Excel workbook rebuilt to consolidate four locations with Power Query",
+          },
+        ]}
+      />
       <GoodToKnow />
       <LocationSummary
         location={location}
