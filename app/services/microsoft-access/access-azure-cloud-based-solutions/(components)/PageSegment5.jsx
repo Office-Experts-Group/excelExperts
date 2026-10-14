@@ -27,7 +27,7 @@ const PageSegment3 = () => {
           <p>
             While we can also create database solutions without using Azure, the
             fact that your database in Azure is an{" "}
-            <Link href="https://www.officeexperts.com.au/services/by-business-solution/office-and-sql-server-integration/">
+            <Link href="https://www.officeexperts.com.au/services/by-business-solution/sql-server-and-access-integration/">
               SQL Server database
             </Link>{" "}
             that is cloud based means that some of the previous limitations on
