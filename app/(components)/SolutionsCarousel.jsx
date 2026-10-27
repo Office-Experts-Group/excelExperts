@@ -41,7 +41,7 @@ const SolutionsCarousel = () => {
     },
     {
       title: "Dashboards",
-      link: "https://www.officeexperts.com.au/services/by-business-solution/dashboards",
+      link: "https://www.officeexperts.com.au/services/dashboards",
       image: dashboard,
       alt: "dashboard",
       description: [
@@ -52,7 +52,7 @@ const SolutionsCarousel = () => {
     },
     {
       title: "Online Solutions",
-      link: "https://www.officeexperts.com.au/services/by-business-solution/online-solutions",
+      link: "https://www.officeexperts.com.au/services/online-solutions",
       image: graph,
       alt: "graph",
       description: [
@@ -63,7 +63,7 @@ const SolutionsCarousel = () => {
     },
     {
       title: "Office Integrations",
-      link: "https://www.officeexperts.com.au/services/by-business-solution/3rd-party-application-or-office-integration",
+      link: "https://www.officeexperts.com.au/services/3rd-party-application-or-office-integration",
       image: desk,
       alt: "desk",
       description: [
@@ -95,7 +95,7 @@ const SolutionsCarousel = () => {
     },
     {
       title: "Office / Excel Integration",
-      link: "https://www.officeexperts.com.au/services/by-business-solution/3rd-party-application-or-office-integration",
+      link: "https://www.officeexperts.com.au/services/3rd-party-application-or-office-integration",
       image: hands,
       alt: "hands",
       description: [

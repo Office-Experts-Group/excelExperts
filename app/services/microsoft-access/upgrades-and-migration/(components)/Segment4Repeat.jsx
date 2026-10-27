@@ -29,7 +29,7 @@ const Segment4Repeat = () => {
             <p>
               To check out the range of solutions we can provide for upgrading
               or migrating your database, visit our{" "}
-              <Link href="https://www.officeexperts.com.au/services/by-business-solution/database-development-and-solutions">
+              <Link href="https://www.officeexperts.com.au/services/database-development-and-solutions">
                 Database Development and Solutions
               </Link>{" "}
               page for more information.

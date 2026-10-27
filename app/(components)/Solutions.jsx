@@ -34,7 +34,7 @@ const Solutions = () => {
     },
     {
       title: "Dashboards",
-      link: "https://www.officeexperts.com.au/services/by-business-solution/dashboards",
+      link: "https://www.officeexperts.com.au/services/dashboards",
       image: project3,
       description: [
         "Custom Excel dashboards",
@@ -44,7 +44,7 @@ const Solutions = () => {
     },
     {
       title: "Online Solutions",
-      link: "https://www.officeexperts.com.au/services/by-business-solution/online-solutions",
+      link: "https://www.officeexperts.com.au/services/online-solutions",
       image: project4,
       description: [
         "Do you need your spreadsheet online?",
@@ -54,7 +54,7 @@ const Solutions = () => {
     },
     {
       title: "Office Integrations",
-      link: "https://www.officeexperts.com.au/services/by-business-solution/3rd-party-application-or-office-integration",
+      link: "https://www.officeexperts.com.au/services/3rd-party-application-or-office-integration",
       image: project1,
       description: [
         "Excel data manipulation from Office apps, CRM, accounting packages, data files or 3rd party product",
@@ -83,7 +83,7 @@ const Solutions = () => {
     },
     {
       title: "Office / Excel Integration",
-      link: "https://www.officeexperts.com.au/services/by-business-solution/3rd-party-application-or-office-integration",
+      link: "https://www.officeexperts.com.au/services/3rd-party-application-or-office-integration",
       image: project4,
       description: [
         "Microsoft Access",

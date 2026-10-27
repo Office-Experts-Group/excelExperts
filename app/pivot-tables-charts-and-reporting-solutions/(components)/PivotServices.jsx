@@ -53,7 +53,7 @@ const services = [
     description:
       "All your key metrics on one screen, auto-refreshing from your data source. We design interactive dashboards with slicers, KPI tiles and conditional indicators, with this foundation there is no Excel skills needed from the end user.",
     link: {
-      href: "https://www.officeexperts.com.au/services/by-business-solution/dashboards",
+      href: "https://www.officeexperts.com.au/services/dashboards",
       text: "Dashboards",
     },
     chips: ["Auto-refresh", "Slicer interactivity", "SharePoint embedding"],

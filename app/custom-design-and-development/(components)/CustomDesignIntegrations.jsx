@@ -93,7 +93,7 @@ const integrations = [
   },
   {
     name: "SharePoint",
-    href: "https://www.officeexperts.com.au/services/by-business-solution/online-solutions",
+    href: "https://www.officeexperts.com.au/services/online-solutions",
     external: true,
     svg: (
       <svg
@@ -115,7 +115,7 @@ const integrations = [
   },
   {
     name: "Microsoft Azure",
-    href: "https://www.officeexperts.com.au/services/by-business-solution/cloud-based-solutions-with-azure",
+    href: "https://www.officeexperts.com.au/services/cloud-based-solutions-with-azure",
     external: true,
     svg: (
       <svg
@@ -264,7 +264,7 @@ const integrations = [
   },
   {
     name: "Microsoft Outlook",
-    href: "https://www.officeexperts.com.au/services/by-business-solution/custom-office-solutions",
+    href: "https://www.officeexperts.com.au/services/custom-office-solutions",
     external: true,
     svg: (
       <svg

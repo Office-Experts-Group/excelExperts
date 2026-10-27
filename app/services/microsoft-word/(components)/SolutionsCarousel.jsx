@@ -23,7 +23,7 @@ const SolutionsCarousel = () => {
     },
     {
       title: "VBA & Macro Development",
-      link: "https://www.officeexperts.com.au/services/by-business-solution/vba-macro-development",
+      link: "https://www.officeexperts.com.au/services/vba-macro-development",
       image: project2,
       description: [
         "Data import/export",
@@ -95,7 +95,7 @@ const SolutionsCarousel = () => {
     },
     {
       title: "Online Solutions",
-      link: "https://www.officeexperts.com.au/services/by-business-solution/online-solutions",
+      link: "https://www.officeexperts.com.au/services/online-solutions",
       image: project4,
       description: [
         "Need your Office document(s) online or connected to a database?",

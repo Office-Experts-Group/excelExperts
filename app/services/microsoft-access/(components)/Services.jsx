@@ -59,7 +59,7 @@ const Services = () => {
                 "We build cost effective database solutions in most Microsoft technologies.",
               ]}
               link={
-                "https://www.officeexperts.com.au/services/by-business-solution/database-development-and-solutions"
+                "https://www.officeexperts.com.au/services/database-development-and-solutions"
               }
             />
           </CardIntersectionWrapper>

@@ -236,11 +236,7 @@ const SpreadsheetErrorBlogPost = () => {
               pivot tables
             </Link>
             , and
-            <Link
-              href={
-                "https://www.officeexperts.com.au/services/by-business-solution/dashboards"
-              }
-            >
+            <Link href={"https://www.officeexperts.com.au/services/dashboards"}>
               {" "}
               dashboards
             </Link>

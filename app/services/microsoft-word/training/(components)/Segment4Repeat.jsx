@@ -28,7 +28,7 @@ const Segment4Repeat = () => {
     },
     {
       text: "Custom coding",
-      link: "https://www.officeexperts.com.au/services/by-business-solution/vba-macro-development",
+      link: "https://www.officeexperts.com.au/services/vba-macro-development",
     },
     {
       text: "Flexible pricing",
@@ -40,7 +40,7 @@ const Segment4Repeat = () => {
     },
     {
       text: "Online documents",
-      link: "https://www.officeexperts.com.au/services/by-business-solution/online-solutions",
+      link: "https://www.officeexperts.com.au/services/online-solutions",
     },
     {
       text: "Offsite or onsite",

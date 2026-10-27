@@ -15,7 +15,7 @@ const services = [
     title: "Custom user interface development",
     tag: "Bespoke UI",
     desc: "Web portals, dashboards, and custom apps that connect your business to the cloud, allowing for real-time field reporting or remote client interactions.",
-    href: "https://www.officeexperts.com.au/services/by-business-solution/online-solutions",
+    href: "https://www.officeexperts.com.au/services/online-solutions",
   },
   {
     id: "02",
@@ -29,7 +29,7 @@ const services = [
     title: "Office & third-party integrations",
     tag: "Connectivity",
     desc: "Connect all your software with your existing systems, SQL databases, SharePoint, REST APIs, and third-party applications.",
-    href: "https://www.officeexperts.com.au/services/by-business-solution/3rd-party-application-or-office-integration",
+    href: "https://www.officeexperts.com.au/services/3rd-party-application-or-office-integration",
   },
   {
     id: "04",
