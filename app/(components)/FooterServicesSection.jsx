@@ -85,7 +85,7 @@ const FooterServicesSection = () => {
         <div className={styles.dropdownContainer}>
           <div className={styles.dropdownBackground}></div>
           <div className={styles.dropdownContent}>
-            <Link href="https://www.officeexperts.com.au/services/microsoft-office">
+            <Link href="https://www.officeexperts.com.au/services">
               Microsoft Office
             </Link>
             <Link href="/">Microsoft Excel</Link>

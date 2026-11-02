@@ -97,7 +97,7 @@ const Page = () => {
             "Our Sydney specialists develop advanced Microsoft Excel solutions throughout the Greater Sydney metropolitan area. Developing custom formulas, data analysis tools, custom spreadsheets, and interactive dashboards, our team provides comprehensive training and support for all Microsoft Excel functionality.",
           serviceLinks: {
             excel: "/excel-consultants-sydney",
-            word: "https://www.wordexperts.com.au/microsoft-consultants-sydney",
+            word: "https://www.officeexperts.com.au/microsoft-consultants-sydney",
             access:
               "https://www.accessexperts.com.au/access-consultants-sydney",
             powerplatform:
@@ -114,13 +114,13 @@ const Page = () => {
             "On the beautiful Central Coast region of NSW, our team provides Microsoft Excel solutions for a variety of businesses. Working either through remote access and online support, or on-site support for spreadsheet automation and data analysis.",
           serviceLinks: {
             excel: "/excel-consultants-central-coast-nsw",
-            word: "https://www.wordexperts.com.au/microsoft-consultants-central-coast-nsw",
+            word: "https://www.officeexperts.com.au/microsoft-consultants-central-coast-nsw",
             access:
               "https://www.accessexperts.com.au/access-consultants-central-coast-nsw",
             powerplatform:
               "https://www.powerplatformexperts.com.au/power-platform-consultants-central-coast-nsw",
             office:
-              "https://www.officeexperts.com.au/office-and-office-365-experts-central-coast-nsw",
+              "https://www.officeexperts.com.au/microsoft-consultants-central-coast-nsw",
           },
         },
         {
@@ -131,13 +131,13 @@ const Page = () => {
             "Our Wollongong team serves the Illawarra region with specialised data analysis and spreadsheet optimisation services. We develop custom Excel solutions for organisations looking to enhance their data management capabilities.",
           serviceLinks: {
             excel: "/excel-consultants-wollongong",
-            word: "https://www.wordexperts.com.au/microsoft-consultants-wollongong",
+            word: "https://www.officeexperts.com.au/microsoft-consultants-wollongong",
             access:
               "https://www.accessexperts.com.au/access-consultants-wollongong",
             powerplatform:
               "https://www.powerplatformexperts.com.au/power-platform-consultants-wollongong",
             office:
-              "https://www.officeexperts.com.au/office-excel-access-and-365-experts-wollongong",
+              "https://www.officeexperts.com.au/microsoft-consultants-wollongong",
           },
         },
         {
@@ -148,13 +148,13 @@ const Page = () => {
             "Serving the Northern Rivers region of NSW, our team builds sophisticated Microsoft Excel solutions for businesses across various sectors. We deliver both remote and on-site implementation of data analysis tools, automated reporting systems, VBA macros, and customised spreadsheet applications.",
           serviceLinks: {
             excel: "/excel-consultants-northern-rivers-nsw",
-            word: "https://www.wordexperts.com.au/microsoft-consultants-northern-rivers-nsw",
+            word: "https://www.officeexperts.com.au/microsoft-consultants-northern-rivers-nsw",
             access:
               "https://www.accessexperts.com.au/access-consultants-northern-rivers-nsw",
             powerplatform:
               "https://www.powerplatformexperts.com.au/power-platform-consultants-northern-rivers-nsw",
             office:
-              "https://www.officeexperts.com.au/office-excel-access-and-365-experts-northern-rivers-nsw",
+              "https://www.officeexperts.com.au/microsoft-consultants-northern-rivers-nsw",
           },
         },
       ],
@@ -171,7 +171,7 @@ const Page = () => {
             "Our Melbourne team designs Microsoft Excel solutions across the Greater Melbourne region. Office Experts Group excels in add-in development, complex formulas, custom forms, and reporting dashboards using the full Microsoft Excel toolkit. Our dedicated Excel consultants are certified specialists in spreadsheet optimisation and data analysis.",
           serviceLinks: {
             excel: "/excel-consultants-melbourne",
-            word: "https://www.wordexperts.com.au/microsoft-consultants-melbourne",
+            word: "https://www.officeexperts.com.au/microsoft-consultants-melbourne",
             access:
               "https://www.accessexperts.com.au/access-consultants-melbourne",
             powerplatform:
@@ -188,13 +188,13 @@ const Page = () => {
             "Our Richmond team deliver tailored spreadsheet and data analysis solutions for local enterprises. We specialise in developing automated reporting systems and calculation frameworks that significantly enhance productivity and analytical capabilities.",
           serviceLinks: {
             excel: "/excel-consultants-richmond",
-            word: "https://www.wordexperts.com.au/microsoft-consultants-richmond",
+            word: "https://www.officeexperts.com.au/microsoft-consultants-richmond",
             access:
               "https://www.accessexperts.com.au/access-consultants-richmond",
             powerplatform:
               "https://www.powerplatformexperts.com.au/power-platform-consultants-richmond",
             office:
-              "https://www.officeexperts.com.au/office-and-office-365-experts-richmond",
+              "https://www.officeexperts.com.au/microsoft-consultants-richmond",
           },
         },
       ],
@@ -211,7 +211,7 @@ const Page = () => {
             "Our Brisbane team creates Microsoft Excel solutions throughout Southeast Queensland. We develop data models, custom formulas, and interactive reporting dashboards to transform how organisations analyse information. Our Excel specialists have been optimising spreadsheet functionality for over two decades.",
           serviceLinks: {
             excel: "/excel-consultants-brisbane",
-            word: "https://www.wordexperts.com.au/microsoft-consultants-brisbane",
+            word: "https://www.officeexperts.com.au/microsoft-consultants-brisbane",
             access:
               "https://www.accessexperts.com.au/access-consultants-brisbane",
             powerplatform:
@@ -228,13 +228,13 @@ const Page = () => {
             "Our Gold Coast team specialises in Microsoft Excel consulting and training for local businesses. From advanced formulas to custom dashboards, VBA automation, and data analysis tools, we provide tailored services to improve efficiency and productivity.",
           serviceLinks: {
             excel: "/excel-consultants-gold-coast",
-            word: "https://www.wordexperts.com.au/microsoft-consultants-gold-coast",
+            word: "https://www.officeexperts.com.au/microsoft-consultants-gold-coast",
             access:
               "https://www.accessexperts.com.au/access-consultants-gold-coast",
             powerplatform:
               "https://www.powerplatformexperts.com.au/power-platform-consultants-gold-coast",
             office:
-              "https://www.officeexperts.com.au/word-and-powerpoint-experts-gold-coast",
+              "https://www.officeexperts.com.au/microsoft-consultants-gold-coast",
           },
         },
       ],
@@ -251,7 +251,7 @@ const Page = () => {
             "Our Perth consultants design Excel solutions for businesses throughout Western Australia. We create custom spreadsheet applications, custom formulas, automated reporting tools, and interactive dashboards to enhance your data analysis capabilities and support better decision-making.",
           serviceLinks: {
             excel: "/excel-consultants-perth",
-            word: "https://www.wordexperts.com.au/microsoft-consultants-perth",
+            word: "https://www.officeexperts.com.au/microsoft-consultants-perth",
             access: "https://www.accessexperts.com.au/access-consultants-perth",
             powerplatform:
               "https://www.powerplatformexperts.com.au/power-platform-consultants-perth",
@@ -273,13 +273,13 @@ const Page = () => {
             "Serving South Australian organisations, our Adelaide team develops Microsoft Excel solutions tailored to diverse business requirements. We build comprehensive spreadsheet systems, calculation models, and data visualisation tools that address complex analytical challenges and support strategic planning.",
           serviceLinks: {
             excel: "/excel-consultants-adelaide",
-            word: "https://www.wordexperts.com.au/microsoft-consultants-adelaide",
+            word: "https://www.officeexperts.com.au/microsoft-consultants-adelaide",
             access:
               "https://www.accessexperts.com.au/access-consultants-adelaide",
             powerplatform:
               "https://www.powerplatformexperts.com.au/power-platform-consultants-adelaide",
             office:
-              "https://www.officeexperts.com.au/office-excel-access-and-365-experts-adelaide",
+              "https://www.officeexperts.com.au/microsoft-consultants-adelaide",
           },
         },
       ],
@@ -296,13 +296,13 @@ const Page = () => {
             "Our Canberra team specialises in Microsoft Excel solutions for government departments and local organisations. Within the Office Experts Group, our Excel specialists focus on developing secure, compliant data analysis tools and reporting systems that meet the unique requirements of government and regulated industries.",
           serviceLinks: {
             excel: "/excel-consultants-canberra",
-            word: "https://www.wordexperts.com.au/microsoft-consultants-canberra",
+            word: "https://www.officeexperts.com.au/microsoft-consultants-canberra",
             access:
               "https://www.accessexperts.com.au/access-consultants-canberra",
             powerplatform:
               "https://www.powerplatformexperts.com.au/power-platform-consultants-canberra",
             office:
-              "https://www.officeexperts.com.au/office-and-office-365-experts-canberra",
+              "https://www.officeexperts.com.au/microsoft-consultants-canberra",
           },
         },
       ],
@@ -319,13 +319,13 @@ const Page = () => {
             "Our Northern Territory team delivers Microsoft Excel solutions to Darwin businesses and organisations. We implement custom spreadsheets, formulas, and data analysis frameworks that work effectively in remote environments, with both on-site and cloud-based support options.",
           serviceLinks: {
             excel: "/excel-consultants-darwin",
-            word: "https://www.wordexperts.com.au/microsoft-consultants-darwin",
+            word: "https://www.officeexperts.com.au/microsoft-consultants-darwin",
             access:
               "https://www.accessexperts.com.au/access-consultants-darwin",
             powerplatform:
               "https://www.powerplatformexperts.com.au/power-platform-consultants-darwin",
             office:
-              "https://www.officeexperts.com.au/office-excel-access-and-365-experts-darwin",
+              "https://www.officeexperts.com.au/microsoft-consultants-darwin",
           },
         },
       ],

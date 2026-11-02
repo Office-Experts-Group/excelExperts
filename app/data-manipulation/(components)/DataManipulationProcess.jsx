@@ -55,7 +55,7 @@ const DataManipulationProcess = () => {
             ,{" "}
             <Link
               style={{ color: "#046999", fontWeight: "700" }}
-              href="https://www.officeexperts.com.au/microsoft-365"
+              href="https://www.officeexperts.com.au/services/microsoft-365"
             >
               365
             </Link>{" "}
