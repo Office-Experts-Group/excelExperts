@@ -140,81 +140,92 @@ const REDIRECTS = [
   // Microsoft Word → wordexperts.com.au
   {
     source: "/services/microsoft-word",
-    destination: "https://www.wordexperts.com.au",
+    destination: "https://www.officeexperts.com.au/services/microsoft-word",
     permanent: true,
   },
   {
     source: "/services/microsoft-word/companies-and-organisations",
-    destination: "https://www.wordexperts.com.au/companies-and-organisations",
+    destination:
+      "https://www.officeexperts.com.au/services/microsoft-word/companies-and-organisations",
     permanent: true,
   },
   {
     source: "/services/microsoft-word/corporate-global-template-solution",
     destination:
-      "https://www.wordexperts.com.au/corporate-global-template-solution",
+      "https://www.officeexperts.com.au/services/microsoft-word/corporate-global-template-solution",
     permanent: true,
   },
   {
     source: "/services/microsoft-word/custom-toolbars-and-ribbons",
-    destination: "https://www.wordexperts.com.au/custom-toolbars-and-ribbons",
+    destination:
+      "https://www.officeexperts.com.au/services/microsoft-word/custom-toolbars-and-ribbons",
     permanent: true,
   },
   {
     source: "/services/microsoft-word/fill-in-forms",
-    destination: "https://www.wordexperts.com.au/fill-in-forms",
+    destination:
+      "https://www.officeexperts.com.au/services/microsoft-word/fill-in-forms",
     permanent: true,
   },
   {
     source: "/services/microsoft-word/government-departments",
-    destination: "https://www.wordexperts.com.au/government-departments",
+    destination:
+      "https://www.officeexperts.com.au/services/microsoft-word/government-departments",
     permanent: true,
   },
   {
     source: "/services/microsoft-word/popup-forms",
-    destination: "https://www.wordexperts.com.au/popup-forms",
+    destination:
+      "https://www.officeexperts.com.au/services/microsoft-word/popup-forms",
     permanent: true,
   },
   {
     source:
       "/services/microsoft-word/remove-repetition-and-increase-productivity",
     destination:
-      "https://www.wordexperts.com.au/remove-repetition-and-increase-productivity",
+      "https://www.officeexperts.com.au/services/microsoft-word/remove-repetition-and-increase-productivity",
     permanent: true,
   },
   {
     source: "/services/microsoft-word/corporate-identity",
-    destination: "https://www.wordexperts.com.au/corporate-identity",
+    destination:
+      "https://www.officeexperts.com.au/services/microsoft-word/corporate-identity",
     permanent: true,
   },
   {
     source: "/services/microsoft-word/accessibility",
-    destination: "https://www.wordexperts.com.au/accessibility",
+    destination:
+      "https://www.officeexperts.com.au/services/microsoft-word/accessibility",
     permanent: true,
   },
   {
     source: "/services/microsoft-word/word-template-conversions",
-    destination: "https://www.wordexperts.com.au/word-template-conversions",
+    destination:
+      "https://www.officeexperts.com.au/services/microsoft-word/word-template-conversions",
     permanent: true,
   },
   {
     source: "/services/microsoft-word/training",
-    destination: "https://www.wordexperts.com.au/training",
+    destination:
+      "https://www.officeexperts.com.au/services/microsoft-word/training",
     permanent: true,
   },
   {
     source: "/services/microsoft-word/upgrades-and-migration",
-    destination: "https://www.wordexperts.com.au/upgrades-and-migration",
+    destination:
+      "https://www.officeexperts.com.au/services/upgrades-and-migration",
     permanent: true,
   },
   {
     source: "/services/microsoft-word/quick-parts",
-    destination: "https://www.wordexperts.com.au/quick-parts",
+    destination:
+      "https://www.officeexperts.com.au/services/microsoft-word/quick-parts",
     permanent: true,
   },
   {
     source: "/services/microsoft-word/word-document-template-creation",
     destination:
-      "https://www.wordexperts.com.au/word-document-template-creation",
+      "https://www.officeexperts.com.au/services/microsoft-word/word-document-template-creation",
     permanent: true,
   },
 
@@ -228,27 +239,27 @@ const REDIRECTS = [
   {
     source: "/services/microsoft-powerpoint/existing-presentation-redesign",
     destination:
-      "https://www.officeexperts.com.au/services/microsoft-powerpoint/existing-presentation-redesign",
+      "https://www.officeexperts.com.au/services/microsoft-powerpoint",
     permanent: true,
   },
   {
     source:
       "/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
     destination:
-      "https://www.officeexperts.com.au/services/microsoft-powerpoint/custom-powerpoint-templates-and-presentations",
+      "https://www.officeexperts.com.au/services/microsoft-powerpoint",
     permanent: true,
   },
   {
     source:
       "/services/microsoft-powerpoint/powerpoint-user-training-and-assistance",
     destination:
-      "https://www.officeexperts.com.au/services/microsoft-powerpoint/powerpoint-user-training-and-assistance",
+      "https://www.officeexperts.com.au/services/microsoft-powerpoint",
     permanent: true,
   },
   {
     source: "/services/microsoft-powerpoint/automate-presentations-with-vba",
     destination:
-      "https://www.officeexperts.com.au/services/microsoft-powerpoint/automate-presentations-with-vba",
+      "https://www.officeexperts.com.au/services/microsoft-powerpoint",
     permanent: true,
   },
 ];

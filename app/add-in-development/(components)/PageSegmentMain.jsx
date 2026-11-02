@@ -35,11 +35,18 @@ const PageSegmentMain = () => {
           <h2>Extending Microsoft Excel Functionality</h2>
           <p>
             An Excel add-in contains code to extend Excel's functionality,
-            usually in the form of new functions, <Link href={"https://www.wordexperts.com.au/custom-toolbars-and-ribbons"}>custom ribbon or toolbar
-            buttons</Link>. Once an add-in is deployed to your Excel environment, the
-            new functions and buttons are available to all of your Excel
-            workbooks to automate your repetitive tasks and processes. Excel
-            add-ins can be created with:
+            usually in the form of new functions,{" "}
+            <Link
+              href={
+                "https://www.officeexperts.com.au/services/microsoft-word/custom-toolbars-and-ribbons"
+              }
+            >
+              custom ribbon or toolbar buttons
+            </Link>
+            . Once an add-in is deployed to your Excel environment, the new
+            functions and buttons are available to all of your Excel workbooks
+            to automate your repetitive tasks and processes. Excel add-ins can
+            be created with:
           </p>
           <div className={styles.points}>
             <div className={styles.point}>

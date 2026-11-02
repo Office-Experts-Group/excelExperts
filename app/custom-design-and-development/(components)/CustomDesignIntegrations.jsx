@@ -235,7 +235,7 @@ const integrations = [
   },
   {
     name: "Microsoft Word",
-    href: "https://www.wordexperts.com.au",
+    href: "https://www.officeexperts.com.au/services/microsoft-word",
     external: true,
     svg: (
       <svg

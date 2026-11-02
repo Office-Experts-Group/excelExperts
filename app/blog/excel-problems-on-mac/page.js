@@ -370,7 +370,9 @@ const ExcelMacProblemsBlogPost = () => {
           <p>
             You've paid for Office 2024, but Excel keeps showing an upgrade
             message. Excel and PowerPoint remain stuck on version 16.78, while
-            <Link href={"https://www.wordexperts.com.au"}>
+            <Link
+              href={"https://www.officeexperts.com.au/services/microsoft-word"}
+            >
               Word works perfectly
             </Link>
             . This is particularly maddening when you know you have a valid

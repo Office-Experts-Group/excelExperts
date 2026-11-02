@@ -1,7 +1,8 @@
 // navigationData.js - excelexperts.com.au
 
 // Base URLs for different sites (change these for production)
-const WORD_EXPERTS_URL = "https://www.wordexperts.com.au";
+const WORD_EXPERTS_URL =
+  "https://www.officeexperts.com.au/services/microsoft-word";
 const OFFICE_EXPERTS_URL = "https://www.officeexperts.com.au";
 const EXCEL_EXPERTS_URL = "/";
 const POWER_PLATFORM_EXPERTS_URL = "https://www.powerplatformexperts.com.au";
@@ -276,10 +277,6 @@ export const navigationData = {
             href: `${WORD_EXPERTS_URL}/google-docs-to-word-migration`,
           },
           {
-            label: "API Integrations",
-            href: `${WORD_EXPERTS_URL}/microsoft-word-api-integrations`,
-          },
-          {
             label: "Mail Merge",
             href: `${WORD_EXPERTS_URL}/mail-merge`,
           },
@@ -392,7 +389,7 @@ export const navigationData = {
 
           {
             label: "AI Templates In Word",
-            href: `${WORD_EXPERTS_URL}/copilot-and-ai-templates`,
+            href: `${WORD_EXPERTS_URL}/ai-ready-word-templates`,
           },
         ],
       },

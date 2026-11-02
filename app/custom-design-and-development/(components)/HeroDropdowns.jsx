@@ -36,7 +36,7 @@ const services = [
     title: "Custom workbooks & templates",
     tag: "Tailored builds",
     desc: "Purpose-built workbooks with protected structures, branded layouts, and guided data entry that enforce consistency across all your documents.",
-    href: "https://www.wordexperts.com.au/word-document-template-creation",
+    href: "https://www.officeexperts.com.au/services/microsoft-word/word-document-template-creation",
   },
   {
     id: "05",
